@@ -1,0 +1,58 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "2ffd1f6bbde643e79fc2c5f3856004b1",
+    "Name": "GemPowerUpTypes",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Enum",
+    "BaseType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+    "Fields": [{
+        "Id": "cd436e80cc2942c9934f48e9a0924c25",
+        "Name": "None",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "21cf98a0fadc436c8f994133f443dfe0",
+        "Name": "Row",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "bc5fb6fdb0224e9ca214c2a7711bbd41",
+        "Name": "Column",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "32c4da120f05441b9484f911b6f93fd4",
+        "Name": "Square",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "2f9e89a3ab644e9c829d7cf9d8faa6a3",
+        "Name": "DiagonalCross",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "1f8679226c4e4be19186d51e631c00d0",
+        "Name": "SameColor",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "2ffd1f6bbde643e79fc2c5f3856004b1", "Name": "GemPowerUpTypes" },
+        "Properties": {
+            "None": 0,
+            "Row": 1,
+            "Column": 2,
+            "Square": 3,
+            "DiagonalCross": 4,
+            "SameColor": 5
+        }
+    }
+}]

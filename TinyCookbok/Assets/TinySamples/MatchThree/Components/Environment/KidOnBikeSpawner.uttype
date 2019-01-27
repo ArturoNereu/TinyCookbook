@@ -1,0 +1,25 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "fc10c8f49f23486ba791b80c7093d148",
+    "Name": "KidOnBikeSpawner",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "dc93aff07d3c4109899c7ffea589eb51",
+        "Name": "Timer",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "a9005a8d74544dd9bb74730512cdbf41",
+        "Name": "SpawnDelay",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "fc10c8f49f23486ba791b80c7093d148", "Name": "KidOnBikeSpawner" }
+    }
+}]

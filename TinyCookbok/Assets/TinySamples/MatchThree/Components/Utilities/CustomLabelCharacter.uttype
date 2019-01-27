@@ -1,0 +1,12 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "ab88860434df4e5ba04b598e2affe2e2",
+    "Name": "CustomLabelCharacter",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "DefaultValue": {
+        "Type": { "Id": "ab88860434df4e5ba04b598e2affe2e2", "Name": "CustomLabelCharacter" }
+    }
+}]

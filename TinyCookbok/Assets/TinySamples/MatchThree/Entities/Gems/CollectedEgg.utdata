@@ -1,0 +1,190 @@
+﻿[{
+    "$TypeId": 4,
+    "Id": "a0edfde2ba294442a763940a966d4ecc",
+    "Name": "CollectedEgg",
+    "ExportFlags": 0,
+    "SerializedVersion": 0,
+    "Entities": [
+        { "$TypeId": 9, "Id": "f57bccecbe444b0e8a62dc490eccd631", "Name": "CollectedEgg" }
+    ]
+},
+{
+    "$TypeId": 5,
+    "Id": "f57bccecbe444b0e8a62dc490eccd631",
+    "Name": "CollectedEgg",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 5,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "f70a027adf0e13e4f98abcb578ef2b01", "FileId": 21300000, "Type": 3 }
+        }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
+        "Properties": {
+            "order": 100
+        }
+    }, {
+        "Type": { "Id": "f5d2f4df6f8443389f8011272f984328", "Name": "CollectedCurrency" },
+        "Properties": {
+            "Duration": 1.35,
+            "ProgressCurve": {
+                "Type": { "Id": "280b143c739160ffb69b3cf552f375bb", "Name": "CurveEntity" },
+                "Properties": {
+                    "keys": {
+                        "Type": { "Id": "5b6ff13fbf23066d1d6b6515f1fedfbd", "Name": "KeyFrame" },
+                        "Items": [{
+                            "Type": { "Id": "5b6ff13fbf23066d1d6b6515f1fedfbd", "Name": "KeyFrame" },
+                            "Properties": {
+                                "inTangent": 0,
+                                "inWeight": 0.3333333,
+                                "outTangent": 0,
+                                "outWeight": 0.3333333,
+                                "time": 0,
+                                "value": 0,
+                                "weightedMode": {
+                                    "$TypeId": 8,
+                                    "Type": { "Id": "563a5e15340525520839fb3a23de5ac4", "Name": "WeightedMode" },
+                                    "Id": "18129dce1bd440c2b84a7a9c90d27f6d",
+                                    "Name": "None",
+                                    "Value": 0
+                                }
+                            }
+                        }, {
+                            "Type": { "Id": "5b6ff13fbf23066d1d6b6515f1fedfbd", "Name": "KeyFrame" },
+                            "Properties": {
+                                "inTangent": 1.151178,
+                                "inWeight": 0.3333333,
+                                "outTangent": 1.151178,
+                                "outWeight": 0.3990638,
+                                "time": 0.6084541,
+                                "value": 0.3013763,
+                                "weightedMode": {
+                                    "$TypeId": 8,
+                                    "Type": { "Id": "563a5e15340525520839fb3a23de5ac4", "Name": "WeightedMode" },
+                                    "Id": "18129dce1bd440c2b84a7a9c90d27f6d",
+                                    "Name": "None",
+                                    "Value": 0
+                                }
+                            }
+                        }, {
+                            "Type": { "Id": "5b6ff13fbf23066d1d6b6515f1fedfbd", "Name": "KeyFrame" },
+                            "Properties": {
+                                "inTangent": 2.627994,
+                                "inWeight": 0.3333333,
+                                "outTangent": 2.627994,
+                                "outWeight": 0.3333333,
+                                "time": 1,
+                                "value": 1,
+                                "weightedMode": {
+                                    "$TypeId": 8,
+                                    "Type": { "Id": "563a5e15340525520839fb3a23de5ac4", "Name": "WeightedMode" },
+                                    "Id": "18129dce1bd440c2b84a7a9c90d27f6d",
+                                    "Name": "None",
+                                    "Value": 0
+                                }
+                            }
+                        }]
+                    },
+                    "postWrapMode": {
+                        "$TypeId": 8,
+                        "Type": { "Id": "440cf56acc9270b677b8a90e4477735d", "Name": "WrapMode" },
+                        "Id": "2c1248461465491e9fe72fc7b4d84ba9",
+                        "Name": "ClampForever",
+                        "Value": 8
+                    },
+                    "preWrapMode": {
+                        "$TypeId": 8,
+                        "Type": { "Id": "440cf56acc9270b677b8a90e4477735d", "Name": "WrapMode" },
+                        "Id": "2c1248461465491e9fe72fc7b4d84ba9",
+                        "Name": "ClampForever",
+                        "Value": 8
+                    }
+                }
+            },
+            "ScaleCurve": {
+                "Type": { "Id": "280b143c739160ffb69b3cf552f375bb", "Name": "CurveEntity" },
+                "Properties": {
+                    "keys": {
+                        "Type": { "Id": "5b6ff13fbf23066d1d6b6515f1fedfbd", "Name": "KeyFrame" },
+                        "Items": [{
+                            "Type": { "Id": "5b6ff13fbf23066d1d6b6515f1fedfbd", "Name": "KeyFrame" },
+                            "Properties": {
+                                "inTangent": 12.61194,
+                                "inWeight": 0.3333333,
+                                "outTangent": 12.61194,
+                                "outWeight": 0.1612917,
+                                "time": 0,
+                                "value": 1,
+                                "weightedMode": {
+                                    "$TypeId": 8,
+                                    "Type": { "Id": "563a5e15340525520839fb3a23de5ac4", "Name": "WeightedMode" },
+                                    "Id": "18129dce1bd440c2b84a7a9c90d27f6d",
+                                    "Name": "None",
+                                    "Value": 0
+                                }
+                            }
+                        }, {
+                            "Type": { "Id": "5b6ff13fbf23066d1d6b6515f1fedfbd", "Name": "KeyFrame" },
+                            "Properties": {
+                                "inTangent": 0.3851454,
+                                "inWeight": 0.3333333,
+                                "outTangent": 0.3851454,
+                                "outWeight": 0.1275806,
+                                "time": 0.1042008,
+                                "value": 1.619875,
+                                "weightedMode": {
+                                    "$TypeId": 8,
+                                    "Type": { "Id": "563a5e15340525520839fb3a23de5ac4", "Name": "WeightedMode" },
+                                    "Id": "18129dce1bd440c2b84a7a9c90d27f6d",
+                                    "Name": "None",
+                                    "Value": 0
+                                }
+                            }
+                        }, {
+                            "Type": { "Id": "5b6ff13fbf23066d1d6b6515f1fedfbd", "Name": "KeyFrame" },
+                            "Properties": {
+                                "inTangent": -0.8486814,
+                                "inWeight": 0.3333333,
+                                "outTangent": -0.8486814,
+                                "outWeight": 0.3333333,
+                                "time": 1,
+                                "value": 1,
+                                "weightedMode": {
+                                    "$TypeId": 8,
+                                    "Type": { "Id": "563a5e15340525520839fb3a23de5ac4", "Name": "WeightedMode" },
+                                    "Id": "18129dce1bd440c2b84a7a9c90d27f6d",
+                                    "Name": "None",
+                                    "Value": 0
+                                }
+                            }
+                        }]
+                    },
+                    "postWrapMode": {
+                        "$TypeId": 8,
+                        "Type": { "Id": "440cf56acc9270b677b8a90e4477735d", "Name": "WrapMode" },
+                        "Id": "2c1248461465491e9fe72fc7b4d84ba9",
+                        "Name": "ClampForever",
+                        "Value": 8
+                    },
+                    "preWrapMode": {
+                        "$TypeId": 8,
+                        "Type": { "Id": "440cf56acc9270b677b8a90e4477735d", "Name": "WrapMode" },
+                        "Id": "2c1248461465491e9fe72fc7b4d84ba9",
+                        "Name": "ClampForever",
+                        "Value": 8
+                    }
+                }
+            }
+        }
+    }]
+}]

@@ -1,0 +1,31 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "98e68b0ff8f4415fb64e6764a87c1d46",
+    "Name": "ScrollingBackground",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "ff69a0c40b4e4faeb297763c8dcf82dd",
+        "Name": "speed",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "975bc3f549154cdaa93440291581dac8",
+        "Name": "threshold",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "2c8b9119498043c7903fa216450ab3a4",
+        "Name": "distance",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "98e68b0ff8f4415fb64e6764a87c1d46", "Name": "ScrollingBackground" }
+    }
+}]

@@ -1,0 +1,86 @@
+﻿[{
+    "$TypeId": 1,
+    "Id": "e11003d0f722404b87169327269c221f",
+    "Name": "DungeonZ",
+    "ExportFlags": 0,
+    "SerializedVersion": 6,
+    "Settings": {
+        "CanvasWidth": 1920,
+        "CanvasHeight": 1080,
+        "EmbedAssets": true,
+        "CanvasAutoResize": true,
+        "RenderMode": 0,
+        "DefaultTextureSettings": {
+            "$TypeId": 2,
+            "Embedded": true,
+            "FormatType": 0,
+            "JpgCompressionQuality": 75,
+            "WebPCompressionQuality": 60
+        },
+        "DefaultAudioClipSettings": {
+            "$TypeId": 3,
+            "Embedded": true
+        },
+        "DefaultAnimationClipSettings": {
+            "$TypeId": 4,
+            "Embedded": false
+        },
+        "LocalWSServerPort": 17700,
+        "LocalHTTPServerPort": 19050,
+        "SingleFileHtml": false,
+        "MemorySize": 16,
+        "IncludeWebPDecompressor": false,
+        "RunBabel": false,
+        "MinifyJavaScript": true,
+        "LinkToSource": true,
+        "SymbolsInReleaseBuild": false
+    },
+    "Module": { "Id": "784fec4cba05474ca7264a88681faefd", "Name": "Main" },
+    "Configuration": { "$TypeId": 9, "Id": "c207304350234ee1914bd5884a7ec79f", "Name": "Configuration" }
+},
+{
+    "$TypeId": 2,
+    "Id": "784fec4cba05474ca7264a88681faefd",
+    "Name": "Main",
+    "SerializedVersion": 1,
+    "ExportFlags": 0,
+    "Documentation": {
+        "Summary": "This sample demonstrates the usage of Tilemap2D module"
+    },
+    "Namespace": "game",
+    "Options": 4,
+    "Dependencies": [
+        { "Id": "30097418841f56d73400bf82ee859ac9", "Name": "UTiny.Core2D" },
+        { "Id": "2af0cd3b47a732bf738688ceab312689", "Name": "UTiny.Core" },
+        { "Id": "a1b50987659c653138795a8f4079fc10", "Name": "UTiny.Math" },
+        { "Id": "ce3f1bd7050540b70d450a606e226ea2", "Name": "UTiny.Shared" },
+        { "Id": "8c6be6e8b11c20a446e356fb3e17ffb1", "Name": "UTiny.Tilemap2D" },
+        { "Id": "eae58004250dcd15a6c834b07677ca28", "Name": "UTiny.HTML" },
+        { "Id": "229e8d5fce9cf6b511ca82c89f1b58eb", "Name": "UTiny.Sprite2D" },
+        { "Id": "8f3245ba92302e53e51e43514424d568", "Name": "UTiny.ImageLoadingHTML" },
+        { "Id": "784fec4cba05474ca7264a88681faefd", "Name": "Main" },
+        { "Id": "494f9eba840c1f117459611e605884b0", "Name": "UTiny.Core2DTypes" },
+        { "Id": "49644c1065ebcfd98885bfe5e77c8fc1", "Name": "UTiny.Image2D" },
+        { "Id": "404877ed746affa8a6081ad8161dd8de", "Name": "UTiny.EditorExtensions" },
+        { "Id": "29e5e02a3a0442beb9e6828c78a7ff91", "Name": "UTiny.EntityGroup" }
+    ],
+    "StartupEntityGroup": { "Id": "bb4fa46b859c4c448c1864be15b35259", "Name": "NewEntityGroup" }
+},
+{
+    "$TypeId": 5,
+    "Id": "c207304350234ee1914bd5884a7ec79f",
+    "Name": "Configuration",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "575fe161bc06950c954480d04c70c9ab", "Name": "DisplayInfo" },
+        "Properties": {
+            "width": 1920,
+            "height": 1080,
+            "autoSizeToFrame": true
+        }
+    }, {
+        "Type": { "Id": "38283a6cef9faa790b5c9936163d59e3", "Name": "Physics2DConfig" }
+    }]
+}]

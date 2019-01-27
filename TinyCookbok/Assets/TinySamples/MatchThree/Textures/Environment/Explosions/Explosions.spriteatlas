@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Explosions
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 2
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 073629ba9ec8b414ca0f46d88eeb3a05, type: 3}
+    totalSpriteSurfaceArea: 28318
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 15f440d09d090f340bc802e5e8d5f1f2, type: 3}
+  - {fileID: 21300000, guid: 0cabd741c0741924d9866e980d3ee3fc, type: 3}
+  - {fileID: 21300000, guid: 612221728b6145f4980bfce167b1a00f, type: 3}
+  - {fileID: 21300000, guid: bf8de8d242d58cc46a3baa7385f995a6, type: 3}
+  - {fileID: 21300000, guid: 8a9aa4f33e18a3941b7f47e61ea78ce4, type: 3}
+  - {fileID: 21300000, guid: f79e15b535539384b9d4e078b7d97c94, type: 3}
+  - {fileID: 21300000, guid: 850fe39766b8be24d9c760755ced6423, type: 3}
+  - {fileID: 21300000, guid: 010845a764b26a140ab3a791cf250fdc, type: 3}
+  - {fileID: 21300000, guid: 4bfa32c86b1196145978b42c5af367b8, type: 3}
+  - {fileID: 21300000, guid: 6fc6787982655b9428ff49916bc076da, type: 3}
+  - {fileID: 21300000, guid: 531680aab60eb2a4ca7b496cbe92d53e, type: 3}
+  - {fileID: 21300000, guid: 335de0da47541e74c9c9fbd1b84c4150, type: 3}
+  - {fileID: 21300000, guid: 46c65cfb0a9675b49adc8a999150d730, type: 3}
+  - {fileID: 21300000, guid: 7b1b805d2ef09f2478240ab774f0aa65, type: 3}
+  - {fileID: 21300000, guid: 86b6be5ee3d2d5c4f901be4a36b58a7b, type: 3}
+  - {fileID: 21300000, guid: 5873f79e35c1d2447b31f853ae482eac, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Explosion02_01
+  - Explosion02_06
+  - explosion_01_3
+  - explosion_01_1
+  - Explosion02_03
+  - explosion_01_4
+  - explosion_01_6
+  - Explosion02_05
+  - explosion_01_5
+  - Explosion_Particle
+  - explosion_01_2
+  - Explosion02_07
+  - explosion_01_7
+  - Explosion02_04
+  - Explosion02_02
+  - Explosion02_08
+  m_Tag: Explosions
+  m_IsVariant: 0

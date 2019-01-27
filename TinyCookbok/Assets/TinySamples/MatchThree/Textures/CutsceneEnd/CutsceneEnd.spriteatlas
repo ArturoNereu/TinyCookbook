@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CutsceneEnd
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 2
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 3f98ac2e6653fbc44a9add7c0719f50a, type: 3}
+    totalSpriteSurfaceArea: 62056
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: a71dd620c25d08b418601cff28809ee7, type: 3}
+  - {fileID: 21300000, guid: 8cd4114008280f04cb1ba2647fd3db31, type: 3}
+  - {fileID: 21300000, guid: c49f2bf0ef83c3a4b9374bdd2766363f, type: 3}
+  - {fileID: 21300000, guid: b24794226a4a10141a660aec9c14c839, type: 3}
+  - {fileID: 21300000, guid: bb23af52125b6d143ad29011bdd6b8ec, type: 3}
+  - {fileID: 21300000, guid: 1998a80354dfffa43871c46e82ac640c, type: 3}
+  - {fileID: 21300000, guid: bed3dcf378a459f4f884edfc04633da8, type: 3}
+  - {fileID: 21300000, guid: 9a8994943ee5ff24e962a82055c83d62, type: 3}
+  - {fileID: 21300000, guid: f222b2b512606e0439a33d291512a3b2, type: 3}
+  - {fileID: 21300000, guid: 794c24167d109af4ba874e05a18e94b1, type: 3}
+  - {fileID: 21300000, guid: af168b46fea7af6409172d9eabf6f7e3, type: 3}
+  - {fileID: 21300000, guid: 12369f46c69725641a47562b64660aff, type: 3}
+  - {fileID: 21300000, guid: 0e029d6645f37fa42a89b514d967b266, type: 3}
+  - {fileID: 21300000, guid: f9a2c0f848f59e74b9f4b39f5922322c, type: 3}
+  - {fileID: 21300000, guid: c264302ab51df8d4bbe947b7c6a10d07, type: 3}
+  - {fileID: 21300000, guid: cdc92c3a2837de14ea06109080fb8551, type: 3}
+  - {fileID: 21300000, guid: 9019f12bfd12eee4791f5ceb5c3b8247, type: 3}
+  - {fileID: 21300000, guid: 67c2f05c1ca1ffa47bcc98e6b41be93e, type: 3}
+  - {fileID: 21300000, guid: 063e43ed230118d46bf63ff7a81fb7f8, type: 3}
+  - {fileID: 21300000, guid: 87a4ef1efd1729b4cad0c0b899f5f74d, type: 3}
+  - {fileID: 21300000, guid: f141632ffa1e0a044b7ef609a3b2b35a, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Page_1_Case_1_Kid
+  - Page_1_Case_1_Cones_2
+  - Page_1_Case_1_Building_2
+  - Page_2_Case_2
+  - Page_1_Case_1_Building_4
+  - Page_1_Case_5
+  - Page_1_Case_2
+  - Page_1_Case_1_Kid_Leg_1
+  - Page_1_Case_1_Building_1
+  - Page_1_Case_3
+  - Page_2_Case_3
+  - Page_1_Case_1_Cones_1
+  - Page_1_Case_1_Kid_Leg_2
+  - Page_1_Case_1_Lines_1
+  - Page_1_Case_4
+  - Page_1_Case_1_Dino_Shadow
+  - Page_1_Case_1_Lines_3
+  - Page_2_Case_1
+  - Page_1_Case_1_Lines_2
+  - Page_1_Case_1_Building_3
+  - Page_1_Case_1
+  m_Tag: CutsceneEnd
+  m_IsVariant: 0

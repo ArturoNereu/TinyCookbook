@@ -1,0 +1,22 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "bb2e427153f64f59aee2196e306603b7",
+    "Name": "CutsceneFade",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "bf0c464f10b64e44b3f2612a93cbf586",
+        "Name": "Duration",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "bb2e427153f64f59aee2196e306603b7", "Name": "CutsceneFade" },
+        "Properties": {
+            "Duration": 1
+        }
+    }
+}]

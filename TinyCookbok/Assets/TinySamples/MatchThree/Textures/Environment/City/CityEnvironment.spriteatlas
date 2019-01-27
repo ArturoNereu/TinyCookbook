@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CityEnvironment
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 2
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 5f35851bb82a84b17a46a6c200df07b0, type: 3}
+    totalSpriteSurfaceArea: 43974
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: a370c0514a6174c06bfe18c02e849a22, type: 3}
+  - {fileID: 21300000, guid: 1335a2a126d9324438127e3aa2ca71d0, type: 3}
+  - {fileID: 21300000, guid: d736d4b1994d4d64e9eb5966a7f29573, type: 3}
+  - {fileID: 21300000, guid: 4ee721d27dff34909a68e7f4c4f46d58, type: 3}
+  - {fileID: 21300000, guid: 34474d130e8c3914ab89801d22c3c843, type: 3}
+  - {fileID: 21300000, guid: 245b92538366c944fb652606a1c26db5, type: 3}
+  - {fileID: 21300000, guid: baf6eb635525dd049b169774a18e00e8, type: 3}
+  - {fileID: 21300000, guid: 1298e4932eaa06343a058e49d3bc2dcc, type: 3}
+  - {fileID: 21300000, guid: bafd89a4289ab4779bde22a5e953c889, type: 3}
+  - {fileID: 21300000, guid: 8996cab4360d1fe41a52e5d330d4cc22, type: 3}
+  - {fileID: 21300000, guid: 66ff6ae40149e43438f090273af67336, type: 3}
+  - {fileID: 21300000, guid: 6cb8271530621bc45a214b940b6214cc, type: 3}
+  - {fileID: 21300000, guid: 01824945ab04cd345988bc7db5f9058c, type: 3}
+  - {fileID: 21300000, guid: aa1ae055114fea648b81880de70fae64, type: 3}
+  - {fileID: 21300000, guid: a2c54a750795b4fe38262f504292583e, type: 3}
+  - {fileID: 21300000, guid: 27c525850f28a88458c34b27ac9e3b2f, type: 3}
+  - {fileID: 21300000, guid: e1056d95c41b2c549a4882acdc7454c1, type: 3}
+  - {fileID: 21300000, guid: 6cdf1cb554408c246a9106e0ddccebd5, type: 3}
+  - {fileID: 21300000, guid: 8e2ae4b6926cd104586425cc7bd151a0, type: 3}
+  - {fileID: 21300000, guid: ba99cf67d68038a4f817ea9a6d5d506c, type: 3}
+  - {fileID: 21300000, guid: 6c482f08a92864e0fbc158fe3a0d562d, type: 3}
+  - {fileID: 21300000, guid: aad9a2186213a604d8df82fb531ee7fc, type: 3}
+  - {fileID: 21300000, guid: 95ea624899c344d12bad025e63765933, type: 3}
+  - {fileID: 21300000, guid: e0a16459a0a1b4d749ae24f340c4a9fd, type: 3}
+  - {fileID: 21300000, guid: 053739d9a9a280a4b9214a655e1baf27, type: 3}
+  - {fileID: 21300000, guid: 6549d97ade7324a05be183f3f12c81fa, type: 3}
+  - {fileID: 21300000, guid: 0a2eff1bed274f547b9865742e374461, type: 3}
+  - {fileID: 21300000, guid: c4f4232bf17307b4880beb7ee0b6a7b7, type: 3}
+  - {fileID: 21300000, guid: a5c36c3bf9218446a8726f75bcbc1646, type: 3}
+  - {fileID: 21300000, guid: 721b42abb7940ef4586a8c4e5fb3d83f, type: 3}
+  - {fileID: 21300000, guid: 7ea4efcc4c7b3e5439385c3f3db82220, type: 3}
+  - {fileID: 21300000, guid: 6fdffedd73e7e47c5a4cff1e93419233, type: 3}
+  - {fileID: 21300000, guid: eb06afddb398ed24d8d71fcfd93eff3e, type: 3}
+  - {fileID: 21300000, guid: ef66101e5cc574741acdbdc97eb3c8be, type: 3}
+  - {fileID: 21300000, guid: d821624e98080d04bb411ff9924688e5, type: 3}
+  - {fileID: 21300000, guid: 7ff29c2f32999a7458f2c177b4b882b7, type: 3}
+  - {fileID: 21300000, guid: bcdbf77f5a5f5491f95dd1a25ca0c855, type: 3}
+  - {fileID: 21300000, guid: e3f511bf16e324d518cd9a598a14fd63, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - City_Parallax_1
+  - City_Prop_2_Intact
+  - City_Soldier_Walk_1
+  - City_Sewer_Straight
+  - City_Soldier_Walk_3
+  - City_Underground
+  - City_Car_1_Crushed
+  - City_Building_Medium_State_2
+  - City_Building_Tall_State_2
+  - City_Prop_2_Crushed
+  - City_Building_Tall_State_1
+  - City_Car_2_Crushed
+  - City_Soldier_Walk_2
+  - City_Soldier_Fire_1
+  - City_Parallax_2
+  - City_Helicopter_Body_1
+  - City_Building_Small_2_State_2
+  - City_Building_Medium_State_3
+  - City_Car_1
+  - City_Building_Small_2_State_3
+  - City_Parallax_3
+  - City_Building_Medium_State_1
+  - City_Building_Small_State_3
+  - City_Parallax_4
+  - City_Building_Small_2_State_1
+  - City_Floor
+  - City_Prop_1_Crushed_Accessorie
+  - City_Car_2
+  - City_Building_Small_State_1
+  - City_Prop_3_Crushed
+  - City_Prop_1_Crushed
+  - City_Sewer_T
+  - City_Prop_3_Intact
+  - City_Building_Tall_State_3
+  - City_Prop_1_Intact
+  - City_Soldier_Fire_2
+  - City_Building_Small_State_2
+  - City_Parallax_5
+  m_Tag: CityEnvironment
+  m_IsVariant: 0

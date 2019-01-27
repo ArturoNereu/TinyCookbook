@@ -1,0 +1,49 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "f0c54b7a9cb14c4d9c1e8ecb6df1c0ac",
+    "Name": "SettingsMenu",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "74c1bac64b1d4cf89a9e7092f8c0b7a8",
+        "Name": "ButtonOK",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "d4bd17ab4c804ba4b5a898e95d3e7b39",
+        "Name": "ButtonCredits",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "0b10226b8a844f00b0ba19f6d7f07972",
+        "Name": "ButtonResetProgress",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "cec3fc5a1a41452e8405cdd359ea489b",
+        "Name": "ButtonLanguage",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "892ec579a52149aba03563e2042c0f11",
+        "Name": "ButtonRenderMode",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "d9e652f9eae14487ba7d44672bab68a2",
+        "Name": "LabelRenderMode",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "f0c54b7a9cb14c4d9c1e8ecb6df1c0ac", "Name": "SettingsMenu" }
+    }
+}]

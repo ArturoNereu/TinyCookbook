@@ -1,0 +1,37 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "0304f023aa0f425a81452296ef5806a6",
+    "Name": "MatchPossibility",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "4f8fc1fff27c407a8a68ca6432f1c974",
+        "Name": "HintTimer",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "8c4d46d107ea4fe2a8dca54b244c0e8d",
+        "Name": "SwapGem1HashKey",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "707c9fb28f40469dbb0f90c0358b9a1a",
+        "Name": "SwapGem2HashKey",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "233e635f6c8c456e9662739355256d32",
+        "Name": "NeedsSwap",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 1
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "0304f023aa0f425a81452296ef5806a6", "Name": "MatchPossibility" }
+    }
+}]

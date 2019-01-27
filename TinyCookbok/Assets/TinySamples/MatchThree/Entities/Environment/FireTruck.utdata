@@ -1,0 +1,122 @@
+﻿[{
+    "$TypeId": 4,
+    "Id": "cee7892902fb4773ba4b03c512494e16",
+    "Name": "FireTruck",
+    "ExportFlags": 0,
+    "SerializedVersion": 0,
+    "Entities": [
+        { "$TypeId": 9, "Id": "a208a91c4fa7435d9aa2613a39965760", "Name": "FireTruck" },
+        { "$TypeId": 9, "Id": "f4b1f6b38ffc450689fd1249f5868d17", "Name": "Siren" }
+    ]
+},
+{
+    "$TypeId": 5,
+    "Id": "a208a91c4fa7435d9aa2613a39965760",
+    "Name": "FireTruck",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" }
+    }, {
+        "Type": { "Id": "8af4b64a9c7a4e9da960bbb263da3ee0", "Name": "Destructible" },
+        "Properties": {
+            "SpriteStates": {
+                "Type": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+                "Items": [
+                    "CommonEnvironment/Firetruck",
+                    "CommonEnvironment/Firetruck_Crush"
+                ]
+            },
+            "ExplosionOffsetY": 15,
+            "ExplosionRangeX": 28,
+            "ExplosionRangeY": 13,
+            "ExplosionMinCount": 4,
+            "ExplosionMaxCount": 5
+        }
+    }, {
+        "Type": { "Id": "5ffa4699df954814b080cb54b2a2d16f", "Name": "ScrollingObject" }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "e32b506a0140b284aa4b949d4fb48d68", "FileId": 21300000, "Type": 3 },
+            "color": {
+                "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                "Properties": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1,
+                    "a": 1
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
+        "Properties": {
+            "order": 13
+        }
+    }, {
+        "Type": { "Id": "ac3520f446fd46beadcecac016b6f970", "Name": "FireTruck" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "f4b1f6b38ffc450689fd1249f5868d17",
+    "Name": "Siren",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
+        "Properties": {
+            "parent": { "$TypeId": 9, "Id": "a208a91c4fa7435d9aa2613a39965760", "Name": "FireTruck" }
+        }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": -17,
+                    "y": 23.5
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "dda6d3ad67689984ba5c66a63dd5798d", "FileId": 21300000, "Type": 3 }
+        }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
+        "Properties": {
+            "order": 14
+        }
+    }, {
+        "Type": { "Id": "95eba163dce5bfff5420a5a8c2845523", "Name": "Sprite2DSequence" },
+        "Properties": {
+            "sprites": {
+                "Type": { "Id": "cf54a635a25248ab87f2563bb840ed5b", "Name": "SpriteEntity" },
+                "Items": [
+                    { "$TypeId": 10, "Guid": "dda6d3ad67689984ba5c66a63dd5798d", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "49338c449ed91ff4896b3f3ac427529e", "FileId": 21300000, "Type": 3 }
+                ]
+            },
+            "frameRate": 4
+        }
+    }, {
+        "Type": { "Id": "d2cfd18aa4facc33b1da7ae05205691b", "Name": "Sprite2DSequencePlayer" },
+        "Properties": {
+            "sequence": { "$TypeId": 9, "Id": "f4b1f6b38ffc450689fd1249f5868d17", "Name": "Siren" },
+            "speed": 1
+        }
+    }]
+}]

@@ -1,0 +1,19 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "5b789f78c6d24fe69aafbce0f5050851",
+    "Name": "SkinConfiguration",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Configuration",
+    "Fields": [{
+        "Id": "5f6618de4161447fb1a9a8847cfa2ff8",
+        "Name": "CurrentSkin",
+        "FieldType": { "Id": "decdc736779d4d99b0bd0e002a89e936", "Name": "SkinTypes" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "5b789f78c6d24fe69aafbce0f5050851", "Name": "SkinConfiguration" }
+    }
+}]

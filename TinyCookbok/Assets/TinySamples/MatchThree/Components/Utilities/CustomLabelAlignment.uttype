@@ -1,0 +1,36 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "00cc56029d674638a8db2cae7cf6b4c5",
+    "Name": "CustomLabelAlignment",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Enum",
+    "BaseType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+    "Fields": [{
+        "Id": "8a504528aafa464386973f4be0da0ee1",
+        "Name": "Left",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "5d5d716d76cf4b76a0ba537651493859",
+        "Name": "Center",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "a714a1f03479411a9030620aac0b9ea8",
+        "Name": "Right",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "00cc56029d674638a8db2cae7cf6b4c5", "Name": "CustomLabelAlignment" },
+        "Properties": {
+            "Center": 1,
+            "Right": 2
+        }
+    }
+}]

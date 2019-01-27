@@ -1,0 +1,25 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "b3590d1764174f3f879e70938b01cce3",
+    "Name": "CustomLabel",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "59d6952829de483ab910de37d7e86122",
+        "Name": "LastText",
+        "FieldType": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "febf168c9387490daadafac667c341b7",
+        "Name": "LastColor",
+        "FieldType": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+        "Array": false,
+        "Visibility": 1
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "b3590d1764174f3f879e70938b01cce3", "Name": "CustomLabel" }
+    }
+}]

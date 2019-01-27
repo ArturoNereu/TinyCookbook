@@ -1,0 +1,43 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "0b86a7f225d946de90abde9a17406476",
+    "Name": "WorldMapItem",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "6a86db3958cd44a0a6ed44775f07e7f7",
+        "Name": "Index",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "e78d736438e24e37894824960c613491",
+        "Name": "ImageLevelPreview",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "9589cc95630c4ee492092f2e985289eb",
+        "Name": "DistanceBetweenLevelItems",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "52cd01eaa231436fa7e952905a03e37c",
+        "Name": "FocusedScale",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "d13d7cf6e0574a108fa48b54bdef102a",
+        "Name": "UnfocusedScale",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "0b86a7f225d946de90abde9a17406476", "Name": "WorldMapItem" }
+    }
+}]

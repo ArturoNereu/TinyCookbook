@@ -1,0 +1,70 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "e5d7a04fecbd45b79bf1215b72f5afd1",
+    "Name": "Person",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "8b01abdda00c4e10ae5fead1ca25b77f",
+        "Name": "MoveSpeed",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "c164cf83d5264f7c9a3b3125bec7daf4",
+        "Name": "MoveSpeedMultiplier",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "7a2708b662d347abb24796335600c780",
+        "Name": "FearSpeedMultiplier",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "f4f3a6aed4b6414c8d08d48be1ba02b1",
+        "Name": "MinimumDistanceFromDinosaur",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "268ccf2c722249cc882bd246c0f19d99",
+        "Name": "MaximumDistanceFromDinosaur",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "a6abf250d8bf4582bd21993b6d315ec6",
+        "Name": "State",
+        "FieldType": { "Id": "9a4483e3eac8490dac80dc34face8051", "Name": "PersonState" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "181b2a0fe6204448a848c356f324a39b",
+        "Name": "WalkPositionY",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "19d02376427f43e8b1326d7081264079",
+        "Name": "WalkAnimation",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "5034349872c140a4a0eb07a747867562",
+        "Name": "FireAnimation",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "e5d7a04fecbd45b79bf1215b72f5afd1", "Name": "Person" },
+        "Properties": {
+            "MoveSpeedMultiplier": 1
+        }
+    }
+}]

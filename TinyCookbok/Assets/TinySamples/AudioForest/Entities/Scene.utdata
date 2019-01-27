@@ -1,0 +1,141 @@
+﻿[{
+    "$TypeId": 4,
+    "Id": "2a24fcfa06ee48b5a466a6d7fd3a96f2",
+    "Name": "Scene",
+    "ExportFlags": 0,
+    "SerializedVersion": 0,
+    "Entities": [
+        { "$TypeId": 9, "Id": "5b2001688c5342f2bd52f6b241112a3f", "Name": "Camera" },
+        { "$TypeId": 9, "Id": "f4d5c0f089474bd9b6e90d9536669a50", "Name": "Forest" },
+        { "$TypeId": 9, "Id": "14994abf4fff4f418cd0e72d3a322385", "Name": "BackgroundMusic" },
+        { "$TypeId": 9, "Id": "c91802fbeecd4ee787bfae940e86f9cb", "Name": "Breeze" },
+        { "$TypeId": 9, "Id": "0059417e0b574c0b93d51f7207a3b166", "Name": "TreeWind" },
+        { "$TypeId": 9, "Id": "ade32224a1a846fd8332922593f9e016", "Name": "Walk" }
+    ]
+},
+{
+    "$TypeId": 5,
+    "Id": "5b2001688c5342f2bd52f6b241112a3f",
+    "Name": "Camera",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" },
+        "Properties": {
+            "scale": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": 1
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "12692383f3fef3bb74c209888c5b0939", "Name": "Camera2D" },
+        "Properties": {
+            "halfVerticalSize": 200
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "f4d5c0f089474bd9b6e90d9536669a50",
+    "Name": "Forest",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" },
+        "Properties": {
+            "scale": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": 50,
+                    "y": 50
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "dadb32d516a104565a12a931322b18d4", "FileId": 21300000, "Type": 3 }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "14994abf4fff4f418cd0e72d3a322385",
+    "Name": "BackgroundMusic",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "a60aa1b9ad84a83eefb0d5382a4d5967", "Name": "AudioSource" },
+        "Properties": {
+            "clip": { "$TypeId": 10, "Guid": "8c89699a180fb4dfea8746cc02424ba6", "FileId": 8300000, "Type": 3 },
+            "volume": 0.4,
+            "loop": true
+        }
+    }, {
+        "Type": { "Id": "fb67fae37e3e484fa554012ae4edd7c6", "Name": "AudioSourceStart" }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "c91802fbeecd4ee787bfae940e86f9cb",
+    "Name": "Breeze",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "a60aa1b9ad84a83eefb0d5382a4d5967", "Name": "AudioSource" },
+        "Properties": {
+            "clip": { "$TypeId": 10, "Guid": "35611b4fb7ce14a1c8560fcf747fd91a", "FileId": 8300000, "Type": 3 },
+            "volume": 0.2,
+            "loop": true
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "0059417e0b574c0b93d51f7207a3b166",
+    "Name": "TreeWind",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "a60aa1b9ad84a83eefb0d5382a4d5967", "Name": "AudioSource" },
+        "Properties": {
+            "clip": { "$TypeId": 10, "Guid": "f948ef328997f4df3b4e11deaba433e2", "FileId": 8300000, "Type": 3 },
+            "volume": 0.3,
+            "loop": true
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "ade32224a1a846fd8332922593f9e016",
+    "Name": "Walk",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "a60aa1b9ad84a83eefb0d5382a4d5967", "Name": "AudioSource" },
+        "Properties": {
+            "clip": { "$TypeId": 10, "Guid": "b7af31a3e3c0f4f8ca89df6e21541610", "FileId": 8300000, "Type": 3 },
+            "volume": 0.4
+        }
+    }]
+}]

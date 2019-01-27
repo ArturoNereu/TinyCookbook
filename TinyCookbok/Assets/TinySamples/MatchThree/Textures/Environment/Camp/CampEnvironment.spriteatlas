@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CampEnvironment
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 2
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 4a3e3fc183da87049a3069c0c5e677a8, type: 3}
+    totalSpriteSurfaceArea: 38555
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: a4fff570a2fada04a9dc90b567a1cb35, type: 3}
+  - {fileID: 21300000, guid: f2b02501358b34542979afecda61e132, type: 3}
+  - {fileID: 21300000, guid: d498e59147c9f824ebdb06e78b0c204e, type: 3}
+  - {fileID: 21300000, guid: 0d10beb2cee32604db66ba795d232910, type: 3}
+  - {fileID: 21300000, guid: 9ec8d853038070548b65db8f872253bd, type: 3}
+  - {fileID: 21300000, guid: abf749531e6f67f4da0a2fc7fdc9573e, type: 3}
+  - {fileID: 21300000, guid: e7039783380e72c4598cfdb76bd83170, type: 3}
+  - {fileID: 21300000, guid: d6ee7aa364ec8ba4fbeb6f52073792ff, type: 3}
+  - {fileID: 21300000, guid: ede9aec35121e4f4cb1d023f63415de8, type: 3}
+  - {fileID: 21300000, guid: a5e65b042cd8259428c5c68dad8bf15c, type: 3}
+  - {fileID: 21300000, guid: d3500b74c1a7e1746bb8b5abf6d412a7, type: 3}
+  - {fileID: 21300000, guid: 311f26b47d401e544b4aafea9b822c71, type: 3}
+  - {fileID: 21300000, guid: 9d5d57451c567f34c91aa515b9a4e230, type: 3}
+  - {fileID: 21300000, guid: a2811665bd38dcf4a94a72000f29d15f, type: 3}
+  - {fileID: 21300000, guid: e5b552b5fb7d37744b0f7402fed967b5, type: 3}
+  - {fileID: 21300000, guid: 8b4f3b86dbeabbc419ebe9e995d09f32, type: 3}
+  - {fileID: 21300000, guid: be8d6bb6f0661274c8c2f6eeab781bba, type: 3}
+  - {fileID: 21300000, guid: ddc5e197200510d44b809dad4a5706a2, type: 3}
+  - {fileID: 21300000, guid: 3953bca790e2248408183d1679614a2b, type: 3}
+  - {fileID: 21300000, guid: 4635c928b36ea6d45ba2c208a2d4a830, type: 3}
+  - {fileID: 21300000, guid: d6e15fc851d90474994f269a33fb3077, type: 3}
+  - {fileID: 21300000, guid: 94fb0689039a8484e931905b72ca228d, type: 3}
+  - {fileID: 21300000, guid: fdfb09c98f1daad47b16e97ab3780e62, type: 3}
+  - {fileID: 21300000, guid: 2735e1eae1719b443894be5dfe50bf7a, type: 3}
+  - {fileID: 21300000, guid: e238176ba9a445e479f691c4a5a14987, type: 3}
+  - {fileID: 21300000, guid: 09a5d30c4652d5f46a08017b0ee83a7a, type: 3}
+  - {fileID: 21300000, guid: 6880372c4509c9d4b8cb951a43336c2f, type: 3}
+  - {fileID: 21300000, guid: fc9be81d63df2c54f95d65cc68171351, type: 3}
+  - {fileID: 21300000, guid: a5eda89d44315414ca8fcfc818773483, type: 3}
+  - {fileID: 21300000, guid: 79233bad7e1404e42b3bd77677541557, type: 3}
+  - {fileID: 21300000, guid: 1cf0ba8ea97dd3041876be5ed61e9d8d, type: 3}
+  - {fileID: 21300000, guid: 7373219e428bacf4db9e6d270a91f050, type: 3}
+  - {fileID: 21300000, guid: 99a3b2be4ee7d61439ec99a949c1cee6, type: 3}
+  - {fileID: 21300000, guid: c5d5a00f2c8f3c44e81ce96cf543e755, type: 3}
+  - {fileID: 21300000, guid: 5ec3910f8fc1e854a8879b52783a0c62, type: 3}
+  - {fileID: 21300000, guid: 756ef33faaff8ef419072fd914d223c0, type: 3}
+  - {fileID: 21300000, guid: 04a79cdf45c084744b1a0e68b682afc5, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Camp_Soldier_Fire_2
+  - Camp_Prop_3_Crushed
+  - Camp_Car_1
+  - Camp_Soldier_Walk_3
+  - Camp_Underground
+  - Camp_Building_Small_State_3
+  - Camp_Car_2
+  - Camp_Prop_4_Crushed
+  - Camp_Building_Medium_State_2
+  - Camp_Prop_1_Intact
+  - Camp_Building_Tall_State_1
+  - Camp_Building_Small_2_State_1
+  - Camp_Soldier_Fire_1
+  - Camp_Car_2_Crushed
+  - Camp_Car_1_Crushed
+  - Camp_Helicopter_Body_1
+  - Camp_Parallax_4
+  - Camp_Building_Medium_State_3
+  - Camp_Parallax_1
+  - Camp_Prop_1_Crushed
+  - Camp_Prop_2_Crushed
+  - Camp_Prop_4_Intact
+  - Camp_Building_Small_State_1
+  - Camp_Soldier_Walk_1
+  - Camp_Soldier_Walk_2
+  - Camp_Floor
+  - Camp_Prop_2_Intact
+  - Camp_Parallax_5
+  - Camp_Building_Small_2_State_3
+  - Camp_Prop_3_Intact
+  - Camp_Building_Tall_State_2
+  - Camp_Building_Medium_State_1
+  - Camp_Building_Small_State_2
+  - Camp_Parallax_2
+  - Camp_Building_Small_2_State_2
+  - Camp_Parallax_3
+  - Camp_Building_Tall_State_3
+  m_Tag: CampEnvironment
+  m_IsVariant: 0

@@ -1,0 +1,33 @@
+﻿[{
+    "$TypeId": 4,
+    "Id": "d642834554164803bf949c7f6f2e1878",
+    "Name": "Level1",
+    "ExportFlags": 0,
+    "SerializedVersion": 0,
+    "Entities": [
+        { "$TypeId": 9, "Id": "6d8328e36076466eb334f6712b2579d3", "Name": "Level1" }
+    ]
+},
+{
+    "$TypeId": 5,
+    "Id": "6d8328e36076466eb334f6712b2579d3",
+    "Name": "Level1",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "34d8fd9b36f948f48e4e0c5b3e8b7c45", "Name": "Level" },
+        "Properties": {
+            "LevelID": 1,
+            "MaxMoveCount": 15,
+            "StartPowerUps": {
+                "Type": { "Id": "2ffd1f6bbde643e79fc2c5f3856004b1", "Name": "GemPowerUpTypes" }
+            }
+        }
+    }, {
+        "Type": { "Id": "f48117dcbdf040b6980ada128f26b5f8", "Name": "LevelPointObjective" },
+        "Properties": {
+            "ScoreObjective": 500
+        }
+    }]
+}]

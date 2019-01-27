@@ -1,0 +1,49 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "bdc95e4f15544212bcc3a2b25c497e10",
+    "Name": "MainMenu",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "86b5a7020a9748e296c033e6c6d28e5b",
+        "Name": "ImageLogo",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "6e893e1fab85453286735b9f40c60d85",
+        "Name": "ButtonPlay",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "bcfe6e44513a41d4820ac35402356eb0",
+        "Name": "TilingBackgroundEntity",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "df22f8d4dd294069b44af573660bda98",
+        "Name": "TilingBackgroundSpeed",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "c25dc8ba6ac541f9957184ae668f91e4",
+        "Name": "ButtonWatchIntro",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "a5a4334c5c4c4f9cb68dcafb79c16f67",
+        "Name": "ButtonSettings",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "bdc95e4f15544212bcc3a2b25c497e10", "Name": "MainMenu" }
+    }
+}]

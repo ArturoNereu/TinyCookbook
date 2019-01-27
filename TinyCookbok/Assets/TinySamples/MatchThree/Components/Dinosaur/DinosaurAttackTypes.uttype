@@ -1,0 +1,64 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "402b4eb842ac4c5380e1938e23b53a7f",
+    "Name": "DinosaurAttackTypes",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Enum",
+    "BaseType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+    "Fields": [{
+        "Id": "99cfb6f8cae64f03a940074a887e516c",
+        "Name": "TailWhip",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "7d0636c2c72b4c18a854baeb6b394636",
+        "Name": "Crush",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "d8ff769eaa6340489801373c478bbb15",
+        "Name": "Launch",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "1a797baeaeaf4e1a9c8609ee1969c57f",
+        "Name": "Jump",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "e51abc939f434186af9773489b321010",
+        "Name": "Stomp",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "10d8cd22ba1442fb88dd2f16d9f50d76",
+        "Name": "Bite",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "a95cc8d8b6f748838f982172e3090bbd",
+        "Name": "Laser",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "402b4eb842ac4c5380e1938e23b53a7f", "Name": "DinosaurAttackTypes" },
+        "Properties": {
+            "Crush": 1,
+            "Launch": 2,
+            "Jump": 3,
+            "Stomp": 4,
+            "Bite": 5,
+            "Laser": 6
+        }
+    }
+}]

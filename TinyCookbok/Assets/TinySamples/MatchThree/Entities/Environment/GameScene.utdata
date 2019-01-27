@@ -1,0 +1,1427 @@
+﻿[{
+    "$TypeId": 4,
+    "Id": "4d5641da80634dd79eba6af0040550dc",
+    "Name": "GameScene",
+    "ExportFlags": 0,
+    "SerializedVersion": 0,
+    "Entities": [
+        { "$TypeId": 9, "Id": "61d16206a72741f08a7f0bb7f8680f9d", "Name": "Sky" },
+        { "$TypeId": 9, "Id": "129d81d00388498cab8efe85e300a603", "Name": "SkyExtraFilling" },
+        { "$TypeId": 9, "Id": "ff7c705f281f4cd0ab9a0bc2623f5c1c", "Name": "FloorFront" },
+        { "$TypeId": 9, "Id": "8aecdee4ac3e4880bfde9f913bf2fbca", "Name": "Ground" },
+        { "$TypeId": 9, "Id": "afc5c78a530446ec86e77d4664a7457d", "Name": "GroundExtraFilling" },
+        { "$TypeId": 9, "Id": "326aa870f8c644179e0c2d7b5e9ba49a", "Name": "BuildingSpawner" },
+        { "$TypeId": 9, "Id": "60c65d12f48042bab450286b784c8d7f", "Name": "BuildingSpawnerCamp" },
+        { "$TypeId": 9, "Id": "100e9de5c1fe4f26b4f0098a610e65c3", "Name": "BackgroundBuildingSpawner" },
+        { "$TypeId": 9, "Id": "22228d9a5741421182c53af45b47201d", "Name": "CloudSpawner" },
+        { "$TypeId": 9, "Id": "228124f8f2244bed9d0c353e47d1ac2c", "Name": "FloorSpawner" },
+        { "$TypeId": 9, "Id": "4b76545a932245fb9aff12ae775ab6be", "Name": "SewerCapSpawner" },
+        { "$TypeId": 9, "Id": "d8574c0225a045b19868238eab31de62", "Name": "SewerSpawner" },
+        { "$TypeId": 9, "Id": "d7f2298d02cc473db2c1565dd9202a7c", "Name": "GoundDecoSpawner" },
+        { "$TypeId": 9, "Id": "5e72a8590a7d48d8aad9a67b4398fe50", "Name": "FireTruckSpawner" },
+        { "$TypeId": 9, "Id": "0345c42d943740109f2c677186f7db00", "Name": "CarSpawner" },
+        { "$TypeId": 9, "Id": "70a094e1429944d99168d6211b55ca3e", "Name": "PropSpawner" },
+        { "$TypeId": 9, "Id": "7b4042de1ce84573969c09b13183ba61", "Name": "BirdSpawner" },
+        { "$TypeId": 9, "Id": "fffbc9b2410a4d91b80a09f35bca6adb", "Name": "PropSpawnerCity" },
+        { "$TypeId": 9, "Id": "1e2ff3b3f74146a189279f2c30b6c9a8", "Name": "HelicopterSpawner" },
+        { "$TypeId": 9, "Id": "c6301ef96a944c99be3853d9ec1cf24b", "Name": "PeopleSpawner" },
+        { "$TypeId": 9, "Id": "59b46f567c8a4980989687cc9db71c0e", "Name": "KidOnBikeSpawner" }
+    ]
+},
+{
+    "$TypeId": 5,
+    "Id": "61d16206a72741f08a7f0bb7f8680f9d",
+    "Name": "Sky",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "y": 127
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "0c01d914e183ffc4d9ea6893d1de8e2e", "FileId": 21300000, "Type": 3 }
+        }
+    }, {
+        "Type": { "Id": "be2f221c9af74ec5c0a4495a2d6769a3", "Name": "Sprite2DRendererOptions" },
+        "Properties": {
+            "size": {
+                "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+                "Properties": {
+                    "x": 1000,
+                    "y": 145
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
+        "Properties": {
+            "order": -1
+        }
+    }, {
+        "Type": { "Id": "ef2399a2c2124463873a155756d1ecdf", "Name": "SpriteRendererSkin" },
+        "Properties": {
+            "SpritePath": "WorldMap/[Skin]_Sky",
+            "SkinColorInfo": {
+                "Type": { "Id": "37d9a76716d54f4b9c4e5f3029d282ab", "Name": "SpriteRendererSkinColorInfo" },
+                "Items": [{
+                    "Type": { "Id": "37d9a76716d54f4b9c4e5f3029d282ab", "Name": "SpriteRendererSkinColorInfo" }
+                }, {
+                    "Type": { "Id": "37d9a76716d54f4b9c4e5f3029d282ab", "Name": "SpriteRendererSkinColorInfo" },
+                    "Properties": {
+                        "Skin": {
+                            "$TypeId": 8,
+                            "Type": { "Id": "decdc736779d4d99b0bd0e002a89e936", "Name": "SkinTypes" },
+                            "Id": "2ca61817705d46af8816a4d2cce06f7d",
+                            "Name": "Farm",
+                            "Value": 1
+                        }
+                    }
+                }, {
+                    "Type": { "Id": "37d9a76716d54f4b9c4e5f3029d282ab", "Name": "SpriteRendererSkinColorInfo" },
+                    "Properties": {
+                        "Skin": {
+                            "$TypeId": 8,
+                            "Type": { "Id": "decdc736779d4d99b0bd0e002a89e936", "Name": "SkinTypes" },
+                            "Id": "9b992dbfae0c4b20b650a255b3b776af",
+                            "Name": "City",
+                            "Value": 2
+                        }
+                    }
+                }]
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "129d81d00388498cab8efe85e300a603",
+    "Name": "SkyExtraFilling",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": 0,
+                    "y": 299
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "b96df6734f31cf842b7171a7cb7768d9", "FileId": 21300000, "Type": 3 },
+            "color": {
+                "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                "Properties": {
+                    "r": 0.5215687,
+                    "g": 0.5411765,
+                    "b": 0.9803922,
+                    "a": 1
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "be2f221c9af74ec5c0a4495a2d6769a3", "Name": "Sprite2DRendererOptions" },
+        "Properties": {
+            "size": {
+                "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+                "Properties": {
+                    "x": 1000,
+                    "y": 200
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
+        "Properties": {
+            "order": -1
+        }
+    }, {
+        "Type": { "Id": "ef2399a2c2124463873a155756d1ecdf", "Name": "SpriteRendererSkin" },
+        "Properties": {
+            "SkinColorInfo": {
+                "Type": { "Id": "37d9a76716d54f4b9c4e5f3029d282ab", "Name": "SpriteRendererSkinColorInfo" },
+                "Items": [{
+                    "Type": { "Id": "37d9a76716d54f4b9c4e5f3029d282ab", "Name": "SpriteRendererSkinColorInfo" },
+                    "Properties": {
+                        "Color": {
+                            "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                            "Properties": {
+                                "r": 0.4117647,
+                                "g": 0.8901961,
+                                "b": 0.882353,
+                                "a": 1
+                            }
+                        }
+                    }
+                }, {
+                    "Type": { "Id": "37d9a76716d54f4b9c4e5f3029d282ab", "Name": "SpriteRendererSkinColorInfo" },
+                    "Properties": {
+                        "Skin": {
+                            "$TypeId": 8,
+                            "Type": { "Id": "decdc736779d4d99b0bd0e002a89e936", "Name": "SkinTypes" },
+                            "Id": "2ca61817705d46af8816a4d2cce06f7d",
+                            "Name": "Farm",
+                            "Value": 1
+                        },
+                        "Color": {
+                            "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                            "Properties": {
+                                "r": 0.9529412,
+                                "g": 0.6627451,
+                                "b": 0.2862745,
+                                "a": 1
+                            }
+                        }
+                    }
+                }, {
+                    "Type": { "Id": "37d9a76716d54f4b9c4e5f3029d282ab", "Name": "SpriteRendererSkinColorInfo" },
+                    "Properties": {
+                        "Skin": {
+                            "$TypeId": 8,
+                            "Type": { "Id": "decdc736779d4d99b0bd0e002a89e936", "Name": "SkinTypes" },
+                            "Id": "9b992dbfae0c4b20b650a255b3b776af",
+                            "Name": "City",
+                            "Value": 2
+                        },
+                        "Color": {
+                            "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                            "Properties": {
+                                "r": 0.5215687,
+                                "g": 0.5411765,
+                                "b": 0.9803922,
+                                "a": 1
+                            }
+                        }
+                    }
+                }]
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "ff7c705f281f4cd0ab9a0bc2623f5c1c",
+    "Name": "FloorFront",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "y": 41.79
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "b96df6734f31cf842b7171a7cb7768d9", "FileId": 21300000, "Type": 3 },
+            "color": {
+                "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                "Properties": {
+                    "r": 0.1921569,
+                    "g": 0.2666667,
+                    "b": 0.3019608,
+                    "a": 1
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "be2f221c9af74ec5c0a4495a2d6769a3", "Name": "Sprite2DRendererOptions" },
+        "Properties": {
+            "size": {
+                "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+                "Properties": {
+                    "x": 1000,
+                    "y": 3.5
+                }
+            },
+            "drawMode": {
+                "$TypeId": 8,
+                "Type": { "Id": "a7ae2ef1f120627af99607cbecca330e", "Name": "DrawMode" },
+                "Id": "0334e5a91225cf998b678224025cf40c",
+                "Name": "ContinuousTiling",
+                "Value": 0
+            }
+        }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
+        "Properties": {
+            "order": 18
+        }
+    }, {
+        "Type": { "Id": "ef2399a2c2124463873a155756d1ecdf", "Name": "SpriteRendererSkin" },
+        "Properties": {
+            "SkinColorInfo": {
+                "Type": { "Id": "37d9a76716d54f4b9c4e5f3029d282ab", "Name": "SpriteRendererSkinColorInfo" },
+                "Items": [{
+                    "Type": { "Id": "37d9a76716d54f4b9c4e5f3029d282ab", "Name": "SpriteRendererSkinColorInfo" },
+                    "Properties": {
+                        "Color": {
+                            "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                            "Properties": {
+                                "r": 0.1843137,
+                                "g": 0.3098039,
+                                "b": 0.282353,
+                                "a": 1
+                            }
+                        }
+                    }
+                }, {
+                    "Type": { "Id": "37d9a76716d54f4b9c4e5f3029d282ab", "Name": "SpriteRendererSkinColorInfo" },
+                    "Properties": {
+                        "Skin": {
+                            "$TypeId": 8,
+                            "Type": { "Id": "decdc736779d4d99b0bd0e002a89e936", "Name": "SkinTypes" },
+                            "Id": "2ca61817705d46af8816a4d2cce06f7d",
+                            "Name": "Farm",
+                            "Value": 1
+                        },
+                        "Color": {
+                            "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                            "Properties": {
+                                "r": 0.3647059,
+                                "g": 0.4431373,
+                                "b": 0.2980392,
+                                "a": 1
+                            }
+                        }
+                    }
+                }, {
+                    "Type": { "Id": "37d9a76716d54f4b9c4e5f3029d282ab", "Name": "SpriteRendererSkinColorInfo" },
+                    "Properties": {
+                        "Skin": {
+                            "$TypeId": 8,
+                            "Type": { "Id": "decdc736779d4d99b0bd0e002a89e936", "Name": "SkinTypes" },
+                            "Id": "9b992dbfae0c4b20b650a255b3b776af",
+                            "Name": "City",
+                            "Value": 2
+                        },
+                        "Color": {
+                            "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                            "Properties": {
+                                "r": 0.1921569,
+                                "g": 0.2666667,
+                                "b": 0.3019608,
+                                "a": 1
+                            }
+                        }
+                    }
+                }]
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "8aecdee4ac3e4880bfde9f913bf2fbca",
+    "Name": "Ground",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "y": -80
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "9ec8d853038070548b65db8f872253bd", "FileId": 21300000, "Type": 3 },
+            "color": {
+                "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                "Properties": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1,
+                    "a": 1
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "be2f221c9af74ec5c0a4495a2d6769a3", "Name": "Sprite2DRendererOptions" },
+        "Properties": {
+            "size": {
+                "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+                "Properties": {
+                    "x": 1000,
+                    "y": 240
+                }
+            },
+            "drawMode": {
+                "$TypeId": 8,
+                "Type": { "Id": "a7ae2ef1f120627af99607cbecca330e", "Name": "DrawMode" },
+                "Id": "0334e5a91225cf998b678224025cf40c",
+                "Name": "ContinuousTiling",
+                "Value": 0
+            }
+        }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
+        "Properties": {
+            "order": -1
+        }
+    }, {
+        "Type": { "Id": "ef2399a2c2124463873a155756d1ecdf", "Name": "SpriteRendererSkin" },
+        "Properties": {
+            "SpritePath": "[Skin]Environment/[Skin]_Underground"
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "afc5c78a530446ec86e77d4664a7457d",
+    "Name": "GroundExtraFilling",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": 0,
+                    "y": -299
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "b96df6734f31cf842b7171a7cb7768d9", "FileId": 21300000, "Type": 3 },
+            "color": {
+                "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                "Properties": {
+                    "r": 0.03921569,
+                    "g": 0.1843137,
+                    "b": 0.2078432,
+                    "a": 1
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "be2f221c9af74ec5c0a4495a2d6769a3", "Name": "Sprite2DRendererOptions" },
+        "Properties": {
+            "size": {
+                "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+                "Properties": {
+                    "x": 1000,
+                    "y": 200
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
+        "Properties": {
+            "order": -1
+        }
+    }, {
+        "Type": { "Id": "ef2399a2c2124463873a155756d1ecdf", "Name": "SpriteRendererSkin" },
+        "Properties": {
+            "SkinColorInfo": {
+                "Type": { "Id": "37d9a76716d54f4b9c4e5f3029d282ab", "Name": "SpriteRendererSkinColorInfo" },
+                "Items": [{
+                    "Type": { "Id": "37d9a76716d54f4b9c4e5f3029d282ab", "Name": "SpriteRendererSkinColorInfo" },
+                    "Properties": {
+                        "Color": {
+                            "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                            "Properties": {
+                                "r": 0.03921569,
+                                "g": 0.1843137,
+                                "b": 0.2078431,
+                                "a": 1
+                            }
+                        }
+                    }
+                }, {
+                    "Type": { "Id": "37d9a76716d54f4b9c4e5f3029d282ab", "Name": "SpriteRendererSkinColorInfo" },
+                    "Properties": {
+                        "Skin": {
+                            "$TypeId": 8,
+                            "Type": { "Id": "decdc736779d4d99b0bd0e002a89e936", "Name": "SkinTypes" },
+                            "Id": "2ca61817705d46af8816a4d2cce06f7d",
+                            "Name": "Farm",
+                            "Value": 1
+                        },
+                        "Color": {
+                            "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                            "Properties": {
+                                "r": 0.2784314,
+                                "g": 0.1843137,
+                                "b": 0.145098,
+                                "a": 1
+                            }
+                        }
+                    }
+                }, {
+                    "Type": { "Id": "37d9a76716d54f4b9c4e5f3029d282ab", "Name": "SpriteRendererSkinColorInfo" },
+                    "Properties": {
+                        "Skin": {
+                            "$TypeId": 8,
+                            "Type": { "Id": "decdc736779d4d99b0bd0e002a89e936", "Name": "SkinTypes" },
+                            "Id": "9b992dbfae0c4b20b650a255b3b776af",
+                            "Name": "City",
+                            "Value": 2
+                        },
+                        "Color": {
+                            "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                            "Properties": {
+                                "r": 0.2901961,
+                                "g": 0.2156863,
+                                "b": 0.2901961,
+                                "a": 1
+                            }
+                        }
+                    }
+                }]
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "326aa870f8c644179e0c2d7b5e9ba49a",
+    "Name": "BuildingSpawner",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "5be20da345c04acd8dda44b07ce1c5db", "Name": "ScrollingObjectSpawner" },
+        "Properties": {
+            "SpawnDetailsBySkin": {
+                "Type": { "Id": "e5268814c9f14dc7bfbc96f582653216", "Name": "ScrollingObjectSpawnerDetails" },
+                "Items": [{
+                    "Type": { "Id": "e5268814c9f14dc7bfbc96f582653216", "Name": "ScrollingObjectSpawnerDetails" },
+                    "Properties": {
+                        "Skin": {
+                            "$TypeId": 8,
+                            "Type": { "Id": "decdc736779d4d99b0bd0e002a89e936", "Name": "SkinTypes" },
+                            "Id": "2ca61817705d46af8816a4d2cce06f7d",
+                            "Name": "Farm",
+                            "Value": 1
+                        },
+                        "MinSpawnIntervalX": 56,
+                        "MaxSpawnIntervalX": 200,
+                        "SpawnIntervalFrequency": 0.85
+                    }
+                }, {
+                    "Type": { "Id": "e5268814c9f14dc7bfbc96f582653216", "Name": "ScrollingObjectSpawnerDetails" },
+                    "Properties": {
+                        "Skin": {
+                            "$TypeId": 8,
+                            "Type": { "Id": "decdc736779d4d99b0bd0e002a89e936", "Name": "SkinTypes" },
+                            "Id": "9b992dbfae0c4b20b650a255b3b776af",
+                            "Name": "City",
+                            "Value": 2
+                        },
+                        "MinSpawnIntervalX": 49,
+                        "MaxSpawnIntervalX": 64,
+                        "SpawnIntervalFrequency": 0.2
+                    }
+                }]
+            },
+            "EntitiesToSpawn": {
+                "Type": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+                "Items": [
+                    "game.BuildingSmall",
+                    "game.BuildingMedium",
+                    "game.BuildingTall",
+                    "game.BuildingSmall2"
+                ]
+            }
+        }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "y": 51
+                }
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "60c65d12f48042bab450286b784c8d7f",
+    "Name": "BuildingSpawnerCamp",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "5be20da345c04acd8dda44b07ce1c5db", "Name": "ScrollingObjectSpawner" },
+        "Properties": {
+            "SpawnDetailsBySkin": {
+                "Type": { "Id": "e5268814c9f14dc7bfbc96f582653216", "Name": "ScrollingObjectSpawnerDetails" },
+                "Items": [{
+                    "Type": { "Id": "e5268814c9f14dc7bfbc96f582653216", "Name": "ScrollingObjectSpawnerDetails" },
+                    "Properties": {
+                        "MinSpawnIntervalX": 49,
+                        "MaxSpawnIntervalX": 90,
+                        "SpawnIntervalFrequency": 0.3
+                    }
+                }]
+            },
+            "EntitiesToSpawn": {
+                "Type": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+                "Items": [
+                    "game.BuildingSmall",
+                    "game.BuildingMedium",
+                    "game.BuildingSmall2",
+                    "game.BuildingTall",
+                    "game.BuildingTall",
+                    "game.BuildingTall"
+                ]
+            }
+        }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "y": 51
+                }
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "100e9de5c1fe4f26b4f0098a610e65c3",
+    "Name": "BackgroundBuildingSpawner",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "5be20da345c04acd8dda44b07ce1c5db", "Name": "ScrollingObjectSpawner" },
+        "Properties": {
+            "SpawnDetailsBySkin": {
+                "Type": { "Id": "e5268814c9f14dc7bfbc96f582653216", "Name": "ScrollingObjectSpawnerDetails" },
+                "Items": [{
+                    "Type": { "Id": "e5268814c9f14dc7bfbc96f582653216", "Name": "ScrollingObjectSpawnerDetails" },
+                    "Properties": {
+                        "MinSpawnIntervalX": 13,
+                        "MaxSpawnIntervalX": 20,
+                        "SpawnIntervalFrequency": 1
+                    }
+                }, {
+                    "Type": { "Id": "e5268814c9f14dc7bfbc96f582653216", "Name": "ScrollingObjectSpawnerDetails" },
+                    "Properties": {
+                        "Skin": {
+                            "$TypeId": 8,
+                            "Type": { "Id": "decdc736779d4d99b0bd0e002a89e936", "Name": "SkinTypes" },
+                            "Id": "2ca61817705d46af8816a4d2cce06f7d",
+                            "Name": "Farm",
+                            "Value": 1
+                        },
+                        "MinSpawnIntervalX": 13,
+                        "MaxSpawnIntervalX": 20,
+                        "SpawnIntervalFrequency": 1
+                    }
+                }, {
+                    "Type": { "Id": "e5268814c9f14dc7bfbc96f582653216", "Name": "ScrollingObjectSpawnerDetails" },
+                    "Properties": {
+                        "Skin": {
+                            "$TypeId": 8,
+                            "Type": { "Id": "decdc736779d4d99b0bd0e002a89e936", "Name": "SkinTypes" },
+                            "Id": "9b992dbfae0c4b20b650a255b3b776af",
+                            "Name": "City",
+                            "Value": 2
+                        },
+                        "MinSpawnIntervalX": 13,
+                        "MaxSpawnIntervalX": 20,
+                        "SpawnIntervalFrequency": 1
+                    }
+                }]
+            },
+            "EntitiesToSpawn": {
+                "Type": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+                "Items": [
+                    "game.Parallax1",
+                    "game.Parallax2",
+                    "game.Parallax3",
+                    "game.Parallax4",
+                    "game.Parallax5"
+                ]
+            },
+            "RandomizeFlipX": true
+        }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "y": 54
+                }
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "22228d9a5741421182c53af45b47201d",
+    "Name": "CloudSpawner",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "5be20da345c04acd8dda44b07ce1c5db", "Name": "ScrollingObjectSpawner" },
+        "Properties": {
+            "SpawnDetailsBySkin": {
+                "Type": { "Id": "e5268814c9f14dc7bfbc96f582653216", "Name": "ScrollingObjectSpawnerDetails" },
+                "Items": [{
+                    "Type": { "Id": "e5268814c9f14dc7bfbc96f582653216", "Name": "ScrollingObjectSpawnerDetails" },
+                    "Properties": {
+                        "MinSpawnIntervalX": 70,
+                        "MaxSpawnIntervalX": 90,
+                        "SpawnIntervalFrequency": 1
+                    }
+                }, {
+                    "Type": { "Id": "e5268814c9f14dc7bfbc96f582653216", "Name": "ScrollingObjectSpawnerDetails" },
+                    "Properties": {
+                        "Skin": {
+                            "$TypeId": 8,
+                            "Type": { "Id": "decdc736779d4d99b0bd0e002a89e936", "Name": "SkinTypes" },
+                            "Id": "2ca61817705d46af8816a4d2cce06f7d",
+                            "Name": "Farm",
+                            "Value": 1
+                        },
+                        "MinSpawnIntervalX": 70,
+                        "MaxSpawnIntervalX": 90,
+                        "SpawnIntervalFrequency": 1
+                    }
+                }, {
+                    "Type": { "Id": "e5268814c9f14dc7bfbc96f582653216", "Name": "ScrollingObjectSpawnerDetails" },
+                    "Properties": {
+                        "Skin": {
+                            "$TypeId": 8,
+                            "Type": { "Id": "decdc736779d4d99b0bd0e002a89e936", "Name": "SkinTypes" },
+                            "Id": "9b992dbfae0c4b20b650a255b3b776af",
+                            "Name": "City",
+                            "Value": 2
+                        },
+                        "MinSpawnIntervalX": 70,
+                        "MaxSpawnIntervalX": 90,
+                        "SpawnIntervalFrequency": 1
+                    }
+                }]
+            },
+            "EntitiesToSpawn": {
+                "Type": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+                "Items": [
+                    "game.Cloud1",
+                    "game.Cloud2",
+                    "game.Cloud3"
+                ]
+            },
+            "MaxRandomYOffset": 30,
+            "RandomizeFlipX": true,
+            "RandomizeFlipY": false
+        }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "y": 130
+                }
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "228124f8f2244bed9d0c353e47d1ac2c",
+    "Name": "FloorSpawner",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "5be20da345c04acd8dda44b07ce1c5db", "Name": "ScrollingObjectSpawner" },
+        "Properties": {
+            "SpawnDetailsBySkin": {
+                "Type": { "Id": "e5268814c9f14dc7bfbc96f582653216", "Name": "ScrollingObjectSpawnerDetails" },
+                "Items": [{
+                    "Type": { "Id": "e5268814c9f14dc7bfbc96f582653216", "Name": "ScrollingObjectSpawnerDetails" },
+                    "Properties": {
+                        "MinSpawnIntervalX": 50,
+                        "MaxSpawnIntervalX": 50,
+                        "SpawnIntervalFrequency": 0
+                    }
+                }, {
+                    "Type": { "Id": "e5268814c9f14dc7bfbc96f582653216", "Name": "ScrollingObjectSpawnerDetails" },
+                    "Properties": {
+                        "Skin": {
+                            "$TypeId": 8,
+                            "Type": { "Id": "decdc736779d4d99b0bd0e002a89e936", "Name": "SkinTypes" },
+                            "Id": "2ca61817705d46af8816a4d2cce06f7d",
+                            "Name": "Farm",
+                            "Value": 1
+                        },
+                        "MinSpawnIntervalX": 50,
+                        "MaxSpawnIntervalX": 50,
+                        "SpawnIntervalFrequency": 0
+                    }
+                }, {
+                    "Type": { "Id": "e5268814c9f14dc7bfbc96f582653216", "Name": "ScrollingObjectSpawnerDetails" },
+                    "Properties": {
+                        "Skin": {
+                            "$TypeId": 8,
+                            "Type": { "Id": "decdc736779d4d99b0bd0e002a89e936", "Name": "SkinTypes" },
+                            "Id": "9b992dbfae0c4b20b650a255b3b776af",
+                            "Name": "City",
+                            "Value": 2
+                        },
+                        "MinSpawnIntervalX": 50,
+                        "MaxSpawnIntervalX": 50,
+                        "SpawnIntervalFrequency": 0
+                    }
+                }]
+            },
+            "EntitiesToSpawn": {
+                "Type": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+                "Items": [
+                    "game.Floor"
+                ]
+            },
+            "MaxRandomYOffset": 0
+        }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "y": 49
+                }
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "4b76545a932245fb9aff12ae775ab6be",
+    "Name": "SewerCapSpawner",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "5be20da345c04acd8dda44b07ce1c5db", "Name": "ScrollingObjectSpawner" },
+        "Properties": {
+            "SpawnDetailsBySkin": {
+                "Type": { "Id": "e5268814c9f14dc7bfbc96f582653216", "Name": "ScrollingObjectSpawnerDetails" },
+                "Items": [{
+                    "Type": { "Id": "e5268814c9f14dc7bfbc96f582653216", "Name": "ScrollingObjectSpawnerDetails" },
+                    "Properties": {
+                        "Skin": {
+                            "$TypeId": 8,
+                            "Type": { "Id": "decdc736779d4d99b0bd0e002a89e936", "Name": "SkinTypes" },
+                            "Id": "9b992dbfae0c4b20b650a255b3b776af",
+                            "Name": "City",
+                            "Value": 2
+                        },
+                        "MinSpawnIntervalX": 100,
+                        "MaxSpawnIntervalX": 300,
+                        "SpawnIntervalFrequency": 1
+                    }
+                }]
+            },
+            "EntitiesToSpawn": {
+                "Type": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+                "Items": [
+                    "game.SewerT"
+                ]
+            }
+        }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "y": 33.5
+                }
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "d8574c0225a045b19868238eab31de62",
+    "Name": "SewerSpawner",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "5be20da345c04acd8dda44b07ce1c5db", "Name": "ScrollingObjectSpawner" },
+        "Properties": {
+            "SpawnDetailsBySkin": {
+                "Type": { "Id": "e5268814c9f14dc7bfbc96f582653216", "Name": "ScrollingObjectSpawnerDetails" },
+                "Items": [{
+                    "Type": { "Id": "e5268814c9f14dc7bfbc96f582653216", "Name": "ScrollingObjectSpawnerDetails" },
+                    "Properties": {
+                        "Skin": {
+                            "$TypeId": 8,
+                            "Type": { "Id": "decdc736779d4d99b0bd0e002a89e936", "Name": "SkinTypes" },
+                            "Id": "9b992dbfae0c4b20b650a255b3b776af",
+                            "Name": "City",
+                            "Value": 2
+                        },
+                        "MinSpawnIntervalX": 18,
+                        "MaxSpawnIntervalX": 18
+                    }
+                }]
+            },
+            "EntitiesToSpawn": {
+                "Type": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+                "Items": [
+                    "game.SewerStraight"
+                ]
+            }
+        }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "y": 31
+                }
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "d7f2298d02cc473db2c1565dd9202a7c",
+    "Name": "GoundDecoSpawner",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "5be20da345c04acd8dda44b07ce1c5db", "Name": "ScrollingObjectSpawner" },
+        "Properties": {
+            "SpawnDetailsBySkin": {
+                "Type": { "Id": "e5268814c9f14dc7bfbc96f582653216", "Name": "ScrollingObjectSpawnerDetails" },
+                "Items": [{
+                    "Type": { "Id": "e5268814c9f14dc7bfbc96f582653216", "Name": "ScrollingObjectSpawnerDetails" },
+                    "Properties": {
+                        "MinSpawnIntervalX": 50,
+                        "MaxSpawnIntervalX": 300,
+                        "SpawnIntervalFrequency": 0.85
+                    }
+                }, {
+                    "Type": { "Id": "e5268814c9f14dc7bfbc96f582653216", "Name": "ScrollingObjectSpawnerDetails" },
+                    "Properties": {
+                        "Skin": {
+                            "$TypeId": 8,
+                            "Type": { "Id": "decdc736779d4d99b0bd0e002a89e936", "Name": "SkinTypes" },
+                            "Id": "2ca61817705d46af8816a4d2cce06f7d",
+                            "Name": "Farm",
+                            "Value": 1
+                        },
+                        "MinSpawnIntervalX": 50,
+                        "MaxSpawnIntervalX": 300,
+                        "SpawnIntervalFrequency": 0.85
+                    }
+                }, {
+                    "Type": { "Id": "e5268814c9f14dc7bfbc96f582653216", "Name": "ScrollingObjectSpawnerDetails" },
+                    "Properties": {
+                        "Skin": {
+                            "$TypeId": 8,
+                            "Type": { "Id": "decdc736779d4d99b0bd0e002a89e936", "Name": "SkinTypes" },
+                            "Id": "9b992dbfae0c4b20b650a255b3b776af",
+                            "Name": "City",
+                            "Value": 2
+                        },
+                        "MinSpawnIntervalX": 50,
+                        "MaxSpawnIntervalX": 300,
+                        "SpawnIntervalFrequency": 0.85
+                    }
+                }]
+            },
+            "EntitiesToSpawn": {
+                "Type": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+                "Items": [
+                    "game.GroundDeco1",
+                    "game.GroundDeco2",
+                    "game.GroundDeco2",
+                    "game.GroundDeco2",
+                    "game.GroundDeco3",
+                    "game.GroundDeco3",
+                    "game.GroundDeco3",
+                    "game.GroundDeco4"
+                ]
+            },
+            "MaxRandomYOffset": 150,
+            "RandomizeFlipX": true,
+            "RandomizeFlipY": false
+        }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "y": -135
+                }
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "5e72a8590a7d48d8aad9a67b4398fe50",
+    "Name": "FireTruckSpawner",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "5be20da345c04acd8dda44b07ce1c5db", "Name": "ScrollingObjectSpawner" },
+        "Properties": {
+            "SpawnDetailsBySkin": {
+                "Type": { "Id": "e5268814c9f14dc7bfbc96f582653216", "Name": "ScrollingObjectSpawnerDetails" },
+                "Items": [{
+                    "Type": { "Id": "e5268814c9f14dc7bfbc96f582653216", "Name": "ScrollingObjectSpawnerDetails" },
+                    "Properties": {
+                        "MinSpawnIntervalX": 70,
+                        "MaxSpawnIntervalX": 450,
+                        "SpawnIntervalFrequency": 1
+                    }
+                }, {
+                    "Type": { "Id": "e5268814c9f14dc7bfbc96f582653216", "Name": "ScrollingObjectSpawnerDetails" },
+                    "Properties": {
+                        "Skin": {
+                            "$TypeId": 8,
+                            "Type": { "Id": "decdc736779d4d99b0bd0e002a89e936", "Name": "SkinTypes" },
+                            "Id": "9b992dbfae0c4b20b650a255b3b776af",
+                            "Name": "City",
+                            "Value": 2
+                        },
+                        "MinSpawnIntervalX": 70,
+                        "MaxSpawnIntervalX": 450,
+                        "SpawnIntervalFrequency": 1
+                    }
+                }]
+            },
+            "EntitiesToSpawn": {
+                "Type": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+                "Items": [
+                    "game.FireTruck"
+                ]
+            }
+        }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "y": 48
+                }
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "0345c42d943740109f2c677186f7db00",
+    "Name": "CarSpawner",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "5be20da345c04acd8dda44b07ce1c5db", "Name": "ScrollingObjectSpawner" },
+        "Properties": {
+            "SpawnDetailsBySkin": {
+                "Type": { "Id": "e5268814c9f14dc7bfbc96f582653216", "Name": "ScrollingObjectSpawnerDetails" },
+                "Items": [{
+                    "Type": { "Id": "e5268814c9f14dc7bfbc96f582653216", "Name": "ScrollingObjectSpawnerDetails" },
+                    "Properties": {
+                        "MinSpawnIntervalX": 33,
+                        "MaxSpawnIntervalX": 260,
+                        "SpawnIntervalFrequency": 1
+                    }
+                }, {
+                    "Type": { "Id": "e5268814c9f14dc7bfbc96f582653216", "Name": "ScrollingObjectSpawnerDetails" },
+                    "Properties": {
+                        "Skin": {
+                            "$TypeId": 8,
+                            "Type": { "Id": "decdc736779d4d99b0bd0e002a89e936", "Name": "SkinTypes" },
+                            "Id": "2ca61817705d46af8816a4d2cce06f7d",
+                            "Name": "Farm",
+                            "Value": 1
+                        },
+                        "MinSpawnIntervalX": 33,
+                        "MaxSpawnIntervalX": 260,
+                        "SpawnIntervalFrequency": 1
+                    }
+                }, {
+                    "Type": { "Id": "e5268814c9f14dc7bfbc96f582653216", "Name": "ScrollingObjectSpawnerDetails" },
+                    "Properties": {
+                        "Skin": {
+                            "$TypeId": 8,
+                            "Type": { "Id": "decdc736779d4d99b0bd0e002a89e936", "Name": "SkinTypes" },
+                            "Id": "9b992dbfae0c4b20b650a255b3b776af",
+                            "Name": "City",
+                            "Value": 2
+                        },
+                        "MinSpawnIntervalX": 33,
+                        "MaxSpawnIntervalX": 140,
+                        "SpawnIntervalFrequency": 0.8
+                    }
+                }]
+            },
+            "EntitiesToSpawn": {
+                "Type": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+                "Items": [
+                    "game.Car1",
+                    "game.Car2"
+                ]
+            }
+        }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "y": 44
+                }
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "70a094e1429944d99168d6211b55ca3e",
+    "Name": "PropSpawner",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "5be20da345c04acd8dda44b07ce1c5db", "Name": "ScrollingObjectSpawner" },
+        "Properties": {
+            "SpawnDetailsBySkin": {
+                "Type": { "Id": "e5268814c9f14dc7bfbc96f582653216", "Name": "ScrollingObjectSpawnerDetails" },
+                "Items": [{
+                    "Type": { "Id": "e5268814c9f14dc7bfbc96f582653216", "Name": "ScrollingObjectSpawnerDetails" },
+                    "Properties": {
+                        "MinSpawnIntervalX": 25,
+                        "MaxSpawnIntervalX": 135,
+                        "SpawnIntervalFrequency": 1
+                    }
+                }, {
+                    "Type": { "Id": "e5268814c9f14dc7bfbc96f582653216", "Name": "ScrollingObjectSpawnerDetails" },
+                    "Properties": {
+                        "Skin": {
+                            "$TypeId": 8,
+                            "Type": { "Id": "decdc736779d4d99b0bd0e002a89e936", "Name": "SkinTypes" },
+                            "Id": "2ca61817705d46af8816a4d2cce06f7d",
+                            "Name": "Farm",
+                            "Value": 1
+                        },
+                        "MinSpawnIntervalX": 25,
+                        "MaxSpawnIntervalX": 135,
+                        "SpawnIntervalFrequency": 1
+                    }
+                }]
+            },
+            "EntitiesToSpawn": {
+                "Type": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+                "Items": [
+                    "game.Prop1",
+                    "game.Prop2",
+                    "game.Prop3"
+                ]
+            }
+        }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "y": 50
+                }
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "7b4042de1ce84573969c09b13183ba61",
+    "Name": "BirdSpawner",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "5be20da345c04acd8dda44b07ce1c5db", "Name": "ScrollingObjectSpawner" },
+        "Properties": {
+            "SpawnDetailsBySkin": {
+                "Type": { "Id": "e5268814c9f14dc7bfbc96f582653216", "Name": "ScrollingObjectSpawnerDetails" },
+                "Items": [{
+                    "Type": { "Id": "e5268814c9f14dc7bfbc96f582653216", "Name": "ScrollingObjectSpawnerDetails" },
+                    "Properties": {
+                        "MinSpawnIntervalX": 6,
+                        "MaxSpawnIntervalX": 800,
+                        "SpawnIntervalFrequency": 0.85
+                    }
+                }, {
+                    "Type": { "Id": "e5268814c9f14dc7bfbc96f582653216", "Name": "ScrollingObjectSpawnerDetails" },
+                    "Properties": {
+                        "Skin": {
+                            "$TypeId": 8,
+                            "Type": { "Id": "decdc736779d4d99b0bd0e002a89e936", "Name": "SkinTypes" },
+                            "Id": "2ca61817705d46af8816a4d2cce06f7d",
+                            "Name": "Farm",
+                            "Value": 1
+                        },
+                        "MinSpawnIntervalX": 6,
+                        "MaxSpawnIntervalX": 800,
+                        "SpawnIntervalFrequency": 0.85
+                    }
+                }, {
+                    "Type": { "Id": "e5268814c9f14dc7bfbc96f582653216", "Name": "ScrollingObjectSpawnerDetails" },
+                    "Properties": {
+                        "Skin": {
+                            "$TypeId": 8,
+                            "Type": { "Id": "decdc736779d4d99b0bd0e002a89e936", "Name": "SkinTypes" },
+                            "Id": "9b992dbfae0c4b20b650a255b3b776af",
+                            "Name": "City",
+                            "Value": 2
+                        },
+                        "MinSpawnIntervalX": 6,
+                        "MaxSpawnIntervalX": 800,
+                        "SpawnIntervalFrequency": 0.85
+                    }
+                }]
+            },
+            "EntitiesToSpawn": {
+                "Type": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+                "Items": [
+                    "game.Bird"
+                ]
+            },
+            "MaxRandomYOffset": 60
+        }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "y": 130
+                }
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "fffbc9b2410a4d91b80a09f35bca6adb",
+    "Name": "PropSpawnerCity",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "5be20da345c04acd8dda44b07ce1c5db", "Name": "ScrollingObjectSpawner" },
+        "Properties": {
+            "SpawnDetailsBySkin": {
+                "Type": { "Id": "e5268814c9f14dc7bfbc96f582653216", "Name": "ScrollingObjectSpawnerDetails" },
+                "Items": [{
+                    "Type": { "Id": "e5268814c9f14dc7bfbc96f582653216", "Name": "ScrollingObjectSpawnerDetails" },
+                    "Properties": {
+                        "Skin": {
+                            "$TypeId": 8,
+                            "Type": { "Id": "decdc736779d4d99b0bd0e002a89e936", "Name": "SkinTypes" },
+                            "Id": "9b992dbfae0c4b20b650a255b3b776af",
+                            "Name": "City",
+                            "Value": 2
+                        },
+                        "MinSpawnIntervalX": 12,
+                        "MaxSpawnIntervalX": 65,
+                        "SpawnIntervalFrequency": 0.8
+                    }
+                }]
+            },
+            "EntitiesToSpawn": {
+                "Type": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+                "Items": [
+                    "game.Prop1",
+                    "game.Prop2",
+                    "game.Prop3",
+                    "game.Prop3",
+                    "game.Prop3",
+                    "game.Prop3"
+                ]
+            }
+        }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "y": 50
+                }
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "1e2ff3b3f74146a189279f2c30b6c9a8",
+    "Name": "HelicopterSpawner",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": 0,
+                    "y": 265
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "42b593e20ec94454a89370afaf656bfa", "Name": "HelicopterSpawner" }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "c6301ef96a944c99be3853d9ec1cf24b",
+    "Name": "PeopleSpawner",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "b731ea58a9a94730bcc8a9b0d5666b0d", "Name": "PeopleSpawner" },
+        "Properties": {
+            "MaxPeopleCount": 3,
+            "SpawnInterval": 4
+        }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "y": 48
+                }
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "59b46f567c8a4980989687cc9db71c0e",
+    "Name": "KidOnBikeSpawner",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "y": 44.5
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "fc10c8f49f23486ba791b80c7093d148", "Name": "KidOnBikeSpawner" },
+        "Properties": {
+            "SpawnDelay": 30
+        }
+    }]
+}]

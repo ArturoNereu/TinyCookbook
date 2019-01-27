@@ -1,0 +1,19 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "7d145eeaf4d1444999d16cc18c884ebb",
+    "Name": "CameraResolutionFitter",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "59a36f1f4dbf4180a95dd010adcb8fef",
+        "Name": "DefaultHalfVerticalSize",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "7d145eeaf4d1444999d16cc18c884ebb", "Name": "CameraResolutionFitter" }
+    }
+}]

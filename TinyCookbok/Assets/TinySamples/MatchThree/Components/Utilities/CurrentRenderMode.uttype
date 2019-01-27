@@ -1,0 +1,35 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "8e4457f6a5d04042ab851b14fdbb7724",
+    "Name": "CurrentRenderMode",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "b598dad1214c4447b720d6549af08385",
+        "Name": "desiredMode",
+        "FieldType": { "Id": "c592d331c582f4083ec19af9e2d06b6d", "Name": "RenderMode" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "fa24df08077e40f8aca54e0c740e845b",
+        "Name": "apply",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "8e4457f6a5d04042ab851b14fdbb7724", "Name": "CurrentRenderMode" },
+        "Properties": {
+            "desiredMode": {
+                "$TypeId": 8,
+                "Type": { "Id": "c592d331c582f4083ec19af9e2d06b6d", "Name": "RenderMode" },
+                "Id": "68e0af13e30ed11cbb89a62b98bcadf1",
+                "Name": "WebGL",
+                "Value": 2
+            },
+            "apply": true
+        }
+    }
+}]

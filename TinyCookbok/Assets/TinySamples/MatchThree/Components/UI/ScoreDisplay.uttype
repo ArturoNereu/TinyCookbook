@@ -1,0 +1,12 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "6ba9b4ffc8eb4e438f9cb58b1872ec30",
+    "Name": "ScoreDisplay",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "DefaultValue": {
+        "Type": { "Id": "6ba9b4ffc8eb4e438f9cb58b1872ec30", "Name": "ScoreDisplay" }
+    }
+}]

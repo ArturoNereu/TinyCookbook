@@ -1,0 +1,19 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "f48117dcbdf040b6980ada128f26b5f8",
+    "Name": "LevelPointObjective",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "2d10834dbb31411391afa586ced9dba0",
+        "Name": "ScoreObjective",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "f48117dcbdf040b6980ada128f26b5f8", "Name": "LevelPointObjective" }
+    }
+}]

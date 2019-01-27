@@ -1,0 +1,1116 @@
+﻿[{
+    "$TypeId": 4,
+    "Id": "a4c1d51953894fe792407a1a317d8744",
+    "Name": "EndCutscenePartA",
+    "ExportFlags": 0,
+    "SerializedVersion": 0,
+    "Entities": [
+        { "$TypeId": 9, "Id": "d4b29e8b6838455681b189771ed1aae7", "Name": "EndCutscenePartA" },
+        { "$TypeId": 9, "Id": "c04de4e49e924f35a66a5e3fc5881aa3", "Name": "ItemRoad" },
+        { "$TypeId": 9, "Id": "481cbc7b544f4faf983e1b74e223ee80", "Name": "ItemBuildings" },
+        { "$TypeId": 9, "Id": "c5116b5992924b60a1ef1da10d219eca", "Name": "ItemCone1" },
+        { "$TypeId": 9, "Id": "58e565ac11794a8b8624e0bce13ef5db", "Name": "ItemCone2" },
+        { "$TypeId": 9, "Id": "6fe8def194064bca9775bb2f534d8539", "Name": "ItemCone3" },
+        { "$TypeId": 9, "Id": "f370c8b0bbe84cb5909005b7f92d70e8", "Name": "ItemCone4" },
+        { "$TypeId": 9, "Id": "f7e7d4ecc36b4c5ea84c68402d115746", "Name": "ItemKidOnBike" },
+        { "$TypeId": 9, "Id": "9468e197d848434d9fc06efc2f35c7ce", "Name": "ItemKidLeg" },
+        { "$TypeId": 9, "Id": "139ea429b78541229348a1f414c0c62e", "Name": "ItemStreetLines" },
+        { "$TypeId": 9, "Id": "ad025a0ad68b4c3797b4da7c5614de73", "Name": "ItemDinoShadow" },
+        { "$TypeId": 9, "Id": "5a40a54e51c04d5da60e5dda9c1fd36e", "Name": "ItemDinoArm" },
+        { "$TypeId": 9, "Id": "18aaeeba0152481da3619888787767e3", "Name": "ItemKidGrab" },
+        { "$TypeId": 9, "Id": "687c58b1e3b646e9ae7c13a02274f62d", "Name": "ItemRevenge" },
+        { "$TypeId": 9, "Id": "aa247f492b924daa9496a47f292f7f67", "Name": "ItemDinoIdea" }
+    ]
+},
+{
+    "$TypeId": 5,
+    "Id": "d4b29e8b6838455681b189771ed1aae7",
+    "Name": "EndCutscenePartA",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 9,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": -55
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "c04de4e49e924f35a66a5e3fc5881aa3",
+    "Name": "ItemRoad",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 9,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
+        "Properties": {
+            "parent": { "$TypeId": 9, "Id": "d4b29e8b6838455681b189771ed1aae7", "Name": "EndCutscenePartA" }
+        }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "y": 71
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "f141632ffa1e0a044b7ef609a3b2b35a", "FileId": 21300000, "Type": 3 }
+        }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" }
+    }, {
+        "Type": { "Id": "b5864acb507842e59c6401a4bb91b51f", "Name": "CutsceneElement" },
+        "Properties": {
+            "Duration": 1
+        }
+    }, {
+        "Type": { "Id": "bb2e427153f64f59aee2196e306603b7", "Name": "CutsceneFade" },
+        "Properties": {
+            "Duration": 0.2
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "481cbc7b544f4faf983e1b74e223ee80",
+    "Name": "ItemBuildings",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 9,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
+        "Properties": {
+            "parent": { "$TypeId": 9, "Id": "d4b29e8b6838455681b189771ed1aae7", "Name": "EndCutscenePartA" }
+        }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": -37,
+                    "y": 87.5
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "f222b2b512606e0439a33d291512a3b2", "FileId": 21300000, "Type": 3 }
+        }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
+        "Properties": {
+            "order": 1
+        }
+    }, {
+        "Type": { "Id": "b5864acb507842e59c6401a4bb91b51f", "Name": "CutsceneElement" },
+        "Properties": {
+            "Index": 0,
+            "Duration": 1
+        }
+    }, {
+        "Type": { "Id": "bb2e427153f64f59aee2196e306603b7", "Name": "CutsceneFade" },
+        "Properties": {
+            "Duration": 0.2
+        }
+    }, {
+        "Type": { "Id": "95eba163dce5bfff5420a5a8c2845523", "Name": "Sprite2DSequence" },
+        "Properties": {
+            "sprites": {
+                "Type": { "Id": "cf54a635a25248ab87f2563bb840ed5b", "Name": "SpriteEntity" },
+                "Items": [
+                    { "$TypeId": 10, "Guid": "f222b2b512606e0439a33d291512a3b2", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "c49f2bf0ef83c3a4b9374bdd2766363f", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "87a4ef1efd1729b4cad0c0b899f5f74d", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "bb23af52125b6d143ad29011bdd6b8ec", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "f222b2b512606e0439a33d291512a3b2", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "c49f2bf0ef83c3a4b9374bdd2766363f", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "87a4ef1efd1729b4cad0c0b899f5f74d", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "bb23af52125b6d143ad29011bdd6b8ec", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "f222b2b512606e0439a33d291512a3b2", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "c49f2bf0ef83c3a4b9374bdd2766363f", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "87a4ef1efd1729b4cad0c0b899f5f74d", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "bb23af52125b6d143ad29011bdd6b8ec", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "f222b2b512606e0439a33d291512a3b2", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "c49f2bf0ef83c3a4b9374bdd2766363f", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "87a4ef1efd1729b4cad0c0b899f5f74d", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "bb23af52125b6d143ad29011bdd6b8ec", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "f222b2b512606e0439a33d291512a3b2", "FileId": 21300000, "Type": 3 }
+                ]
+            },
+            "frameRate": 5
+        }
+    }, {
+        "Type": { "Id": "d2cfd18aa4facc33b1da7ae05205691b", "Name": "Sprite2DSequencePlayer" },
+        "Properties": {
+            "sequence": { "$TypeId": 9, "Id": "481cbc7b544f4faf983e1b74e223ee80", "Name": "Item1" },
+            "loop": {
+                "$TypeId": 8,
+                "Type": { "Id": "ea25cda1bca15e4c9fb023eca636eb06", "Name": "LoopMode" },
+                "Id": "d24c1a8a15be9b7e8c161382e4091c4f",
+                "Name": "ClampForever",
+                "Value": 4
+            },
+            "speed": 1
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "c5116b5992924b60a1ef1da10d219eca",
+    "Name": "ItemCone1",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 9,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
+        "Properties": {
+            "parent": { "$TypeId": 9, "Id": "d4b29e8b6838455681b189771ed1aae7", "Name": "EndCutscenePartA" }
+        }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": -23,
+                    "y": 95
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "12369f46c69725641a47562b64660aff", "FileId": 21300000, "Type": 3 }
+        }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
+        "Properties": {
+            "order": 2
+        }
+    }, {
+        "Type": { "Id": "b5864acb507842e59c6401a4bb91b51f", "Name": "CutsceneElement" },
+        "Properties": {
+            "Index": 0,
+            "Duration": 1
+        }
+    }, {
+        "Type": { "Id": "bb2e427153f64f59aee2196e306603b7", "Name": "CutsceneFade" },
+        "Properties": {
+            "Duration": 0.2
+        }
+    }, {
+        "Type": { "Id": "95eba163dce5bfff5420a5a8c2845523", "Name": "Sprite2DSequence" },
+        "Properties": {
+            "sprites": {
+                "Type": { "Id": "cf54a635a25248ab87f2563bb840ed5b", "Name": "SpriteEntity" },
+                "Items": [
+                    { "$TypeId": 10, "Guid": "12369f46c69725641a47562b64660aff", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "12369f46c69725641a47562b64660aff", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "12369f46c69725641a47562b64660aff", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "12369f46c69725641a47562b64660aff", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "12369f46c69725641a47562b64660aff", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "12369f46c69725641a47562b64660aff", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "12369f46c69725641a47562b64660aff", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "12369f46c69725641a47562b64660aff", "FileId": 21300000, "Type": 3 }
+                ]
+            },
+            "frameRate": 6
+        }
+    }, {
+        "Type": { "Id": "d2cfd18aa4facc33b1da7ae05205691b", "Name": "Sprite2DSequencePlayer" },
+        "Properties": {
+            "sequence": { "$TypeId": 9, "Id": "c5116b5992924b60a1ef1da10d219eca", "Name": "ItemConeTop" },
+            "loop": {
+                "$TypeId": 8,
+                "Type": { "Id": "ea25cda1bca15e4c9fb023eca636eb06", "Name": "LoopMode" },
+                "Id": "d24c1a8a15be9b7e8c161382e4091c4f",
+                "Name": "ClampForever",
+                "Value": 4
+            },
+            "speed": 1
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "58e565ac11794a8b8624e0bce13ef5db",
+    "Name": "ItemCone2",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 9,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
+        "Properties": {
+            "parent": { "$TypeId": 9, "Id": "d4b29e8b6838455681b189771ed1aae7", "Name": "EndCutscenePartA" }
+        }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": -31,
+                    "y": 88
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "8cd4114008280f04cb1ba2647fd3db31", "FileId": 21300000, "Type": 3 }
+        }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
+        "Properties": {
+            "order": 2
+        }
+    }, {
+        "Type": { "Id": "b5864acb507842e59c6401a4bb91b51f", "Name": "CutsceneElement" },
+        "Properties": {
+            "Index": 0,
+            "Duration": 1
+        }
+    }, {
+        "Type": { "Id": "bb2e427153f64f59aee2196e306603b7", "Name": "CutsceneFade" },
+        "Properties": {
+            "Duration": 0.2
+        }
+    }, {
+        "Type": { "Id": "95eba163dce5bfff5420a5a8c2845523", "Name": "Sprite2DSequence" },
+        "Properties": {
+            "sprites": {
+                "Type": { "Id": "cf54a635a25248ab87f2563bb840ed5b", "Name": "SpriteEntity" },
+                "Items": [
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "8cd4114008280f04cb1ba2647fd3db31", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "8cd4114008280f04cb1ba2647fd3db31", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "8cd4114008280f04cb1ba2647fd3db31", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "8cd4114008280f04cb1ba2647fd3db31", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "8cd4114008280f04cb1ba2647fd3db31", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "8cd4114008280f04cb1ba2647fd3db31", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "8cd4114008280f04cb1ba2647fd3db31", "FileId": 21300000, "Type": 3 }
+                ]
+            },
+            "frameRate": 6
+        }
+    }, {
+        "Type": { "Id": "d2cfd18aa4facc33b1da7ae05205691b", "Name": "Sprite2DSequencePlayer" },
+        "Properties": {
+            "sequence": { "$TypeId": 9, "Id": "58e565ac11794a8b8624e0bce13ef5db", "Name": "ItemCone" },
+            "loop": {
+                "$TypeId": 8,
+                "Type": { "Id": "ea25cda1bca15e4c9fb023eca636eb06", "Name": "LoopMode" },
+                "Id": "d24c1a8a15be9b7e8c161382e4091c4f",
+                "Name": "ClampForever",
+                "Value": 4
+            },
+            "speed": 1
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "6fe8def194064bca9775bb2f534d8539",
+    "Name": "ItemCone3",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 9,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
+        "Properties": {
+            "parent": { "$TypeId": 9, "Id": "d4b29e8b6838455681b189771ed1aae7", "Name": "EndCutscenePartA" }
+        }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": -39,
+                    "y": 83.5
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "8cd4114008280f04cb1ba2647fd3db31", "FileId": 21300000, "Type": 3 }
+        }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
+        "Properties": {
+            "order": 2
+        }
+    }, {
+        "Type": { "Id": "b5864acb507842e59c6401a4bb91b51f", "Name": "CutsceneElement" },
+        "Properties": {
+            "Index": 0,
+            "Duration": 1
+        }
+    }, {
+        "Type": { "Id": "bb2e427153f64f59aee2196e306603b7", "Name": "CutsceneFade" },
+        "Properties": {
+            "Duration": 0.2
+        }
+    }, {
+        "Type": { "Id": "95eba163dce5bfff5420a5a8c2845523", "Name": "Sprite2DSequence" },
+        "Properties": {
+            "sprites": {
+                "Type": { "Id": "cf54a635a25248ab87f2563bb840ed5b", "Name": "SpriteEntity" },
+                "Items": [
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "8cd4114008280f04cb1ba2647fd3db31", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "8cd4114008280f04cb1ba2647fd3db31", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "8cd4114008280f04cb1ba2647fd3db31", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "8cd4114008280f04cb1ba2647fd3db31", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "8cd4114008280f04cb1ba2647fd3db31", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "8cd4114008280f04cb1ba2647fd3db31", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 }
+                ]
+            },
+            "frameRate": 6
+        }
+    }, {
+        "Type": { "Id": "d2cfd18aa4facc33b1da7ae05205691b", "Name": "Sprite2DSequencePlayer" },
+        "Properties": {
+            "sequence": { "$TypeId": 9, "Id": "6fe8def194064bca9775bb2f534d8539", "Name": "ItemConeBottom" },
+            "loop": {
+                "$TypeId": 8,
+                "Type": { "Id": "ea25cda1bca15e4c9fb023eca636eb06", "Name": "LoopMode" },
+                "Id": "d24c1a8a15be9b7e8c161382e4091c4f",
+                "Name": "ClampForever",
+                "Value": 4
+            },
+            "speed": 1
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "f370c8b0bbe84cb5909005b7f92d70e8",
+    "Name": "ItemCone4",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 9,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
+        "Properties": {
+            "parent": { "$TypeId": 9, "Id": "d4b29e8b6838455681b189771ed1aae7", "Name": "EndCutscenePartA" }
+        }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": -48.5,
+                    "y": 75.5
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "8cd4114008280f04cb1ba2647fd3db31", "FileId": 21300000, "Type": 3 }
+        }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
+        "Properties": {
+            "order": 2
+        }
+    }, {
+        "Type": { "Id": "b5864acb507842e59c6401a4bb91b51f", "Name": "CutsceneElement" },
+        "Properties": {
+            "Index": 0,
+            "Duration": 1
+        }
+    }, {
+        "Type": { "Id": "bb2e427153f64f59aee2196e306603b7", "Name": "CutsceneFade" },
+        "Properties": {
+            "Duration": 0.2
+        }
+    }, {
+        "Type": { "Id": "95eba163dce5bfff5420a5a8c2845523", "Name": "Sprite2DSequence" },
+        "Properties": {
+            "sprites": {
+                "Type": { "Id": "cf54a635a25248ab87f2563bb840ed5b", "Name": "SpriteEntity" },
+                "Items": [
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "8cd4114008280f04cb1ba2647fd3db31", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "8cd4114008280f04cb1ba2647fd3db31", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "8cd4114008280f04cb1ba2647fd3db31", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "8cd4114008280f04cb1ba2647fd3db31", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "8cd4114008280f04cb1ba2647fd3db31", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "8cd4114008280f04cb1ba2647fd3db31", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 }
+                ]
+            },
+            "frameRate": 6
+        }
+    }, {
+        "Type": { "Id": "d2cfd18aa4facc33b1da7ae05205691b", "Name": "Sprite2DSequencePlayer" },
+        "Properties": {
+            "sequence": { "$TypeId": 9, "Id": "f370c8b0bbe84cb5909005b7f92d70e8", "Name": "ItemConeBottom1" },
+            "loop": {
+                "$TypeId": 8,
+                "Type": { "Id": "ea25cda1bca15e4c9fb023eca636eb06", "Name": "LoopMode" },
+                "Id": "d24c1a8a15be9b7e8c161382e4091c4f",
+                "Name": "ClampForever",
+                "Value": 4
+            },
+            "speed": 1
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "f7e7d4ecc36b4c5ea84c68402d115746",
+    "Name": "ItemKidOnBike",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 9,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
+        "Properties": {
+            "parent": { "$TypeId": 9, "Id": "d4b29e8b6838455681b189771ed1aae7", "Name": "EndCutscenePartA" }
+        }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": -30.5,
+                    "y": 72
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "a71dd620c25d08b418601cff28809ee7", "FileId": 21300000, "Type": 3 }
+        }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
+        "Properties": {
+            "order": 3
+        }
+    }, {
+        "Type": { "Id": "b5864acb507842e59c6401a4bb91b51f", "Name": "CutsceneElement" },
+        "Properties": {
+            "Index": 0,
+            "Duration": 1
+        }
+    }, {
+        "Type": { "Id": "bb2e427153f64f59aee2196e306603b7", "Name": "CutsceneFade" },
+        "Properties": {
+            "Duration": 0.2
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "9468e197d848434d9fc06efc2f35c7ce",
+    "Name": "ItemKidLeg",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 9,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
+        "Properties": {
+            "parent": { "$TypeId": 9, "Id": "d4b29e8b6838455681b189771ed1aae7", "Name": "EndCutscenePartA" }
+        }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": -30,
+                    "y": 69
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "9a8994943ee5ff24e962a82055c83d62", "FileId": 21300000, "Type": 3 }
+        }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
+        "Properties": {
+            "order": 4
+        }
+    }, {
+        "Type": { "Id": "b5864acb507842e59c6401a4bb91b51f", "Name": "CutsceneElement" },
+        "Properties": {
+            "Index": 0,
+            "Duration": 1
+        }
+    }, {
+        "Type": { "Id": "bb2e427153f64f59aee2196e306603b7", "Name": "CutsceneFade" },
+        "Properties": {
+            "Duration": 0.2
+        }
+    }, {
+        "Type": { "Id": "95eba163dce5bfff5420a5a8c2845523", "Name": "Sprite2DSequence" },
+        "Properties": {
+            "sprites": {
+                "Type": { "Id": "cf54a635a25248ab87f2563bb840ed5b", "Name": "SpriteEntity" },
+                "Items": [
+                    { "$TypeId": 10, "Guid": "9a8994943ee5ff24e962a82055c83d62", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "0e029d6645f37fa42a89b514d967b266", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "9a8994943ee5ff24e962a82055c83d62", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "0e029d6645f37fa42a89b514d967b266", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "9a8994943ee5ff24e962a82055c83d62", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "0e029d6645f37fa42a89b514d967b266", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "9a8994943ee5ff24e962a82055c83d62", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "0e029d6645f37fa42a89b514d967b266", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "9a8994943ee5ff24e962a82055c83d62", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "0e029d6645f37fa42a89b514d967b266", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "9a8994943ee5ff24e962a82055c83d62", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "0e029d6645f37fa42a89b514d967b266", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "9a8994943ee5ff24e962a82055c83d62", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "0e029d6645f37fa42a89b514d967b266", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "9a8994943ee5ff24e962a82055c83d62", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "0e029d6645f37fa42a89b514d967b266", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "9a8994943ee5ff24e962a82055c83d62", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "0e029d6645f37fa42a89b514d967b266", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "9a8994943ee5ff24e962a82055c83d62", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "0e029d6645f37fa42a89b514d967b266", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "9a8994943ee5ff24e962a82055c83d62", "FileId": 21300000, "Type": 3 }
+                ]
+            },
+            "frameRate": 6
+        }
+    }, {
+        "Type": { "Id": "d2cfd18aa4facc33b1da7ae05205691b", "Name": "Sprite2DSequencePlayer" },
+        "Properties": {
+            "sequence": { "$TypeId": 9, "Id": "9468e197d848434d9fc06efc2f35c7ce", "Name": "Item1" },
+            "loop": {
+                "$TypeId": 8,
+                "Type": { "Id": "ea25cda1bca15e4c9fb023eca636eb06", "Name": "LoopMode" },
+                "Id": "d24c1a8a15be9b7e8c161382e4091c4f",
+                "Name": "ClampForever",
+                "Value": 4
+            },
+            "speed": 1
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "139ea429b78541229348a1f414c0c62e",
+    "Name": "ItemStreetLines",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 9,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
+        "Properties": {
+            "parent": { "$TypeId": 9, "Id": "d4b29e8b6838455681b189771ed1aae7", "Name": "EndCutscenePartA" }
+        }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": 14,
+                    "y": 80
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "f9a2c0f848f59e74b9f4b39f5922322c", "FileId": 21300000, "Type": 3 }
+        }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
+        "Properties": {
+            "order": 4
+        }
+    }, {
+        "Type": { "Id": "b5864acb507842e59c6401a4bb91b51f", "Name": "CutsceneElement" },
+        "Properties": {
+            "Index": 0,
+            "Duration": 1
+        }
+    }, {
+        "Type": { "Id": "bb2e427153f64f59aee2196e306603b7", "Name": "CutsceneFade" },
+        "Properties": {
+            "Duration": 0.2
+        }
+    }, {
+        "Type": { "Id": "95eba163dce5bfff5420a5a8c2845523", "Name": "Sprite2DSequence" },
+        "Properties": {
+            "sprites": {
+                "Type": { "Id": "cf54a635a25248ab87f2563bb840ed5b", "Name": "SpriteEntity" },
+                "Items": [
+                    { "$TypeId": 10, "Guid": "f9a2c0f848f59e74b9f4b39f5922322c", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "063e43ed230118d46bf63ff7a81fb7f8", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "9019f12bfd12eee4791f5ceb5c3b8247", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "f9a2c0f848f59e74b9f4b39f5922322c", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "063e43ed230118d46bf63ff7a81fb7f8", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "9019f12bfd12eee4791f5ceb5c3b8247", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "f9a2c0f848f59e74b9f4b39f5922322c", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "063e43ed230118d46bf63ff7a81fb7f8", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "9019f12bfd12eee4791f5ceb5c3b8247", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "f9a2c0f848f59e74b9f4b39f5922322c", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "063e43ed230118d46bf63ff7a81fb7f8", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "9019f12bfd12eee4791f5ceb5c3b8247", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "f9a2c0f848f59e74b9f4b39f5922322c", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "063e43ed230118d46bf63ff7a81fb7f8", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "9019f12bfd12eee4791f5ceb5c3b8247", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "f9a2c0f848f59e74b9f4b39f5922322c", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "063e43ed230118d46bf63ff7a81fb7f8", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "9019f12bfd12eee4791f5ceb5c3b8247", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "f9a2c0f848f59e74b9f4b39f5922322c", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "063e43ed230118d46bf63ff7a81fb7f8", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "f9a2c0f848f59e74b9f4b39f5922322c", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "063e43ed230118d46bf63ff7a81fb7f8", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "9019f12bfd12eee4791f5ceb5c3b8247", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "f9a2c0f848f59e74b9f4b39f5922322c", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "063e43ed230118d46bf63ff7a81fb7f8", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "9019f12bfd12eee4791f5ceb5c3b8247", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "f9a2c0f848f59e74b9f4b39f5922322c", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "063e43ed230118d46bf63ff7a81fb7f8", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "9019f12bfd12eee4791f5ceb5c3b8247", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "f9a2c0f848f59e74b9f4b39f5922322c", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "063e43ed230118d46bf63ff7a81fb7f8", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "9019f12bfd12eee4791f5ceb5c3b8247", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "f9a2c0f848f59e74b9f4b39f5922322c", "FileId": 21300000, "Type": 3 }
+                ]
+            },
+            "frameRate": 10
+        }
+    }, {
+        "Type": { "Id": "d2cfd18aa4facc33b1da7ae05205691b", "Name": "Sprite2DSequencePlayer" },
+        "Properties": {
+            "sequence": { "$TypeId": 9, "Id": "139ea429b78541229348a1f414c0c62e", "Name": "Item5" },
+            "loop": {
+                "$TypeId": 8,
+                "Type": { "Id": "ea25cda1bca15e4c9fb023eca636eb06", "Name": "LoopMode" },
+                "Id": "d24c1a8a15be9b7e8c161382e4091c4f",
+                "Name": "ClampForever",
+                "Value": 4
+            },
+            "speed": 1
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "ad025a0ad68b4c3797b4da7c5614de73",
+    "Name": "ItemDinoShadow",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 9,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
+        "Properties": {
+            "parent": { "$TypeId": 9, "Id": "d4b29e8b6838455681b189771ed1aae7", "Name": "EndCutscenePartA" }
+        }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": 7,
+                    "y": 76.5
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "cdc92c3a2837de14ea06109080fb8551", "FileId": 21300000, "Type": 3 }
+        }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
+        "Properties": {
+            "order": 5
+        }
+    }, {
+        "Type": { "Id": "b5864acb507842e59c6401a4bb91b51f", "Name": "CutsceneElement" },
+        "Properties": {
+            "Index": 1,
+            "Duration": 1.5
+        }
+    }, {
+        "Type": { "Id": "bb2e427153f64f59aee2196e306603b7", "Name": "CutsceneFade" },
+        "Properties": {
+            "Duration": 0.05
+        }
+    }, {
+        "Type": { "Id": "88d9dcac4206433bb29f01ae57416212", "Name": "CutsceneMove" },
+        "Properties": {
+            "Duration": 0.4,
+            "StartOffset": {
+                "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+                "Properties": {
+                    "y": -30
+                }
+            },
+            "Easing": {
+                "$TypeId": 8,
+                "Type": { "Id": "a0abdfa0125a70d08cef584f283024b1", "Name": "TweenFunc" },
+                "Id": "42dd590721c7ff137fb5ce21e5a3579a",
+                "Name": "OutQuart",
+                "Value": 12
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "5a40a54e51c04d5da60e5dda9c1fd36e",
+    "Name": "ItemDinoArm",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 9,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
+        "Properties": {
+            "parent": { "$TypeId": 9, "Id": "d4b29e8b6838455681b189771ed1aae7", "Name": "EndCutscenePartA" }
+        }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": 0,
+                    "y": 45
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "bed3dcf378a459f4f884edfc04633da8", "FileId": 21300000, "Type": 3 }
+        }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
+        "Properties": {
+            "order": 10
+        }
+    }, {
+        "Type": { "Id": "b5864acb507842e59c6401a4bb91b51f", "Name": "CutsceneElement" },
+        "Properties": {
+            "Index": 2,
+            "Duration": 1
+        }
+    }, {
+        "Type": { "Id": "bb2e427153f64f59aee2196e306603b7", "Name": "CutsceneFade" },
+        "Properties": {
+            "Duration": 0.04
+        }
+    }, {
+        "Type": { "Id": "88d9dcac4206433bb29f01ae57416212", "Name": "CutsceneMove" },
+        "Properties": {
+            "Duration": 0.2,
+            "StartOffset": {
+                "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+                "Properties": {
+                    "x": -200
+                }
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "18aaeeba0152481da3619888787767e3",
+    "Name": "ItemKidGrab",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 9,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
+        "Properties": {
+            "parent": { "$TypeId": 9, "Id": "d4b29e8b6838455681b189771ed1aae7", "Name": "EndCutscenePartA" }
+        }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": -27,
+                    "y": 3
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "794c24167d109af4ba874e05a18e94b1", "FileId": 21300000, "Type": 3 }
+        }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
+        "Properties": {
+            "order": 1
+        }
+    }, {
+        "Type": { "Id": "b5864acb507842e59c6401a4bb91b51f", "Name": "CutsceneElement" },
+        "Properties": {
+            "Index": 3,
+            "Duration": 0.75
+        }
+    }, {
+        "Type": { "Id": "bb2e427153f64f59aee2196e306603b7", "Name": "CutsceneFade" },
+        "Properties": {
+            "Duration": 0.2
+        }
+    }, {
+        "Type": { "Id": "88d9dcac4206433bb29f01ae57416212", "Name": "CutsceneMove" },
+        "Properties": {
+            "Duration": 0.5,
+            "StartOffset": {
+                "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+                "Properties": {
+                    "x": 20,
+                    "y": -30
+                }
+            },
+            "Easing": {
+                "$TypeId": 8,
+                "Type": { "Id": "a0abdfa0125a70d08cef584f283024b1", "Name": "TweenFunc" },
+                "Id": "9d3a699c35e7d9128d1a5d44735fb057",
+                "Name": "OutExponential",
+                "Value": 27
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "687c58b1e3b646e9ae7c13a02274f62d",
+    "Name": "ItemRevenge",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 9,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
+        "Properties": {
+            "parent": { "$TypeId": 9, "Id": "d4b29e8b6838455681b189771ed1aae7", "Name": "EndCutscenePartA" }
+        }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": 0,
+                    "y": -37
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "c264302ab51df8d4bbe947b7c6a10d07", "FileId": 21300000, "Type": 3 }
+        }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
+        "Properties": {
+            "order": 2
+        }
+    }, {
+        "Type": { "Id": "b5864acb507842e59c6401a4bb91b51f", "Name": "CutsceneElement" },
+        "Properties": {
+            "Index": 4,
+            "Duration": 1.7
+        }
+    }, {
+        "Type": { "Id": "bb2e427153f64f59aee2196e306603b7", "Name": "CutsceneFade" },
+        "Properties": {
+            "Duration": 0.5
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "aa247f492b924daa9496a47f292f7f67",
+    "Name": "ItemDinoIdea",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 9,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
+        "Properties": {
+            "parent": { "$TypeId": 9, "Id": "d4b29e8b6838455681b189771ed1aae7", "Name": "EndCutscenePartA" }
+        }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": 0,
+                    "y": -64.5
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "1998a80354dfffa43871c46e82ac640c", "FileId": 21300000, "Type": 3 }
+        }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
+        "Properties": {
+            "order": 20
+        }
+    }, {
+        "Type": { "Id": "b5864acb507842e59c6401a4bb91b51f", "Name": "CutsceneElement" },
+        "Properties": {
+            "Index": 5,
+            "Duration": 1.5,
+            "ClearPreviousElements": true
+        }
+    }, {
+        "Type": { "Id": "bb2e427153f64f59aee2196e306603b7", "Name": "CutsceneFade" },
+        "Properties": {
+            "Duration": 0.1
+        }
+    }, {
+        "Type": { "Id": "c970a459f2bd4ed4acb5f59f42d98dd8", "Name": "CutsceneScale" },
+        "Properties": {
+            "Duration": 0.5,
+            "Easing": {
+                "$TypeId": 8,
+                "Type": { "Id": "a0abdfa0125a70d08cef584f283024b1", "Name": "TweenFunc" },
+                "Id": "9846de1bab365d42a16587015a2e0637",
+                "Name": "OutBack",
+                "Value": 18
+            }
+        }
+    }]
+}]

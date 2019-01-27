@@ -1,0 +1,64 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "403aa57c76a34ffa810609fd505b563c",
+    "Name": "TutorialPointer",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "b6853f5c2429438399d7e7cce9219b89",
+        "Name": "Pointer",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "2896d9fed953475d9f03640d52ff8357",
+        "Name": "StartPosition",
+        "FieldType": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "54494e317653438b8e45f8599972c687",
+        "Name": "EndPosition",
+        "FieldType": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "352a747f10054e2dabc465bd101bde10",
+        "Name": "Duration",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "5661b16026764ecdbb94df84227ecde0",
+        "Name": "AlphaCurve",
+        "FieldType": { "Id": "280b143c739160ffb69b3cf552f375bb", "Name": "CurveEntity" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "4e3897d495df4b5bb5330a9d9ad851e3",
+        "Name": "MoveCurve",
+        "FieldType": { "Id": "280b143c739160ffb69b3cf552f375bb", "Name": "CurveEntity" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "20c5d91fbfd7457ea7f4d44a38fe385e",
+        "Name": "Timer",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "c4662879374e4f71893de06c6516cc24",
+        "Name": "StretchToMove",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "403aa57c76a34ffa810609fd505b563c", "Name": "TutorialPointer" },
+        "Properties": {
+            "Duration": 1
+        }
+    }
+}]

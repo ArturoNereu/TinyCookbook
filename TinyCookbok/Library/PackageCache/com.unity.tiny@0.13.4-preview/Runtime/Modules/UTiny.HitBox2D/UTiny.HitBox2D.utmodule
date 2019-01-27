@@ -1,0 +1,15 @@
+﻿[{
+    "$TypeId": 2,
+    "Id": "36f73ad23c8a63c53fa510f0621474f5",
+    "Name": "UTiny.HitBox2D",
+    "SerializedVersion": 1,
+    "ExportFlags": 1,
+    "Namespace": "ut.HitBox2D",
+    "MetadataFileGUID": "8905c64aed729e84c8fc542527cef9bc",
+    "Options": 1,
+    "Dependencies": [
+        { "Id": "a1b50987659c653138795a8f4079fc10", "Name": "UTiny.Math" },
+        { "Id": "2af0cd3b47a732bf738688ceab312689", "Name": "UTiny.Core" },
+        { "Id": "ce3f1bd7050540b70d450a606e226ea2", "Name": "UTiny.Shared" }
+    ]
+}]

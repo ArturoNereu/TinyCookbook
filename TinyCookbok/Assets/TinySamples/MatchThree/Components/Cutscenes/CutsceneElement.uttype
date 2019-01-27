@@ -1,0 +1,40 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "b5864acb507842e59c6401a4bb91b51f",
+    "Name": "CutsceneElement",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "3efe0f5ac7ca4c2c8487c05d32d2a3e9",
+        "Name": "Index",
+        "FieldType": { "Id": "1da58c8ba95a4c85a2b5920bd0663f70", "Name": "UInt32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "51f968590bb24fb5bbbee13edee011c8",
+        "Name": "Duration",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "7670efbb244b4489affa8e6b1bdff744",
+        "Name": "ClearPreviousElements",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "51bc4db7bcfe4ac6b031b1369fde99d7",
+        "Name": "Timer",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 1
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "b5864acb507842e59c6401a4bb91b51f", "Name": "CutsceneElement" },
+        "Properties": {
+            "Duration": 1
+        }
+    }
+}]

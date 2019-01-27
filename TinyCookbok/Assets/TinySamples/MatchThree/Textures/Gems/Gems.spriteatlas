@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Gems
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 2
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: aece9c7c214d5b94aaf5af567d320f47, type: 3}
+    totalSpriteSurfaceArea: 22054
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 2aef6d00097f249f9a36d987ec8ac0ec, type: 3}
+  - {fileID: 21300000, guid: 5eb2194003668574782c65d84bd3e8e9, type: 3}
+  - {fileID: 21300000, guid: 876906c092bd045b18c86f0c07a12bc9, type: 3}
+  - {fileID: 21300000, guid: 16ed3e11769dc584aaef6d53c83f5f08, type: 3}
+  - {fileID: 21300000, guid: 6fe91751a79a55540a97923a795c045d, type: 3}
+  - {fileID: 21300000, guid: de3cf5d1d3ff5d642b10159fc5e47850, type: 3}
+  - {fileID: 21300000, guid: a90231622fdcef24a87a09c6f138d645, type: 3}
+  - {fileID: 21300000, guid: 66594a53ec4590e4d8785fb2a1425bd7, type: 3}
+  - {fileID: 21300000, guid: e576cca3f61331640ad38db51dd16863, type: 3}
+  - {fileID: 21300000, guid: d1947fb3f0b5884458c1ea5f3c449abf, type: 3}
+  - {fileID: 21300000, guid: b81720d3eac5e8d42832aa8585da70d6, type: 3}
+  - {fileID: 21300000, guid: e7545494a746a49d58f4b4791485176f, type: 3}
+  - {fileID: 21300000, guid: 8d9a0bf42559b44aa8b471f5734a82d2, type: 3}
+  - {fileID: 21300000, guid: 3b1b94b6385394ed8932015d5c2749aa, type: 3}
+  - {fileID: 21300000, guid: f81b29f627902f543a474b22397a1ffc, type: 3}
+  - {fileID: 21300000, guid: e9e7db074a20c484a840fbaa28c3fa2d, type: 3}
+  - {fileID: 21300000, guid: 66eff19759c33864da1b7fa747d5575c, type: 3}
+  - {fileID: 21300000, guid: 7c1bcac7e802ff54aa73e8d78c16e9d1, type: 3}
+  - {fileID: 21300000, guid: c786b6284253e954a8b76b975e3c9cd6, type: 3}
+  - {fileID: 21300000, guid: 23ee488814ee97d4fa6ed761ead7f2a6, type: 3}
+  - {fileID: 21300000, guid: 14516159f5dc6c348ab1a6f2f5bcc703, type: 3}
+  - {fileID: 21300000, guid: bb8b72f977c81734ea0745e44298f3ce, type: 3}
+  - {fileID: 21300000, guid: 13bf780a4bcd87045b881159f31911c2, type: 3}
+  - {fileID: 21300000, guid: 9ebb951af2b6ada47b5ba103ed9a22a8, type: 3}
+  - {fileID: 21300000, guid: 6d77823a4f736db489d97b1c6f4bc8ed, type: 3}
+  - {fileID: 21300000, guid: f70a027adf0e13e4f98abcb578ef2b01, type: 3}
+  - {fileID: 21300000, guid: 987a468a0d5a7274fa6b3ed236a8f09f, type: 3}
+  - {fileID: 21300000, guid: 2066af8ab6cdfed45ba93e3c236128a0, type: 3}
+  - {fileID: 21300000, guid: 3180d2aa618e3df409b7b95a56e0c184, type: 3}
+  - {fileID: 21300000, guid: b87448dac86554ba8bbc5d028e218169, type: 3}
+  - {fileID: 21300000, guid: 1bfeb4fadf245804abd96eda942b6114, type: 3}
+  - {fileID: 21300000, guid: 2fb31ccb2e4b7bf48825a6b37068d1b8, type: 3}
+  - {fileID: 21300000, guid: de130aeb7c4619a418521bfe6b6239d0, type: 3}
+  - {fileID: 21300000, guid: 572c5ceb44e4411488be06550d6ba969, type: 3}
+  - {fileID: 21300000, guid: a011763c7730a6649b05c00fc0b19eb4, type: 3}
+  - {fileID: 21300000, guid: 5531d3ddbec15aa40a224e32c5f8abb8, type: 3}
+  - {fileID: 21300000, guid: 5bb8c23f6fe3ce240adecc6014ec2de9, type: 3}
+  - {fileID: 21300000, guid: 29a7b88f88a4e8d47aeae9dd91c8cde3, type: 3}
+  - {fileID: 21300000, guid: d6882f9fb8497fa4b911608403878e21, type: 3}
+  - {fileID: 21300000, guid: 4ccc78efea9501449a10eaf20baecdd7, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Gem_Red_Plain
+  - Gems_Animation_Diagonal_4
+  - Gem_Silver_Plain
+  - Gems_Animation_Diagonal_5
+  - Gem_Colorless_Plain_3
+  - Scratches
+  - Gems_Animation_Linear_3
+  - Gems_Animation_Linear_1
+  - Gem_Green_Highlighted
+  - Gem_Purple_Highlighted
+  - Gems_Animation_Linear_5
+  - Gem_Purple_Plain
+  - Gem_Green_Plain
+  - Gem_Yellow_Plain
+  - Gem_Red_Highlighted
+  - Gems_Animation_Linear_4
+  - Gems_Animation_Diagonal_3
+  - Gem_Blue_Highlighted
+  - Gem_Colorless_Plain_1
+  - Gem_Colorless_Highlighted_2
+  - Gem_Colorless_Plain_2
+  - Gems_Animation_Square_4
+  - Gem_Colorless_Highlighted_Glow
+  - Gem_Yellow_Highlighted
+  - Particle_Gem_Small
+  - Gem_Egg_Plain
+  - Gems_Animation_Square_1
+  - Gems_Animation_Linear_2
+  - Gems_Animation_Diagonal_2
+  - Gem_Blue_Plain
+  - Gem_Colorless_Highlighted_1
+  - Gems_Animation_Square_3
+  - Particle_Gem
+  - Gems_Animation_Square_2
+  - Gem_Silver_Highlighted
+  - Gem_Egg_Highlighted
+  - Gem_Colorless_Highlighted_3
+  - Gem_Colorless_Plain_Glow
+  - Gems_Animation_Square_5
+  - Gems_Animation_Diagonal_1
+  m_Tag: Gems
+  m_IsVariant: 0

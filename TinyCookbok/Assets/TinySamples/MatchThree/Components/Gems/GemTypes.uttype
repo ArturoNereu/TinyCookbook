@@ -1,0 +1,71 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "87456226280c45beaf67641e3461651f",
+    "Name": "GemTypes",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Enum",
+    "BaseType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+    "Fields": [{
+        "Id": "16bdbd84a48744d984c86d40dd172c9d",
+        "Name": "Blue",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "219b899ace724ee4a33fb94a0bc83083",
+        "Name": "Green",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "efadc58eaf92472d924c5a27d2762066",
+        "Name": "Purple",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "43a1c725b5194166bf0e736fc0911e2f",
+        "Name": "Red",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "fd1c28455e7648b2afd3f4edbb37672b",
+        "Name": "Silver",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "320cd7c6b4aa40a08431521624561f18",
+        "Name": "Yellow",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "dd623d6542f74016bb073bef2e4af427",
+        "Name": "Egg",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "1e047e3aacd64219ac65fd16cfcdc27b",
+        "Name": "ColorBomb",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "87456226280c45beaf67641e3461651f", "Name": "GemTypes" },
+        "Properties": {
+            "Green": 1,
+            "Purple": 2,
+            "Red": 3,
+            "Silver": 4,
+            "Yellow": 5,
+            "Egg": 6,
+            "ColorBomb": 7
+        }
+    }
+}]

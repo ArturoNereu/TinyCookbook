@@ -1,0 +1,82 @@
+﻿[{
+    "$TypeId": 4,
+    "Id": "93e327f367604f69adc6de0cb9a1f5fd",
+    "Name": "Level2",
+    "ExportFlags": 0,
+    "SerializedVersion": 0,
+    "Entities": [
+        { "$TypeId": 9, "Id": "c52bc077c335443194a1bba61109d21a", "Name": "Level2" }
+    ]
+},
+{
+    "$TypeId": 5,
+    "Id": "c52bc077c335443194a1bba61109d21a",
+    "Name": "Level2",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "34d8fd9b36f948f48e4e0c5b3e8b7c45", "Name": "Level" },
+        "Properties": {
+            "LevelID": 2,
+            "Skin": {
+                "$TypeId": 8,
+                "Type": { "Id": "decdc736779d4d99b0bd0e002a89e936", "Name": "SkinTypes" },
+                "Id": "2ca61817705d46af8816a4d2cce06f7d",
+                "Name": "Farm",
+                "Value": 1
+            },
+            "MaxMoveCount": 20,
+            "StartPowerUps": {
+                "Type": { "Id": "2ffd1f6bbde643e79fc2c5f3856004b1", "Name": "GemPowerUpTypes" },
+                "Items": [{
+                    "$TypeId": 8,
+                    "Type": { "Id": "2ffd1f6bbde643e79fc2c5f3856004b1", "Name": "GemPowerUpTypes" },
+                    "Id": "21cf98a0fadc436c8f994133f443dfe0",
+                    "Name": "Row",
+                    "Value": 1
+                }, {
+                    "$TypeId": 8,
+                    "Type": { "Id": "2ffd1f6bbde643e79fc2c5f3856004b1", "Name": "GemPowerUpTypes" },
+                    "Id": "bc5fb6fdb0224e9ca214c2a7711bbd41",
+                    "Name": "Column",
+                    "Value": 2
+                }, {
+                    "$TypeId": 8,
+                    "Type": { "Id": "2ffd1f6bbde643e79fc2c5f3856004b1", "Name": "GemPowerUpTypes" },
+                    "Id": "32c4da120f05441b9484f911b6f93fd4",
+                    "Name": "Square",
+                    "Value": 3
+                }, {
+                    "$TypeId": 8,
+                    "Type": { "Id": "2ffd1f6bbde643e79fc2c5f3856004b1", "Name": "GemPowerUpTypes" },
+                    "Id": "2f9e89a3ab644e9c829d7cf9d8faa6a3",
+                    "Name": "DiagonalCross",
+                    "Value": 4
+                }, {
+                    "$TypeId": 8,
+                    "Type": { "Id": "2ffd1f6bbde643e79fc2c5f3856004b1", "Name": "GemPowerUpTypes" },
+                    "Id": "1f8679226c4e4be19186d51e631c00d0",
+                    "Name": "SameColor",
+                    "Value": 5
+                }]
+            },
+            "MissingGems": {
+                "Type": { "Id": "87456226280c45beaf67641e3461651f", "Name": "GemTypes" },
+                "Items": [{
+                    "$TypeId": 8,
+                    "Type": { "Id": "87456226280c45beaf67641e3461651f", "Name": "GemTypes" },
+                    "Id": "43a1c725b5194166bf0e736fc0911e2f",
+                    "Name": "Red",
+                    "Value": 3
+                }]
+            }
+        }
+    }, {
+        "Type": { "Id": "96b50f4b88324b9695cecb193b382952", "Name": "LevelEggObjective" },
+        "Properties": {
+            "EggsInGridAtStart": 3,
+            "EggsToSpawnOnEggCollected": 0
+        }
+    }]
+}]

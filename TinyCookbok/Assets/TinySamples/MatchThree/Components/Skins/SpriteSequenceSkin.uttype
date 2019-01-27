@@ -1,0 +1,28 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "56cf22050997438bba7f76085317282f",
+    "Name": "SpriteSequenceSkin",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "45c826e5111f4f9791ec4ef94f278f43",
+        "Name": "SpritePaths",
+        "FieldType": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+        "Array": true,
+        "Visibility": 0
+    }, {
+        "Id": "8d84411e4ce34960856b4acf87f0de5f",
+        "Name": "CurrentSkinIndex",
+        "FieldType": { "Id": "27c155635ccb4ab2bcb79ef5aaf129ec", "Name": "Int8" },
+        "Array": false,
+        "Visibility": 1
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "56cf22050997438bba7f76085317282f", "Name": "SpriteSequenceSkin" },
+        "Properties": {
+            "CurrentSkinIndex": -1
+        }
+    }
+}]

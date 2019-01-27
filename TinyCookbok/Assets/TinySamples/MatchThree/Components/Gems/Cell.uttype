@@ -1,0 +1,31 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "282498a07a0a40568044cf621fc6a068",
+    "Name": "Cell",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "05fc53017ac744da82173f37c79b8034",
+        "Name": "X",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "d5daae589d494f7ab2467976110797ab",
+        "Name": "Y",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "323ac3e3bb73410b8e045db396c2314e",
+        "Name": "Size",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "282498a07a0a40568044cf621fc6a068", "Name": "Cell" }
+    }
+}]

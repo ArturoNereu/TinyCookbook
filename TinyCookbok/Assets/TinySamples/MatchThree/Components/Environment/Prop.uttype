@@ -1,0 +1,12 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "a65ee6afac2c4fa99c217ad4178442a9",
+    "Name": "Prop",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "DefaultValue": {
+        "Type": { "Id": "a65ee6afac2c4fa99c217ad4178442a9", "Name": "Prop" }
+    }
+}]

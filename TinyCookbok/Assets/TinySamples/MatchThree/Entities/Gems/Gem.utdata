@@ -1,0 +1,490 @@
+﻿[{
+    "$TypeId": 4,
+    "Id": "2a41122951b54e0a96746c58ae11af02",
+    "Name": "Gem",
+    "ExportFlags": 0,
+    "SerializedVersion": 0,
+    "Entities": [
+        { "$TypeId": 9, "Id": "df71912ed3eb47548263fa4e9fb15b60", "Name": "Gem" },
+        { "$TypeId": 9, "Id": "b237348a2f7a4076b97e0a0ad7c3839a", "Name": "GemHighlight" },
+        { "$TypeId": 9, "Id": "bfe2e4e234a54c488dd082ece2cae74b", "Name": "RowPowerUp" },
+        { "$TypeId": 9, "Id": "dfd3e04538054d40871aa42d557a3c02", "Name": "ColumnPowerUp" },
+        { "$TypeId": 9, "Id": "21dac254a2024cc6925e8484805bb4d3", "Name": "SquarePowerUp" },
+        { "$TypeId": 9, "Id": "15c040e5b8024aa49aeeacf47b71ec6f", "Name": "DiagonalPowerUp" },
+        { "$TypeId": 9, "Id": "fc209f88661849b3a1e2812eb54413f9", "Name": "ColorPowerUp" }
+    ]
+},
+{
+    "$TypeId": 5,
+    "Id": "df71912ed3eb47548263fa4e9fb15b60",
+    "Name": "Gem",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 8,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": -82,
+                    "y": -29
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "b87448dac86554ba8bbc5d028e218169", "FileId": 21300000, "Type": 3 },
+            "color": {
+                "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                "Properties": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1,
+                    "a": 1
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "7e20367cb0ed45509e849dde18f01cd5", "Name": "Gem" },
+        "Properties": {
+            "SpriteRendererHighlightGem": { "$TypeId": 9, "Id": "b237348a2f7a4076b97e0a0ad7c3839a", "Name": "GemHighlight" },
+            "RowPowerUpVisual": { "$TypeId": 9, "Id": "bfe2e4e234a54c488dd082ece2cae74b", "Name": "RowPowerUp" },
+            "ColumnPowerUpVisual": { "$TypeId": 9, "Id": "dfd3e04538054d40871aa42d557a3c02", "Name": "ColumnPowerUp" },
+            "DiagonalPowerUpVisual": { "$TypeId": 9, "Id": "15c040e5b8024aa49aeeacf47b71ec6f", "Name": "DiagonalPowerUp" },
+            "SquarePowerUpVisual": { "$TypeId": 9, "Id": "21dac254a2024cc6925e8484805bb4d3", "Name": "SquarePowerUp" },
+            "SameColorPowerUpVisual": { "$TypeId": 9, "Id": "fc209f88661849b3a1e2812eb54413f9", "Name": "DiagonalPowerUp1" }
+        }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
+        "Properties": {
+            "order": 10
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "b237348a2f7a4076b97e0a0ad7c3839a",
+    "Name": "GemHighlight",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 8,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
+        "Properties": {
+            "parent": { "$TypeId": 9, "Id": "df71912ed3eb47548263fa4e9fb15b60", "Name": "Gem" }
+        }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "7c1bcac7e802ff54aa73e8d78c16e9d1", "FileId": 21300000, "Type": 3 },
+            "color": {
+                "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                "Properties": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1,
+                    "a": 0
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
+        "Properties": {
+            "order": 15
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "bfe2e4e234a54c488dd082ece2cae74b",
+    "Name": "RowPowerUp",
+    "Enabled": false,
+    "Static": false,
+    "Layer": 8,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
+        "Properties": {
+            "parent": { "$TypeId": 9, "Id": "df71912ed3eb47548263fa4e9fb15b60", "Name": "Gem" }
+        }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "66594a53ec4590e4d8785fb2a1425bd7", "FileId": 21300000, "Type": 3 },
+            "color": {
+                "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                "Properties": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1,
+                    "a": 1
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
+        "Properties": {
+            "order": 20
+        }
+    }, {
+        "Type": { "Id": "95eba163dce5bfff5420a5a8c2845523", "Name": "Sprite2DSequence" },
+        "Properties": {
+            "sprites": {
+                "Type": { "Id": "cf54a635a25248ab87f2563bb840ed5b", "Name": "SpriteEntity" },
+                "Items": [
+                    { "$TypeId": 10, "Guid": "66594a53ec4590e4d8785fb2a1425bd7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "2066af8ab6cdfed45ba93e3c236128a0", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "a90231622fdcef24a87a09c6f138d645", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "e9e7db074a20c484a840fbaa28c3fa2d", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "b81720d3eac5e8d42832aa8585da70d6", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 }
+                ]
+            },
+            "frameRate": 10
+        }
+    }, {
+        "Type": { "Id": "d2cfd18aa4facc33b1da7ae05205691b", "Name": "Sprite2DSequencePlayer" },
+        "Properties": {
+            "sequence": { "$TypeId": 9, "Id": "bfe2e4e234a54c488dd082ece2cae74b", "Name": "RowPowerUp" },
+            "speed": 1,
+            "time": 0
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "dfd3e04538054d40871aa42d557a3c02",
+    "Name": "ColumnPowerUp",
+    "Enabled": false,
+    "Static": false,
+    "Layer": 8,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
+        "Properties": {
+            "parent": { "$TypeId": 9, "Id": "df71912ed3eb47548263fa4e9fb15b60", "Name": "Gem" }
+        }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" },
+        "Properties": {
+            "rotation": {
+                "Type": { "Id": "dc7e11e5d517ed01fd5d084a6c9fd64d", "Name": "Quaternion" },
+                "Properties": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0.7071068,
+                    "w": 0.7071068
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "66594a53ec4590e4d8785fb2a1425bd7", "FileId": 21300000, "Type": 3 },
+            "color": {
+                "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                "Properties": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1,
+                    "a": 1
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
+        "Properties": {
+            "order": 20
+        }
+    }, {
+        "Type": { "Id": "95eba163dce5bfff5420a5a8c2845523", "Name": "Sprite2DSequence" },
+        "Properties": {
+            "sprites": {
+                "Type": { "Id": "cf54a635a25248ab87f2563bb840ed5b", "Name": "SpriteEntity" },
+                "Items": [
+                    { "$TypeId": 10, "Guid": "66594a53ec4590e4d8785fb2a1425bd7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "2066af8ab6cdfed45ba93e3c236128a0", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "a90231622fdcef24a87a09c6f138d645", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "e9e7db074a20c484a840fbaa28c3fa2d", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "b81720d3eac5e8d42832aa8585da70d6", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 }
+                ]
+            },
+            "frameRate": 10
+        }
+    }, {
+        "Type": { "Id": "d2cfd18aa4facc33b1da7ae05205691b", "Name": "Sprite2DSequencePlayer" },
+        "Properties": {
+            "sequence": { "$TypeId": 9, "Id": "dfd3e04538054d40871aa42d557a3c02", "Name": "RowPowerUp1" },
+            "speed": 1,
+            "time": 0
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "21dac254a2024cc6925e8484805bb4d3",
+    "Name": "SquarePowerUp",
+    "Enabled": false,
+    "Static": false,
+    "Layer": 8,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
+        "Properties": {
+            "parent": { "$TypeId": 9, "Id": "df71912ed3eb47548263fa4e9fb15b60", "Name": "Gem" }
+        }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "987a468a0d5a7274fa6b3ed236a8f09f", "FileId": 21300000, "Type": 3 },
+            "color": {
+                "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                "Properties": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1,
+                    "a": 1
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
+        "Properties": {
+            "order": 20
+        }
+    }, {
+        "Type": { "Id": "95eba163dce5bfff5420a5a8c2845523", "Name": "Sprite2DSequence" },
+        "Properties": {
+            "sprites": {
+                "Type": { "Id": "cf54a635a25248ab87f2563bb840ed5b", "Name": "SpriteEntity" },
+                "Items": [
+                    { "$TypeId": 10, "Guid": "987a468a0d5a7274fa6b3ed236a8f09f", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "572c5ceb44e4411488be06550d6ba969", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "2fb31ccb2e4b7bf48825a6b37068d1b8", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "bb8b72f977c81734ea0745e44298f3ce", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "d6882f9fb8497fa4b911608403878e21", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 }
+                ]
+            },
+            "frameRate": 10
+        }
+    }, {
+        "Type": { "Id": "d2cfd18aa4facc33b1da7ae05205691b", "Name": "Sprite2DSequencePlayer" },
+        "Properties": {
+            "sequence": { "$TypeId": 9, "Id": "21dac254a2024cc6925e8484805bb4d3", "Name": "RowPowerUp1" },
+            "speed": 1,
+            "time": 0
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "15c040e5b8024aa49aeeacf47b71ec6f",
+    "Name": "DiagonalPowerUp",
+    "Enabled": false,
+    "Static": false,
+    "Layer": 8,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
+        "Properties": {
+            "parent": { "$TypeId": 9, "Id": "df71912ed3eb47548263fa4e9fb15b60", "Name": "Gem" }
+        }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "4ccc78efea9501449a10eaf20baecdd7", "FileId": 21300000, "Type": 3 },
+            "color": {
+                "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                "Properties": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1,
+                    "a": 1
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
+        "Properties": {
+            "order": 20
+        }
+    }, {
+        "Type": { "Id": "95eba163dce5bfff5420a5a8c2845523", "Name": "Sprite2DSequence" },
+        "Properties": {
+            "sprites": {
+                "Type": { "Id": "cf54a635a25248ab87f2563bb840ed5b", "Name": "SpriteEntity" },
+                "Items": [
+                    { "$TypeId": 10, "Guid": "4ccc78efea9501449a10eaf20baecdd7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "3180d2aa618e3df409b7b95a56e0c184", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "66eff19759c33864da1b7fa747d5575c", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "5eb2194003668574782c65d84bd3e8e9", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "16ed3e11769dc584aaef6d53c83f5f08", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "7c8b098db6e09cf45aa7ad310c4ac9b7", "FileId": 21300000, "Type": 3 }
+                ]
+            },
+            "frameRate": 10
+        }
+    }, {
+        "Type": { "Id": "d2cfd18aa4facc33b1da7ae05205691b", "Name": "Sprite2DSequencePlayer" },
+        "Properties": {
+            "sequence": { "$TypeId": 9, "Id": "15c040e5b8024aa49aeeacf47b71ec6f", "Name": "SquarePowerUp1" },
+            "speed": 1,
+            "time": 0
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "fc209f88661849b3a1e2812eb54413f9",
+    "Name": "ColorPowerUp",
+    "Enabled": false,
+    "Static": false,
+    "Layer": 8,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
+        "Properties": {
+            "parent": { "$TypeId": 9, "Id": "df71912ed3eb47548263fa4e9fb15b60", "Name": "Gem" }
+        }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "c786b6284253e954a8b76b975e3c9cd6", "FileId": 21300000, "Type": 3 },
+            "color": {
+                "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                "Properties": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1,
+                    "a": 1
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
+        "Properties": {
+            "order": 20
+        }
+    }, {
+        "Type": { "Id": "95eba163dce5bfff5420a5a8c2845523", "Name": "Sprite2DSequence" },
+        "Properties": {
+            "sprites": {
+                "Type": { "Id": "cf54a635a25248ab87f2563bb840ed5b", "Name": "SpriteEntity" },
+                "Items": [
+                    { "$TypeId": 10, "Guid": "c786b6284253e954a8b76b975e3c9cd6", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "14516159f5dc6c348ab1a6f2f5bcc703", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "6fe91751a79a55540a97923a795c045d", "FileId": 21300000, "Type": 3 }
+                ]
+            },
+            "frameRate": 10
+        }
+    }, {
+        "Type": { "Id": "d2cfd18aa4facc33b1da7ae05205691b", "Name": "Sprite2DSequencePlayer" },
+        "Properties": {
+            "sequence": { "$TypeId": 9, "Id": "fc209f88661849b3a1e2812eb54413f9", "Name": "DiagonalPowerUp1" },
+            "speed": 1,
+            "time": 0
+        }
+    }]
+}]

@@ -1,0 +1,19 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "364551bbb182470d977e7d646464c7b7",
+    "Name": "Velocity",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "eecdaddeb20e40a4a202f5928e05427a",
+        "Name": "velocity",
+        "FieldType": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+        "Array": false,
+        "Visibility": 1
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "364551bbb182470d977e7d646464c7b7", "Name": "Velocity" }
+    }
+}]

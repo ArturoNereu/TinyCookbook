@@ -1,0 +1,87 @@
+﻿[{
+    "$TypeId": 4,
+    "Id": "ca7e87429ecc49028fce3797f0d40b04",
+    "Name": "BackgroundNearDeathWarning",
+    "ExportFlags": 0,
+    "SerializedVersion": 0,
+    "Entities": [
+        { "$TypeId": 9, "Id": "655ae65c5b8e4ab7972b36a36e6c4055", "Name": "BackgroundNearDeathWarning" }
+    ]
+},
+{
+    "$TypeId": 5,
+    "Id": "655ae65c5b8e4ab7972b36a36e6c4055",
+    "Name": "BackgroundNearDeathWarning",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": 0,
+                    "y": -209.7
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "ab75ad2a2dbbd2447aa75cb00cf8d197", "FileId": 21300000, "Type": 3 },
+            "color": {
+                "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                "Properties": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1,
+                    "a": 0
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "be2f221c9af74ec5c0a4495a2d6769a3", "Name": "Sprite2DRendererOptions" },
+        "Properties": {
+            "size": {
+                "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+                "Properties": {
+                    "x": 1000,
+                    "y": 500
+                }
+            },
+            "drawMode": {
+                "$TypeId": 8,
+                "Type": { "Id": "a7ae2ef1f120627af99607cbecca330e", "Name": "DrawMode" },
+                "Id": "0334e5a91225cf998b678224025cf40c",
+                "Name": "ContinuousTiling",
+                "Value": 0
+            }
+        }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
+        "Properties": {
+            "order": 1000
+        }
+    }, {
+        "Type": { "Id": "644a255fc38648338f3d2ba9c42ec75f", "Name": "TilingBackground" },
+        "Properties": {
+            "SpeedX": 20,
+            "SpeedY": 0,
+            "TileSize": 26
+        }
+    }, {
+        "Type": { "Id": "cf9e3d186b2740ad9bbbeb18fe1d61fb", "Name": "NearDeathOpacityAnimation" },
+        "Properties": {
+            "Speed": 6,
+            "MinAlpha": 0.15,
+            "MaxAlpha": 0.5
+        }
+    }]
+}]

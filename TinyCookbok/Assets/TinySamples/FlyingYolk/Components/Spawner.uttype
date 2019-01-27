@@ -1,0 +1,49 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "a188108dd6024aee8add5c1db7a27ab7",
+    "Name": "Spawner",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "d017dfc8d4834bf9b27fc03ae337f3a9",
+        "Name": "time",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "4c94a621823d4116a71685841e522437",
+        "Name": "delay",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "d9b8ede5c84b45999337d9a0632b1d17",
+        "Name": "paused",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "45396dd04f0646dc84f1b79542f2f105",
+        "Name": "distance",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "1b55b315031e4e0c825eecb95be4375e",
+        "Name": "minHeight",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "e054b22f604b435eac4219c2fa9b4621",
+        "Name": "maxHeight",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "a188108dd6024aee8add5c1db7a27ab7", "Name": "Spawner" }
+    }
+}]

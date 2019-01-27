@@ -1,0 +1,71 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "79d8880d651b43e7aed7fdd706559afe",
+    "Name": "Popup",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "5d2a8c7755804c9ca3cfd51b9c6c787c",
+        "Name": "HasPlayedInTransition",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "7ca3a265d3734c6dbad1a08badf7bac4",
+        "Name": "PanelContent",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "ef7c24007d69484dbf7832a01f587c3c",
+        "Name": "ImageBackground",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "8250e73f1e534de79f0a0939c64f1484",
+        "Name": "TargetFadeAlpha",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "3dac7426ee3844a8a73ca9bbda2e77b3",
+        "Name": "Timer",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "812afd40f7b44a638c96d0a63fc61ca0",
+        "Name": "FadeInDuration",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "bd93b764d91343068e3317865e497f32",
+        "Name": "ScaleInDuration",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "114ef08314ba435d8dfbbbffc0b60955",
+        "Name": "DelayIn",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "93dd84269b674663a5231aee363bbdf1",
+        "Name": "HasFinishedDelay",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 1
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "79d8880d651b43e7aed7fdd706559afe", "Name": "Popup" },
+        "Properties": {
+            "FadeInDuration": 1,
+            "ScaleInDuration": 1
+        }
+    }
+}]

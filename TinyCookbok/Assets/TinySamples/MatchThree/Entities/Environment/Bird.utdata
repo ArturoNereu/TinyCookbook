@@ -1,0 +1,123 @@
+﻿[{
+    "$TypeId": 4,
+    "Id": "ce818aaa21354813a8d9de4899e28b80",
+    "Name": "Bird",
+    "ExportFlags": 0,
+    "SerializedVersion": 0,
+    "Entities": [
+        { "$TypeId": 9, "Id": "82ccc1e39baf43c2a4f094bf26aaaca9", "Name": "Bird" }
+    ]
+},
+{
+    "$TypeId": 5,
+    "Id": "82ccc1e39baf43c2a4f094bf26aaaca9",
+    "Name": "Bird",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "2591e3921ada9e74ba15fb143a734403", "FileId": 21300000, "Type": 3 }
+        }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
+        "Properties": {
+            "order": 10
+        }
+    }, {
+        "Type": { "Id": "5ffa4699df954814b080cb54b2a2d16f", "Name": "ScrollingObject" },
+        "Properties": {
+            "Speed": 1,
+            "AutonomousSpeed": 50
+        }
+    }, {
+        "Type": { "Id": "95eba163dce5bfff5420a5a8c2845523", "Name": "Sprite2DSequence" },
+        "Properties": {
+            "sprites": {
+                "Type": { "Id": "cf54a635a25248ab87f2563bb840ed5b", "Name": "SpriteEntity" },
+                "Items": [
+                    { "$TypeId": 10, "Guid": "2591e3921ada9e74ba15fb143a734403", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "52c875bfd4dccda44aa18f10cb9994c1", "FileId": 21300000, "Type": 3 }
+                ]
+            },
+            "frameRate": 5
+        }
+    }, {
+        "Type": { "Id": "d2cfd18aa4facc33b1da7ae05205691b", "Name": "Sprite2DSequencePlayer" },
+        "Properties": {
+            "sequence": { "$TypeId": 9, "Id": "82ccc1e39baf43c2a4f094bf26aaaca9", "Name": "Sprite" },
+            "speed": 1
+        }
+    }, {
+        "Type": { "Id": "ef2399a2c2124463873a155756d1ecdf", "Name": "SpriteRendererSkin" },
+        "Properties": {
+            "SpritePath": "CommonEnvironment/Bird",
+            "SkinColorInfo": {
+                "Type": { "Id": "37d9a76716d54f4b9c4e5f3029d282ab", "Name": "SpriteRendererSkinColorInfo" },
+                "Items": [{
+                    "Type": { "Id": "37d9a76716d54f4b9c4e5f3029d282ab", "Name": "SpriteRendererSkinColorInfo" },
+                    "Properties": {
+                        "Color": {
+                            "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                            "Properties": {
+                                "r": 0.1453846,
+                                "g": 0.63,
+                                "b": 0.6203077,
+                                "a": 1
+                            }
+                        }
+                    }
+                }, {
+                    "Type": { "Id": "37d9a76716d54f4b9c4e5f3029d282ab", "Name": "SpriteRendererSkinColorInfo" },
+                    "Properties": {
+                        "Skin": {
+                            "$TypeId": 8,
+                            "Type": { "Id": "decdc736779d4d99b0bd0e002a89e936", "Name": "SkinTypes" },
+                            "Id": "2ca61817705d46af8816a4d2cce06f7d",
+                            "Name": "Farm",
+                            "Value": 1
+                        },
+                        "Color": {
+                            "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                            "Properties": {
+                                "r": 0.839,
+                                "g": 0.5386173,
+                                "b": 0.148465,
+                                "a": 1
+                            }
+                        }
+                    }
+                }, {
+                    "Type": { "Id": "37d9a76716d54f4b9c4e5f3029d282ab", "Name": "SpriteRendererSkinColorInfo" },
+                    "Properties": {
+                        "Skin": {
+                            "$TypeId": 8,
+                            "Type": { "Id": "decdc736779d4d99b0bd0e002a89e936", "Name": "SkinTypes" },
+                            "Id": "9b992dbfae0c4b20b650a255b3b776af",
+                            "Name": "City",
+                            "Value": 2
+                        },
+                        "Color": {
+                            "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                            "Properties": {
+                                "r": 0.5302089,
+                                "g": 0.4112836,
+                                "b": 0.664,
+                                "a": 1
+                            }
+                        }
+                    }
+                }]
+            }
+        }
+    }]
+}]

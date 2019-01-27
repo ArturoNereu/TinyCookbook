@@ -1,0 +1,25 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "37d9a76716d54f4b9c4e5f3029d282ab",
+    "Name": "SpriteRendererSkinColorInfo",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Struct",
+    "Fields": [{
+        "Id": "b1988c537c394adeaa70c48fa3928475",
+        "Name": "Skin",
+        "FieldType": { "Id": "decdc736779d4d99b0bd0e002a89e936", "Name": "SkinTypes" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "e01dd2ba75584c21a1f8d4eed1bf2299",
+        "Name": "Color",
+        "FieldType": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "37d9a76716d54f4b9c4e5f3029d282ab", "Name": "SpriteRendererSkinColorInfo" }
+    }
+}]

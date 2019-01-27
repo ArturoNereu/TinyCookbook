@@ -1,0 +1,37 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "65a45876872e444aaca388b082b17c97",
+    "Name": "SettingsMenuAudio",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "2d5a03d5313b4cdc8b241e05290525ec",
+        "Name": "ButtonSound",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "d85a3a3ef3964f96b6f787d271ec032b",
+        "Name": "ButtonMusic",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "f2fc358936634e43bfdc9ee986ba2ccf",
+        "Name": "SpriteAudioOn",
+        "FieldType": { "Id": "cf54a635a25248ab87f2563bb840ed5b", "Name": "SpriteEntity" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "4247e53a635046b796b8d74d32ce2f1f",
+        "Name": "SpriteAudioOff",
+        "FieldType": { "Id": "cf54a635a25248ab87f2563bb840ed5b", "Name": "SpriteEntity" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "65a45876872e444aaca388b082b17c97", "Name": "SettingsMenuAudio" }
+    }
+}]

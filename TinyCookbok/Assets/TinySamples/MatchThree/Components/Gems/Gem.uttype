@@ -1,0 +1,103 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "7e20367cb0ed45509e849dde18f01cd5",
+    "Name": "Gem",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "1b6aff1c352e44dcb038c256af0bc2a5",
+        "Name": "CellHashKey",
+        "FieldType": { "Id": "37695933217a49f68ce15db33f63cdf9", "Name": "Int64" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "310e02d172154fbf9c88f94788d38afc",
+        "Name": "IsSelected",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "7775c09fd53e4107b4e4433a73353baf",
+        "Name": "IsFalling",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "51cbd27fc4344407b1a2a6cdc1c91440",
+        "Name": "IsSwapping",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "6316b97414194a43beccf56d9f748cad",
+        "Name": "SpriteRendererHighlightGem",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "4da73d6d3b2848d7b5e356a6e9c38ac2",
+        "Name": "GemType",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "ea0174f2f6c74101860c2d06b38d4951",
+        "Name": "HighlightAlpha",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "e9bc96d4597445e6935a7f99e1893983",
+        "Name": "IsPossibleMatch",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "d81d3e7d83664dc098202292d451a6bb",
+        "Name": "PowerUp",
+        "FieldType": { "Id": "2ffd1f6bbde643e79fc2c5f3856004b1", "Name": "GemPowerUpTypes" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "18d81c7e7b1544bfa14d4331b6dadb04",
+        "Name": "CurrentPowerUpVisual",
+        "FieldType": { "Id": "2ffd1f6bbde643e79fc2c5f3856004b1", "Name": "GemPowerUpTypes" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "ab968d57b19a4d878ae7a291512824d2",
+        "Name": "RowPowerUpVisual",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "e1f0dad05dbe4437957a00d4beebe976",
+        "Name": "ColumnPowerUpVisual",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "cd21fa7d905742a59fb2f6475f9b270b",
+        "Name": "DiagonalPowerUpVisual",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "abce320b4c3c4392bafe059a0d521f7f",
+        "Name": "SquarePowerUpVisual",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "10780c19ab074a26b31598dc45d98c81",
+        "Name": "SameColorPowerUpVisual",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "7e20367cb0ed45509e849dde18f01cd5", "Name": "Gem" }
+    }
+}]

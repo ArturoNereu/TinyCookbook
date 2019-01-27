@@ -1,0 +1,109 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "fe0393c7008e4bdfa37a0ef3fb115a0c",
+    "Name": "GameUI",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "6f7f088970334e5996611a034b19c419",
+        "Name": "ButtonPause",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "f5e74f8efb164ee8be514cefa34222cd",
+        "Name": "LabelScore",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "265cb273f1a5481d9d65e475c01046b6",
+        "Name": "LabelRemainingMoves",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "3790a9ae8f8d49bdac60b49822b65eae",
+        "Name": "ImageMoves",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "31fe4265a2e54fc490c32136a2bf9eb0",
+        "Name": "LabelObjective",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "547b0b825c944d32951004cf1a5777b3",
+        "Name": "ImageObjectivePoint",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "b0691a1065184d31bc9d3e6331c8c98a",
+        "Name": "ImageObjectiveEgg",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "15316bd4bbd64f6fb178d930a361278e",
+        "Name": "ImageObjectiveSurvival",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "c65147a0761d4b7fa85df4ccf1ad9324",
+        "Name": "ImageObjectivePointIncomplete",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "ce3711da77c64736841aeaa95f8ae01b",
+        "Name": "ImageObjectiveEggIncomplete",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "3215125492094053a9383fdf8b126109",
+        "Name": "ImageObjectiveSurvivalIncomplete",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "a7360b951c9649f2bf4a1d2eba50fbfa",
+        "Name": "ImageObjectiveCompleteGlow",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "5c916c43317b4f329c62e1b3b0b263ce",
+        "Name": "LabelTime",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "4755684692c248f0b3343b4bd82ff44e",
+        "Name": "ImageNoMovesWarning",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "af162587eb3f49878995e7dfbe624615",
+        "Name": "LastCollectedEggCount",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "f4595265154e463ab6c2228b2e7b99f6",
+        "Name": "LastIsObjectiveComplete",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 1
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "fe0393c7008e4bdfa37a0ef3fb115a0c", "Name": "GameUI" }
+    }
+}]

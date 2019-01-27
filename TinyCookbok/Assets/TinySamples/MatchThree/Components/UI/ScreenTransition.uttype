@@ -1,0 +1,82 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "62aa7cb008d14d8aaa040118a4349618",
+    "Name": "ScreenTransition",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "6976639f5ab94b1b9649af23c1b96881",
+        "Name": "InDuration",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "9e10b78f0fa94cad9571e75151dd6f17",
+        "Name": "OutDuration",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "803ab7e795f444a2a1ebf8ce824aed86",
+        "Name": "BlackCurtain",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "f5cde06fe8354c699865dfa8ae8d78e5",
+        "Name": "IsTransitionIn",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "34dc47666d03489c9b8cbe9a58c98b75",
+        "Name": "Timer",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "bfe36aa16d1a42459d6275067f870003",
+        "Name": "TransitionToState",
+        "FieldType": { "Id": "172dc11c0e2e4391bac6aa63fc999b6c", "Name": "GameStateTypes" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "82101ddbc6944fb482f9a82f1feffa71",
+        "Name": "ScaleHole",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "bafbf1bf38204b28a61b092b5ce455b3",
+        "Name": "SkipFrameCount",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "07364845660d4676bc40fd3c411c1117",
+        "Name": "ScaleHoleCurve",
+        "FieldType": { "Id": "280b143c739160ffb69b3cf552f375bb", "Name": "CurveEntity" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "6ad950586dd24e92b2a0dd0007693fc1",
+        "Name": "IsScaleHoleTransition",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "62aa7cb008d14d8aaa040118a4349618", "Name": "ScreenTransition" },
+        "Properties": {
+            "TransitionToState": {
+                "$TypeId": 8,
+                "Type": { "Id": "172dc11c0e2e4391bac6aa63fc999b6c", "Name": "GameStateTypes" },
+                "Id": "d5d396bbe0914be48eb72d3aa687e99e",
+                "Name": "WorldMap",
+                "Value": 8
+            }
+        }
+    }
+}]

@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UICommon
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 2
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 2aade42779ee6f047aec350217ac27af, type: 3}
+    totalSpriteSurfaceArea: 10470
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: f3921880b5ea1f746bdd323c06260a97, type: 3}
+  - {fileID: 21300000, guid: f367d131d4ee8f9409b11f103cf366c2, type: 3}
+  - {fileID: 21300000, guid: 9c81c2729c3d23d4c83d705d11f818d7, type: 3}
+  - {fileID: 21300000, guid: becb1c13b39903f43bdc60c772364827, type: 3}
+  - {fileID: 21300000, guid: 9c78ea53fb8a45445a758b7a6bfd35c2, type: 3}
+  - {fileID: 21300000, guid: 029c686306c63954fa46e1492ab751ad, type: 3}
+  - {fileID: 21300000, guid: da61b8f36c0a7dc4e9dedd7c80951709, type: 3}
+  - {fileID: 21300000, guid: 9420160473daa714381703cb467dd12d, type: 3}
+  - {fileID: 21300000, guid: 69a2b574a967a0b43bbf703d3e234e13, type: 3}
+  - {fileID: 21300000, guid: ea2a4306e40deb04781dc2c1528ff88e, type: 3}
+  - {fileID: 21300000, guid: 63d3e316ee2e9b0469701614bacd11e3, type: 3}
+  - {fileID: 21300000, guid: f1ffb5466c7e4de47b8246b838d08f28, type: 3}
+  - {fileID: 21300000, guid: 2fb95b463f6d9b74fa465290603716fa, type: 3}
+  - {fileID: 21300000, guid: 92d59a77a9c1f454abd3e5c90476765b, type: 3}
+  - {fileID: 21300000, guid: 1a9e6518995fcd3438dd40435a5fd47c, type: 3}
+  - {fileID: 21300000, guid: 49b0bc29c43ad034dba10aa0aaa0ca2d, type: 3}
+  - {fileID: 21300000, guid: 001b8d39acfae53449ca98ba22bd2ca4, type: 3}
+  - {fileID: 21300000, guid: a64eab8955c187b40b19d7823b32cd83, type: 3}
+  - {fileID: 21300000, guid: e585c05afebcb3746be1adfc4400a9ff, type: 3}
+  - {fileID: 21300000, guid: e18f361b9d891114caa05cd6cd57b4d0, type: 3}
+  - {fileID: 21300000, guid: 61d5282d9211f354b9ffa6d47cb4a66a, type: 3}
+  - {fileID: 21300000, guid: 3999267d5d9f84a418f2bbdf1a30c011, type: 3}
+  - {fileID: 21300000, guid: 0c9c16dd30052964c9ce076abc9714bb, type: 3}
+  - {fileID: 21300000, guid: 282b38ed40ce6cb4c85eee79adbc9583, type: 3}
+  - {fileID: 21300000, guid: f5daa31e2e572e3448db9c6e1fc54672, type: 3}
+  - {fileID: 21300000, guid: e948153eaa88e97478e3193b7f721e66, type: 3}
+  - {fileID: 21300000, guid: 5a2de0cef17b5d24cb4b6af52c7a8681, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Icon_Pts_Incomplete
+  - Icon_Time_Incomplete
+  - Button_Red_Idle
+  - Icon_Leaderboard
+  - Button_Disabled
+  - Container_Inner
+  - Button_Green_Idle
+  - Button_Red_Hover
+  - Button_Teal_Clicked
+  - Container_Header
+  - Button_Teal_Idle
+  - Icon_Friends
+  - TransitionHole
+  - Button_Green_Clicked
+  - Button_Red_Clicked
+  - Icon_Star
+  - Button_Teal_Hover
+  - Icon_Pause_Idle
+  - Icon_Pause_Hover
+  - Icon_Egg_Incomplete
+  - Icon_Egg
+  - Icon_Pts
+  - Icon_Pause_Clicked
+  - Button_Green_Hover
+  - Vignette
+  - Icon_Time
+  - Container
+  m_Tag: UICommon
+  m_IsVariant: 0

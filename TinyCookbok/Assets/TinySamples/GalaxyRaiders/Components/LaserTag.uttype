@@ -1,0 +1,29 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "086d21e6e1914a22b8e1c7227be6ed07",
+    "Name": "LaserTag",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Enum",
+    "BaseType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+    "Fields": [{
+        "Id": "394b201813144c18be7a7ccf99b6191d",
+        "Name": "Raider",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "a1ea6a33e81c41658af60e9dd2cc711f",
+        "Name": "Spaceship",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "086d21e6e1914a22b8e1c7227be6ed07", "Name": "LaserTag" },
+        "Properties": {
+            "Spaceship": 1
+        }
+    }
+}]

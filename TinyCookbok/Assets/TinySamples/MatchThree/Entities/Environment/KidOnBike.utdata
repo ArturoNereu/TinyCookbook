@@ -1,0 +1,136 @@
+﻿[{
+    "$TypeId": 4,
+    "Id": "b18cbe1a6a3f413e8255e6b0f95e489a",
+    "Name": "KidOnBike",
+    "ExportFlags": 0,
+    "SerializedVersion": 0,
+    "Entities": [
+        { "$TypeId": 9, "Id": "c5f5e478166c4de686fd2f59998bb185", "Name": "KidOnBike" },
+        { "$TypeId": 9, "Id": "b8b2046957a34481b4a76c8385138130", "Name": "KidBike" },
+        { "$TypeId": 9, "Id": "3e8ae3fb871a45fcbe805b1baaca2735", "Name": "KidWheely" }
+    ]
+},
+{
+    "$TypeId": 5,
+    "Id": "c5f5e478166c4de686fd2f59998bb185",
+    "Name": "KidOnBike",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
+    }, {
+        "Type": { "Id": "20f622000de44cafb5fb2b14d7a8a555", "Name": "KidOnBike" },
+        "Properties": {
+            "AnimationKidBike": { "$TypeId": 9, "Id": "b8b2046957a34481b4a76c8385138130", "Name": "Kid" },
+            "AnimationKidWheely": { "$TypeId": 9, "Id": "3e8ae3fb871a45fcbe805b1baaca2735", "Name": "Kid1" }
+        }
+    }, {
+        "Type": { "Id": "5ffa4699df954814b080cb54b2a2d16f", "Name": "ScrollingObject" },
+        "Properties": {
+            "AutonomousSpeed": 100
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "b8b2046957a34481b4a76c8385138130",
+    "Name": "KidBike",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
+        "Properties": {
+            "parent": { "$TypeId": 9, "Id": "c5f5e478166c4de686fd2f59998bb185", "Name": "KidOnBike" }
+        }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "9fe7d62910bb4bf47a388b98e599f0b9", "FileId": 21300000, "Type": 3 }
+        }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
+        "Properties": {
+            "order": 22
+        }
+    }, {
+        "Type": { "Id": "95eba163dce5bfff5420a5a8c2845523", "Name": "Sprite2DSequence" },
+        "Properties": {
+            "sprites": {
+                "Type": { "Id": "cf54a635a25248ab87f2563bb840ed5b", "Name": "SpriteEntity" },
+                "Items": [
+                    { "$TypeId": 10, "Guid": "9fe7d62910bb4bf47a388b98e599f0b9", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "f61ad81640c15f045815dce7ef06e527", "FileId": 21300000, "Type": 3 }
+                ]
+            },
+            "frameRate": 5
+        }
+    }, {
+        "Type": { "Id": "d2cfd18aa4facc33b1da7ae05205691b", "Name": "Sprite2DSequencePlayer" },
+        "Properties": {
+            "sequence": { "$TypeId": 9, "Id": "b8b2046957a34481b4a76c8385138130", "Name": "Kid" },
+            "speed": 1
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "3e8ae3fb871a45fcbe805b1baaca2735",
+    "Name": "KidWheely",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
+        "Properties": {
+            "parent": { "$TypeId": 9, "Id": "c5f5e478166c4de686fd2f59998bb185", "Name": "KidOnBike" }
+        }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "c442c2dbf0b34e64a90f8fc7ef73a9f2", "FileId": 21300000, "Type": 3 }
+        }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
+        "Properties": {
+            "order": 22
+        }
+    }, {
+        "Type": { "Id": "95eba163dce5bfff5420a5a8c2845523", "Name": "Sprite2DSequence" },
+        "Properties": {
+            "sprites": {
+                "Type": { "Id": "cf54a635a25248ab87f2563bb840ed5b", "Name": "SpriteEntity" },
+                "Items": [
+                    { "$TypeId": 10, "Guid": "c442c2dbf0b34e64a90f8fc7ef73a9f2", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "9c233eabbd8af7f4aa7c714abc43f433", "FileId": 21300000, "Type": 3 }
+                ]
+            },
+            "frameRate": 5
+        }
+    }, {
+        "Type": { "Id": "d2cfd18aa4facc33b1da7ae05205691b", "Name": "Sprite2DSequencePlayer" },
+        "Properties": {
+            "sequence": { "$TypeId": 9, "Id": "3e8ae3fb871a45fcbe805b1baaca2735", "Name": "Kid1" },
+            "speed": 1
+        }
+    }]
+}]

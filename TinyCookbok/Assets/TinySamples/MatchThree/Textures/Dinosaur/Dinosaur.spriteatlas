@@ -1,0 +1,253 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Dinosaur
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 2
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 0cd60ae9b178041ab9a58cad6c02d72c, type: 3}
+    totalSpriteSurfaceArea: 702264
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: c81849004e3c4514991ef1a2286f1cf1, type: 3}
+  - {fileID: 21300000, guid: 4501b8305bc3c7345abf812196a17bb2, type: 3}
+  - {fileID: 21300000, guid: 3ab794800adc0864c8bcd6846299ca2e, type: 3}
+  - {fileID: 21300000, guid: 512d22b035bf26744a2798dbcb4199fa, type: 3}
+  - {fileID: 21300000, guid: de652ed0f1706d447b484682dfcce931, type: 3}
+  - {fileID: 21300000, guid: 10a0362118ea72e46ae96a14f6c06f36, type: 3}
+  - {fileID: 21300000, guid: 3a5be081887c53f40b8fb9174c0b292a, type: 3}
+  - {fileID: 21300000, guid: 829ae8818a57b554dbbf10f7ade5e97a, type: 3}
+  - {fileID: 21300000, guid: ef59f0d11271dbf43b29798356334b52, type: 3}
+  - {fileID: 21300000, guid: 0b5950f142724ec4ea77aac4138675e6, type: 3}
+  - {fileID: 21300000, guid: 414b5912a9aa39f4095c2f975df0fd7c, type: 3}
+  - {fileID: 21300000, guid: 42ec7e225b16472499718fb4b75a32d6, type: 3}
+  - {fileID: 21300000, guid: 9270da62381499848a6db71f08ee81dc, type: 3}
+  - {fileID: 21300000, guid: 06a8d182fdd1e11428b8443b6bb4e23c, type: 3}
+  - {fileID: 21300000, guid: 57ed7492ac9aa5c41bc614787521a16a, type: 3}
+  - {fileID: 21300000, guid: 4dddf0a297e61ff49a7876cc62d09662, type: 3}
+  - {fileID: 21300000, guid: f29a41a240200e5408fa023c64909bd9, type: 3}
+  - {fileID: 21300000, guid: fc8db81373757f0459d99bda29828074, type: 3}
+  - {fileID: 21300000, guid: 1ea42093a9ab5944da89f7bffa83d429, type: 3}
+  - {fileID: 21300000, guid: cb4a4fb384ff24d4cbda4b93bc3f311f, type: 3}
+  - {fileID: 21300000, guid: f7cd95c34c49eec428e0694fd5f5d1c4, type: 3}
+  - {fileID: 21300000, guid: 3355b7e381e629b4f804886f6cb44d1e, type: 3}
+  - {fileID: 21300000, guid: 7f92212404f0f4f48878deaa127ca31c, type: 3}
+  - {fileID: 21300000, guid: 85cf6044d30fe0341b5ff0ff1a122488, type: 3}
+  - {fileID: 21300000, guid: 4be1f764ad2f4a346ae74488dabbe524, type: 3}
+  - {fileID: 21300000, guid: da78c18425b8f024882dce1048253b24, type: 3}
+  - {fileID: 21300000, guid: f8c9ea9447a844645b5fd572893052b2, type: 3}
+  - {fileID: 21300000, guid: 939b0675c129eaf4aa3711063869debc, type: 3}
+  - {fileID: 21300000, guid: 2945e08595a4a9a4db0074af502908d1, type: 3}
+  - {fileID: 21300000, guid: 4c614e852f1717a49ad5e4b6ead37838, type: 3}
+  - {fileID: 21300000, guid: 9c6e2fb5fa70e93409cdcbe1823d4739, type: 3}
+  - {fileID: 21300000, guid: e844d4f5241664be69ad40aea6b4c6cf, type: 3}
+  - {fileID: 21300000, guid: c852a9f504ad92348a401575fd57a796, type: 3}
+  - {fileID: 21300000, guid: 3f83c82635c0670449c055f6e8752a15, type: 3}
+  - {fileID: 21300000, guid: 367ce546c0c8f074da4c12f881a17a37, type: 3}
+  - {fileID: 21300000, guid: ff4b63563df157047ac79b6ff3c6c694, type: 3}
+  - {fileID: 21300000, guid: f8b15d568640c56499f8a729d1a25e56, type: 3}
+  - {fileID: 21300000, guid: 0b2a5a963af33a648b86af16ca6d0736, type: 3}
+  - {fileID: 21300000, guid: fec0fe96fe2e45d4680021f43c0c0d57, type: 3}
+  - {fileID: 21300000, guid: 70bc9fa6d5935ad4b872084b659c8e0a, type: 3}
+  - {fileID: 21300000, guid: ec05a74790103ef42a1a2f8f503d9aa4, type: 3}
+  - {fileID: 21300000, guid: 285d65973e89db6479f6f5f1944a4ee4, type: 3}
+  - {fileID: 21300000, guid: 880ff4a7b3c2ade47a6a7fba59c82a6f, type: 3}
+  - {fileID: 21300000, guid: a5c89aa7a4f5ea84da777cf7a9f04a30, type: 3}
+  - {fileID: 21300000, guid: 3bcc61e7ceb08df48a32aa7e3dd0d3bd, type: 3}
+  - {fileID: 21300000, guid: 29be7cf7f00484b4184d193d08450d83, type: 3}
+  - {fileID: 21300000, guid: 4328f608f7ec4d54883a39a176b2a122, type: 3}
+  - {fileID: 21300000, guid: 98e74838a8299d74681e8390e4830ff9, type: 3}
+  - {fileID: 21300000, guid: 6b0698381b76ab34e9cc887e661d0767, type: 3}
+  - {fileID: 21300000, guid: fa30d2786a9b1ec44affe98007b105b6, type: 3}
+  - {fileID: 21300000, guid: 00099b78c2f06ea43a6e8a2a06c9a55b, type: 3}
+  - {fileID: 21300000, guid: d5f87c78ff058e043b4131c1c1fd18b4, type: 3}
+  - {fileID: 21300000, guid: a929acb8693998f418310a7d76966cd8, type: 3}
+  - {fileID: 21300000, guid: d06b51298e34e074e8d5a72c9cde5bda, type: 3}
+  - {fileID: 21300000, guid: 823e0729273d25847bae00cddea12817, type: 3}
+  - {fileID: 21300000, guid: 402a8969a9ccc2a4eafe0f96f451a784, type: 3}
+  - {fileID: 21300000, guid: d51495b976ac07747be3b47b2f2316f7, type: 3}
+  - {fileID: 21300000, guid: 02bac4e91608f234493d2eaebd2a1588, type: 3}
+  - {fileID: 21300000, guid: 3540362aa3a327e49b8c086da73f019d, type: 3}
+  - {fileID: 21300000, guid: dcadb83af2b74f14995a89e533abc6bb, type: 3}
+  - {fileID: 21300000, guid: 0a00bc3a485b75b46a80d503dbe53f83, type: 3}
+  - {fileID: 21300000, guid: cf42c27ac750a824d8b88bcede45316a, type: 3}
+  - {fileID: 21300000, guid: cd5a3a8ad31c8924098d500b286e89cb, type: 3}
+  - {fileID: 21300000, guid: f677d7da914850f41802988f2a0c5945, type: 3}
+  - {fileID: 21300000, guid: 0a0887ea1cb75c540b8c9654d7341d10, type: 3}
+  - {fileID: 21300000, guid: 9d429fea03d03904f8f3e1e1ebba7682, type: 3}
+  - {fileID: 21300000, guid: 241630faf5158ff409447404560ed2a5, type: 3}
+  - {fileID: 21300000, guid: 27e9240be703dda4e92e0eaf65d51348, type: 3}
+  - {fileID: 21300000, guid: 3267d15b3beb43d4e9c2e018ebf705ac, type: 3}
+  - {fileID: 21300000, guid: 6d1fe36bb979a0d42963b3d225c2abde, type: 3}
+  - {fileID: 21300000, guid: 2cd144bb4fb4e4c469cf3c78c03c10a1, type: 3}
+  - {fileID: 21300000, guid: c37bd92c28099c9449000476c8e591f3, type: 3}
+  - {fileID: 21300000, guid: f8a3ff3cdd1d3294e8a3e3438e95c59a, type: 3}
+  - {fileID: 21300000, guid: 1a21e56cff5db2d418497edd5d720ce8, type: 3}
+  - {fileID: 21300000, guid: d6c91c7c89f30084e9a020d03969510c, type: 3}
+  - {fileID: 21300000, guid: 1c91a4ac66520ef4a89534b1b07e0296, type: 3}
+  - {fileID: 21300000, guid: 5b3dfbfc433e78f4fbb559303c8a380b, type: 3}
+  - {fileID: 21300000, guid: 4a1cfd1d8bf40494f96189c17ad25193, type: 3}
+  - {fileID: 21300000, guid: 82a0318d249e5e14eac83200d9791986, type: 3}
+  - {fileID: 21300000, guid: 1616498d9d8b04305bdfccca45025734, type: 3}
+  - {fileID: 21300000, guid: af99a49dd692fb3499735a79bccabd02, type: 3}
+  - {fileID: 21300000, guid: 370f93dd70114844eb029664c86b6e89, type: 3}
+  - {fileID: 21300000, guid: 4bf917fd8b31a80498cd9f89c3ca1e1c, type: 3}
+  - {fileID: 21300000, guid: 94cf472e887894571a13b91a7fc34726, type: 3}
+  - {fileID: 21300000, guid: 0089073ed0251454d9e92b7e74b89aec, type: 3}
+  - {fileID: 21300000, guid: a9575f5ea99c4c74e8a82aa6171be8e4, type: 3}
+  - {fileID: 21300000, guid: 877ed76e12575294e94c110292343e3d, type: 3}
+  - {fileID: 21300000, guid: 152472bea6d7c574b9ec2fb08932199e, type: 3}
+  - {fileID: 21300000, guid: 51dd23ce8fa343e4f974644d42479950, type: 3}
+  - {fileID: 21300000, guid: 94ed8aeeede923141babfc92e6882ec3, type: 3}
+  - {fileID: 21300000, guid: aa96deeec741ff34ba118b9b892363db, type: 3}
+  - {fileID: 21300000, guid: c0b056fed1869c0488b1f6f39eb8df08, type: 3}
+  - {fileID: 21300000, guid: 93a8bf0fd68cf79428a79262ba72c500, type: 3}
+  - {fileID: 21300000, guid: 88d9472f71f670b4293e2d613304ca29, type: 3}
+  - {fileID: 21300000, guid: 8fbfcf3fb7128ac4b82ab54b6b820660, type: 3}
+  - {fileID: 21300000, guid: 88b2f97f2d7ca634c8064efe7796a563, type: 3}
+  - {fileID: 21300000, guid: 63bf2daf50a544c4aaa53af60914f183, type: 3}
+  - {fileID: 21300000, guid: 27566dafccd3e3642a60e5ffc0f71f6a, type: 3}
+  - {fileID: 21300000, guid: b99ca0dfb722acd49acb9b4f631ab54a, type: 3}
+  - {fileID: 21300000, guid: e751a8ef74281c74c82918ebcad7ad1a, type: 3}
+  - {fileID: 21300000, guid: 836ebcef6da3414468c40e2c48e846d1, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Dinosaur_Bite_5
+  - Dinosaur_Jump_End_1
+  - Dinosaur_Crush_5
+  - Lazer_Beam_Short_1
+  - Dinosaur_Crush_8
+  - Dinosaur_Die_8
+  - Dinosaur_Bite_4
+  - Dinosaur_Crush_11
+  - Dinosaur_Die_2
+  - Dinosaur_Lazer_1
+  - Dinosaur_Tail_Whip_3
+  - Dinosaur_Walk_1
+  - Dinosaur_Jump_Start_3
+  - Dinosaur_Launch_6
+  - Dinosaur_Jump_Start_4
+  - Dinosaur_Die_3
+  - Dinosaur_Die_9
+  - Dinosaur_Bite_3
+  - Dinosaur_Tail_Whip_10
+  - Dinosaur_Lazer_4
+  - Dinosaur_Bite_2
+  - Dinosaur_Stomp_5
+  - Dinosaur_Launch_4
+  - Dinosaur_Crush_14
+  - Dinosaur_Die_7
+  - Dinosaur_Lazer_2
+  - Dinosaur_Bite_9
+  - Dinosaur_Crush_10
+  - Dinosaur_Stomp_10
+  - Dinosaur_Tail_Whip_1
+  - Dinosaur_Walk_2
+  - Dinosaur_Jump_End_4
+  - Dinosaur_Stomp_9
+  - Lazer_Beam_Tall_1
+  - Dinosaur_Launch_1
+  - Dinosaur_Stomp_8
+  - Dinosaur_Jump_Start_2
+  - Dinosaur_Walk_9
+  - Dinosaur_Tail_Whip_11
+  - Dinosaur_Walk_7
+  - Dinosaur_Walk_4
+  - Dinosaur_Die_1
+  - Dinosaur_Bite_7
+  - Dinosaur_Launch_9
+  - Dinosaur_Bite_1
+  - Dinosaur_Crush_2
+  - Dinosaur_Stomp_2
+  - Dinosaur_Walk_3
+  - Dinosaur_Lazer_5
+  - Lazer_Beam_Tall_2
+  - Dinosaur_Launch_7
+  - Dinosaur_Tail_Whip_2
+  - Dinosaur_Stomp_4
+  - Dinosaur_Crush_3
+  - Dinosaur_Stomp_6
+  - Dinosaur_Stomp_7
+  - Dinosaur_Stomp_11
+  - Dinosaur_Launch_11
+  - Dinosaur_Launch_3
+  - Dinosaur_Crush_6
+  - Dinosaur_Crush_9
+  - Lazer_Beam_Short_2
+  - Dinosaur_Tail_Whip_7
+  - Dinosaur_Walk_11
+  - Lazer_Beam_Short_3
+  - Dinosaur_Bite_8
+  - Dinosaur_Die_4
+  - Lazer_Beam_Tall_3
+  - Dinosaur_Lazer_6
+  - Dinosaur_Die_6
+  - Dinosaur_Jump_End_2
+  - Dinosaur_Lazer_3
+  - Dinosaur_Jump_Start_6
+  - Dinosaur_Walk_12
+  - Dinosaur_Launch_8
+  - Dinosaur_Launch_2
+  - Dinosaur_Tail_Whip_6
+  - Dinosaur_Launch_5
+  - Dinosaur_Crush_7
+  - Shadow_Big
+  - Dinosaur_Stomp_1
+  - Dinosaur_Die_5
+  - Dinosaur_Crush_12
+  - Dinosaur_Jump_End_3
+  - Dinosaur_Walk_6
+  - Dinosaur_Lazer_7
+  - Dinosaur_Jump_Start_1
+  - Dinosaur_Crush_4
+  - Dinosaur_Tail_Whip_8
+  - Dinosaur_Jump_Start_5
+  - Dinosaur_Crush_13
+  - Dinosaur_Walk_5
+  - Dinosaur_Tail_Whip_4
+  - Dinosaur_Tail_Whip_9
+  - Dinosaur_Walk_8
+  - Dinosaur_Launch_10
+  - Dinosaur_Tail_Whip_5
+  - Dinosaur_Bite_6
+  - Dinosaur_Crush_1
+  - Dinosaur_Walk_10
+  - Dinosaur_Stomp_3
+  m_Tag: Dinosaur
+  m_IsVariant: 0

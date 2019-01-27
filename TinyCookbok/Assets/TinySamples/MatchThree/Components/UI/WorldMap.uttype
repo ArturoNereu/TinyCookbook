@@ -1,0 +1,192 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "19cce49317ad4153a2b1bbb88b3928e5",
+    "Name": "WorldMap",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "65ed6ba013234702901325fba6a444de",
+        "Name": "IsCreated",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "b3b98ed7b55d444fafe6b60fc75e8f87",
+        "Name": "CurrentLevelIndex",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "7612b9431a1348bbb2cdb96944c1f4f9",
+        "Name": "ScrollSpeed",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "67ef238c48e04872812b204699ee7a9d",
+        "Name": "CurrentScrollIndexPosition",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "8bd3b64651ba48bb8bf60118735bd517",
+        "Name": "ButtonLeft",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "8250ef3bb6af4a09953f043dfcf8de21",
+        "Name": "ButtonRight",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "1a6f82a866bd4865a85f2a1e70d8d265",
+        "Name": "Ground",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "2a8a7131fced46889134f5d03061cd4b",
+        "Name": "GroundTransition",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "adc1bc4322a24db891a9fb294c5a6027",
+        "Name": "Sky",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "0245edadade1455a8d1bd25c8621a8ec",
+        "Name": "SkyTransition",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "834fbd370f33437488d60d42a124ff8f",
+        "Name": "LabelLevelTitle",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "c6472293059c4a5780e72eba6381b5a1",
+        "Name": "LabelLevelInfoLine1",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "0a4c13ce13d1453bb2bb63ee5a9dbdd5",
+        "Name": "LabelLevelInfoLine2",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "89d927cdbb714e4b8df6714bb8b7df71",
+        "Name": "LastLevelIndex",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "b9bc568275e04428bde1c71808c193d1",
+        "Name": "LastScrollIndexPosition",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "7e245180538e4046924ae9463c96070f",
+        "Name": "ButtonPlay",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "b70b3d928339406ebdc5f4dba2d36ab7",
+        "Name": "ButtonSettings",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "345d4d1248254c3a8b511dfbd6da61ba",
+        "Name": "LabelBestScore",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "8cfec4888fdd4bc1939d71ba019f9f73",
+        "Name": "ImagePointObjective",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "f53837b8f70a41748364954c8c3f1b9d",
+        "Name": "ImageEggObjective",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "1a779f4bca6940509d9903501f0aee02",
+        "Name": "ImageSurvivalObjective",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "74eef63ccee14a8b82aeab3cd072e161",
+        "Name": "ImageLock",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": true,
+        "Visibility": 0
+    }, {
+        "Id": "3fb1caf94a624b3b8987ef9dc68ec03c",
+        "Name": "LastBeatenLevelID",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "e49f189227274a1293504566232bdc87",
+        "Name": "LabelButtonPlay",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "8a47f6aca7aa43f8915a83e658adecae",
+        "Name": "PlayButtonColor",
+        "FieldType": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "442c8e7d5ff9490ab8819baed0b0436e",
+        "Name": "PlayButtonDisabledColor",
+        "FieldType": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "9d23acdeef494f24930fda180556917f",
+        "Name": "ButtonCutscene",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "d9575616da1b4e52905997297080679d",
+        "Name": "LabelButtonCutscene",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "1496a8b138ab49daa4e65fed46d5fe5f",
+        "Name": "LastLanguageID",
+        "FieldType": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+        "Array": false,
+        "Visibility": 1
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "19cce49317ad4153a2b1bbb88b3928e5", "Name": "WorldMap" },
+        "Properties": {
+            "ScrollSpeed": 0,
+            "LastLevelIndex": -1,
+            "LastScrollIndexPosition": -1
+        }
+    }
+}]

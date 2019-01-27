@@ -1,0 +1,25 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "bdff3ded513d4d4bb21e775113d23565",
+    "Name": "LocalizationConfiguration",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Configuration",
+    "Fields": [{
+        "Id": "9c62561393e449bcb4f914f80cd54dc0",
+        "Name": "Texts",
+        "FieldType": { "Id": "8ad9328890654dd9ab3c5bbae5b98d6a", "Name": "LocalizationItem" },
+        "Array": true,
+        "Visibility": 0
+    }, {
+        "Id": "29af051be903457aae66b12fbc81fe51",
+        "Name": "LanguageID",
+        "FieldType": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+        "Array": false,
+        "Visibility": 1
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "bdff3ded513d4d4bb21e775113d23565", "Name": "LocalizationConfiguration" }
+    }
+}]

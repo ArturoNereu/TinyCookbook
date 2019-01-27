@@ -1,0 +1,393 @@
+﻿[{
+    "$TypeId": 4,
+    "Id": "d16671dd71d542c5bc9838dd5a81d9ff",
+    "Name": "DinosaurLaserAttackBlackCover",
+    "ExportFlags": 0,
+    "SerializedVersion": 0,
+    "Entities": [
+        { "$TypeId": 9, "Id": "c4cc07122bd8414c9b84406de5c61041", "Name": "DinosaurLaserAttackBlackCover" },
+        { "$TypeId": 9, "Id": "c04626d9062c447b8b0343d7570f9448", "Name": "SpriteVignetteBottom" },
+        { "$TypeId": 9, "Id": "c0c1c48b676745cb947637e1945f8d7a", "Name": "SpriteFillBottom" },
+        { "$TypeId": 9, "Id": "013db8d5259442bb85b315f11610bb2a", "Name": "SpriteVignetteTop" },
+        { "$TypeId": 9, "Id": "0c90182eb83f4ee4b9e971f9c185a572", "Name": "SpriteFillTop" }
+    ]
+},
+{
+    "$TypeId": 5,
+    "Id": "c4cc07122bd8414c9b84406de5c61041",
+    "Name": "DinosaurLaserAttackBlackCover",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "970bedced97c46218f164c021b557757", "Name": "DestroyAfterDelay" },
+        "Properties": {
+            "Delay": 2
+        }
+    }, {
+        "Type": { "Id": "e2011bf18ac847ad844ee3f90b93468c", "Name": "DinosaurLaserAttackBlackCover" },
+        "Properties": {
+            "AlphaCurve": {
+                "Type": { "Id": "280b143c739160ffb69b3cf552f375bb", "Name": "CurveEntity" },
+                "Properties": {
+                    "keys": {
+                        "Type": { "Id": "5b6ff13fbf23066d1d6b6515f1fedfbd", "Name": "KeyFrame" },
+                        "Items": [{
+                            "Type": { "Id": "5b6ff13fbf23066d1d6b6515f1fedfbd", "Name": "KeyFrame" },
+                            "Properties": {
+                                "inTangent": 4.41887,
+                                "inWeight": 0.3333333,
+                                "outTangent": 4.41887,
+                                "outWeight": 0.3333333,
+                                "time": 0,
+                                "value": 0,
+                                "weightedMode": {
+                                    "$TypeId": 8,
+                                    "Type": { "Id": "563a5e15340525520839fb3a23de5ac4", "Name": "WeightedMode" },
+                                    "Id": "18129dce1bd440c2b84a7a9c90d27f6d",
+                                    "Name": "None",
+                                    "Value": 0
+                                }
+                            }
+                        }, {
+                            "Type": { "Id": "5b6ff13fbf23066d1d6b6515f1fedfbd", "Name": "KeyFrame" },
+                            "Properties": {
+                                "inTangent": 4.41887,
+                                "inWeight": 0.3333333,
+                                "outTangent": 0,
+                                "outWeight": 0.3333333,
+                                "time": 0.2263022,
+                                "value": 1,
+                                "weightedMode": {
+                                    "$TypeId": 8,
+                                    "Type": { "Id": "563a5e15340525520839fb3a23de5ac4", "Name": "WeightedMode" },
+                                    "Id": "18129dce1bd440c2b84a7a9c90d27f6d",
+                                    "Name": "None",
+                                    "Value": 0
+                                }
+                            }
+                        }, {
+                            "Type": { "Id": "5b6ff13fbf23066d1d6b6515f1fedfbd", "Name": "KeyFrame" },
+                            "Properties": {
+                                "inTangent": 0,
+                                "inWeight": 0.3333333,
+                                "outTangent": -4.787194,
+                                "outWeight": 0.3333333,
+                                "time": 0.7911094,
+                                "value": 1,
+                                "weightedMode": {
+                                    "$TypeId": 8,
+                                    "Type": { "Id": "563a5e15340525520839fb3a23de5ac4", "Name": "WeightedMode" },
+                                    "Id": "18129dce1bd440c2b84a7a9c90d27f6d",
+                                    "Name": "None",
+                                    "Value": 0
+                                }
+                            }
+                        }, {
+                            "Type": { "Id": "5b6ff13fbf23066d1d6b6515f1fedfbd", "Name": "KeyFrame" },
+                            "Properties": {
+                                "inTangent": -4.787194,
+                                "inWeight": 0.3333333,
+                                "outTangent": -4.787194,
+                                "outWeight": 0.3333333,
+                                "time": 1,
+                                "value": 0,
+                                "weightedMode": {
+                                    "$TypeId": 8,
+                                    "Type": { "Id": "563a5e15340525520839fb3a23de5ac4", "Name": "WeightedMode" },
+                                    "Id": "18129dce1bd440c2b84a7a9c90d27f6d",
+                                    "Name": "None",
+                                    "Value": 0
+                                }
+                            }
+                        }]
+                    },
+                    "postWrapMode": {
+                        "$TypeId": 8,
+                        "Type": { "Id": "440cf56acc9270b677b8a90e4477735d", "Name": "WrapMode" },
+                        "Id": "2c1248461465491e9fe72fc7b4d84ba9",
+                        "Name": "ClampForever",
+                        "Value": 8
+                    },
+                    "preWrapMode": {
+                        "$TypeId": 8,
+                        "Type": { "Id": "440cf56acc9270b677b8a90e4477735d", "Name": "WrapMode" },
+                        "Id": "2c1248461465491e9fe72fc7b4d84ba9",
+                        "Name": "ClampForever",
+                        "Value": 8
+                    }
+                }
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "c04626d9062c447b8b0343d7570f9448",
+    "Name": "SpriteVignetteBottom",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
+        "Properties": {
+            "parent": { "$TypeId": 9, "Id": "c4cc07122bd8414c9b84406de5c61041", "Name": "DinosaurLaserAttackBlackCover" }
+        }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "y": 43
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" },
+        "Properties": {
+            "scale": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": 1,
+                    "y": -1
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "f5daa31e2e572e3448db9c6e1fc54672", "FileId": 21300000, "Type": 3 },
+            "color": {
+                "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                "Properties": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 1
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "be2f221c9af74ec5c0a4495a2d6769a3", "Name": "Sprite2DRendererOptions" },
+        "Properties": {
+            "size": {
+                "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+                "Properties": {
+                    "x": 1000,
+                    "y": 30
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
+        "Properties": {
+            "order": 1000
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "c0c1c48b676745cb947637e1945f8d7a",
+    "Name": "SpriteFillBottom",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
+        "Properties": {
+            "parent": { "$TypeId": 9, "Id": "c4cc07122bd8414c9b84406de5c61041", "Name": "Entity" }
+        }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "y": -195
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" },
+        "Properties": {
+            "scale": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": 1,
+                    "y": 1
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "b96df6734f31cf842b7171a7cb7768d9", "FileId": 21300000, "Type": 3 },
+            "color": {
+                "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                "Properties": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 1
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "be2f221c9af74ec5c0a4495a2d6769a3", "Name": "Sprite2DRendererOptions" },
+        "Properties": {
+            "size": {
+                "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+                "Properties": {
+                    "x": 1000,
+                    "y": 446
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
+        "Properties": {
+            "order": 1000
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "013db8d5259442bb85b315f11610bb2a",
+    "Name": "SpriteVignetteTop",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
+        "Properties": {
+            "parent": { "$TypeId": 9, "Id": "c4cc07122bd8414c9b84406de5c61041", "Name": "DinosaurLaserAttackBlackCover" }
+        }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "y": 98
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" },
+        "Properties": {
+            "scale": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": 1,
+                    "y": 1
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "f5daa31e2e572e3448db9c6e1fc54672", "FileId": 21300000, "Type": 3 },
+            "color": {
+                "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                "Properties": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 1
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "be2f221c9af74ec5c0a4495a2d6769a3", "Name": "Sprite2DRendererOptions" },
+        "Properties": {
+            "size": {
+                "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+                "Properties": {
+                    "x": 1000,
+                    "y": 30
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
+        "Properties": {
+            "order": 1000
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "0c90182eb83f4ee4b9e971f9c185a572",
+    "Name": "SpriteFillTop",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
+        "Properties": {
+            "parent": { "$TypeId": 9, "Id": "c4cc07122bd8414c9b84406de5c61041", "Name": "DinosaurLaserAttackBlackCover" }
+        }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "y": 336
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" },
+        "Properties": {
+            "scale": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": 1,
+                    "y": 1
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "b96df6734f31cf842b7171a7cb7768d9", "FileId": 21300000, "Type": 3 },
+            "color": {
+                "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                "Properties": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 1
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "be2f221c9af74ec5c0a4495a2d6769a3", "Name": "Sprite2DRendererOptions" },
+        "Properties": {
+            "size": {
+                "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+                "Properties": {
+                    "x": 1000,
+                    "y": 446
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
+        "Properties": {
+            "order": 1000
+        }
+    }]
+}]

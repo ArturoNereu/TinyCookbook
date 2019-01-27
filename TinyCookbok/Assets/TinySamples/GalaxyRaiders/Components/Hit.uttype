@@ -1,0 +1,12 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "272f48120c8c479d803b2a5c98b32fd8",
+    "Name": "Hit",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "DefaultValue": {
+        "Type": { "Id": "272f48120c8c479d803b2a5c98b32fd8", "Name": "Hit" }
+    }
+}]

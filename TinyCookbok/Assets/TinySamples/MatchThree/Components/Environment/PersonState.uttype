@@ -1,0 +1,36 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "9a4483e3eac8490dac80dc34face8051",
+    "Name": "PersonState",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Enum",
+    "BaseType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+    "Fields": [{
+        "Id": "aa38b4f5f94245628d7b31821b3c6235",
+        "Name": "Appear",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "a0604146b4ef456fbe7318e0773bd6ec",
+        "Name": "Fire",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "7eab2d2762c54be69dd9e77237422c56",
+        "Name": "Walk",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "9a4483e3eac8490dac80dc34face8051", "Name": "PersonState" },
+        "Properties": {
+            "Fire": 1,
+            "Walk": 2
+        }
+    }
+}]

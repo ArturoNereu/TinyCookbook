@@ -1,0 +1,19 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "e2011bf18ac847ad844ee3f90b93468c",
+    "Name": "DinosaurLaserAttackBlackCover",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "e18fd7e31a22485f93ae402cc0bf7247",
+        "Name": "AlphaCurve",
+        "FieldType": { "Id": "280b143c739160ffb69b3cf552f375bb", "Name": "CurveEntity" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "e2011bf18ac847ad844ee3f90b93468c", "Name": "DinosaurLaserAttackBlackCover" }
+    }
+}]

@@ -1,0 +1,224 @@
+﻿[{
+    "$TypeId": 4,
+    "Id": "f400d39d1fe14adb9e1bbc3cc1cc500f",
+    "Name": "Pipes",
+    "ExportFlags": 0,
+    "SerializedVersion": 0,
+    "Entities": [
+        { "$TypeId": 9, "Id": "2b25a1e6f9ab4e6e9c6c0eb77290303d", "Name": "Prefab_Pipes" },
+        { "$TypeId": 9, "Id": "7b91e641eb734d6e8780c8c4d0f96560", "Name": "Pipes" },
+        { "$TypeId": 9, "Id": "65a01a5c0153451e92d2bd5ee2195e8b", "Name": "Pipe_Top" },
+        { "$TypeId": 9, "Id": "4d6891a649924b87950ec0f34ade7d92", "Name": "Pipe_Bottom" }
+    ]
+},
+{
+    "$TypeId": 5,
+    "Id": "2b25a1e6f9ab4e6e9c6c0eb77290303d",
+    "Name": "Prefab_Pipes",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "7b91e641eb734d6e8780c8c4d0f96560",
+    "Name": "Pipes",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
+        "Properties": {
+            "parent": { "$TypeId": 9, "Id": "2b25a1e6f9ab4e6e9c6c0eb77290303d", "Name": "Entity" }
+        }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "z": 2
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" },
+        "Properties": {
+            "scale": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "288a861a8ca311346faecf4c20a2da76", "Name": "SortingGroup" }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
+        "Properties": {
+            "order": 20
+        }
+    }, {
+        "Type": { "Id": "dae5bff6b85247679b553950320211b2", "Name": "Scroller" }
+    }, {
+        "Type": { "Id": "2a6c9ce33432461dabcb6ef450855a75", "Name": "Spacing" },
+        "Properties": {
+            "top": { "$TypeId": 9, "Id": "65a01a5c0153451e92d2bd5ee2195e8b", "Name": "Pipe_Top" },
+            "bottom": { "$TypeId": 9, "Id": "4d6891a649924b87950ec0f34ade7d92", "Name": "Pipe_Bottom" },
+            "spacing": 2.5
+        }
+    }, {
+        "Type": { "Id": "feca9fdcd77849e5b9390d9b6b12a732", "Name": "ScorePoint" },
+        "Properties": {
+            "value": 1
+        }
+    }, {
+        "Type": { "Id": "4e77e1be25bf4299ab4115df9e2e6150", "Name": "AutoDestroy" },
+        "Properties": {
+            "threshold": -300
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "65a01a5c0153451e92d2bd5ee2195e8b",
+    "Name": "Pipe_Top",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
+        "Properties": {
+            "parent": { "$TypeId": 9, "Id": "7b91e641eb734d6e8780c8c4d0f96560", "Name": "Pipes" }
+        }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": 0,
+                    "y": 1,
+                    "z": 0
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "1f5fe83ba337c904994be4e7a0233c9f", "FileId": 21300102, "Type": 3 }
+        }
+    }, {
+        "Type": { "Id": "a015bc52c7befa4d7484891d74d2b574", "Name": "RectHitBox2D" },
+        "Properties": {
+            "box": {
+                "Type": { "Id": "f216da154c4054842adb590807e977ba", "Name": "Rect" },
+                "Properties": {
+                    "x": -0.12,
+                    "y": -0.8,
+                    "width": 0.24,
+                    "height": 1.6
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "e4aa1bea32884e779e3829f65c331944", "Name": "Reskinnable" }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "4d6891a649924b87950ec0f34ade7d92",
+    "Name": "Pipe_Bottom",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
+        "Properties": {
+            "parent": { "$TypeId": 9, "Id": "7b91e641eb734d6e8780c8c4d0f96560", "Name": "Pipes" }
+        }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": 0,
+                    "y": -1,
+                    "z": 0
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" },
+        "Properties": {
+            "rotation": {
+                "Type": { "Id": "dc7e11e5d517ed01fd5d084a6c9fd64d", "Name": "Quaternion" },
+                "Properties": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" },
+        "Properties": {
+            "scale": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "1f5fe83ba337c904994be4e7a0233c9f", "FileId": 21300104, "Type": 3 },
+            "color": {
+                "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                "Properties": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1,
+                    "a": 1
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "a015bc52c7befa4d7484891d74d2b574", "Name": "RectHitBox2D" },
+        "Properties": {
+            "box": {
+                "Type": { "Id": "f216da154c4054842adb590807e977ba", "Name": "Rect" },
+                "Properties": {
+                    "x": -0.12,
+                    "y": -0.8,
+                    "width": 0.24,
+                    "height": 1.6
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "e4aa1bea32884e779e3829f65c331944", "Name": "Reskinnable" }
+    }]
+}]

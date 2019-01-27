@@ -1,0 +1,25 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "e39114223d524fa983bda36e05babcad",
+    "Name": "Move",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "bf9187fa974043ceb975cb09b8ae643d",
+        "Name": "speed",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "8c566bfe3b26482cb3ed66747ca1282a",
+        "Name": "upForce",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "e39114223d524fa983bda36e05babcad", "Name": "Move" }
+    }
+}]

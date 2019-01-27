@@ -1,0 +1,22 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "970bedced97c46218f164c021b557757",
+    "Name": "DestroyAfterDelay",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "c5a0ca5c23e94895a490e96b5109fdd1",
+        "Name": "Delay",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "970bedced97c46218f164c021b557757", "Name": "DestroyAfterDelay" },
+        "Properties": {
+            "Delay": 1
+        }
+    }
+}]

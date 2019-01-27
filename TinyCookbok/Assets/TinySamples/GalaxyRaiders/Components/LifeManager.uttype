@@ -1,0 +1,25 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "e9391a94177747c9a9fb424d3e4212c2",
+    "Name": "LifeManager",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "58319ae4ecb5415084aeec6fd2b59518",
+        "Name": "LifeSprites",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": true,
+        "Visibility": 0
+    }, {
+        "Id": "b162208c36c74821b11f397575fdad43",
+        "Name": "LifeCount",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "e9391a94177747c9a9fb424d3e4212c2", "Name": "LifeManager" }
+    }
+}]

@@ -1,0 +1,49 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "34d8fd9b36f948f48e4e0c5b3e8b7c45",
+    "Name": "Level",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "d564348ef18842b1b1720659baf2995d",
+        "Name": "LevelID",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "46e073b340534fd6809bc56755317559",
+        "Name": "Skin",
+        "FieldType": { "Id": "decdc736779d4d99b0bd0e002a89e936", "Name": "SkinTypes" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "7a3e2d2c92e2415cb1f9d5a97c06ec29",
+        "Name": "MaxMoveCount",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "99831b1b92c24133bd98bbfe3848b721",
+        "Name": "StartPowerUps",
+        "FieldType": { "Id": "2ffd1f6bbde643e79fc2c5f3856004b1", "Name": "GemPowerUpTypes" },
+        "Array": true,
+        "Visibility": 0
+    }, {
+        "Id": "d14716a80a8c4bc69519cb4faf7f868b",
+        "Name": "MissingGems",
+        "FieldType": { "Id": "87456226280c45beaf67641e3461651f", "Name": "GemTypes" },
+        "Array": true,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "34d8fd9b36f948f48e4e0c5b3e8b7c45", "Name": "Level" },
+        "Properties": {
+            "LevelID": 0,
+            "StartPowerUps": {
+                "Type": { "Id": "2ffd1f6bbde643e79fc2c5f3856004b1", "Name": "GemPowerUpTypes" }
+            }
+        }
+    }
+}]

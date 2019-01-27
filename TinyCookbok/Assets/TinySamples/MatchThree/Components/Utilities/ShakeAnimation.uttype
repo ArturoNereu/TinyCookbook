@@ -1,0 +1,37 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "2af9830af1cb4964bad3ff486389222b",
+    "Name": "ShakeAnimation",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "19575b123db545c49e893cdd4b6f1386",
+        "Name": "DefaultX",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "7477d5b6f2234731b1b3800687d8461e",
+        "Name": "DefaultY",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "c07e01c8a20a43b09fba482653922310",
+        "Name": "DefaultZ",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "aa4faf5221aa49679a5d24ad323f9893",
+        "Name": "IsDefaultPositionSet",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "2af9830af1cb4964bad3ff486389222b", "Name": "ShakeAnimation" }
+    }
+}]

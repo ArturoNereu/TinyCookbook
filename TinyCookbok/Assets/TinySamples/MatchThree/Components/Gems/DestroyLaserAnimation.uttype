@@ -1,0 +1,49 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "d6e43a38cbaa43ff95478936a486a48c",
+    "Name": "DestroyLaserAnimation",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "6f2b27baa280437e902aecc49bf906e6",
+        "Name": "Timer",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "eda64b2c1e3440eeb2f284ff46ba5c50",
+        "Name": "Duration",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "48c6876bd8724f058e44b8a4c93066d3",
+        "Name": "StartPositionX",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "82b52de11ad5431c9cd0b60f61a6b57e",
+        "Name": "StartPositionY",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "906e388f2ccc46a680a1b6f5b5009a4a",
+        "Name": "EndPositionX",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "725d84cd4a7245e6b50589f571d5604b",
+        "Name": "EndPositionY",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 1
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "d6e43a38cbaa43ff95478936a486a48c", "Name": "DestroyLaserAnimation" }
+    }
+}]

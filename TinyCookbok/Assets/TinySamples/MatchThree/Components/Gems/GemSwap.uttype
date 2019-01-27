@@ -1,0 +1,12 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "8192bf3a3ee14aa3a24f0e4ecdaa342d",
+    "Name": "GemSwap",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "DefaultValue": {
+        "Type": { "Id": "8192bf3a3ee14aa3a24f0e4ecdaa342d", "Name": "GemSwap" }
+    }
+}]

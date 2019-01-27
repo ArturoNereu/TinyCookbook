@@ -1,0 +1,34 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "e73445192ddc4b54b2c394e933cd5edb",
+    "Name": "Matched",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "0e2a676d134141dab85aa42f784417c5",
+        "Name": "CreatedPowerUp",
+        "FieldType": { "Id": "2ffd1f6bbde643e79fc2c5f3856004b1", "Name": "GemPowerUpTypes" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "f05c763a0eb24165a9cc498e8a99bc4b",
+        "Name": "IsMatch",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "e73445192ddc4b54b2c394e933cd5edb", "Name": "Matched" },
+        "Properties": {
+            "CreatedPowerUp": {
+                "$TypeId": 8,
+                "Type": { "Id": "2ffd1f6bbde643e79fc2c5f3856004b1", "Name": "GemPowerUpTypes" },
+                "Id": "21cf98a0fadc436c8f994133f443dfe0",
+                "Name": "Row",
+                "Value": 1
+            }
+        }
+    }
+}]

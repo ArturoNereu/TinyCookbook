@@ -1,0 +1,94 @@
+﻿[{
+    "$TypeId": 4,
+    "Id": "8a476f1461f24604b87cf0ed71416d7c",
+    "Name": "EnemyGroup",
+    "ExportFlags": 0,
+    "SerializedVersion": 0,
+    "Entities": [
+        { "$TypeId": 9, "Id": "ef7f11c9e2654d869103c7dfa40224b1", "Name": "Enemy" }
+    ]
+},
+{
+    "$TypeId": 5,
+    "Id": "ef7f11c9e2654d869103c7dfa40224b1",
+    "Name": "Enemy",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "23433a877f75d754c9f1bfb18e7493a4", "FileId": 21300020, "Type": 3 },
+            "color": {
+                "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                "Properties": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1,
+                    "a": 1
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "00cadf6efe1d47d29c52cda6cbf763f2", "Name": "Boundaries" },
+        "Properties": {
+            "minX": -3.5,
+            "maxX": 3.5,
+            "minY": -6,
+            "maxY": 6
+        }
+    }, {
+        "Type": { "Id": "9fa7f2c75c774b95a033893772a3562d", "Name": "EnemyTag" }
+    }, {
+        "Type": { "Id": "bc4fd20a740a4312ae89c6d3cc28c5df", "Name": "MoveSpeed" },
+        "Properties": {
+            "speed": 1
+        }
+    }, {
+        "Type": { "Id": "04d29c45855a482ebdd9c00c01f4e374", "Name": "ChangeOverTime" }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": 8,
+                    "y": 3.73
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
+        "Properties": {
+            "order": 4
+        }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" },
+        "Properties": {
+            "rotation": {
+                "Type": { "Id": "dc7e11e5d517ed01fd5d084a6c9fd64d", "Name": "Quaternion" },
+                "Properties": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 1,
+                    "w": 0
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "a015bc52c7befa4d7484891d74d2b574", "Name": "RectHitBox2D" },
+        "Properties": {
+            "box": {
+                "Type": { "Id": "f216da154c4054842adb590807e977ba", "Name": "Rect" },
+                "Properties": {
+                    "x": -0.23,
+                    "y": -0.3,
+                    "width": 0.45,
+                    "height": 0.65
+                }
+            }
+        }
+    }]
+}]

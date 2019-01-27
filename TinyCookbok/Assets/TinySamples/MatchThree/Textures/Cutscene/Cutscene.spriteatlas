@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Cutscene
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 2
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 438ac22a96af1314a8a9059f9358d89a, type: 3}
+    totalSpriteSurfaceArea: 120905
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 4557a750d72c5404ea94e96a176d2113, type: 3}
+  - {fileID: 21300000, guid: f4e820c038c6cbb42a92c17c775d0d1b, type: 3}
+  - {fileID: 21300000, guid: 3d303431dfe03ba459718e18aab897c0, type: 3}
+  - {fileID: 21300000, guid: 29f5a14108881c447bee9ef742fccc88, type: 3}
+  - {fileID: 21300000, guid: 87f548511c8ac0c49aacd5a811611fa3, type: 3}
+  - {fileID: 21300000, guid: c5f25e23724a5514d9c19bbc2b2997fe, type: 3}
+  - {fileID: 21300000, guid: 8ad63cb3a8a363246a50618de676e42b, type: 3}
+  - {fileID: 21300000, guid: 0681f0c36c2f36f4da42c92c30cbf331, type: 3}
+  - {fileID: 21300000, guid: 0baa691419ee0d84680f3d67aa20db2e, type: 3}
+  - {fileID: 21300000, guid: 3ec330b4e08c8c545aced225d448db52, type: 3}
+  - {fileID: 21300000, guid: 94e5ffe4594c9694387e1b6c62658345, type: 3}
+  - {fileID: 21300000, guid: 7adf3045ebf69f64390751557eff5ee8, type: 3}
+  - {fileID: 21300000, guid: 472266959e482654fb14ee8b792ff486, type: 3}
+  - {fileID: 21300000, guid: d928de06a659eed4bbcb5dff01ccdd95, type: 3}
+  - {fileID: 21300000, guid: b120ab1609f89974297a5e4ecee7165b, type: 3}
+  - {fileID: 21300000, guid: 83f576e6cefa37f4ca7f5ee19cedaad8, type: 3}
+  - {fileID: 21300000, guid: e04e824729fe6144195b3e9e334df7a0, type: 3}
+  - {fileID: 21300000, guid: 357adbf7481b36243806c09136182f3f, type: 3}
+  - {fileID: 21300000, guid: c76c4b08c1af68f4bb330a6c33169682, type: 3}
+  - {fileID: 21300000, guid: 4fee4d6977ffb5144b3d8b37417918b7, type: 3}
+  - {fileID: 21300000, guid: 39a1e2fa0a05e284494f4db0a1f887a7, type: 3}
+  - {fileID: 21300000, guid: 9103378b37a3f714189763d22a8f22f5, type: 3}
+  - {fileID: 21300000, guid: 4dba6fbb9edf80f4fb67c0aadded9077, type: 3}
+  - {fileID: 21300000, guid: be7f06db413b4014f8547ee62213866d, type: 3}
+  - {fileID: 21300000, guid: af7dc25caf7254048937452bcb7a293b, type: 3}
+  - {fileID: 21300000, guid: 6cd6261d53e4e7c4f89f700608e4c163, type: 3}
+  - {fileID: 21300000, guid: e970907d1e8935746afcde3428f754cc, type: 3}
+  - {fileID: 21300000, guid: 46b0f89d5616f8e4ca3565b4121adf73, type: 3}
+  - {fileID: 21300000, guid: db05fbadaa77f8d448597c459e14ea46, type: 3}
+  - {fileID: 21300000, guid: 80c8ca7e62aa56145a4008c88da15bda, type: 3}
+  - {fileID: 21300000, guid: 9830309e3abae1c41a6013abad59ed6a, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Page_1_Case_4
+  - HAHA
+  - Page_3_Case_3_Dino_1
+  - Page_3_Case_2
+  - Page_1_Case_3
+  - PAGE_2_CASE_3
+  - Falling_Fx_2
+  - Falling_FX
+  - Pack
+  - Page_2_Case_3_Kid
+  - Page_2_Case_2_Dino
+  - Page_3_Case_5
+  - Page_1_Case_1
+  - Page_3_Case_3
+  - Page_2_Case_1
+  - Page_1_Case_4_Dino_Arm_2
+  - Page_1_Case_2
+  - Page_2_Case_2
+  - Page_1_Case_4_Dino_Arm_1
+  - Page_3_Case_3_Dino_2
+  - Page_3_Case_5_State_2
+  - HAHAHA
+  - Slam
+  - Page_3_Case_4
+  - Page_1_Case_1_Bird
+  - Page_1_Case_1_Dino
+  - Bike
+  - Shadow
+  - Kid_Feet
+  - Page_3_Case_1
+  - Page_1_Case_3_Watering_Can
+  m_Tag: Cutscene
+  m_IsVariant: 0

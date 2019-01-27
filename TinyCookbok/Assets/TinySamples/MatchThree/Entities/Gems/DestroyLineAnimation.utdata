@@ -1,0 +1,221 @@
+﻿[{
+    "$TypeId": 4,
+    "Id": "18d6fcc464ce41d6b927a071d5f784a0",
+    "Name": "DestroyLineAnimation",
+    "ExportFlags": 0,
+    "SerializedVersion": 0,
+    "Entities": [
+        { "$TypeId": 9, "Id": "9d0519b9cbbd4388b655eb39f0a22f3a", "Name": "DestroyLineAnimation" }
+    ]
+},
+{
+    "$TypeId": 5,
+    "Id": "9d0519b9cbbd4388b655eb39f0a22f3a",
+    "Name": "DestroyLineAnimation",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 8,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": -64,
+                    "y": -7.7
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" },
+        "Properties": {
+            "rotation": {
+                "Type": { "Id": "dc7e11e5d517ed01fd5d084a6c9fd64d", "Name": "Quaternion" },
+                "Properties": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "w": 1
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "de3cf5d1d3ff5d642b10159fc5e47850", "FileId": 21300000, "Type": 3 },
+            "color": {
+                "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                "Properties": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1,
+                    "a": 1
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "be2f221c9af74ec5c0a4495a2d6769a3", "Name": "Sprite2DRendererOptions" },
+        "Properties": {
+            "size": {
+                "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+                "Properties": {
+                    "x": 9,
+                    "y": 50
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
+        "Properties": {
+            "order": 30
+        }
+    }, {
+        "Type": { "Id": "a0f6a7316eea400abfd495f3561683ef", "Name": "DestroyLineAnimation" },
+        "Properties": {
+            "Duration": 1,
+            "ScaleDuration": 0.1,
+            "ColorGradient": {
+                "Type": { "Id": "9a741db252864c027362942ab5c07953", "Name": "GradientEntity" },
+                "Properties": {
+                    "alphaKeys": {
+                        "Type": { "Id": "acf579b84157e0c99f879655683973fc", "Name": "GradientAlphaKey" },
+                        "Items": [{
+                            "Type": { "Id": "acf579b84157e0c99f879655683973fc", "Name": "GradientAlphaKey" },
+                            "Properties": {
+                                "alpha": 1,
+                                "time": 0
+                            }
+                        }, {
+                            "Type": { "Id": "acf579b84157e0c99f879655683973fc", "Name": "GradientAlphaKey" },
+                            "Properties": {
+                                "alpha": 1,
+                                "time": 0.5530022
+                            }
+                        }, {
+                            "Type": { "Id": "acf579b84157e0c99f879655683973fc", "Name": "GradientAlphaKey" },
+                            "Properties": {
+                                "alpha": 0,
+                                "time": 1
+                            }
+                        }]
+                    },
+                    "colorKeys": {
+                        "Type": { "Id": "aff14956d13273d7f93c085bb59123a7", "Name": "GradientColorKey" },
+                        "Items": [{
+                            "Type": { "Id": "aff14956d13273d7f93c085bb59123a7", "Name": "GradientColorKey" },
+                            "Properties": {
+                                "color": {
+                                    "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                                    "Properties": {
+                                        "r": 1,
+                                        "g": 1,
+                                        "b": 1,
+                                        "a": 1
+                                    }
+                                },
+                                "time": 0
+                            }
+                        }, {
+                            "Type": { "Id": "aff14956d13273d7f93c085bb59123a7", "Name": "GradientColorKey" },
+                            "Properties": {
+                                "color": {
+                                    "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                                    "Properties": {
+                                        "r": 1,
+                                        "g": 1,
+                                        "b": 1,
+                                        "a": 1
+                                    }
+                                },
+                                "time": 0.05000382
+                            }
+                        }, {
+                            "Type": { "Id": "aff14956d13273d7f93c085bb59123a7", "Name": "GradientColorKey" },
+                            "Properties": {
+                                "color": {
+                                    "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                                    "Properties": {
+                                        "r": 0.9686275,
+                                        "g": 0.8039216,
+                                        "b": 0.1686275,
+                                        "a": 1
+                                    }
+                                },
+                                "time": 0.1499962
+                            }
+                        }, {
+                            "Type": { "Id": "aff14956d13273d7f93c085bb59123a7", "Name": "GradientColorKey" },
+                            "Properties": {
+                                "color": {
+                                    "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                                    "Properties": {
+                                        "r": 1,
+                                        "g": 0.4470588,
+                                        "b": 0.07843138,
+                                        "a": 1
+                                    }
+                                },
+                                "time": 0.2705882
+                            }
+                        }, {
+                            "Type": { "Id": "aff14956d13273d7f93c085bb59123a7", "Name": "GradientColorKey" },
+                            "Properties": {
+                                "color": {
+                                    "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                                    "Properties": {
+                                        "r": 0.9607843,
+                                        "g": 0.1803922,
+                                        "b": 0.1803922,
+                                        "a": 1
+                                    }
+                                },
+                                "time": 0.396994
+                            }
+                        }, {
+                            "Type": { "Id": "aff14956d13273d7f93c085bb59123a7", "Name": "GradientColorKey" },
+                            "Properties": {
+                                "color": {
+                                    "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                                    "Properties": {
+                                        "r": 0.9607843,
+                                        "g": 0.1803922,
+                                        "b": 0.1803922,
+                                        "a": 1
+                                    }
+                                },
+                                "time": 0.5530022
+                            }
+                        }, {
+                            "Type": { "Id": "aff14956d13273d7f93c085bb59123a7", "Name": "GradientColorKey" },
+                            "Properties": {
+                                "color": {
+                                    "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                                    "Properties": {
+                                        "r": 0,
+                                        "g": 0,
+                                        "b": 0,
+                                        "a": 1
+                                    }
+                                },
+                                "time": 1
+                            }
+                        }]
+                    },
+                    "mode": {
+                        "$TypeId": 8,
+                        "Type": { "Id": "f9320dd44c46ef5fdedb1b23aa698d33", "Name": "GradientMode" },
+                        "Id": "e73bae0ca6b04a399f68d9c48431da6d",
+                        "Name": "Blend",
+                        "Value": 0
+                    }
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "970bedced97c46218f164c021b557757", "Name": "DestroyAfterDelay" }
+    }]
+}]

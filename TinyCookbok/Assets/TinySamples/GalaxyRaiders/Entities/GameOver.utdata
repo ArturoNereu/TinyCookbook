@@ -1,0 +1,110 @@
+﻿[{
+    "$TypeId": 4,
+    "Id": "da9e9af447424c3ca3017f17b4bb95e4",
+    "Name": "GameOver",
+    "ExportFlags": 0,
+    "SerializedVersion": 0,
+    "Entities": [
+        { "$TypeId": 9, "Id": "88559d5322954f0088a1ba42739c1e44", "Name": "GameOver" },
+        { "$TypeId": 9, "Id": "aca8912c9a5149ae92a8e96ac67b1715", "Name": "Instruction" }
+    ]
+},
+{
+    "$TypeId": 5,
+    "Id": "88559d5322954f0088a1ba42739c1e44",
+    "Name": "GameOver",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "y": 0
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
+    }, {
+        "Type": { "Id": "617fd26299c944d58b61164e0c9c9353", "Name": "Text2DRenderer" },
+        "Properties": {
+            "style": { "$TypeId": 9, "Id": "88559d5322954f0088a1ba42739c1e44", "Name": "GameOver" },
+            "text": "GAME OVER"
+        }
+    }, {
+        "Type": { "Id": "ebf6e4be1bc00e559ef91e165189cb3e", "Name": "Text2DStyleNativeFont" },
+        "Properties": {
+            "font": { "$TypeId": 9, "Id": "88559d5322954f0088a1ba42739c1e44", "Name": "GameOver" },
+            "italic": false,
+            "weight": 400
+        }
+    }, {
+        "Type": { "Id": "ced0260f12f72499bae7fea4e1df92b7", "Name": "Text2DStyle" },
+        "Properties": {
+            "color": {
+                "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                "Properties": {
+                    "r": 1,
+                    "g": 0,
+                    "b": 0,
+                    "a": 1
+                }
+            },
+            "size": 18
+        }
+    }, {
+        "Type": { "Id": "6f5ed9937f81d1780663edc21a6f0da2", "Name": "NativeFont" }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "aca8912c9a5149ae92a8e96ac67b1715",
+    "Name": "Instruction",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "y": -15
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
+    }, {
+        "Type": { "Id": "617fd26299c944d58b61164e0c9c9353", "Name": "Text2DRenderer" },
+        "Properties": {
+            "style": { "$TypeId": 9, "Id": "aca8912c9a5149ae92a8e96ac67b1715", "Name": "Instruction" },
+            "text": "Click to restart"
+        }
+    }, {
+        "Type": { "Id": "ebf6e4be1bc00e559ef91e165189cb3e", "Name": "Text2DStyleNativeFont" },
+        "Properties": {
+            "font": { "$TypeId": 9, "Id": "aca8912c9a5149ae92a8e96ac67b1715", "Name": "Instruction" },
+            "italic": false,
+            "weight": 400
+        }
+    }, {
+        "Type": { "Id": "ced0260f12f72499bae7fea4e1df92b7", "Name": "Text2DStyle" },
+        "Properties": {
+            "size": 10
+        }
+    }, {
+        "Type": { "Id": "6f5ed9937f81d1780663edc21a6f0da2", "Name": "NativeFont" }
+    }]
+}]

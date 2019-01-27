@@ -1,0 +1,462 @@
+﻿[{
+    "$TypeId": 1,
+    "Id": "3970d63dd66b457fa9b752d52ab42dff",
+    "Name": "MatchThree",
+    "ExportFlags": 0,
+    "SerializedVersion": 6,
+    "Settings": {
+        "CanvasWidth": 1920,
+        "CanvasHeight": 1080,
+        "EmbedAssets": true,
+        "CanvasAutoResize": true,
+        "RenderMode": 2,
+        "DefaultTextureSettings": {
+            "$TypeId": 2,
+            "Embedded": true,
+            "FormatType": 0,
+            "JpgCompressionQuality": 75,
+            "WebPCompressionQuality": 60
+        },
+        "DefaultAudioClipSettings": {
+            "$TypeId": 3,
+            "Embedded": true
+        },
+        "DefaultAnimationClipSettings": {
+            "$TypeId": 4,
+            "Embedded": false
+        },
+        "LocalWSServerPort": 17700,
+        "LocalHTTPServerPort": 19050,
+        "SingleFileHtml": false,
+        "MemorySize": 128,
+        "IncludeWebPDecompressor": false,
+        "RunBabel": false,
+        "MinifyJavaScript": true,
+        "LinkToSource": true,
+        "SymbolsInReleaseBuild": false
+    },
+    "Module": { "Id": "a9fc01fd4f5a4f619b16c188ef603462", "Name": "Main" },
+    "Configuration": { "$TypeId": 9, "Id": "a2241985f2ed4fc6ae27aa1a8b387a25", "Name": "Configuration" }
+},
+{
+    "$TypeId": 2,
+    "Id": "a9fc01fd4f5a4f619b16c188ef603462",
+    "Name": "Main",
+    "SerializedVersion": 1,
+    "ExportFlags": 0,
+    "Namespace": "game",
+    "Options": 4,
+    "Dependencies": [
+        { "Id": "30097418841f56d73400bf82ee859ac9", "Name": "UTiny.Core2D" },
+        { "Id": "eae58004250dcd15a6c834b07677ca28", "Name": "UTiny.HTML" },
+        { "Id": "2af0cd3b47a732bf738688ceab312689", "Name": "UTiny.Core" },
+        { "Id": "a1b50987659c653138795a8f4079fc10", "Name": "UTiny.Math" },
+        { "Id": "ce3f1bd7050540b70d450a606e226ea2", "Name": "UTiny.Shared" },
+        { "Id": "e46c24fb4d9a01e79b109bbcf6d24260", "Name": "UTiny.UILayout" },
+        { "Id": "3aa8828c0eaa4fb0a2faaa1ee3f85c59", "Name": "UTiny.Flow" },
+        { "Id": "a9fc01fd4f5a4f619b16c188ef603462", "Name": "Main" },
+        { "Id": "0bc66cc14cafcceaaebf78d21c72cede", "Name": "UTiny.Particles" },
+        { "Id": "251df5ef6819533f94e1cbf3181f722e", "Name": "UTiny.Audio" },
+        { "Id": "29e5e02a3a0442beb9e6828c78a7ff91", "Name": "UTiny.EntityGroup" },
+        { "Id": "77778da25aeb380ab7e46deb6d495cdc", "Name": "UTiny.Tweens" },
+        { "Id": "494f9eba840c1f117459611e605884b0", "Name": "UTiny.Core2DTypes" },
+        { "Id": "49644c1065ebcfd98885bfe5e77c8fc1", "Name": "UTiny.Image2D" },
+        { "Id": "8f3245ba92302e53e51e43514424d568", "Name": "UTiny.ImageLoadingHTML" },
+        { "Id": "229e8d5fce9cf6b511ca82c89f1b58eb", "Name": "UTiny.Sprite2D" },
+        { "Id": "ca702d06498caa58a8babcfb0c9760ef", "Name": "UTiny.UnityTypesExtensions" },
+        { "Id": "fb3737c9a63f1f11bd510d36b765b8ee", "Name": "UTiny.Interpolation" },
+        { "Id": "60feebda86c36292119505b0bd2ac3e9", "Name": "UTiny.UIControls" },
+        { "Id": "e9e23e98356b11d6bb24a038d0236b01", "Name": "UTiny.Profiler" },
+        { "Id": "404877ed746affa8a6081ad8161dd8de", "Name": "UTiny.EditorExtensions" },
+        { "Id": "0b0e260844fa6632977aa15579b42291", "Name": "UTiny.Text" },
+        { "Id": "e6d4e4660e226bf8de8d111b4ef61f3d", "Name": "UTiny.TextHTML" }
+    ],
+    "Assets": [{
+        "Object": { "$TypeId": 10, "Guid": "70bc9fa6d5935ad4b872084b659c8e0a", "FileId": 2800000, "Type": 3 }
+    }, {}, {}, {
+        "Object": { "$TypeId": 10, "Guid": "95ecb3a7bb0f63645985b9d985c1b6be", "FileId": 8300000, "Type": 3 },
+        "ExportSettings": {
+            "$TypeId": 2,
+            "Embedded": false,
+            "FormatType": 0,
+            "JpgCompressionQuality": 75,
+            "WebPCompressionQuality": 60
+        }
+    }, {
+        "Object": { "$TypeId": 10, "Guid": "6dccb1a4df16b1d418eeaf152f1e6f0c", "FileId": 8300000, "Type": 3 },
+        "ExportSettings": {
+            "$TypeId": 2,
+            "Embedded": false,
+            "FormatType": 0,
+            "JpgCompressionQuality": 75,
+            "WebPCompressionQuality": 60
+        }
+    }, {
+        "Object": { "$TypeId": 10, "Guid": "6c2323538f3242042bedc8c463c7e36c", "FileId": 8300000, "Type": 3 },
+        "ExportSettings": {
+            "$TypeId": 2,
+            "Embedded": false,
+            "FormatType": 0,
+            "JpgCompressionQuality": 75,
+            "WebPCompressionQuality": 60
+        }
+    }, {
+        "Object": { "$TypeId": 10, "Guid": "8fdbe7f967b8b7d419126298df7c9501", "FileId": 8300000, "Type": 3 },
+        "ExportSettings": {
+            "$TypeId": 2,
+            "Embedded": false,
+            "FormatType": 0,
+            "JpgCompressionQuality": 75,
+            "WebPCompressionQuality": 60
+        }
+    }, {
+        "Object": { "$TypeId": 10, "Guid": "cc15028a65208f44ca21af9c0126219b", "FileId": 8300000, "Type": 3 },
+        "ExportSettings": {
+            "$TypeId": 2,
+            "Embedded": false,
+            "FormatType": 0,
+            "JpgCompressionQuality": 75,
+            "WebPCompressionQuality": 60
+        }
+    }, {
+        "Object": { "$TypeId": 10, "Guid": "16c3057de6a219e4f99ab8a2013d1f2c", "FileId": 8300000, "Type": 3 },
+        "ExportSettings": {
+            "$TypeId": 2,
+            "Embedded": false,
+            "FormatType": 0,
+            "JpgCompressionQuality": 75,
+            "WebPCompressionQuality": 60
+        }
+    }, {
+        "Object": { "$TypeId": 10, "Guid": "6ce2896f899d5034fad12b046f4e2349", "FileId": 8300000, "Type": 3 },
+        "ExportSettings": {
+            "$TypeId": 2,
+            "Embedded": false,
+            "FormatType": 0,
+            "JpgCompressionQuality": 75,
+            "WebPCompressionQuality": 60
+        }
+    }, {
+        "Object": { "$TypeId": 10, "Guid": "36692b72ec7c7d446a2c34c4b071bb85", "FileId": 8300000, "Type": 3 },
+        "ExportSettings": {
+            "$TypeId": 2,
+            "Embedded": false,
+            "FormatType": 0,
+            "JpgCompressionQuality": 75,
+            "WebPCompressionQuality": 60
+        }
+    }, {}, {}, {
+        "Object": { "$TypeId": 10, "Guid": "d047982a4a0c19843b5ab6d2e6ed609c", "FileId": 8300000, "Type": 3 },
+        "ExportSettings": {
+            "$TypeId": 2,
+            "Embedded": false,
+            "FormatType": 0,
+            "JpgCompressionQuality": 75,
+            "WebPCompressionQuality": 60
+        }
+    }, {
+        "Object": { "$TypeId": 10, "Guid": "d46bb3516df6480448a4f60467aac88b", "FileId": 8300000, "Type": 3 },
+        "ExportSettings": {
+            "$TypeId": 2,
+            "Embedded": false,
+            "FormatType": 0,
+            "JpgCompressionQuality": 75,
+            "WebPCompressionQuality": 60
+        }
+    }, {
+        "Object": { "$TypeId": 10, "Guid": "89d54ed765c089742b11bb8834b3dd5b", "FileId": 8300000, "Type": 3 },
+        "ExportSettings": {
+            "$TypeId": 2,
+            "Embedded": false,
+            "FormatType": 0,
+            "JpgCompressionQuality": 75,
+            "WebPCompressionQuality": 60
+        }
+    }],
+    "StartupEntityGroup": { "Id": "9ae9ebdf4ce94e489705ec1e1bbc5b45", "Name": "Bootstrap" }
+},
+{
+    "$TypeId": 5,
+    "Id": "a2241985f2ed4fc6ae27aa1a8b387a25",
+    "Name": "Configuration",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "575fe161bc06950c954480d04c70c9ab", "Name": "DisplayInfo" },
+        "Properties": {
+            "width": 1920,
+            "height": 1080,
+            "autoSizeToFrame": true,
+            "renderMode": {
+                "$TypeId": 8,
+                "Type": { "Id": "c592d331c582f4083ec19af9e2d06b6d", "Name": "RenderMode" },
+                "Id": "68e0af13e30ed11cbb89a62b98bcadf1",
+                "Name": "WebGL",
+                "Value": 2
+            }
+        }
+    }, {
+        "Type": { "Id": "e816e7b93a13b9e5ddf993486ca79278", "Name": "AudioConfig" }
+    }, {
+        "Type": { "Id": "5b789f78c6d24fe69aafbce0f5050851", "Name": "SkinConfiguration" }
+    }, {
+        "Type": { "Id": "d6b0e050cf3a44e1982eda0238c62a39", "Name": "SoundConfiguration" }
+    }, {
+        "Type": { "Id": "208adeb335d64fb491ad0b5cb964f5d5", "Name": "TutorialConfiguration" }
+    }, {
+        "Type": { "Id": "bdff3ded513d4d4bb21e775113d23565", "Name": "LocalizationConfiguration" },
+        "Properties": {
+            "Texts": {
+                "Type": { "Id": "8ad9328890654dd9ab3c5bbae5b98d6a", "Name": "LocalizationItem" },
+                "Items": [{
+                    "Type": { "Id": "8ad9328890654dd9ab3c5bbae5b98d6a", "Name": "LocalizationItem" },
+                    "Properties": {
+                        "TextID": "MainMenu_Play",
+                        "en": "Play",
+                        "fr": "Jouer"
+                    }
+                }, {
+                    "Type": { "Id": "8ad9328890654dd9ab3c5bbae5b98d6a", "Name": "LocalizationItem" },
+                    "Properties": {
+                        "TextID": "MainMenu_WatchIntro",
+                        "en": "Watch intro",
+                        "fr": "Voir l'intro"
+                    }
+                }, {
+                    "Type": { "Id": "8ad9328890654dd9ab3c5bbae5b98d6a", "Name": "LocalizationItem" },
+                    "Properties": {
+                        "TextID": "WorldMap_Best",
+                        "en": "Best",
+                        "fr": "Record"
+                    }
+                }, {
+                    "Type": { "Id": "8ad9328890654dd9ab3c5bbae5b98d6a", "Name": "LocalizationItem" },
+                    "Properties": {
+                        "TextID": "GameUI_Score",
+                        "en": "Score",
+                        "fr": "Score"
+                    }
+                }, {
+                    "Type": { "Id": "8ad9328890654dd9ab3c5bbae5b98d6a", "Name": "LocalizationItem" },
+                    "Properties": {
+                        "TextID": "Settings_Title",
+                        "en": "Settings",
+                        "fr": "Paramètres"
+                    }
+                }, {
+                    "Type": { "Id": "8ad9328890654dd9ab3c5bbae5b98d6a", "Name": "LocalizationItem" },
+                    "Properties": {
+                        "TextID": "Settings_Sound",
+                        "en": "Sound",
+                        "fr": "Sons"
+                    }
+                }, {
+                    "Type": { "Id": "8ad9328890654dd9ab3c5bbae5b98d6a", "Name": "LocalizationItem" },
+                    "Properties": {
+                        "TextID": "Settings_Music",
+                        "en": "Music",
+                        "fr": "Musique"
+                    }
+                }, {
+                    "Type": { "Id": "8ad9328890654dd9ab3c5bbae5b98d6a", "Name": "LocalizationItem" },
+                    "Properties": {
+                        "TextID": "Settings_Close",
+                        "en": "Ok",
+                        "fr": "Ok"
+                    }
+                }, {
+                    "Type": { "Id": "8ad9328890654dd9ab3c5bbae5b98d6a", "Name": "LocalizationItem" },
+                    "Properties": {
+                        "TextID": "PauseMenu_Title",
+                        "en": "Paused",
+                        "fr": "Pause"
+                    }
+                }, {
+                    "Type": { "Id": "8ad9328890654dd9ab3c5bbae5b98d6a", "Name": "LocalizationItem" },
+                    "Properties": {
+                        "TextID": "PauseMenu_Quit",
+                        "en": "Quit",
+                        "fr": "Quitter"
+                    }
+                }, {
+                    "Type": { "Id": "8ad9328890654dd9ab3c5bbae5b98d6a", "Name": "LocalizationItem" },
+                    "Properties": {
+                        "TextID": "PauseMenu_Resume",
+                        "en": "Resume",
+                        "fr": "Reprendre"
+                    }
+                }, {
+                    "Type": { "Id": "8ad9328890654dd9ab3c5bbae5b98d6a", "Name": "LocalizationItem" },
+                    "Properties": {
+                        "TextID": "GameOver_Success",
+                        "en": "Success",
+                        "fr": "Victoire"
+                    }
+                }, {
+                    "Type": { "Id": "8ad9328890654dd9ab3c5bbae5b98d6a", "Name": "LocalizationItem" },
+                    "Properties": {
+                        "TextID": "GameOver_Close",
+                        "en": "Back",
+                        "fr": "Menu"
+                    }
+                }, {
+                    "Type": { "Id": "8ad9328890654dd9ab3c5bbae5b98d6a", "Name": "LocalizationItem" },
+                    "Properties": {
+                        "TextID": "GameOver_Failure",
+                        "en": "Game Over",
+                        "fr": "Échec"
+                    }
+                }, {
+                    "Type": { "Id": "8ad9328890654dd9ab3c5bbae5b98d6a", "Name": "LocalizationItem" },
+                    "Properties": {
+                        "TextID": "GameOver_NewBest",
+                        "en": "New Best",
+                        "fr": "Nouveau record"
+                    }
+                }, {
+                    "Type": { "Id": "8ad9328890654dd9ab3c5bbae5b98d6a", "Name": "LocalizationItem" },
+                    "Properties": {
+                        "TextID": "GameOver_Time",
+                        "en": "Time",
+                        "fr": "Temps"
+                    }
+                }, {
+                    "Type": { "Id": "8ad9328890654dd9ab3c5bbae5b98d6a", "Name": "LocalizationItem" },
+                    "Properties": {
+                        "TextID": "Tutorial_Match",
+                        "en": "Match 3 gems to attack!",
+                        "fr": "Combinez 3 gemmes pour attaquer!"
+                    }
+                }, {
+                    "Type": { "Id": "8ad9328890654dd9ab3c5bbae5b98d6a", "Name": "LocalizationItem" },
+                    "Properties": {
+                        "TextID": "Tutorial_Eggs",
+                        "en": "Make the eggs fall down!",
+                        "fr": "Faites tomber les oeufs!"
+                    }
+                }, {
+                    "Type": { "Id": "8ad9328890654dd9ab3c5bbae5b98d6a", "Name": "LocalizationItem" },
+                    "Properties": {
+                        "TextID": "Tutorial_Survival",
+                        "en": "Combine and survive!",
+                        "fr": "Combinez pour survivre!"
+                    }
+                }, {
+                    "Type": { "Id": "8ad9328890654dd9ab3c5bbae5b98d6a", "Name": "LocalizationItem" },
+                    "Properties": {
+                        "TextID": "Settings_Language",
+                        "en": "Language",
+                        "fr": "Langue"
+                    }
+                }, {
+                    "Type": { "Id": "8ad9328890654dd9ab3c5bbae5b98d6a", "Name": "LocalizationItem" },
+                    "Properties": {
+                        "TextID": "Settings_ResetProgress",
+                        "en": "Reset Progress",
+                        "fr": "Réinitialiser"
+                    }
+                }, {
+                    "Type": { "Id": "8ad9328890654dd9ab3c5bbae5b98d6a", "Name": "LocalizationItem" },
+                    "Properties": {
+                        "TextID": "Settings_Rendering",
+                        "en": "Renderer: {0}",
+                        "fr": "Rendu : {0}"
+                    }
+                }, {
+                    "Type": { "Id": "8ad9328890654dd9ab3c5bbae5b98d6a", "Name": "LocalizationItem" },
+                    "Properties": {
+                        "TextID": "Credits_Title",
+                        "en": "Credits",
+                        "fr": "Crédits"
+                    }
+                }, {
+                    "Type": { "Id": "8ad9328890654dd9ab3c5bbae5b98d6a", "Name": "LocalizationItem" },
+                    "Properties": {
+                        "TextID": "Settings_ResetProgressConfirm",
+                        "en": "Are you sure you want to delete all your progress?",
+                        "fr": "Voulez-vous vraiment supprimer votre progression?"
+                    }
+                }, {
+                    "Type": { "Id": "8ad9328890654dd9ab3c5bbae5b98d6a", "Name": "LocalizationItem" },
+                    "Properties": {
+                        "TextID": "Credits_Art",
+                        "en": "Artist",
+                        "fr": "Artiste"
+                    }
+                }, {
+                    "Type": { "Id": "8ad9328890654dd9ab3c5bbae5b98d6a", "Name": "LocalizationItem" },
+                    "Properties": {
+                        "TextID": "Credits_Code",
+                        "en": "Programmer",
+                        "fr": "Programmeur"
+                    }
+                }, {
+                    "Type": { "Id": "8ad9328890654dd9ab3c5bbae5b98d6a", "Name": "LocalizationItem" },
+                    "Properties": {
+                        "TextID": "Credits_Outerminds",
+                        "en": "A game by Outerminds",
+                        "fr": "Un jeu de Outerminds"
+                    }
+                }, {
+                    "Type": { "Id": "8ad9328890654dd9ab3c5bbae5b98d6a", "Name": "LocalizationItem" },
+                    "Properties": {
+                        "TextID": "Credits_Audio",
+                        "en": "Sound Designer",
+                        "fr": "Ingénieur audio"
+                    }
+                }, {
+                    "Type": { "Id": "8ad9328890654dd9ab3c5bbae5b98d6a", "Name": "LocalizationItem" },
+                    "Properties": {
+                        "TextID": "Languages_Title",
+                        "en": "Languages",
+                        "fr": "Langues"
+                    }
+                }, {
+                    "Type": { "Id": "8ad9328890654dd9ab3c5bbae5b98d6a", "Name": "LocalizationItem" },
+                    "Properties": {
+                        "TextID": "Languages_Cancel",
+                        "en": "Cancel",
+                        "fr": "Annuler"
+                    }
+                }, {
+                    "Type": { "Id": "8ad9328890654dd9ab3c5bbae5b98d6a", "Name": "LocalizationItem" },
+                    "Properties": {
+                        "TextID": "WorldMap_EndCutscene",
+                        "en": "Watch Ending",
+                        "fr": "Voir la fin"
+                    }
+                }, {
+                    "Type": { "Id": "8ad9328890654dd9ab3c5bbae5b98d6a", "Name": "LocalizationItem" },
+                    "Properties": {
+                        "TextID": "Objective_Points",
+                        "en": "Reach a score of {0} pts in {1} moves.",
+                        "fr": "Obtenez un score de {0} pts en {1} actions."
+                    }
+                }, {
+                    "Type": { "Id": "8ad9328890654dd9ab3c5bbae5b98d6a", "Name": "LocalizationItem" },
+                    "Properties": {
+                        "TextID": "Objective_Eggs",
+                        "en": "Collect {0} eggs in {1} moves.",
+                        "fr": "Ammassez {0} oeufs en {1} actions."
+                    }
+                }, {
+                    "Type": { "Id": "8ad9328890654dd9ab3c5bbae5b98d6a", "Name": "LocalizationItem" },
+                    "Properties": {
+                        "TextID": "Objective_Survival",
+                        "en": "Survive for {0} minutes.",
+                        "fr": "Survivez {0} minutes."
+                    }
+                }]
+            }
+        }
+    }, {
+        "Type": { "Id": "0a103795eeab4f35bdd05478252a75fc", "Name": "GridConfiguration" },
+        "Properties": {
+            "Width": 9,
+            "Height": 9,
+            "CellDimension": 24,
+            "GridDefaultPositionY": -79
+        }
+    }]
+}]

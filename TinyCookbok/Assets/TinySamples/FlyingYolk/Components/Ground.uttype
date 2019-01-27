@@ -1,0 +1,15 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "83bd762a7c6e407caeb13d722041a6fa",
+    "Name": "Ground",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "Documentation": {
+        "Summary": "Used as a tag for the ground entity"
+    },
+    "TypeCode": "Component",
+    "DefaultValue": {
+        "Type": { "Id": "83bd762a7c6e407caeb13d722041a6fa", "Name": "Ground" }
+    }
+}]

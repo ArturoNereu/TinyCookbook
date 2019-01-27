@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Game
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 2
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 21300024, guid: 1f5fe83ba337c904994be4e7a0233c9f, type: 3}
+    - {fileID: 21300022, guid: 1f5fe83ba337c904994be4e7a0233c9f, type: 3}
+    - {fileID: 21300004, guid: 1f5fe83ba337c904994be4e7a0233c9f, type: 3}
+    - {fileID: 21300028, guid: 1f5fe83ba337c904994be4e7a0233c9f, type: 3}
+    - {fileID: 21300142, guid: 1f5fe83ba337c904994be4e7a0233c9f, type: 3}
+    - {fileID: 21300068, guid: 1f5fe83ba337c904994be4e7a0233c9f, type: 3}
+    - {fileID: 21300070, guid: 1f5fe83ba337c904994be4e7a0233c9f, type: 3}
+    - {fileID: 21300072, guid: 1f5fe83ba337c904994be4e7a0233c9f, type: 3}
+    - {fileID: 21300074, guid: 1f5fe83ba337c904994be4e7a0233c9f, type: 3}
+    - {fileID: 21300076, guid: 1f5fe83ba337c904994be4e7a0233c9f, type: 3}
+    - {fileID: 21300078, guid: 1f5fe83ba337c904994be4e7a0233c9f, type: 3}
+    - {fileID: 21300080, guid: 1f5fe83ba337c904994be4e7a0233c9f, type: 3}
+    - {fileID: 21300082, guid: 1f5fe83ba337c904994be4e7a0233c9f, type: 3}
+    - {fileID: 21300100, guid: 1f5fe83ba337c904994be4e7a0233c9f, type: 3}
+    - {fileID: 21300146, guid: 1f5fe83ba337c904994be4e7a0233c9f, type: 3}
+    - {fileID: 21300156, guid: 1f5fe83ba337c904994be4e7a0233c9f, type: 3}
+    - {fileID: 21300160, guid: 1f5fe83ba337c904994be4e7a0233c9f, type: 3}
+    - {fileID: 21300008, guid: 1f5fe83ba337c904994be4e7a0233c9f, type: 3}
+    - {fileID: 21300010, guid: 1f5fe83ba337c904994be4e7a0233c9f, type: 3}
+    - {fileID: 21300014, guid: 1f5fe83ba337c904994be4e7a0233c9f, type: 3}
+    - {fileID: 21300018, guid: 1f5fe83ba337c904994be4e7a0233c9f, type: 3}
+    - {fileID: 21300090, guid: 1f5fe83ba337c904994be4e7a0233c9f, type: 3}
+    - {fileID: 21300086, guid: 1f5fe83ba337c904994be4e7a0233c9f, type: 3}
+    - {fileID: 21300092, guid: 1f5fe83ba337c904994be4e7a0233c9f, type: 3}
+    - {fileID: 21300034, guid: 1f5fe83ba337c904994be4e7a0233c9f, type: 3}
+    - {fileID: 21300056, guid: 1f5fe83ba337c904994be4e7a0233c9f, type: 3}
+    - {fileID: 21300088, guid: 1f5fe83ba337c904994be4e7a0233c9f, type: 3}
+    totalSpriteSurfaceArea: 28214
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300024, guid: 1f5fe83ba337c904994be4e7a0233c9f, type: 3}
+  - {fileID: 21300022, guid: 1f5fe83ba337c904994be4e7a0233c9f, type: 3}
+  - {fileID: 21300034, guid: 1f5fe83ba337c904994be4e7a0233c9f, type: 3}
+  - {fileID: 21300004, guid: 1f5fe83ba337c904994be4e7a0233c9f, type: 3}
+  - {fileID: 21300078, guid: 1f5fe83ba337c904994be4e7a0233c9f, type: 3}
+  - {fileID: 21300076, guid: 1f5fe83ba337c904994be4e7a0233c9f, type: 3}
+  - {fileID: 21300074, guid: 1f5fe83ba337c904994be4e7a0233c9f, type: 3}
+  - {fileID: 21300072, guid: 1f5fe83ba337c904994be4e7a0233c9f, type: 3}
+  - {fileID: 21300070, guid: 1f5fe83ba337c904994be4e7a0233c9f, type: 3}
+  - {fileID: 21300068, guid: 1f5fe83ba337c904994be4e7a0233c9f, type: 3}
+  - {fileID: 21300142, guid: 1f5fe83ba337c904994be4e7a0233c9f, type: 3}
+  - {fileID: 21300028, guid: 1f5fe83ba337c904994be4e7a0233c9f, type: 3}
+  - {fileID: 21300082, guid: 1f5fe83ba337c904994be4e7a0233c9f, type: 3}
+  - {fileID: 21300080, guid: 1f5fe83ba337c904994be4e7a0233c9f, type: 3}
+  - {fileID: 21300088, guid: 1f5fe83ba337c904994be4e7a0233c9f, type: 3}
+  - {fileID: 21300056, guid: 1f5fe83ba337c904994be4e7a0233c9f, type: 3}
+  - {fileID: 21300092, guid: 1f5fe83ba337c904994be4e7a0233c9f, type: 3}
+  - {fileID: 21300086, guid: 1f5fe83ba337c904994be4e7a0233c9f, type: 3}
+  - {fileID: 21300090, guid: 1f5fe83ba337c904994be4e7a0233c9f, type: 3}
+  - {fileID: 21300018, guid: 1f5fe83ba337c904994be4e7a0233c9f, type: 3}
+  - {fileID: 21300014, guid: 1f5fe83ba337c904994be4e7a0233c9f, type: 3}
+  - {fileID: 21300010, guid: 1f5fe83ba337c904994be4e7a0233c9f, type: 3}
+  - {fileID: 21300008, guid: 1f5fe83ba337c904994be4e7a0233c9f, type: 3}
+  - {fileID: 21300160, guid: 1f5fe83ba337c904994be4e7a0233c9f, type: 3}
+  - {fileID: 21300156, guid: 1f5fe83ba337c904994be4e7a0233c9f, type: 3}
+  - {fileID: 21300146, guid: 1f5fe83ba337c904994be4e7a0233c9f, type: 3}
+  - {fileID: 21300100, guid: 1f5fe83ba337c904994be4e7a0233c9f, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - gameOver
+  - getReady
+  - title
+  - ground
+  - num_big_7
+  - num_big_6
+  - num_big_5
+  - num_big_4
+  - num_big_3
+  - num_big_2
+  - num_big_1
+  - num_big_0
+  - num_big_9
+  - num_big_8
+  - white
+  - tutorial
+  - scoreboard
+  - num_med_9
+  - num_med_8
+  - num_med_7
+  - num_med_6
+  - num_med_5
+  - num_med_4
+  - num_med_3
+  - num_med_2
+  - num_med_1
+  - num_med_0
+  m_Tag: Game
+  m_IsVariant: 0

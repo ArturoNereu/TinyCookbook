@@ -1,0 +1,52 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "03eae060f3c246279abd4931de642ec9",
+    "Name": "Helicopter",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "02597e3775934352aa9843ba2700d25a",
+        "Name": "MoveSpeed",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "22a5d44ca3be46adba5659514b9efd08",
+        "Name": "SlowDownDistance",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "61b8f8b44fb9464cab92ae7e410b2259",
+        "Name": "DestinationPositionX",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "5c3538ed1e8b4b51ad9420790c625eb2",
+        "Name": "DestinationPositionY",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "01bec857f99f4b91870cab1002243bd4",
+        "Name": "ReachedDestination",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "3793138a7fb54c4fb277642853158c75",
+        "Name": "Timer",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 1
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "03eae060f3c246279abd4931de642ec9", "Name": "Helicopter" },
+        "Properties": {
+            "DestinationPositionY": 0
+        }
+    }
+}]

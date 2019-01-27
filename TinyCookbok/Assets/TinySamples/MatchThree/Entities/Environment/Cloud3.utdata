@@ -1,0 +1,111 @@
+﻿[{
+    "$TypeId": 4,
+    "Id": "c21f6bff6cbd4f03bb234d35e37ba090",
+    "Name": "Cloud3",
+    "ExportFlags": 0,
+    "SerializedVersion": 0,
+    "Entities": [
+        { "$TypeId": 9, "Id": "0ef64076949d4072b33415f3192c4728", "Name": "Cloud3" }
+    ]
+},
+{
+    "$TypeId": 5,
+    "Id": "0ef64076949d4072b33415f3192c4728",
+    "Name": "Cloud3",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "0d80341998a7b4d20a9d0d3b0e99b61e", "FileId": 21300000, "Type": 3 },
+            "color": {
+                "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                "Properties": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1,
+                    "a": 1
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
+        "Properties": {
+            "order": 8
+        }
+    }, {
+        "Type": { "Id": "5ffa4699df954814b080cb54b2a2d16f", "Name": "ScrollingObject" },
+        "Properties": {
+            "Speed": 0.2
+        }
+    }, {
+        "Type": { "Id": "ef2399a2c2124463873a155756d1ecdf", "Name": "SpriteRendererSkin" },
+        "Properties": {
+            "SpritePath": "CommonEnvironment/Cloud_3",
+            "SkinColorInfo": {
+                "Type": { "Id": "37d9a76716d54f4b9c4e5f3029d282ab", "Name": "SpriteRendererSkinColorInfo" },
+                "Items": [{
+                    "Type": { "Id": "37d9a76716d54f4b9c4e5f3029d282ab", "Name": "SpriteRendererSkinColorInfo" },
+                    "Properties": {
+                        "Color": {
+                            "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                            "Properties": {
+                                "r": 0.6666667,
+                                "g": 1,
+                                "b": 0.9960784,
+                                "a": 1
+                            }
+                        }
+                    }
+                }, {
+                    "Type": { "Id": "37d9a76716d54f4b9c4e5f3029d282ab", "Name": "SpriteRendererSkinColorInfo" },
+                    "Properties": {
+                        "Skin": {
+                            "$TypeId": 8,
+                            "Type": { "Id": "decdc736779d4d99b0bd0e002a89e936", "Name": "SkinTypes" },
+                            "Id": "2ca61817705d46af8816a4d2cce06f7d",
+                            "Name": "Farm",
+                            "Value": 1
+                        },
+                        "Color": {
+                            "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                            "Properties": {
+                                "r": 1,
+                                "g": 0.8784314,
+                                "b": 0.4705882,
+                                "a": 1
+                            }
+                        }
+                    }
+                }, {
+                    "Type": { "Id": "37d9a76716d54f4b9c4e5f3029d282ab", "Name": "SpriteRendererSkinColorInfo" },
+                    "Properties": {
+                        "Skin": {
+                            "$TypeId": 8,
+                            "Type": { "Id": "decdc736779d4d99b0bd0e002a89e936", "Name": "SkinTypes" },
+                            "Id": "9b992dbfae0c4b20b650a255b3b776af",
+                            "Name": "City",
+                            "Value": 2
+                        },
+                        "Color": {
+                            "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                            "Properties": {
+                                "r": 0.682353,
+                                "g": 0.6235294,
+                                "b": 1,
+                                "a": 1
+                            }
+                        }
+                    }
+                }]
+            }
+        }
+    }]
+}]

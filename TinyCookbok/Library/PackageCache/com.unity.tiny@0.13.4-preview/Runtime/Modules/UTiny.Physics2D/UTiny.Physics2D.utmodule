@@ -1,0 +1,19 @@
+﻿[{
+    "$TypeId": 2,
+    "Id": "259902b84b3ed0f7213a1b5e37040709",
+    "Name": "UTiny.Physics2D",
+    "SerializedVersion": 1,
+    "ExportFlags": 1,
+    "Documentation": {
+        "Summary": "Physics module provides basic physics functionality using Box2D."
+    },
+    "Namespace": "ut.Physics2D",
+    "MetadataFileGUID": "3d5964b908b3bf6428edf71cbe2f3dfb",
+    "Options": 1,
+    "Dependencies": [
+        { "Id": "a1b50987659c653138795a8f4079fc10", "Name": "UTiny.Math" },
+        { "Id": "2af0cd3b47a732bf738688ceab312689", "Name": "UTiny.Core" },
+        { "Id": "30097418841f56d73400bf82ee859ac9", "Name": "UTiny.Core2D" },
+        { "Id": "ce3f1bd7050540b70d450a606e226ea2", "Name": "UTiny.Shared" }
+    ]
+}]

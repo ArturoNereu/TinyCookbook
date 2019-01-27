@@ -1,0 +1,35 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "06373ca4887a45e9a20b17e86b4bb2fb",
+    "Name": "CutsceneDirector",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "fee3665f6e674d6ca20a87817caf5bed",
+        "Name": "CurrentElementIndex",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "fe9383a31b20431e8ea247ab6c775706",
+        "Name": "Speed",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "e35054b6d8374dcc822df6da9ab311d2",
+        "Name": "PauseDelayTimer",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "06373ca4887a45e9a20b17e86b4bb2fb", "Name": "CutsceneDirector" },
+        "Properties": {
+            "CurrentElementIndex": -1,
+            "Speed": 1
+        }
+    }
+}]

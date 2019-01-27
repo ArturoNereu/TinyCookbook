@@ -1,0 +1,41 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "875d600123ea4ad18a5a1c6306fd3877",
+    "Name": "ScoreGainLabel",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "d6ba29a9b8e6484f86fe82013d18b65b",
+        "Name": "Timer",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "238ffa6695054eeca80fc2fec7370424",
+        "Name": "Duration",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "3b3ee21650594530b79d1f70805bfab8",
+        "Name": "SpeedY",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "084db2d40a71409dad377d73e81f322a",
+        "Name": "AlphaCurve",
+        "FieldType": { "Id": "280b143c739160ffb69b3cf552f375bb", "Name": "CurveEntity" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "875d600123ea4ad18a5a1c6306fd3877", "Name": "ScoreGainLabel" },
+        "Properties": {
+            "Duration": 1,
+            "SpeedY": 1
+        }
+    }
+}]

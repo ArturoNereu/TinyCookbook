@@ -1,0 +1,34 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "5ffa4699df954814b080cb54b2a2d16f",
+    "Name": "ScrollingObject",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "9ddd6b2e834946a4b6a5401de9aa6903",
+        "Name": "Speed",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "0511648a3c964f28b9aa4f4fd4fe1192",
+        "Name": "AutonomousSpeed",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "fc08e8fbf7f84426a1dce8601bf00493",
+        "Name": "SpawnerName",
+        "FieldType": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+        "Array": false,
+        "Visibility": 1
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "5ffa4699df954814b080cb54b2a2d16f", "Name": "ScrollingObject" },
+        "Properties": {
+            "Speed": 1
+        }
+    }
+}]

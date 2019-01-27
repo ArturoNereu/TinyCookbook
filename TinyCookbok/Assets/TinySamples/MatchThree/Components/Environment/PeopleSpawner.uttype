@@ -1,0 +1,31 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "b731ea58a9a94730bcc8a9b0d5666b0d",
+    "Name": "PeopleSpawner",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "5e4e0f6f1d5d4b079dbd67763a6e1dda",
+        "Name": "MaxPeopleCount",
+        "FieldType": { "Id": "27c155635ccb4ab2bcb79ef5aaf129ec", "Name": "Int8" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "c88d50b77e87446e9f5987b62b6d11ef",
+        "Name": "Timer",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "56c58d1f7d7241959a3653f5a04900c9",
+        "Name": "SpawnInterval",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "b731ea58a9a94730bcc8a9b0d5666b0d", "Name": "PeopleSpawner" }
+    }
+}]

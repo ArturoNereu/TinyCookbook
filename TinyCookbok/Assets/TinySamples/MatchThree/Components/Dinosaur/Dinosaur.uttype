@@ -1,0 +1,118 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "7bdf388190464b6a90c40ab77a4a2c68",
+    "Name": "Dinosaur",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "afba8cf412aa4be39d2b0e9cc564c70a",
+        "Name": "MoveSpeed",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "e4ffb887445e4b388ee2f3112aaa121e",
+        "Name": "WalkTimer",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "8c7c07a32788463496f5d28871374364",
+        "Name": "WalkAnimation",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "741de7875ad6439e98e371cb38957435",
+        "Name": "TailWhipAnimation",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "934870b6f149451dad5c3b171aa05303",
+        "Name": "StompAnimation",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "301bd45057f943bd9875a255b892f43e",
+        "Name": "BiteAnimation",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "5ecff9f7bc264add884719a24c4bcab4",
+        "Name": "CrushAnimation",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "ba73e4bebc644a8ca47afcc1cfd42edd",
+        "Name": "LaunchAnimation",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "2204b1d2484a420285f1e40c24608a8b",
+        "Name": "JumpAnimation",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "eabaa4c28ae24c3f9ed7447a548096bc",
+        "Name": "JumpAnimationHeightCurve",
+        "FieldType": { "Id": "280b143c739160ffb69b3cf552f375bb", "Name": "CurveEntity" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "f715ac50a38b42c88641eee313a2b466",
+        "Name": "DefaultPositionY",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "b8556af0f4d64a3ebdadd8fd2d930738",
+        "Name": "JumpHeight",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "92d61e1d0f6e4656adf9c6f6324474c9",
+        "Name": "Shadow",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "01ee7d70bc774caeb1cfee11ec86d6da",
+        "Name": "LaserAnimation",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "e9781b5fea0343589e59bbf8a4310cbf",
+        "Name": "DeathAnimation",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "795f6a26eaa140459b4e4833909f34c2",
+        "Name": "LaserBeam1",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "5013474796784137a5baf4eec4332e6e",
+        "Name": "LaserBeam2",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "7bdf388190464b6a90c40ab77a4a2c68", "Name": "Dinosaur" },
+        "Properties": {
+            "MoveSpeed": 1
+        }
+    }
+}]

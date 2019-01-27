@@ -1,0 +1,46 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "22e941db85e74520abaa63b738fa0aaa",
+    "Name": "ShakeAnimationPlayer",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "095d36eba67943d2b477f1bd78fded05",
+        "Name": "Duration",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "9a30e1c80a0c4afcb41589ee5d9b9d9f",
+        "Name": "ShakeRadiusX",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "1ffc6e6dd5db4ebdb02c243a35455f6b",
+        "Name": "ShakeRadiusY",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "c3969c171ebe486b96ffbe6e952bd69c",
+        "Name": "Timer",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "545e5c779f49422c96f8a5fa33508a7c",
+        "Name": "StartDelay",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "22e941db85e74520abaa63b738fa0aaa", "Name": "ShakeAnimationPlayer" },
+        "Properties": {
+            "Duration": 1
+        }
+    }
+}]

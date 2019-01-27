@@ -1,0 +1,19 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "c0135c314b3545dead214f30744e64d2",
+    "Name": "PlayerInput",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "1dec6bc8f108434cac2002c09b8ce256",
+        "Name": "force",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "c0135c314b3545dead214f30744e64d2", "Name": "PlayerInput" }
+    }
+}]

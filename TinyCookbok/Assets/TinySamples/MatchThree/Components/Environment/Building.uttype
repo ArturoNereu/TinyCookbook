@@ -1,0 +1,12 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "c475e0b57ddb40a388ef34cf11a3ff57",
+    "Name": "Building",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "DefaultValue": {
+        "Type": { "Id": "c475e0b57ddb40a388ef34cf11a3ff57", "Name": "Building" }
+    }
+}]

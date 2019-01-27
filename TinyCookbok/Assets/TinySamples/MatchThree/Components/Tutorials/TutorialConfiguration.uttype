@@ -1,0 +1,31 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "208adeb335d64fb491ad0b5cb964f5d5",
+    "Name": "TutorialConfiguration",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Configuration",
+    "Fields": [{
+        "Id": "2c0f3b2d1ac343449052dba6276bdfdf",
+        "Name": "IsMatchTutorialDone",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "8fa692a1810949e482ef7cb8c26474b0",
+        "Name": "IsEggTutorialDone",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "430a1b9d076f4803bfc8e3bb882a73a5",
+        "Name": "IsSurvivalTutorialDone",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "208adeb335d64fb491ad0b5cb964f5d5", "Name": "TutorialConfiguration" }
+    }
+}]

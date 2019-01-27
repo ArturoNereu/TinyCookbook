@@ -1,0 +1,31 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "d6b0e050cf3a44e1982eda0238c62a39",
+    "Name": "SoundConfiguration",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Configuration",
+    "Fields": [{
+        "Id": "123097102c0947e3bc2eaa8770243db0",
+        "Name": "IsSoundOn",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "3536da45024b4633a2a19cbf1377483d",
+        "Name": "IsMusicOn",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "271c0b677a484ab48302b77892cb5c50",
+        "Name": "CurrentMusic",
+        "FieldType": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "d6b0e050cf3a44e1982eda0238c62a39", "Name": "SoundConfiguration" }
+    }
+}]

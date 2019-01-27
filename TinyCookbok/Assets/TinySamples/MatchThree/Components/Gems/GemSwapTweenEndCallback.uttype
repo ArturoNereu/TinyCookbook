@@ -1,0 +1,19 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "c2b654c9e678471ab833089704f36b24",
+    "Name": "GemSwapTweenEndCallback",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "ca6c638d64fd47968181be12873bffd5",
+        "Name": "GemEntity",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "c2b654c9e678471ab833089704f36b24", "Name": "GemSwapTweenEndCallback" }
+    }
+}]

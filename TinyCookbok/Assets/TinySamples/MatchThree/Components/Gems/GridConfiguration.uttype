@@ -1,0 +1,67 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "0a103795eeab4f35bdd05478252a75fc",
+    "Name": "GridConfiguration",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Configuration",
+    "Fields": [{
+        "Id": "399372d4b2534ad7bf67dfaf1936b468",
+        "Name": "GemEntities",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": true,
+        "Visibility": 1
+    }, {
+        "Id": "6d24ea18fdcc45e19637c4b37bdd85c6",
+        "Name": "CellEntities",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": true,
+        "Visibility": 1
+    }, {
+        "Id": "7544ee852f0f47cab2634a4d8a34312b",
+        "Name": "FrozenGridTimer",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "a1adebc8f3a9422cb037a01e735f6867",
+        "Name": "Width",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "af1c1c501b894fc085aadd5113bc15dc",
+        "Name": "Height",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "84ee338e8e624d67b0e73f26335bb2fc",
+        "Name": "CellDimension",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "63f3ba601adb46af961cc4f0ab95ad73",
+        "Name": "GridDefaultPositionY",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "d688bcdb686f4ac4be439dd5b75e6826",
+        "Name": "GridOffsetPositionY",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "936ce9c4a71549acb1420768441aaded",
+        "Name": "IsGridCreated",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 1
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "0a103795eeab4f35bdd05478252a75fc", "Name": "GridConfiguration" }
+    }
+}]

@@ -1,0 +1,34 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "daf235e324ed4554810567c4960c4c98",
+    "Name": "SurvivalModeTimeline",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "5c8fa169bdcb44f4bb886d8ac5d4afd5",
+        "Name": "ContainerFilling",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "f496b1e2aafa4c59a31fa436c7508b71",
+        "Name": "DinosaurCursor",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "53ff44e446624d98a396729e341b26c1",
+        "Name": "Width",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "daf235e324ed4554810567c4960c4c98", "Name": "SurvivalModeTimeline" },
+        "Properties": {
+            "Width": 176
+        }
+    }
+}]

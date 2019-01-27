@@ -1,0 +1,36 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "decdc736779d4d99b0bd0e002a89e936",
+    "Name": "SkinTypes",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Enum",
+    "BaseType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+    "Fields": [{
+        "Id": "2efa2173788346b1bb511ffb56daa1c7",
+        "Name": "Camp",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "2ca61817705d46af8816a4d2cce06f7d",
+        "Name": "Farm",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "9b992dbfae0c4b20b650a255b3b776af",
+        "Name": "City",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "decdc736779d4d99b0bd0e002a89e936", "Name": "SkinTypes" },
+        "Properties": {
+            "Farm": 1,
+            "City": 2
+        }
+    }
+}]

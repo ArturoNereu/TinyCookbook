@@ -1,0 +1,83 @@
+﻿[{
+    "$TypeId": 4,
+    "Id": "17f20d5c652f42ea932054a8a242ab5e",
+    "Name": "ExplosionGroup",
+    "ExportFlags": 0,
+    "SerializedVersion": 0,
+    "Entities": [
+        { "$TypeId": 9, "Id": "8e54579c908b46aeb903e2d88405b39c", "Name": "Explosion" }
+    ]
+},
+{
+    "$TypeId": 5,
+    "Id": "8e54579c908b46aeb903e2d88405b39c",
+    "Name": "Explosion",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "23433a877f75d754c9f1bfb18e7493a4", "FileId": 21300014, "Type": 3 }
+        }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
+        "Properties": {
+            "order": 6
+        }
+    }, {
+        "Type": { "Id": "95eba163dce5bfff5420a5a8c2845523", "Name": "Sprite2DSequence" },
+        "Properties": {
+            "sprites": {
+                "Type": { "Id": "cf54a635a25248ab87f2563bb840ed5b", "Name": "SpriteEntity" },
+                "Items": [
+                    { "$TypeId": 10, "Guid": "23433a877f75d754c9f1bfb18e7493a4", "FileId": 21300008, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "23433a877f75d754c9f1bfb18e7493a4", "FileId": 21300010, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "23433a877f75d754c9f1bfb18e7493a4", "FileId": 21300012, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "23433a877f75d754c9f1bfb18e7493a4", "FileId": 21300014, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "23433a877f75d754c9f1bfb18e7493a4", "FileId": 21300016, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "86f1b161443d017459d9da56dd2afb18", "FileId": 21300000, "Type": 3 }
+                ]
+            },
+            "frameRate": 12
+        }
+    }, {
+        "Type": { "Id": "d2cfd18aa4facc33b1da7ae05205691b", "Name": "Sprite2DSequencePlayer" },
+        "Properties": {
+            "sequence": { "$TypeId": 9, "Id": "8e54579c908b46aeb903e2d88405b39c", "Name": "Explosion" },
+            "loop": {
+                "$TypeId": 8,
+                "Type": { "Id": "ea25cda1bca15e4c9fb023eca636eb06", "Name": "LoopMode" },
+                "Id": "d24c1a8a15be9b7e8c161382e4091c4f",
+                "Name": "ClampForever",
+                "Value": 4
+            },
+            "speed": 1
+        }
+    }, {
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" },
+        "Properties": {
+            "scale": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": 2.2,
+                    "y": 2.2,
+                    "z": 2.2
+                }
+            }
+        }
+    }]
+}]

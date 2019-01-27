@@ -1,0 +1,54 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "5be20da345c04acd8dda44b07ce1c5db",
+    "Name": "ScrollingObjectSpawner",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "c2fb0d7bc11a41dc83e7347836d53da9",
+        "Name": "SpawnDetailsBySkin",
+        "FieldType": { "Id": "e5268814c9f14dc7bfbc96f582653216", "Name": "ScrollingObjectSpawnerDetails" },
+        "Array": true,
+        "Visibility": 0
+    }, {
+        "Id": "be50ed9752b34f01989850659d4e3f38",
+        "Name": "EntitiesToSpawn",
+        "FieldType": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+        "Array": true,
+        "Visibility": 0
+    }, {
+        "Id": "63f1cca6c66049a9aa68266dc544a919",
+        "Name": "MaxRandomYOffset",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "fd2acd353a134af5860369bbc339db63",
+        "Name": "RandomizeFlipX",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "72522922d83447e295977e479d6ce618",
+        "Name": "RandomizeFlipY",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "25aac4dbd32f438596767d750a95a809",
+        "Name": "NextObjectDistance",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 1
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "5be20da345c04acd8dda44b07ce1c5db", "Name": "ScrollingObjectSpawner" },
+        "Properties": {
+            "EntitiesToSpawn": {
+                "Type": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" }
+            }
+        }
+    }
+}]

@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FarmEnvironment
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 2
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: d254372184e7a754da33404a4871e73e, type: 3}
+    totalSpriteSurfaceArea: 39238
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 8f8ac70026bd31641bad2d035de36156, type: 3}
+  - {fileID: 21300000, guid: 34a86a00857e3424f92fdcf827cc8af8, type: 3}
+  - {fileID: 21300000, guid: 0eacd47084b725844b502cad809ada39, type: 3}
+  - {fileID: 21300000, guid: 570fc871e988ae548a31393b0496b8fa, type: 3}
+  - {fileID: 21300000, guid: 28f93ea1e588d0447864124ec5ba1dda, type: 3}
+  - {fileID: 21300000, guid: eaa326422ec3d684e8f864c4da5cc9e1, type: 3}
+  - {fileID: 21300000, guid: 53d290923eaa19c49ba5abc4d3f0a31b, type: 3}
+  - {fileID: 21300000, guid: 48bb9df27fe0d8145823f0f86de7f8f3, type: 3}
+  - {fileID: 21300000, guid: 9d85f813960a6784d92fafc0234d970a, type: 3}
+  - {fileID: 21300000, guid: 35669683518f7a149883b29d63ab8054, type: 3}
+  - {fileID: 21300000, guid: ea127aa3de382f74cac0c8775793be93, type: 3}
+  - {fileID: 21300000, guid: 6e898ba433517214ca90c277294bc952, type: 3}
+  - {fileID: 21300000, guid: a5f11025107dc3a4aaf21bd6fbbf7a45, type: 3}
+  - {fileID: 21300000, guid: 9a8d5635b7e3714448e779208a461ff1, type: 3}
+  - {fileID: 21300000, guid: 99f3db65c9714d74cb0efb223f3eb051, type: 3}
+  - {fileID: 21300000, guid: 55fd88d5bc53c694bbfaaf35ee3b0113, type: 3}
+  - {fileID: 21300000, guid: 5a5cba0611dcdb641b659cb044d23fe8, type: 3}
+  - {fileID: 21300000, guid: 333da6f6d35ee57429164c17c5a5edc7, type: 3}
+  - {fileID: 21300000, guid: 387168272df17e74f833e63384dd34ad, type: 3}
+  - {fileID: 21300000, guid: 21e92547cfd554f4890655d18d080b05, type: 3}
+  - {fileID: 21300000, guid: b82292d7765d07749996f62b68c5f077, type: 3}
+  - {fileID: 21300000, guid: f85336f7e94f43740a4eedcd9d350bed, type: 3}
+  - {fileID: 21300000, guid: ee1269b972d673c488fc2203225faabc, type: 3}
+  - {fileID: 21300000, guid: 0a98992b46d390441862b809e122d02d, type: 3}
+  - {fileID: 21300000, guid: e2fe843b55063ca45921d758b58e518d, type: 3}
+  - {fileID: 21300000, guid: 6110b74bb447c5242919159abc4ce89f, type: 3}
+  - {fileID: 21300000, guid: d01b07bc07b38364ebffe24903ae96b6, type: 3}
+  - {fileID: 21300000, guid: da0db41dba3a98247b7ee3b4761f6c4e, type: 3}
+  - {fileID: 21300000, guid: 9c9da2ddbffe8c24ebc27b0d80d3e085, type: 3}
+  - {fileID: 21300000, guid: 7406c5ddcb7c57d48af6b1c2c632e839, type: 3}
+  - {fileID: 21300000, guid: cf754aeda607446448d6c760e5a92bc9, type: 3}
+  - {fileID: 21300000, guid: a619191e2630cc34698de7bbcd2fd116, type: 3}
+  - {fileID: 21300000, guid: 5361ac9e6d814b341af71564efa5bb0c, type: 3}
+  - {fileID: 21300000, guid: 0612bc2f869bd314ba95771faa1095f2, type: 3}
+  - {fileID: 21300000, guid: 34817bef4beee3f47a2971019e46881d, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Farm_Building_Small_State_2
+  - Farm_Prop_2_Crushed
+  - Farm_Building_Tall_State_2
+  - Farm_Parallax_5
+  - Farm_Prop_3_Crushed
+  - Farm_Car_1
+  - Farm_Parallax_4
+  - Farm_Soldier_Fire_1
+  - Farm_Floor
+  - Farm_Building_Tall_State_3
+  - Farm_Underground
+  - Farm_Building_Small_State_1
+  - Farm_Building_Small_State_3
+  - Farm_Building_Medium_State_1
+  - Farm_Car_2
+  - Farm_Prop_2_Intact
+  - Farm_Helicopter_Body_1
+  - Farm_Building_Medium_State_3
+  - Farm_Building_Small_2_State_1
+  - Farm_Prop_3_Intact
+  - Farm_Soldier_Walk_3
+  - Farm_Prop_1_Crushed
+  - Farm_Car_2_Crushed
+  - Farm_Parallax_2
+  - Farm_Building_Tall_State_1
+  - Farm_Soldier_Walk_1
+  - Farm_Building_Small_2_State_3
+  - Farm_Building_Medium_State_2
+  - Farm_Soldier_Walk_2
+  - Farm_Parallax_1
+  - Farm_Building_Small_2_State_2
+  - Farm_Prop_1_Intact
+  - Farm_Car_1_Crushed
+  - Farm_Parallax_3
+  - Farm_Soldier_Fire_2
+  m_Tag: FarmEnvironment
+  m_IsVariant: 0

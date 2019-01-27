@@ -1,0 +1,19 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "52b0de4300db472db3b40f47db40a7eb",
+    "Name": "Explosion",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "8bdced893f73419db7e707f6d65c3963",
+        "Name": "duration",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "52b0de4300db472db3b40f47db40a7eb", "Name": "Explosion" }
+    }
+}]

@@ -1,0 +1,43 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "c76668c23b684c5da06492b7ba36b6d8",
+    "Name": "LocalizedText",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "bb3a3b1fe6874e909267274ff72c07e6",
+        "Name": "TextID",
+        "FieldType": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "b9447d23e0974d32aea1f735e83335fe",
+        "Name": "LastTextID",
+        "FieldType": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "34466403203141b98ad32f4436fd004b",
+        "Name": "ToUpper",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "d84e5483295745d6afa3c25b2e86a775",
+        "Name": "LastLanguageID",
+        "FieldType": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "84be312663464ecfbc27cc389e51f671",
+        "Name": "TextParameters",
+        "FieldType": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+        "Array": true,
+        "Visibility": 1
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "c76668c23b684c5da06492b7ba36b6d8", "Name": "LocalizedText" }
+    }
+}]

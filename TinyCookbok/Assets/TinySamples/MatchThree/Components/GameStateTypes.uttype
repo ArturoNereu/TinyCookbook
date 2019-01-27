@@ -1,0 +1,108 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "172dc11c0e2e4391bac6aa63fc999b6c",
+    "Name": "GameStateTypes",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "Documentation": {
+        "Summary": "\n"
+    },
+    "TypeCode": "Enum",
+    "Fields": [{
+        "Id": "c7ffa9a240114a009c60f1acf8e017f7",
+        "Name": "Boot",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "3934cc04bb1041edab4dde1217dfcd31",
+        "Name": "Loading",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "6624df63845c4e5da05f84ee730e4e2a",
+        "Name": "MainMenu",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "eb6077ac5c804612a31e20e2facae990",
+        "Name": "Game",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "bfda34dc12d141949c21c59bdad2afc9",
+        "Name": "GameOver",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "f4da0589aff34bba84c0f8bdfd6dd00b",
+        "Name": "Settings",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "0448208f382d481399c3012cfe6ddd9a",
+        "Name": "Credits",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "afba39704ffa4d0ea61eb5e5a64b50cb",
+        "Name": "Paused",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "d5d396bbe0914be48eb72d3aa687e99e",
+        "Name": "WorldMap",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "ad7ca77d6a2145aa9cde8b28f8170698",
+        "Name": "Cutscene",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "633b2eaaca924fc5900fd939d7f9042e",
+        "Name": "CutsceneEnd",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "60c53d36c4484449a2d6ab056fa4b04d",
+        "Name": "Transition",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "b03372304dbb45b1bd1d82a8dbcf22f2",
+        "Name": "Languages",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "172dc11c0e2e4391bac6aa63fc999b6c", "Name": "GameStateTypes" },
+        "Properties": {
+            "Loading": 1,
+            "MainMenu": 2,
+            "Game": 3,
+            "GameOver": 4,
+            "Settings": 5,
+            "Credits": 6,
+            "Paused": 7,
+            "WorldMap": 8,
+            "Cutscene": 9,
+            "CutsceneEnd": 10,
+            "Transition": 11,
+            "Languages": 12
+        }
+    }
+}]

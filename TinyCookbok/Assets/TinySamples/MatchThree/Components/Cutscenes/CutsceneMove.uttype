@@ -1,0 +1,41 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "88d9dcac4206433bb29f01ae57416212",
+    "Name": "CutsceneMove",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "eaa6a193ccd64f0c9df2ecff2670b08a",
+        "Name": "Duration",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "f493e88cbfca4970b672470f594f504c",
+        "Name": "StartOffset",
+        "FieldType": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "b38094b978224494a28305dfb1868c07",
+        "Name": "Easing",
+        "FieldType": { "Id": "a0abdfa0125a70d08cef584f283024b1", "Name": "TweenFunc" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "88d9dcac4206433bb29f01ae57416212", "Name": "CutsceneMove" },
+        "Properties": {
+            "Duration": 1,
+            "Easing": {
+                "$TypeId": 8,
+                "Type": { "Id": "a0abdfa0125a70d08cef584f283024b1", "Name": "TweenFunc" },
+                "Id": "d659b24d8a75af6d1c3ea826d02a3db3",
+                "Name": "Linear",
+                "Value": 1
+            }
+        }
+    }
+}]

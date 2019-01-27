@@ -1,0 +1,125 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "d2f54408ad9f4e928b6b280f1d6318ad",
+    "Name": "CustomButton",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "bfdc276076764ac8a82625dd1d816880",
+        "Name": "IsPressed",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "e68ec01948ea4f9a8c7a1c5a7576a9f3",
+        "Name": "JustDown",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "e96c1635dfb04e1aa357847ef31b5fac",
+        "Name": "JustUp",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "5ba1d5af828440aaa1811c256144be67",
+        "Name": "JustClicked",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "1612758ef0d14a33b51b8497e88f4114",
+        "Name": "TimePressed",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "332b7a0503d846398642e73fa0c6bb29",
+        "Name": "LastDown",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "7413a54d88474e45b13035211b5722cb",
+        "Name": "LastOver",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "ffe4bff5ca36483bb05c6c2ff1a4c4df",
+        "Name": "DefaultSprite",
+        "FieldType": { "Id": "cf54a635a25248ab87f2563bb840ed5b", "Name": "SpriteEntity" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "9825f72c016d4920bc0a6accfab21a26",
+        "Name": "HoveredSprite",
+        "FieldType": { "Id": "cf54a635a25248ab87f2563bb840ed5b", "Name": "SpriteEntity" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "d1c43a9d39ec4b8ba6aad5fd4bb470c7",
+        "Name": "PressedSprite",
+        "FieldType": { "Id": "cf54a635a25248ab87f2563bb840ed5b", "Name": "SpriteEntity" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "f5c2556860dc4f949fbe8d12415071c1",
+        "Name": "DisabledSprite",
+        "FieldType": { "Id": "cf54a635a25248ab87f2563bb840ed5b", "Name": "SpriteEntity" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "cea4439a8b494ba7abe7eecf003a92aa",
+        "Name": "ContentToOffsetOnPress",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "109976a06b8e4e65a647b3caf3dc6093",
+        "Name": "PressedOffsetY",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "5c14d663f9bd45ee8f529502ec960608",
+        "Name": "ContentDefautPositionY",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "b82536c83cc64bc3b5dd687f135661ec",
+        "Name": "ContentDefautPositionIsSet",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "a1c65b9e4b8a4d7da477614159ee08ac",
+        "Name": "IsPointerOver",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "f797eb0c28e74351996fc0fdffd1bdab",
+        "Name": "IsInteractable",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "6263eac58958456aa841e7dbf4dafde0",
+        "Name": "LastIsInteractable",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 1
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "d2f54408ad9f4e928b6b280f1d6318ad", "Name": "CustomButton" },
+        "Properties": {
+            "IsInteractable": true,
+            "LastIsInteractable": true
+        }
+    }
+}]

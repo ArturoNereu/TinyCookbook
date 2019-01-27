@@ -1,0 +1,34 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "ef2399a2c2124463873a155756d1ecdf",
+    "Name": "SpriteRendererSkin",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "a6d10614a94443999ac0db9fc45dad45",
+        "Name": "SpritePath",
+        "FieldType": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "ff5437c555b145d2b2ff489940ef3b86",
+        "Name": "SkinColorInfo",
+        "FieldType": { "Id": "37d9a76716d54f4b9c4e5f3029d282ab", "Name": "SpriteRendererSkinColorInfo" },
+        "Array": true,
+        "Visibility": 0
+    }, {
+        "Id": "7f4681f07c8b426fb9d90756f0014dcb",
+        "Name": "CurrentSkinIndex",
+        "FieldType": { "Id": "27c155635ccb4ab2bcb79ef5aaf129ec", "Name": "Int8" },
+        "Array": false,
+        "Visibility": 1
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "ef2399a2c2124463873a155756d1ecdf", "Name": "SpriteRendererSkin" },
+        "Properties": {
+            "CurrentSkinIndex": -1
+        }
+    }
+}]

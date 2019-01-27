@@ -1,0 +1,72 @@
+﻿[{
+    "$TypeId": 4,
+    "Id": "cdab33ba27c24e8889ec6fc1b7e7a4a3",
+    "Name": "Explosion1",
+    "ExportFlags": 0,
+    "SerializedVersion": 0,
+    "Entities": [
+        { "$TypeId": 9, "Id": "94e14aa0165c4256bffb75702103a456", "Name": "Explosion1" }
+    ]
+},
+{
+    "$TypeId": 5,
+    "Id": "94e14aa0165c4256bffb75702103a456",
+    "Name": "Explosion1",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "bf8de8d242d58cc46a3baa7385f995a6", "FileId": 21300000, "Type": 3 }
+        }
+    }, {
+        "Type": { "Id": "95eba163dce5bfff5420a5a8c2845523", "Name": "Sprite2DSequence" },
+        "Properties": {
+            "sprites": {
+                "Type": { "Id": "cf54a635a25248ab87f2563bb840ed5b", "Name": "SpriteEntity" },
+                "Items": [
+                    { "$TypeId": 10, "Guid": "bf8de8d242d58cc46a3baa7385f995a6", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "531680aab60eb2a4ca7b496cbe92d53e", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "612221728b6145f4980bfce167b1a00f", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "f79e15b535539384b9d4e078b7d97c94", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "4bfa32c86b1196145978b42c5af367b8", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "850fe39766b8be24d9c760755ced6423", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "46c65cfb0a9675b49adc8a999150d730", "FileId": 21300000, "Type": 3 }
+                ]
+            },
+            "frameRate": 10
+        }
+    }, {
+        "Type": { "Id": "d2cfd18aa4facc33b1da7ae05205691b", "Name": "Sprite2DSequencePlayer" },
+        "Properties": {
+            "sequence": { "$TypeId": 9, "Id": "94e14aa0165c4256bffb75702103a456", "Name": "Explosion" },
+            "loop": {
+                "$TypeId": 8,
+                "Type": { "Id": "ea25cda1bca15e4c9fb023eca636eb06", "Name": "LoopMode" },
+                "Id": "d24c1a8a15be9b7e8c161382e4091c4f",
+                "Name": "ClampForever",
+                "Value": 4
+            },
+            "speed": 1
+        }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
+        "Properties": {
+            "order": 100
+        }
+    }, {
+        "Type": { "Id": "970bedced97c46218f164c021b557757", "Name": "DestroyAfterDelay" },
+        "Properties": {
+            "Delay": 0.65
+        }
+    }, {
+        "Type": { "Id": "5ffa4699df954814b080cb54b2a2d16f", "Name": "ScrollingObject" }
+    }]
+}]

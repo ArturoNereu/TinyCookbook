@@ -1,0 +1,140 @@
+﻿[{
+    "$TypeId": 4,
+    "Id": "6887fe5425624a7383aca2ec56e90211",
+    "Name": "Cell",
+    "ExportFlags": 0,
+    "SerializedVersion": 0,
+    "Entities": [
+        { "$TypeId": 9, "Id": "cee2c767fc084dc3b5a7dc0eb277f57c", "Name": "Cell" }
+    ]
+},
+{
+    "$TypeId": 5,
+    "Id": "cee2c767fc084dc3b5a7dc0eb277f57c",
+    "Name": "Cell",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 8,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": 9.8,
+                    "y": 201.32
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" },
+        "Properties": {
+            "scale": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "y": 1
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "4b597c0fe7ecd41cbb5f7e7dc28809e5", "FileId": 21300012, "Type": 3 },
+            "color": {
+                "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                "Properties": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1,
+                    "a": 1
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "be2f221c9af74ec5c0a4495a2d6769a3", "Name": "Sprite2DRendererOptions" },
+        "Properties": {
+            "size": {
+                "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+                "Properties": {
+                    "x": 24,
+                    "y": 24
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "282498a07a0a40568044cf621fc6a068", "Name": "Cell" },
+        "Properties": {
+            "Size": 24
+        }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
+        "Properties": {
+            "order": -1
+        }
+    }, {
+        "Type": { "Id": "ef2399a2c2124463873a155756d1ecdf", "Name": "SpriteRendererSkin" },
+        "Properties": {
+            "SkinColorInfo": {
+                "Type": { "Id": "37d9a76716d54f4b9c4e5f3029d282ab", "Name": "SpriteRendererSkinColorInfo" },
+                "Items": [{
+                    "Type": { "Id": "37d9a76716d54f4b9c4e5f3029d282ab", "Name": "SpriteRendererSkinColorInfo" },
+                    "Properties": {
+                        "Color": {
+                            "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                            "Properties": {
+                                "r": 0.1491803,
+                                "g": 0.26,
+                                "b": 0.26,
+                                "a": 1
+                            }
+                        }
+                    }
+                }, {
+                    "Type": { "Id": "37d9a76716d54f4b9c4e5f3029d282ab", "Name": "SpriteRendererSkinColorInfo" },
+                    "Properties": {
+                        "Skin": {
+                            "$TypeId": 8,
+                            "Type": { "Id": "decdc736779d4d99b0bd0e002a89e936", "Name": "SkinTypes" },
+                            "Id": "2ca61817705d46af8816a4d2cce06f7d",
+                            "Name": "Farm",
+                            "Value": 1
+                        },
+                        "Color": {
+                            "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                            "Properties": {
+                                "r": 0.3176471,
+                                "g": 0.2,
+                                "b": 0.1294118,
+                                "a": 1
+                            }
+                        }
+                    }
+                }, {
+                    "Type": { "Id": "37d9a76716d54f4b9c4e5f3029d282ab", "Name": "SpriteRendererSkinColorInfo" },
+                    "Properties": {
+                        "Skin": {
+                            "$TypeId": 8,
+                            "Type": { "Id": "decdc736779d4d99b0bd0e002a89e936", "Name": "SkinTypes" },
+                            "Id": "9b992dbfae0c4b20b650a255b3b776af",
+                            "Name": "City",
+                            "Value": 2
+                        },
+                        "Color": {
+                            "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                            "Properties": {
+                                "r": 0.2941177,
+                                "g": 0.2078431,
+                                "b": 0.2862745,
+                                "a": 1
+                            }
+                        }
+                    }
+                }]
+            }
+        }
+    }]
+}]

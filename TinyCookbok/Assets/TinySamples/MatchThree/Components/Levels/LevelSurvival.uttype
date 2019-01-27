@@ -1,0 +1,61 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "ece1e4dfc3ea4120b360be12acc0a152",
+    "Name": "LevelSurvival",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "5d0bc72c697e4904999465810dcae4bd",
+        "Name": "MaxSurvivalTime",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "efbb6840c45b470ca7c7104cd76e3a66",
+        "Name": "TimeDepleteRate",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "2fae8acdab2d40f7a801073c56abb46b",
+        "Name": "SurvivalTimer",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "fc14b18eab914db792a631ac7b249fe0",
+        "Name": "StartTimeGainByMatch",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "cfaf663956d94cf2a02ece796efdbd6c",
+        "Name": "EndTimeGainByMatch",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "5e1951f06cfd42f2b08f78c96298b8ec",
+        "Name": "DifficulyRampUpTime",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "640f7818fac44753aae6069d66391702",
+        "Name": "TimeObjective",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "ece1e4dfc3ea4120b360be12acc0a152", "Name": "LevelSurvival" },
+        "Properties": {
+            "TimeDepleteRate": 1,
+            "StartTimeGainByMatch": 1,
+            "EndTimeGainByMatch": 0.4,
+            "DifficulyRampUpTime": 90
+        }
+    }
+}]

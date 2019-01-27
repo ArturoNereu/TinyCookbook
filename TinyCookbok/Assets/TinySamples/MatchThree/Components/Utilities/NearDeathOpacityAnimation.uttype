@@ -1,0 +1,41 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "cf9e3d186b2740ad9bbbeb18fe1d61fb",
+    "Name": "NearDeathOpacityAnimation",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "bedbb634799b49c288f53a6c8cc2d023",
+        "Name": "Speed",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "72731e8d965445a7be78b16ea6e61347",
+        "Name": "MinAlpha",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "5c9373dd609f4964a3772fb58c5e9542",
+        "Name": "MaxAlpha",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "93ebeae18f0246b48c061698d3b35296",
+        "Name": "Timer",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 1
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "cf9e3d186b2740ad9bbbeb18fe1d61fb", "Name": "NearDeathOpacityAnimation" },
+        "Properties": {
+            "Speed": 1,
+            "MaxAlpha": 1
+        }
+    }
+}]

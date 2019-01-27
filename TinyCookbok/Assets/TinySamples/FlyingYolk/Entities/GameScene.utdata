@@ -1,0 +1,540 @@
+﻿[{
+    "$TypeId": 4,
+    "Id": "b6e70de75afb49db9d953050c99ce94e",
+    "Name": "GameScene",
+    "ExportFlags": 0,
+    "SerializedVersion": 0,
+    "Entities": [
+        { "$TypeId": 9, "Id": "3486be84ded241838b7be62fbd1202d8", "Name": "Environment" },
+        { "$TypeId": 9, "Id": "9bd39d61b6244fa4a5592dc6d7018f3d", "Name": "TopBounds" },
+        { "$TypeId": 9, "Id": "9a188b6dcb32486eb425fcaac2ababe5", "Name": "Background" },
+        { "$TypeId": 9, "Id": "3963eec7f4c542219f9677012d656d59", "Name": "Ground" },
+        { "$TypeId": 9, "Id": "3ab5fb77940543e29716d189df6eed06", "Name": "Ground_0" },
+        { "$TypeId": 9, "Id": "f4e79305f28f497fb7eae398d82e26ef", "Name": "Ground_1" },
+        { "$TypeId": 9, "Id": "5a5bda424cfd49c1bcad0080c1f49650", "Name": "Ground_2" },
+        { "$TypeId": 9, "Id": "9929944778414291988ce81760733dd3", "Name": "Ground_3" },
+        { "$TypeId": 9, "Id": "63bcfdb5bdb04e4fbd48b66d9b7160a1", "Name": "Player" },
+        { "$TypeId": 9, "Id": "c4f3584cc49e4e86911b09bd16d11efd", "Name": "Spawner" }
+    ]
+},
+{
+    "$TypeId": 5,
+    "Id": "3486be84ded241838b7be62fbd1202d8",
+    "Name": "Environment",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "9bd39d61b6244fa4a5592dc6d7018f3d",
+    "Name": "TopBounds",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
+        "Properties": {
+            "parent": { "$TypeId": 9, "Id": "3486be84ded241838b7be62fbd1202d8", "Name": "Environment" }
+        }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": 0,
+                    "y": 1.36,
+                    "z": 0
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" },
+        "Properties": {
+            "scale": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": 20,
+                    "y": 1,
+                    "z": 1
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "a015bc52c7befa4d7484891d74d2b574", "Name": "RectHitBox2D" },
+        "Properties": {
+            "box": {
+                "Type": { "Id": "f216da154c4054842adb590807e977ba", "Name": "Rect" },
+                "Properties": {
+                    "x": -0.08,
+                    "y": -0.08,
+                    "width": 0.16,
+                    "height": 0.16
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "1f5fe83ba337c904994be4e7a0233c9f", "FileId": 21300088, "Type": 3 },
+            "color": {
+                "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                "Properties": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1,
+                    "a": 1
+                }
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "9a188b6dcb32486eb425fcaac2ababe5",
+    "Name": "Background",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
+        "Properties": {
+            "parent": { "$TypeId": 9, "Id": "3486be84ded241838b7be62fbd1202d8", "Name": "Entity" }
+        }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "1f5fe83ba337c904994be4e7a0233c9f", "FileId": 21300000, "Type": 3 }
+        }
+    }, {
+        "Type": { "Id": "be2f221c9af74ec5c0a4495a2d6769a3", "Name": "Sprite2DRendererOptions" },
+        "Properties": {
+            "size": {
+                "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+                "Properties": {
+                    "x": 10.24,
+                    "y": 2.56
+                }
+            },
+            "drawMode": {
+                "$TypeId": 8,
+                "Type": { "Id": "a7ae2ef1f120627af99607cbecca330e", "Name": "DrawMode" },
+                "Id": "0334e5a91225cf998b678224025cf40c",
+                "Name": "ContinuousTiling",
+                "Value": 0
+            }
+        }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
+        "Properties": {
+            "order": 0
+        }
+    }, {
+        "Type": { "Id": "e4aa1bea32884e779e3829f65c331944", "Name": "Reskinnable" }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "3963eec7f4c542219f9677012d656d59",
+    "Name": "Ground",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
+        "Properties": {
+            "parent": { "$TypeId": 9, "Id": "3486be84ded241838b7be62fbd1202d8", "Name": "Environment" }
+        }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "z": 4
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" },
+        "Properties": {
+            "scale": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "288a861a8ca311346faecf4c20a2da76", "Name": "SortingGroup" }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
+        "Properties": {
+            "order": 30
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "3ab5fb77940543e29716d189df6eed06",
+    "Name": "Ground_0",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
+        "Properties": {
+            "parent": { "$TypeId": 9, "Id": "3963eec7f4c542219f9677012d656d59", "Name": "Grounds" }
+        }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": -2.52,
+                    "y": -1.28,
+                    "z": 0
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "1f5fe83ba337c904994be4e7a0233c9f", "FileId": 21300004, "Type": 3 }
+        }
+    }, {
+        "Type": { "Id": "a015bc52c7befa4d7484891d74d2b574", "Name": "RectHitBox2D" },
+        "Properties": {
+            "box": {
+                "Type": { "Id": "f216da154c4054842adb590807e977ba", "Name": "Rect" },
+                "Properties": {
+                    "x": -0.84,
+                    "y": -0.28,
+                    "width": 1.68,
+                    "height": 0.56
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "dae5bff6b85247679b553950320211b2", "Name": "Scroller" }
+    }, {
+        "Type": { "Id": "c9cd9c10fa854a7eaa36fac51c312f4b", "Name": "RepeatingBackground" },
+        "Properties": {
+            "threshold": -3.36,
+            "distance": 6.72
+        }
+    }, {
+        "Type": { "Id": "83bd762a7c6e407caeb13d722041a6fa", "Name": "Ground" }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "f4e79305f28f497fb7eae398d82e26ef",
+    "Name": "Ground_1",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
+        "Properties": {
+            "parent": { "$TypeId": 9, "Id": "3963eec7f4c542219f9677012d656d59", "Name": "Grounds" }
+        }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": -0.84,
+                    "y": -1.28,
+                    "z": 0
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "1f5fe83ba337c904994be4e7a0233c9f", "FileId": 21300004, "Type": 3 }
+        }
+    }, {
+        "Type": { "Id": "a015bc52c7befa4d7484891d74d2b574", "Name": "RectHitBox2D" },
+        "Properties": {
+            "box": {
+                "Type": { "Id": "f216da154c4054842adb590807e977ba", "Name": "Rect" },
+                "Properties": {
+                    "x": -0.84,
+                    "y": -0.28,
+                    "width": 1.68,
+                    "height": 0.56
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "dae5bff6b85247679b553950320211b2", "Name": "Scroller" }
+    }, {
+        "Type": { "Id": "c9cd9c10fa854a7eaa36fac51c312f4b", "Name": "RepeatingBackground" },
+        "Properties": {
+            "threshold": -3.36,
+            "distance": 6.72
+        }
+    }, {
+        "Type": { "Id": "83bd762a7c6e407caeb13d722041a6fa", "Name": "Ground" }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "5a5bda424cfd49c1bcad0080c1f49650",
+    "Name": "Ground_2",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
+        "Properties": {
+            "parent": { "$TypeId": 9, "Id": "3963eec7f4c542219f9677012d656d59", "Name": "Grounds" }
+        }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": 0.84,
+                    "y": -1.28,
+                    "z": 0
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "1f5fe83ba337c904994be4e7a0233c9f", "FileId": 21300004, "Type": 3 }
+        }
+    }, {
+        "Type": { "Id": "a015bc52c7befa4d7484891d74d2b574", "Name": "RectHitBox2D" },
+        "Properties": {
+            "box": {
+                "Type": { "Id": "f216da154c4054842adb590807e977ba", "Name": "Rect" },
+                "Properties": {
+                    "x": -0.84,
+                    "y": -0.28,
+                    "width": 1.68,
+                    "height": 0.56
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "dae5bff6b85247679b553950320211b2", "Name": "Scroller" }
+    }, {
+        "Type": { "Id": "c9cd9c10fa854a7eaa36fac51c312f4b", "Name": "RepeatingBackground" },
+        "Properties": {
+            "threshold": -3.36,
+            "distance": 6.72
+        }
+    }, {
+        "Type": { "Id": "83bd762a7c6e407caeb13d722041a6fa", "Name": "Ground" }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "9929944778414291988ce81760733dd3",
+    "Name": "Ground_3",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
+        "Properties": {
+            "parent": { "$TypeId": 9, "Id": "3963eec7f4c542219f9677012d656d59", "Name": "Grounds" }
+        }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": 2.52,
+                    "y": -1.28,
+                    "z": 0
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "1f5fe83ba337c904994be4e7a0233c9f", "FileId": 21300004, "Type": 3 }
+        }
+    }, {
+        "Type": { "Id": "a015bc52c7befa4d7484891d74d2b574", "Name": "RectHitBox2D" },
+        "Properties": {
+            "box": {
+                "Type": { "Id": "f216da154c4054842adb590807e977ba", "Name": "Rect" },
+                "Properties": {
+                    "x": -0.84,
+                    "y": -0.28,
+                    "width": 1.68,
+                    "height": 0.56
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "dae5bff6b85247679b553950320211b2", "Name": "Scroller" }
+    }, {
+        "Type": { "Id": "c9cd9c10fa854a7eaa36fac51c312f4b", "Name": "RepeatingBackground" },
+        "Properties": {
+            "threshold": -3.36,
+            "distance": 6.72
+        }
+    }, {
+        "Type": { "Id": "83bd762a7c6e407caeb13d722041a6fa", "Name": "Ground" }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "63bcfdb5bdb04e4fbd48b66d9b7160a1",
+    "Name": "Player",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": -0.256,
+                    "y": 0.05,
+                    "z": 0
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" },
+        "Properties": {
+            "scale": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "1f5fe83ba337c904994be4e7a0233c9f", "FileId": 21300148, "Type": 3 }
+        }
+    }, {
+        "Type": { "Id": "95eba163dce5bfff5420a5a8c2845523", "Name": "Sprite2DSequence" },
+        "Properties": {
+            "sprites": {
+                "Type": { "Id": "cf54a635a25248ab87f2563bb840ed5b", "Name": "SpriteEntity" },
+                "Items": [
+                    { "$TypeId": 10, "Guid": "1f5fe83ba337c904994be4e7a0233c9f", "FileId": 21300148, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "1f5fe83ba337c904994be4e7a0233c9f", "FileId": 21300150, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "1f5fe83ba337c904994be4e7a0233c9f", "FileId": 21300152, "Type": 3 }
+                ]
+            },
+            "frameRate": 6
+        }
+    }, {
+        "Type": { "Id": "d2cfd18aa4facc33b1da7ae05205691b", "Name": "Sprite2DSequencePlayer" },
+        "Properties": {
+            "sequence": { "$TypeId": 9, "Id": "63bcfdb5bdb04e4fbd48b66d9b7160a1", "Name": "Bird" },
+            "speed": 1
+        }
+    }, {
+        "Type": { "Id": "a015bc52c7befa4d7484891d74d2b574", "Name": "RectHitBox2D" },
+        "Properties": {
+            "box": {
+                "Type": { "Id": "f216da154c4054842adb590807e977ba", "Name": "Rect" },
+                "Properties": {
+                    "x": -0.085,
+                    "y": -0.06,
+                    "width": 0.17,
+                    "height": 0.12
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "c0135c314b3545dead214f30744e64d2", "Name": "PlayerInput" },
+        "Properties": {
+            "force": 0.025
+        }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
+        "Properties": {
+            "order": 25
+        }
+    }, {
+        "Type": { "Id": "d3fb0b2128a448d9ba9a791aa387a2f1", "Name": "Gravity" },
+        "Properties": {
+            "gravity": {
+                "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+                "Properties": {
+                    "y": 0
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "364551bbb182470d977e7d646464c7b7", "Name": "Velocity" }
+    }, {
+        "Type": { "Id": "e4aa1bea32884e779e3829f65c331944", "Name": "Reskinnable" }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "c4f3584cc49e4e86911b09bd16d11efd",
+    "Name": "Spawner",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "a188108dd6024aee8add5c1db7a27ab7", "Name": "Spawner" },
+        "Properties": {
+            "time": 1.5,
+            "delay": 1.5,
+            "distance": 3,
+            "minHeight": -0.3,
+            "maxHeight": 1.2
+        }
+    }]
+}]

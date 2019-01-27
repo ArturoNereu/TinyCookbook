@@ -1,0 +1,72 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "8af4b64a9c7a4e9da960bbb263da3ee0",
+    "Name": "Destructible",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "28a57f91e3f04282beea64e4128a007e",
+        "Name": "CurrentState",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "cb8e5a6faaea477b9ff8454aee8648f6",
+        "Name": "LastState",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "0ef200a6cd5248e687fd8e9b0d69dcbf",
+        "Name": "SpriteStates",
+        "FieldType": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+        "Array": true,
+        "Visibility": 0
+    }, {
+        "Id": "9d271e16745e4649b3f14c72846652a8",
+        "Name": "ExplosionOffsetX",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "4064f91fd0a24da4a3b07642dc44581a",
+        "Name": "ExplosionOffsetY",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "c5d20359321f4b6a8676119fd0feb234",
+        "Name": "ExplosionRangeX",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "fea7a4f006244baeaff92cdf2c4e8598",
+        "Name": "ExplosionRangeY",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "2a3a9747cc9e4776b05438911cb945c7",
+        "Name": "ExplosionMinCount",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "1c8dc1b4901745a39f9b628d7a50dd19",
+        "Name": "ExplosionMaxCount",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "8af4b64a9c7a4e9da960bbb263da3ee0", "Name": "Destructible" },
+        "Properties": {
+            "LastState": -1,
+            "ExplosionMinCount": 1,
+            "ExplosionMaxCount": 1
+        }
+    }
+}]

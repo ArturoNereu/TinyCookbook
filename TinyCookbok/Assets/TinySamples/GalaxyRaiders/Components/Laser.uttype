@@ -1,0 +1,31 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "ab3e495daa764adfab5b70708100d2d6",
+    "Name": "Laser",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "ff970e1ba06744989bac224f541c6fd8",
+        "Name": "speed",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "e7f08cd0b82f453c90d4bfb60e342cfb",
+        "Name": "tag",
+        "FieldType": { "Id": "086d21e6e1914a22b8e1c7227be6ed07", "Name": "LaserTag" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "d4759a8b76244352b2f6b31ce7dfdb07",
+        "Name": "reference",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 1
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "ab3e495daa764adfab5b70708100d2d6", "Name": "Laser" }
+    }
+}]

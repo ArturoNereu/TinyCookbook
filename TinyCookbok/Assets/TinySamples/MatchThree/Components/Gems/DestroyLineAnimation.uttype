@@ -1,0 +1,61 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "a0f6a7316eea400abfd495f3561683ef",
+    "Name": "DestroyLineAnimation",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "f0839fb8db5e4ffba241fdfdcb1f5082",
+        "Name": "Timer",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "035be3618d3c4c2b944a778f4ad0cb92",
+        "Name": "Duration",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "d260495876234f3d8136609e3008edf4",
+        "Name": "ScaleDuration",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "cf169451f7f54acf9709871d66d68986",
+        "Name": "StartPositionX",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "f77ddd98d86b49219a0a2646a94e1398",
+        "Name": "StartPositionY",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "2fa215cb37dd469db5e0a378c15d70d3",
+        "Name": "EndPositionX",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "36e72c2c88964ab5ba0cb96295964b02",
+        "Name": "EndPositionY",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "6ded682ea1804d96b713adaeef2f238a",
+        "Name": "ColorGradient",
+        "FieldType": { "Id": "9a741db252864c027362942ab5c07953", "Name": "GradientEntity" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "a0f6a7316eea400abfd495f3561683ef", "Name": "DestroyLineAnimation" }
+    }
+}]

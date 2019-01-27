@@ -1,0 +1,25 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "2ef17747eb88441e8d097685dd96174f",
+    "Name": "SkinConfig",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Configuration",
+    "Fields": [{
+        "Id": "829fb97d2e8245548cd1d8fa35ae642d",
+        "Name": "theme",
+        "FieldType": { "Id": "4f64d633c90d47f185f0e47fb43c9a24", "Name": "SkinType" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "2b5867ea81b3475a9e0431864afc063a",
+        "Name": "forced",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "2ef17747eb88441e8d097685dd96174f", "Name": "SkinConfig" }
+    }
+}]

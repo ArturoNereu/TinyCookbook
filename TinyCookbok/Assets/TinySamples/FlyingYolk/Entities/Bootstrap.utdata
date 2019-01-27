@@ -1,0 +1,84 @@
+﻿[{
+    "$TypeId": 4,
+    "Id": "48b54821da9645749c1df31b2807f209",
+    "Name": "Bootstrap",
+    "ExportFlags": 0,
+    "SerializedVersion": 0,
+    "Entities": [
+        { "$TypeId": 9, "Id": "b8910a88a8cf435381fa8d72decc6dd5", "Name": "Camera" },
+        { "$TypeId": 9, "Id": "bfe1632842224ce98abe626fc5ddd664", "Name": "audio/sfx_wing" },
+        { "$TypeId": 9, "Id": "d48cf2ca4a734d58906c0aa12f704ef0", "Name": "audio/sfx_point" },
+        { "$TypeId": 9, "Id": "330da81837d04c38a24e88501bb9f9f4", "Name": "audio/sfx_hit" }
+    ]
+},
+{
+    "$TypeId": 5,
+    "Id": "b8910a88a8cf435381fa8d72decc6dd5",
+    "Name": "Camera",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
+    }, {
+        "Type": { "Id": "12692383f3fef3bb74c209888c5b0939", "Name": "Camera2D" },
+        "Properties": {
+            "halfVerticalSize": 1.28,
+            "clearFlags": {
+                "$TypeId": 8,
+                "Type": { "Id": "76a06ddd38e99125d930e77c6a287872", "Name": "CameraClearFlags" },
+                "Id": "9faedc246f34513076701ef66b5ad74f",
+                "Name": "SolidColor",
+                "Value": 1
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "bfe1632842224ce98abe626fc5ddd664",
+    "Name": "audio/sfx_wing",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "a60aa1b9ad84a83eefb0d5382a4d5967", "Name": "AudioSource" },
+        "Properties": {
+            "clip": { "$TypeId": 10, "Guid": "7a6f17b3e2d4cce429c1514d80e73b63", "FileId": 8300000, "Type": 3 }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "d48cf2ca4a734d58906c0aa12f704ef0",
+    "Name": "audio/sfx_point",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "a60aa1b9ad84a83eefb0d5382a4d5967", "Name": "AudioSource" },
+        "Properties": {
+            "clip": { "$TypeId": 10, "Guid": "a96602b453ed021488d612789574c7c3", "FileId": 8300000, "Type": 3 }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "330da81837d04c38a24e88501bb9f9f4",
+    "Name": "audio/sfx_hit",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "a60aa1b9ad84a83eefb0d5382a4d5967", "Name": "AudioSource" },
+        "Properties": {
+            "clip": { "$TypeId": 10, "Guid": "559308c7775a0a24690705ea613f018f", "FileId": 8300000, "Type": 3 }
+        }
+    }]
+}]

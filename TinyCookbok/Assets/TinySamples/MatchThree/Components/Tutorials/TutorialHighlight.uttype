@@ -1,0 +1,84 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "20366122a4b74ab196487ea4d295c6f1",
+    "Name": "TutorialHighlight",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "973d20a1c8dd4701a35aa355bdc726dc",
+        "Name": "HighlightRect",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "9e1200b75b954e689bc91e35d34c3123",
+        "Name": "LabelInstructions",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "10d10315e1634609a166984d88a68cb2",
+        "Name": "SpriteRenderers",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": true,
+        "Visibility": 0
+    }, {
+        "Id": "beac7f6f6c884df898c9385fd132c21c",
+        "Name": "MaxAlpha",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "55900769b4d74a0aafac3e49f8f77cf0",
+        "Name": "LabelMaxAlpha",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "af4d237825354d718170dbe5929089bb",
+        "Name": "IsClosing",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "78fb67187bc94be38e358acdfa804bd0",
+        "Name": "Timer",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "efb3198353f04493bad1ccbca6f9e6c0",
+        "Name": "FadeDuration",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "b383f486e545409f91f078d74078ed79",
+        "Name": "StartDelay",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "7f7983c6d03243488c86816b53719377",
+        "Name": "LabelDefaultPositionY",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "8df5607d686849df9ec83487b873a6dc",
+        "Name": "AutoCloseDelay",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "20366122a4b74ab196487ea4d295c6f1", "Name": "TutorialHighlight" },
+        "Properties": {
+            "MaxAlpha": 1,
+            "LabelMaxAlpha": 1,
+            "FadeDuration": 1
+        }
+    }
+}]

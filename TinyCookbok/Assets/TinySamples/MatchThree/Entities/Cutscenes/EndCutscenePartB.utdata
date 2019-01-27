@@ -1,0 +1,197 @@
+﻿[{
+    "$TypeId": 4,
+    "Id": "fbfa7de785f04c14abf0909649c23f8d",
+    "Name": "EndCutscenePartB",
+    "ExportFlags": 0,
+    "SerializedVersion": 0,
+    "Entities": [
+        { "$TypeId": 9, "Id": "fed28f4522574c4c95677c2b9c1949df", "Name": "EndCutscenePartB" },
+        { "$TypeId": 9, "Id": "ba7b417fb81a4d4798db52ae536efcab", "Name": "ItemSunGlasses" },
+        { "$TypeId": 9, "Id": "e7cc7e06572c414a81fbdb4aa257e280", "Name": "ItemMimosa" },
+        { "$TypeId": 9, "Id": "87bf7d5e72a044ed987ed87d46a77065", "Name": "ItemGardening" }
+    ]
+},
+{
+    "$TypeId": 5,
+    "Id": "fed28f4522574c4c95677c2b9c1949df",
+    "Name": "EndCutscenePartB",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 9,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": 55
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "ba7b417fb81a4d4798db52ae536efcab",
+    "Name": "ItemSunGlasses",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 9,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
+        "Properties": {
+            "parent": { "$TypeId": 9, "Id": "fed28f4522574c4c95677c2b9c1949df", "Name": "EndCutscenePartB" }
+        }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": -33.5,
+                    "y": 81
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "67c2f05c1ca1ffa47bcc98e6b41be93e", "FileId": 21300000, "Type": 3 }
+        }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" }
+    }, {
+        "Type": { "Id": "b5864acb507842e59c6401a4bb91b51f", "Name": "CutsceneElement" },
+        "Properties": {
+            "Index": 10,
+            "Duration": 1.5
+        }
+    }, {
+        "Type": { "Id": "bb2e427153f64f59aee2196e306603b7", "Name": "CutsceneFade" },
+        "Properties": {
+            "Duration": 0.75
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "e7cc7e06572c414a81fbdb4aa257e280",
+    "Name": "ItemMimosa",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 9,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
+        "Properties": {
+            "parent": { "$TypeId": 9, "Id": "fed28f4522574c4c95677c2b9c1949df", "Name": "EndCutscenePartB" }
+        }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": 21.5,
+                    "y": 81
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "b24794226a4a10141a660aec9c14c839", "FileId": 21300000, "Type": 3 }
+        }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" }
+    }, {
+        "Type": { "Id": "b5864acb507842e59c6401a4bb91b51f", "Name": "CutsceneElement" },
+        "Properties": {
+            "Index": 11,
+            "Duration": 1.5
+        }
+    }, {
+        "Type": { "Id": "bb2e427153f64f59aee2196e306603b7", "Name": "CutsceneFade" },
+        "Properties": {
+            "Duration": 0.75
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "87bf7d5e72a044ed987ed87d46a77065",
+    "Name": "ItemGardening",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 9,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
+        "Properties": {
+            "parent": { "$TypeId": 9, "Id": "fed28f4522574c4c95677c2b9c1949df", "Name": "EndCutscenePartB" }
+        }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": 0,
+                    "y": -16
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "af168b46fea7af6409172d9eabf6f7e3", "FileId": 21300000, "Type": 3 }
+        }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" }
+    }, {
+        "Type": { "Id": "b5864acb507842e59c6401a4bb91b51f", "Name": "CutsceneElement" },
+        "Properties": {
+            "Index": 12,
+            "Duration": 3
+        }
+    }, {
+        "Type": { "Id": "bb2e427153f64f59aee2196e306603b7", "Name": "CutsceneFade" },
+        "Properties": {
+            "Duration": 0.35
+        }
+    }, {
+        "Type": { "Id": "88d9dcac4206433bb29f01ae57416212", "Name": "CutsceneMove" },
+        "Properties": {
+            "Duration": 1,
+            "StartOffset": {
+                "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+                "Properties": {
+                    "y": -4
+                }
+            },
+            "Easing": {
+                "$TypeId": 8,
+                "Type": { "Id": "a0abdfa0125a70d08cef584f283024b1", "Name": "TweenFunc" },
+                "Id": "dba04620f3dcad109c41d196c9b07e58",
+                "Name": "OutCubic",
+                "Value": 9
+            }
+        }
+    }]
+}]

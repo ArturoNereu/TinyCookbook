@@ -1,0 +1,70 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "0adc0095d6564120a1e3c984891323bb",
+    "Name": "GameState",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "3d1472f122834fde9d7128eed315c8c5",
+        "Name": "GameStateType",
+        "FieldType": { "Id": "172dc11c0e2e4391bac6aa63fc999b6c", "Name": "GameStateTypes" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "26d28b646243492b9fe37880c38b0fd5",
+        "Name": "CurrentLevelID",
+        "FieldType": { "Id": "27c155635ccb4ab2bcb79ef5aaf129ec", "Name": "Int8" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "646fe62a526c45e4851eaca3f72bc3e8",
+        "Name": "CurrentScore",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "6211bb07b55d400db4b709ff966e88f0",
+        "Name": "CurrentMoveCount",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "dbb118a43075499ebbb4c9d6c5001e84",
+        "Name": "Time",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "d096de70f4e74e1abed9896bde10e2ad",
+        "Name": "SurvivalTimer",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "3b20614c3dee4561821c4859a13c5ad2",
+        "Name": "LevelCount",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "a7a8e0ceb2654972ba73730a7a5e55b4",
+        "Name": "ShowHintDelay",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "628253637f4a477eb7af44a489ffe5dc",
+        "Name": "EnvironmentSceneWidth",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "0adc0095d6564120a1e3c984891323bb", "Name": "GameState" },
+        "Properties": {
+            "CurrentLevelID": -1
+        }
+    }
+}]

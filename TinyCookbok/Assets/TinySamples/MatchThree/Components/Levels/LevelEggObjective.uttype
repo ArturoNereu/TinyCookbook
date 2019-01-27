@@ -1,0 +1,31 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "96b50f4b88324b9695cecb193b382952",
+    "Name": "LevelEggObjective",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "6172b4401ff24f0b81bc2b7501451f39",
+        "Name": "EggsInGridAtStart",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "84d4cd4b9aba4977be83d23423b8961c",
+        "Name": "EggsToSpawnOnEggCollected",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "b90edcccd1c64151b1cbaeda60b5109c",
+        "Name": "CollectedEggs",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 1
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "96b50f4b88324b9695cecb193b382952", "Name": "LevelEggObjective" }
+    }
+}]

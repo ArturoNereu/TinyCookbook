@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GameUI
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 2
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: ced861e2a74bf094b96d4733475e93a9, type: 3}
+    totalSpriteSurfaceArea: 8279
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: b41465004480dc844a0cfce7fc735239, type: 3}
+  - {fileID: 21300000, guid: 117c03504e8a8394ca251c11f7673390, type: 3}
+  - {fileID: 21300000, guid: f9d9cda0899290c40bf2dc4b34852154, type: 3}
+  - {fileID: 21300000, guid: 9f1cbe71c894f854495f1460259a000c, type: 3}
+  - {fileID: 21300000, guid: 793ee8434f300574c9b1eefc8fbb47c1, type: 3}
+  - {fileID: 21300000, guid: 27eee164027de4e45b77184bbc0aa2bc, type: 3}
+  - {fileID: 21300000, guid: a98a14e5cff3e5345bb35dff4148a610, type: 3}
+  - {fileID: 21300000, guid: 4151a646cb28f1f43a4dfeb274255768, type: 3}
+  - {fileID: 21300000, guid: d08359a7e3412c744b359ff6bc091493, type: 3}
+  - {fileID: 21300000, guid: 34aa81a921990a643b1da818ea59e4a2, type: 3}
+  - {fileID: 21300000, guid: 101b995bf6ee4444c833ec2f5142abd8, type: 3}
+  - {fileID: 21300000, guid: 59dab21d13d4618428abc244a04069e7, type: 3}
+  - {fileID: 21300000, guid: 1e0295cd320a53542ae4457e1b1e79e3, type: 3}
+  - {fileID: 21300000, guid: f3ba56ffdea0d314293b150eea01053a, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Failure_Arm
+  - Tuto_Cursor
+  - Timeline_Icon_Skull
+  - Timeline_Warning
+  - Container_Warning_NearDeath
+  - Tuto_Arrow
+  - Fade_Tuto
+  - Icon_New_Best
+  - Timeline_Icon_Skull_Highlighted
+  - Timeline_Icon_Dino
+  - Victory_Arm
+  - Timeline_Fill
+  - TimeLine_Container
+  - Icon_moves
+  m_Tag: GameUI
+  m_IsVariant: 0

@@ -1,0 +1,49 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "c970a459f2bd4ed4acb5f59f42d98dd8",
+    "Name": "CutsceneScale",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "26f91ac7d6c14b23a6bebe1edeaadcb0",
+        "Name": "Duration",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "5ae21b7fa0664a9c8a05a3ff45ad98af",
+        "Name": "Easing",
+        "FieldType": { "Id": "a0abdfa0125a70d08cef584f283024b1", "Name": "TweenFunc" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "607a18b42f574434a2b2b2b3b7aa4b82",
+        "Name": "StartScale",
+        "FieldType": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "c970a459f2bd4ed4acb5f59f42d98dd8", "Name": "CutsceneScale" },
+        "Properties": {
+            "Duration": 1,
+            "Easing": {
+                "$TypeId": 8,
+                "Type": { "Id": "a0abdfa0125a70d08cef584f283024b1", "Name": "TweenFunc" },
+                "Id": "d659b24d8a75af6d1c3ea826d02a3db3",
+                "Name": "Linear",
+                "Value": 1
+            },
+            "StartScale": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        }
+    }
+}]

@@ -1,0 +1,19 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "4f07654ac616421d9fad55ebde64bce3",
+    "Name": "TutorialEggPointer",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "34b0c604427f49d58d6110a6a83a1019",
+        "Name": "ImageEgg",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "4f07654ac616421d9fad55ebde64bce3", "Name": "TutorialEggPointer" }
+    }
+}]

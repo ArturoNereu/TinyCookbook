@@ -1,0 +1,12 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "5766892d11b74e80915b0162fe2735b6",
+    "Name": "DefensePoint",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "DefaultValue": {
+        "Type": { "Id": "5766892d11b74e80915b0162fe2735b6", "Name": "DefensePoint" }
+    }
+}]

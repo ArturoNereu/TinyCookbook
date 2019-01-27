@@ -1,0 +1,19 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "22deaa1302f54161aa0d46c4c0fb8acd",
+    "Name": "Raider",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "3f9f929508a54754ad0ee3247dd57423",
+        "Name": "points",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "22deaa1302f54161aa0d46c4c0fb8acd", "Name": "Raider" }
+    }
+}]

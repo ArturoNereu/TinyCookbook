@@ -1,0 +1,40 @@
+﻿[{
+    "$TypeId": 4,
+    "Id": "65a72feae9e8427d8c5cdf32beba7559",
+    "Name": "Level3",
+    "ExportFlags": 0,
+    "SerializedVersion": 0,
+    "Entities": [
+        { "$TypeId": 9, "Id": "47ee52136e1245c3a6574133457c67f4", "Name": "Level3" }
+    ]
+},
+{
+    "$TypeId": 5,
+    "Id": "47ee52136e1245c3a6574133457c67f4",
+    "Name": "Level3",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "34d8fd9b36f948f48e4e0c5b3e8b7c45", "Name": "Level" },
+        "Properties": {
+            "LevelID": 3,
+            "Skin": {
+                "$TypeId": 8,
+                "Type": { "Id": "decdc736779d4d99b0bd0e002a89e936", "Name": "SkinTypes" },
+                "Id": "9b992dbfae0c4b20b650a255b3b776af",
+                "Name": "City",
+                "Value": 2
+            },
+            "StartPowerUps": {
+                "Type": { "Id": "2ffd1f6bbde643e79fc2c5f3856004b1", "Name": "GemPowerUpTypes" }
+            }
+        }
+    }, {
+        "Type": { "Id": "ece1e4dfc3ea4120b360be12acc0a152", "Name": "LevelSurvival" },
+        "Properties": {
+            "MaxSurvivalTime": 30,
+            "TimeObjective": 90
+        }
+    }]
+}]

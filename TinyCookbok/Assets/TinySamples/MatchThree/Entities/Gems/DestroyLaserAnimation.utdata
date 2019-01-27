@@ -1,0 +1,74 @@
+﻿[{
+    "$TypeId": 4,
+    "Id": "2b2198fc0cc44f138f3e598295fdcca6",
+    "Name": "DestroyLaserAnimation",
+    "ExportFlags": 0,
+    "SerializedVersion": 0,
+    "Entities": [
+        { "$TypeId": 9, "Id": "dea34bfce5ad4e89826cf2910da2c2cb", "Name": "DestroyLaserAnimation" }
+    ]
+},
+{
+    "$TypeId": 5,
+    "Id": "dea34bfce5ad4e89826cf2910da2c2cb",
+    "Name": "DestroyLaserAnimation",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 8,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "512d22b035bf26744a2798dbcb4199fa", "FileId": 21300000, "Type": 3 }
+        }
+    }, {
+        "Type": { "Id": "be2f221c9af74ec5c0a4495a2d6769a3", "Name": "Sprite2DRendererOptions" },
+        "Properties": {
+            "size": {
+                "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+                "Properties": {
+                    "x": 200,
+                    "y": 7
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "95eba163dce5bfff5420a5a8c2845523", "Name": "Sprite2DSequence" },
+        "Properties": {
+            "sprites": {
+                "Type": { "Id": "cf54a635a25248ab87f2563bb840ed5b", "Name": "SpriteEntity" },
+                "Items": [
+                    { "$TypeId": 10, "Guid": "512d22b035bf26744a2798dbcb4199fa", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "cf42c27ac750a824d8b88bcede45316a", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "0a0887ea1cb75c540b8c9654d7341d10", "FileId": 21300000, "Type": 3 }
+                ]
+            },
+            "frameRate": 15
+        }
+    }, {
+        "Type": { "Id": "d2cfd18aa4facc33b1da7ae05205691b", "Name": "Sprite2DSequencePlayer" },
+        "Properties": {
+            "sequence": { "$TypeId": 9, "Id": "dea34bfce5ad4e89826cf2910da2c2cb", "Name": "DestroyLaserAnimation" },
+            "speed": 1
+        }
+    }, {
+        "Type": { "Id": "970bedced97c46218f164c021b557757", "Name": "DestroyAfterDelay" }
+    }, {
+        "Type": { "Id": "d6e43a38cbaa43ff95478936a486a48c", "Name": "DestroyLaserAnimation" },
+        "Properties": {
+            "Duration": 1
+        }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
+        "Properties": {
+            "order": 30
+        }
+    }]
+}]

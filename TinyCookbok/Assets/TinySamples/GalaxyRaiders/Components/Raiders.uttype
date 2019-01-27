@@ -1,0 +1,31 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "8fea84f8488044f0939faec6d72b8ba2",
+    "Name": "Raiders",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "9e3af742e23d48e883bbe8fb7be3b346",
+        "Name": "speed",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "d1e3621ccd7f4b31a8451a5679ad99f9",
+        "Name": "isMovingRight",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "a0c2f173407d4458b3f1e5b53ce3350b",
+        "Name": "threshold",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "8fea84f8488044f0939faec6d72b8ba2", "Name": "Raiders" }
+    }
+}]

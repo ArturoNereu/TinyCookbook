@@ -1,0 +1,61 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "f5d2f4df6f8443389f8011272f984328",
+    "Name": "CollectedCurrency",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "8fcb91f53a61484b8f48b4ebe3fd096a",
+        "Name": "StartPosition",
+        "FieldType": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "58c90a91a36e466dbf370c75ba4a01e2",
+        "Name": "MidPosition",
+        "FieldType": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "1d79e52c608f43f1ae97a11d37fef882",
+        "Name": "EndPosition",
+        "FieldType": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "bc1b36a778594e7890f74c0d98057b74",
+        "Name": "Duration",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "2858072e5ea244c69317bfae79d012ce",
+        "Name": "Timer",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 1
+    }, {
+        "Id": "2a8224663cc84eb6a60dcf8d1e43ca5b",
+        "Name": "ProgressCurve",
+        "FieldType": { "Id": "280b143c739160ffb69b3cf552f375bb", "Name": "CurveEntity" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "d3abf19ade2e4bb1831e826e5334a28d",
+        "Name": "ScaleCurve",
+        "FieldType": { "Id": "280b143c739160ffb69b3cf552f375bb", "Name": "CurveEntity" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "df2c8a0acd3f4f8ea92298e25b1bc0ff",
+        "Name": "StartDelay",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "f5d2f4df6f8443389f8011272f984328", "Name": "CollectedCurrency" }
+    }
+}]

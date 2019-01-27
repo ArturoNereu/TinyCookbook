@@ -1,0 +1,85 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "106d3408b30d4116ae109243843ed616",
+    "Name": "GameOverMenu",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "2d2ab1414ff645d983c15b8d6ad49f83",
+        "Name": "ButtonQuit",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "38106fbc1479441a8dab70c43f9d83bc",
+        "Name": "LabelScoreValue",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "9c63c7b6701d422d96bfb782aa564d3c",
+        "Name": "LabelTime",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "e945866958174de1a33cacedb6f023ab",
+        "Name": "LabelTimeValue",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "cc2a8161c9b54b91a535fd7fd90eb52f",
+        "Name": "LabelGameOver",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "b67482aa3d224d7abfcfe5ff5b8c6b7e",
+        "Name": "LabelGameOverShadow",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "dfcefc52dce54abd83284f81bc56f6cc",
+        "Name": "LabelNewBestScore",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "9947f7cdeea64892a600ebf460d376d9",
+        "Name": "ImageNewBestScore",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "26e66a4fd3fb4638b2875dc7f89db7d0",
+        "Name": "ImageNewBestScoreGlow",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "afbe809de61149329b53f850b82225df",
+        "Name": "SuccessArms",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": true,
+        "Visibility": 0
+    }, {
+        "Id": "88e5f594ba084fc8bbf43b73df6cd4f1",
+        "Name": "FailArms",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": true,
+        "Visibility": 0
+    }, {
+        "Id": "bef1f5a8e40b4df9a2c6073139e444b2",
+        "Name": "Timer",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 1
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "106d3408b30d4116ae109243843ed616", "Name": "GameOverMenu" }
+    }
+}]
