@@ -1,8 +1,0 @@
-{
-    "name": "Unity.Tiny.Editor.Configuration",
-    "references": [],
-    "includePlatforms": [
-        "Editor"
-    ],
-    "excludePlatforms": []
-}
