@@ -1,0 +1,22 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "dde9b40c4d1145ada2c164223a691ea7",
+    "Name": "Rotate",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "Documentation": {
+        "Summary": "Objects with this component will be rotated by the RotateSystem"
+    },
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "12e7472c45284e358825412187efcb01",
+        "Name": "rotationSpeed",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "dde9b40c4d1145ada2c164223a691ea7", "Name": "Rotate" }
+    }
+}]
