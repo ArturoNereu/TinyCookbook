@@ -1,4 +1,4 @@
-# TinyCookbok
+# Tiny Cookbok
 A cookbook like series of resources for learning to use Unity's Project Tiny
 
 ## Mini Recipes
