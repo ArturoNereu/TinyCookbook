@@ -149,8 +149,8 @@
             "size": {
                 "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
                 "Properties": {
-                    "x": 200,
-                    "y": 200
+                    "x": 694.5687,
+                    "y": 600
                 }
             },
             "drawMode": {

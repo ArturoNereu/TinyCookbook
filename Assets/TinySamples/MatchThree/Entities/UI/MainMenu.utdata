@@ -155,8 +155,8 @@
             "size": {
                 "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
                 "Properties": {
-                    "x": 1106,
-                    "y": 1244
+                    "x": 974,
+                    "y": 826
                 }
             },
             "drawMode": {
@@ -260,7 +260,7 @@
             "size": {
                 "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
                 "Properties": {
-                    "x": 906.8,
+                    "x": 774.8,
                     "y": 82
                 }
             }
@@ -359,7 +359,7 @@
             "size": {
                 "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
                 "Properties": {
-                    "x": 906.8,
+                    "x": 774.8,
                     "y": 82
                 }
             }
@@ -635,7 +635,7 @@
         "Type": { "Id": "617fd26299c944d58b61164e0c9c9353", "Name": "Text2DRenderer" },
         "Properties": {
             "style": { "$TypeId": 9, "Id": "79471a4338214fcdb5c51239e6676d8c", "Name": "CustomLabelPlay" },
-            "text": "PLAY"
+            "text": "PLAY@"
         }
     }, {
         "Type": { "Id": "ced0260f12f72499bae7fea4e1df92b7", "Name": "Text2DStyle" },
