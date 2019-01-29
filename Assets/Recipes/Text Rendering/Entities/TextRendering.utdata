@@ -1,7 +1,7 @@
 ﻿[{
     "$TypeId": 4,
     "Id": "a9ccd7b4e4b347ed9f23d7e481e41ce1",
-    "Name": "NewEntityGroup",
+    "Name": "TextRendering",
     "ExportFlags": 0,
     "SerializedVersion": 0,
     "Entities": [
