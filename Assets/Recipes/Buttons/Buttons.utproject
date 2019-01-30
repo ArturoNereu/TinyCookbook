@@ -58,7 +58,8 @@
         { "Id": "404877ed746affa8a6081ad8161dd8de", "Name": "UTiny.EditorExtensions" },
         { "Id": "a1b50987659c653138795a8f4079fc10", "Name": "UTiny.Math" },
         { "Id": "ce3f1bd7050540b70d450a606e226ea2", "Name": "UTiny.Shared" },
-        { "Id": "e46c24fb4d9a01e79b109bbcf6d24260", "Name": "UTiny.UILayout" }
+        { "Id": "e46c24fb4d9a01e79b109bbcf6d24260", "Name": "UTiny.UILayout" },
+        { "Id": "60feebda86c36292119505b0bd2ac3e9", "Name": "UTiny.UIControls" }
     ],
     "StartupEntityGroup": { "Id": "9eeec0e68fe3438abdcf9176b36bb307", "Name": "NewEntityGroup" }
 },
