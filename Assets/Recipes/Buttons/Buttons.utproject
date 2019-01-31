@@ -3,7 +3,7 @@
     "Id": "f3cf593cba3547f8a029cee66f3d243e",
     "Name": "Buttons",
     "ExportFlags": 0,
-    "SerializedVersion": 6,
+    "SerializedVersion": 7,
     "Settings": {
         "CanvasWidth": 1920,
         "CanvasHeight": 1080,
@@ -59,7 +59,8 @@
         { "Id": "a1b50987659c653138795a8f4079fc10", "Name": "UTiny.Math" },
         { "Id": "ce3f1bd7050540b70d450a606e226ea2", "Name": "UTiny.Shared" },
         { "Id": "e46c24fb4d9a01e79b109bbcf6d24260", "Name": "UTiny.UILayout" },
-        { "Id": "60feebda86c36292119505b0bd2ac3e9", "Name": "UTiny.UIControls" }
+        { "Id": "60feebda86c36292119505b0bd2ac3e9", "Name": "UTiny.UIControls" },
+        { "Id": "349c9ee70d0345f3a4197ae21e04c74b", "Name": "Main" }
     ],
     "StartupEntityGroup": { "Id": "9eeec0e68fe3438abdcf9176b36bb307", "Name": "NewEntityGroup" }
 },
