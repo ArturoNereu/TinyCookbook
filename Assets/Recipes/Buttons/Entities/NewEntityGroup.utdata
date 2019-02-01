@@ -9,7 +9,7 @@
         { "$TypeId": 9, "Id": "5758a66226324209b3b41e751b58688c", "Name": "Canvas" },
         { "$TypeId": 9, "Id": "ac4d474e7fe547dd86035193deecf036", "Name": "Logo" },
         { "$TypeId": 9, "Id": "07645f33d34543588d8088086da68fb5", "Name": "AlertButton" },
-        { "$TypeId": 9, "Id": "a0a7ea1051a14bbe9ef965963c85b885", "Name": "NewWindowButton" }
+        { "$TypeId": 9, "Id": "a0a7ea1051a14bbe9ef965963c85b885", "Name": "CloseWindowButton" }
     ]
 },
 {
@@ -27,9 +27,9 @@
             "backgroundColor": {
                 "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
                 "Properties": {
-                    "r": 0,
-                    "g": 0,
-                    "b": 0,
+                    "r": 0.8018868,
+                    "g": 0.3442061,
+                    "b": 0.3442061,
                     "a": 1
                 }
             },
@@ -100,29 +100,35 @@
             "anchorMin": {
                 "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
                 "Properties": {
-                    "x": 0.3407855,
-                    "y": 0.5712724
+                    "x": 0.5,
+                    "y": 0.6868464
                 }
             },
             "anchorMax": {
                 "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
                 "Properties": {
-                    "x": 0.7185951,
-                    "y": 0.926181
+                    "x": 0.5,
+                    "y": 0.6868464
                 }
             },
             "sizeDelta": {
                 "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
                 "Properties": {
-                    "x": -6.299988,
-                    "y": -1.900024
+                    "x": 104.81,
+                    "y": 89.89
                 }
             },
             "anchoredPosition": {
                 "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
                 "Properties": {
-                    "x": 3.399933,
-                    "y": 1.000122
+                    "x": -0.0000019073,
+                    "y": 0
+                }
+            },
+            "pivot": {
+                "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+                "Properties": {
+                    "y": 0.5
                 }
             }
         }
@@ -132,8 +138,8 @@
             "position": {
                 "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
                 "Properties": {
-                    "x": 37.72192,
-                    "y": 284.0511
+                    "x": -0.0000019073,
+                    "y": 36.99041
                 }
             }
         }
@@ -152,8 +158,8 @@
             "size": {
                 "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
                 "Properties": {
-                    "x": -6.299988,
-                    "y": -1.900024
+                    "x": 104.81,
+                    "y": 89.89
                 }
             }
         }
@@ -177,8 +183,8 @@
             "position": {
                 "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
                 "Properties": {
-                    "x": 15.63301,
-                    "y": -50.3814
+                    "x": -0.000004768398,
+                    "y": -46.1
                 }
             }
         }
@@ -192,29 +198,36 @@
             "anchorMin": {
                 "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
                 "Properties": {
-                    "x": 0.4232855,
-                    "y": 0.236
+                    "x": 0.5,
+                    "y": 0.5
                 }
             },
             "anchorMax": {
                 "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
                 "Properties": {
-                    "x": 0.656,
-                    "y": 0.4457733
+                    "x": 0.5,
+                    "y": 0.5
                 }
             },
             "sizeDelta": {
                 "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
                 "Properties": {
-                    "x": -3.399994,
-                    "y": 3.300003
+                    "x": 71.8,
+                    "y": 23.16
                 }
             },
             "anchoredPosition": {
                 "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
                 "Properties": {
-                    "x": -0.2240725,
-                    "y": -0.499588
+                    "x": -0.0000047684,
+                    "y": -46.1
+                }
+            },
+            "pivot": {
+                "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+                "Properties": {
+                    "x": 0.4999999,
+                    "y": 0.5
                 }
             }
         }
@@ -229,8 +242,8 @@
             "size": {
                 "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
                 "Properties": {
-                    "x": -3.399994,
-                    "y": 3.300003
+                    "x": 71.8,
+                    "y": 23.16
                 }
             }
         }
@@ -276,7 +289,8 @@
                         "Properties": {
                             "normal": { "$TypeId": 10, "Guid": "da61b8f36c0a7dc4e9dedd7c80951709", "FileId": 21300000, "Type": 3 },
                             "hover": { "$TypeId": 10, "Guid": "282b38ed40ce6cb4c85eee79adbc9583", "FileId": 21300000, "Type": 3 },
-                            "pressed": { "$TypeId": 10, "Guid": "92d59a77a9c1f454abd3e5c90476765b", "FileId": 21300000, "Type": 3 }
+                            "pressed": { "$TypeId": 10, "Guid": "92d59a77a9c1f454abd3e5c90476765b", "FileId": 21300000, "Type": 3 },
+                            "disabled": { "$TypeId": 10, "Guid": "9c78ea53fb8a45445a758b7a6bfd35c2", "FileId": 21300000, "Type": 3 }
                         }
                     }
                 }
@@ -291,7 +305,7 @@
 {
     "$TypeId": 5,
     "Id": "a0a7ea1051a14bbe9ef965963c85b885",
-    "Name": "NewWindowButton",
+    "Name": "CloseWindowButton",
     "Enabled": true,
     "Static": false,
     "Layer": 0,
@@ -306,29 +320,36 @@
             "anchorMin": {
                 "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
                 "Properties": {
-                    "x": 0.4232855,
-                    "y": 0.236
+                    "x": 0.5,
+                    "y": 0.1033855
                 }
             },
             "anchorMax": {
                 "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
                 "Properties": {
-                    "x": 0.656,
-                    "y": 0.4457733
+                    "x": 0.5,
+                    "y": 0.1033855
                 }
             },
             "sizeDelta": {
                 "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
                 "Properties": {
-                    "x": -3.399994,
-                    "y": 3.300003
+                    "x": 71.8,
+                    "y": 24.56
                 }
             },
             "anchoredPosition": {
                 "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
                 "Properties": {
-                    "x": 0.00000029802,
-                    "y": -84.5
+                    "x": 0.000000000000455,
+                    "y": 1.5
+                }
+            },
+            "pivot": {
+                "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+                "Properties": {
+                    "x": 0.5,
+                    "y": 0.5
                 }
             }
         }
@@ -338,8 +359,8 @@
             "position": {
                 "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
                 "Properties": {
-                    "x": 15.85711,
-                    "y": -141.0937
+                    "x": 0.000000000000455,
+                    "y": -77.01871
                 }
             }
         }
@@ -358,8 +379,8 @@
             "size": {
                 "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
                 "Properties": {
-                    "x": 89.68581,
-                    "y": 77.91256
+                    "x": 71.8,
+                    "y": 24.56
                 }
             }
         }
@@ -405,7 +426,8 @@
                         "Properties": {
                             "normal": { "$TypeId": 10, "Guid": "9c81c2729c3d23d4c83d705d11f818d7", "FileId": 21300000, "Type": 3 },
                             "hover": { "$TypeId": 10, "Guid": "9420160473daa714381703cb467dd12d", "FileId": 21300000, "Type": 3 },
-                            "pressed": { "$TypeId": 10, "Guid": "69a2b574a967a0b43bbf703d3e234e13", "FileId": 21300000, "Type": 3 }
+                            "pressed": { "$TypeId": 10, "Guid": "69a2b574a967a0b43bbf703d3e234e13", "FileId": 21300000, "Type": 3 },
+                            "disabled": { "$TypeId": 10, "Guid": "9c78ea53fb8a45445a758b7a6bfd35c2", "FileId": 21300000, "Type": 3 }
                         }
                     }
                 }
@@ -414,7 +436,7 @@
     }, {
         "Type": { "Id": "0efd2ae60c7796b3a911cb3247c89bd9", "Name": "MouseInteraction" }
     }, {
-        "Type": { "Id": "c68e9b69b48b4ba28726ada95c59e64a", "Name": "NewWindowButton" },
+        "Type": { "Id": "c68e9b69b48b4ba28726ada95c59e64a", "Name": "CloseWindowButton" },
         "Properties": {
             "URLToOpen": "www.unity3d.com"
         }
