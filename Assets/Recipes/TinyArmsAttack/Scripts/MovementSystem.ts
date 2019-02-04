@@ -18,7 +18,7 @@ namespace game {
 
                 position.x += movement.speed * dt;
 
-                console.log(movement.speed);
+                //console.log(movement.speed);
 
                 transformLocal.position = position;
             });

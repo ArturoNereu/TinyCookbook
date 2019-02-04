@@ -277,7 +277,8 @@
                     { "$TypeId": 10, "Guid": "7fbc538bb57d8ce4eb793e29ccececf9", "FileId": 21300000, "Type": 3 },
                     { "$TypeId": 10, "Guid": "f40e9c8109869d9419c77772a75c7232", "FileId": 21300000, "Type": 3 }
                 ]
-            }
+            },
+            "frameRate": 15
         }
     }, {
         "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
