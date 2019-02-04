@@ -5,29 +5,17 @@
     "ExportFlags": 0,
     "SerializedVersion": 0,
     "Entities": [
-        { "$TypeId": 9, "Id": "db2044e4b8f042e087b77ac7951bc486", "Name": "Camera" },
-        { "$TypeId": 9, "Id": "4a0c3860a00c45fa9844f94a1ee6226b", "Name": "Dinoasaur" },
-        { "$TypeId": 9, "Id": "009b26d329d649299ab387df8e41a220", "Name": "Environment" },
-        { "$TypeId": 9, "Id": "40b9a89ea03a409695fb39c1382d0efb", "Name": "City_Floor" },
-        { "$TypeId": 9, "Id": "e4c0f21da00b4f589df5bca3db9c3abe", "Name": "City_Floor" },
-        { "$TypeId": 9, "Id": "67c27451a2df4e8d9ea8ae75ee4ae3b8", "Name": "City_Floor" },
-        { "$TypeId": 9, "Id": "737aae95084649b58bbff3a9a2d28b74", "Name": "City_Floor" },
-        { "$TypeId": 9, "Id": "778d0f21122f4d5598c33bf884c838b8", "Name": "City_Floor" },
-        { "$TypeId": 9, "Id": "cdb4bfab8f964c1b808c3b636ace232e", "Name": "City_Floor" },
-        { "$TypeId": 9, "Id": "0cef0714bad64fbe97ad5d31a4e4d274", "Name": "City_Floor" },
-        { "$TypeId": 9, "Id": "73dbdbb5f2a3490599907b35b924617f", "Name": "City_Floor" },
-        { "$TypeId": 9, "Id": "88838a23d5154bc6b1a6e83c86d5eb7f", "Name": "City_Floor" },
-        { "$TypeId": 9, "Id": "352f843224d649548bd9385380318108", "Name": "City_Building_Medium_State_1" },
-        { "$TypeId": 9, "Id": "491b622e1c2344699b899c4a8adabab9", "Name": "City_Building_Small_2_State_1" },
-        { "$TypeId": 9, "Id": "5aa1758694324673ae0acfff4750ee07", "Name": "City_Building_Tall_State_1" },
-        { "$TypeId": 9, "Id": "b6c4f59d94c0410fbf149622fa1a925d", "Name": "City_Car_1" },
-        { "$TypeId": 9, "Id": "98d54c25d928486d8d47c6c483b63e12", "Name": "City_Helicopter_Body_1" },
-        { "$TypeId": 9, "Id": "9f5ff710c88746919cc27824a262f676", "Name": "Helicopter_Blades_1" }
+        { "$TypeId": 9, "Id": "e9d343790f314db784c4d9dbdb6e29d7", "Name": "Camera" },
+        { "$TypeId": 9, "Id": "ecbb992f82004a15a931333e27d173fc", "Name": "Dinosaur" },
+        { "$TypeId": 9, "Id": "31552f02d0444150882006f754e3d05e", "Name": "DinosaurWalking" },
+        { "$TypeId": 9, "Id": "f2ad832119c14cc6b5cf728b423bcfe8", "Name": "DinosaurAttacking" },
+        { "$TypeId": 9, "Id": "49b0af16434f4697940a0147a649d422", "Name": "Helicopter" },
+        { "$TypeId": 9, "Id": "000570843a6f4ca18906957e75859247", "Name": "HelicopterBlades" }
     ]
 },
 {
     "$TypeId": 5,
-    "Id": "db2044e4b8f042e087b77ac7951bc486",
+    "Id": "e9d343790f314db784c4d9dbdb6e29d7",
     "Name": "Camera",
     "Enabled": true,
     "Static": false,
@@ -35,33 +23,22 @@
     "Components": [{
         "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
     }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
+    }, {
         "Type": { "Id": "12692383f3fef3bb74c209888c5b0939", "Name": "Camera2D" },
         "Properties": {
-            "halfVerticalSize": 200,
-            "backgroundColor": {
-                "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
-                "Properties": {
-                    "r": 0.09077964,
-                    "g": 0.0949798,
-                    "b": 0.2264151,
-                    "a": 1
-                }
-            },
-            "clearFlags": {
-                "$TypeId": 8,
-                "Type": { "Id": "76a06ddd38e99125d930e77c6a287872", "Name": "CameraClearFlags" },
-                "Id": "9faedc246f34513076701ef66b5ad74f",
-                "Name": "SolidColor",
-                "Value": 1
-            },
-            "depth": -1
+            "halfVerticalSize": 200
         }
     }]
 },
 {
     "$TypeId": 5,
-    "Id": "4a0c3860a00c45fa9844f94a1ee6226b",
-    "Name": "Dinoasaur",
+    "Id": "ecbb992f82004a15a931333e27d173fc",
+    "Name": "Dinosaur",
     "Enabled": true,
     "Static": false,
     "Layer": 0,
@@ -73,24 +50,76 @@
             "position": {
                 "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
                 "Properties": {
-                    "x": -195.5
+                    "x": -215.1,
+                    "y": 0
                 }
             }
         }
     }, {
         "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
     }, {
-        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" },
+        "Properties": {
+            "scale": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                }
+            }
+        }
     }, {
         "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
         "Properties": {
             "sprite": { "$TypeId": 10, "Guid": "42ec7e225b16472499718fb4b75a32d6", "FileId": 21300000, "Type": 3 }
         }
     }, {
-        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
+        "Type": { "Id": "895fc39ddd4f4861bb3e703726dd1055", "Name": "Dinosaur" }
+    }, {
+        "Type": { "Id": "ea57462b0c8f4ef9965e5a6af56b6135", "Name": "Movement" },
         "Properties": {
-            "order": 10
+            "speed": 20
         }
+    }, {
+        "Type": { "Id": "d2cfd18aa4facc33b1da7ae05205691b", "Name": "Sprite2DSequencePlayer" },
+        "Properties": {
+            "sequence": { "$TypeId": 9, "Id": "31552f02d0444150882006f754e3d05e", "Name": "DinosaurWalking" },
+            "speed": 1
+        }
+    }, {
+        "Type": { "Id": "a015bc52c7befa4d7484891d74d2b574", "Name": "RectHitBox2D" },
+        "Properties": {
+            "box": {
+                "Type": { "Id": "f216da154c4054842adb590807e977ba", "Name": "Rect" },
+                "Properties": {
+                    "x": -44.41,
+                    "y": -24.27,
+                    "width": 100,
+                    "height": 50
+                }
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "31552f02d0444150882006f754e3d05e",
+    "Name": "DinosaurWalking",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
+        "Properties": {
+            "parent": { "$TypeId": 9, "Id": "ecbb992f82004a15a931333e27d173fc", "Name": "Dinosaur" }
+        }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
     }, {
         "Type": { "Id": "95eba163dce5bfff5420a5a8c2845523", "Name": "Sprite2DSequence" },
         "Properties": {
@@ -111,503 +140,70 @@
                     { "$TypeId": 10, "Guid": "1a21e56cff5db2d418497edd5d720ce8", "FileId": 21300000, "Type": 3 }
                 ]
             },
-            "frameRate": 6
-        }
-    }, {
-        "Type": { "Id": "d2cfd18aa4facc33b1da7ae05205691b", "Name": "Sprite2DSequencePlayer" },
-        "Properties": {
-            "sequence": { "$TypeId": 9, "Id": "4a0c3860a00c45fa9844f94a1ee6226b", "Name": "Dinosaur_Walk_1" },
-            "speed": 1,
-            "time": 1
-        }
-    }, {
-        "Type": { "Id": "ea57462b0c8f4ef9965e5a6af56b6135", "Name": "Movement" },
-        "Properties": {
-            "speed": 5
-        }
-    }, {
-        "Type": { "Id": "a015bc52c7befa4d7484891d74d2b574", "Name": "RectHitBox2D" },
-        "Properties": {
-            "box": {
-                "Type": { "Id": "f216da154c4054842adb590807e977ba", "Name": "Rect" },
-                "Properties": {
-                    "x": -42.53,
-                    "y": -25.38,
-                    "width": 85,
-                    "height": 50
-                }
-            }
+            "frameRate": 12
         }
     }]
 },
 {
     "$TypeId": 5,
-    "Id": "009b26d329d649299ab387df8e41a220",
-    "Name": "Environment",
-    "Enabled": true,
-    "Static": false,
-    "Layer": 0,
-    "Components": [{
-        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
-    }]
-},
-{
-    "$TypeId": 5,
-    "Id": "40b9a89ea03a409695fb39c1382d0efb",
-    "Name": "City_Floor",
+    "Id": "f2ad832119c14cc6b5cf728b423bcfe8",
+    "Name": "DinosaurAttacking",
     "Enabled": true,
     "Static": false,
     "Layer": 0,
     "Components": [{
         "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
         "Properties": {
-            "parent": { "$TypeId": 9, "Id": "009b26d329d649299ab387df8e41a220", "Name": "Entity" }
+            "parent": { "$TypeId": 9, "Id": "ecbb992f82004a15a931333e27d173fc", "Name": "Dinosaur" }
         }
-    }, {
-        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
-        "Properties": {
-            "position": {
-                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
-                "Properties": {
-                    "y": -24.2
-                }
-            }
-        }
-    }, {
-        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
-    }, {
-        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
-    }, {
-        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
-        "Properties": {
-            "sprite": { "$TypeId": 10, "Guid": "6549d97ade7324a05be183f3f12c81fa", "FileId": 21300000, "Type": 3 }
-        }
-    }]
-},
-{
-    "$TypeId": 5,
-    "Id": "e4c0f21da00b4f589df5bca3db9c3abe",
-    "Name": "City_Floor",
-    "Enabled": true,
-    "Static": false,
-    "Layer": 0,
-    "Components": [{
-        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
-        "Properties": {
-            "parent": { "$TypeId": 9, "Id": "009b26d329d649299ab387df8e41a220", "Name": "Entity" }
-        }
-    }, {
-        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
-        "Properties": {
-            "position": {
-                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
-                "Properties": {
-                    "x": -50,
-                    "y": -24.2
-                }
-            }
-        }
-    }, {
-        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
-    }, {
-        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
-    }, {
-        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
-        "Properties": {
-            "sprite": { "$TypeId": 10, "Guid": "6549d97ade7324a05be183f3f12c81fa", "FileId": 21300000, "Type": 3 }
-        }
-    }]
-},
-{
-    "$TypeId": 5,
-    "Id": "67c27451a2df4e8d9ea8ae75ee4ae3b8",
-    "Name": "City_Floor",
-    "Enabled": true,
-    "Static": false,
-    "Layer": 0,
-    "Components": [{
-        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
-        "Properties": {
-            "parent": { "$TypeId": 9, "Id": "009b26d329d649299ab387df8e41a220", "Name": "Entity" }
-        }
-    }, {
-        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
-        "Properties": {
-            "position": {
-                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
-                "Properties": {
-                    "x": -150,
-                    "y": -24.2
-                }
-            }
-        }
-    }, {
-        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
-    }, {
-        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
-    }, {
-        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
-        "Properties": {
-            "sprite": { "$TypeId": 10, "Guid": "6549d97ade7324a05be183f3f12c81fa", "FileId": 21300000, "Type": 3 }
-        }
-    }]
-},
-{
-    "$TypeId": 5,
-    "Id": "737aae95084649b58bbff3a9a2d28b74",
-    "Name": "City_Floor",
-    "Enabled": true,
-    "Static": false,
-    "Layer": 0,
-    "Components": [{
-        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
-        "Properties": {
-            "parent": { "$TypeId": 9, "Id": "009b26d329d649299ab387df8e41a220", "Name": "Entity" }
-        }
-    }, {
-        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
-        "Properties": {
-            "position": {
-                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
-                "Properties": {
-                    "x": -100,
-                    "y": -24.2
-                }
-            }
-        }
-    }, {
-        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
-    }, {
-        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
-    }, {
-        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
-        "Properties": {
-            "sprite": { "$TypeId": 10, "Guid": "6549d97ade7324a05be183f3f12c81fa", "FileId": 21300000, "Type": 3 }
-        }
-    }]
-},
-{
-    "$TypeId": 5,
-    "Id": "778d0f21122f4d5598c33bf884c838b8",
-    "Name": "City_Floor",
-    "Enabled": true,
-    "Static": false,
-    "Layer": 0,
-    "Components": [{
-        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
-        "Properties": {
-            "parent": { "$TypeId": 9, "Id": "009b26d329d649299ab387df8e41a220", "Name": "Entity" }
-        }
-    }, {
-        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
-        "Properties": {
-            "position": {
-                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
-                "Properties": {
-                    "x": 200,
-                    "y": -24.2
-                }
-            }
-        }
-    }, {
-        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
-    }, {
-        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
-    }, {
-        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
-        "Properties": {
-            "sprite": { "$TypeId": 10, "Guid": "6549d97ade7324a05be183f3f12c81fa", "FileId": 21300000, "Type": 3 }
-        }
-    }]
-},
-{
-    "$TypeId": 5,
-    "Id": "cdb4bfab8f964c1b808c3b636ace232e",
-    "Name": "City_Floor",
-    "Enabled": true,
-    "Static": false,
-    "Layer": 0,
-    "Components": [{
-        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
-        "Properties": {
-            "parent": { "$TypeId": 9, "Id": "009b26d329d649299ab387df8e41a220", "Name": "Entity" }
-        }
-    }, {
-        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
-        "Properties": {
-            "position": {
-                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
-                "Properties": {
-                    "x": 150,
-                    "y": -24.2
-                }
-            }
-        }
-    }, {
-        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
-    }, {
-        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
-    }, {
-        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
-        "Properties": {
-            "sprite": { "$TypeId": 10, "Guid": "6549d97ade7324a05be183f3f12c81fa", "FileId": 21300000, "Type": 3 }
-        }
-    }]
-},
-{
-    "$TypeId": 5,
-    "Id": "0cef0714bad64fbe97ad5d31a4e4d274",
-    "Name": "City_Floor",
-    "Enabled": true,
-    "Static": false,
-    "Layer": 0,
-    "Components": [{
-        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
-        "Properties": {
-            "parent": { "$TypeId": 9, "Id": "009b26d329d649299ab387df8e41a220", "Name": "Entity" }
-        }
-    }, {
-        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
-        "Properties": {
-            "position": {
-                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
-                "Properties": {
-                    "x": 50,
-                    "y": -24.2
-                }
-            }
-        }
-    }, {
-        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
-    }, {
-        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
-    }, {
-        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
-        "Properties": {
-            "sprite": { "$TypeId": 10, "Guid": "6549d97ade7324a05be183f3f12c81fa", "FileId": 21300000, "Type": 3 }
-        }
-    }]
-},
-{
-    "$TypeId": 5,
-    "Id": "73dbdbb5f2a3490599907b35b924617f",
-    "Name": "City_Floor",
-    "Enabled": true,
-    "Static": false,
-    "Layer": 0,
-    "Components": [{
-        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
-        "Properties": {
-            "parent": { "$TypeId": 9, "Id": "009b26d329d649299ab387df8e41a220", "Name": "Entity" }
-        }
-    }, {
-        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
-        "Properties": {
-            "position": {
-                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
-                "Properties": {
-                    "x": 100,
-                    "y": -24.2
-                }
-            }
-        }
-    }, {
-        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
-    }, {
-        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
-    }, {
-        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
-        "Properties": {
-            "sprite": { "$TypeId": 10, "Guid": "6549d97ade7324a05be183f3f12c81fa", "FileId": 21300000, "Type": 3 }
-        }
-    }]
-},
-{
-    "$TypeId": 5,
-    "Id": "88838a23d5154bc6b1a6e83c86d5eb7f",
-    "Name": "City_Floor",
-    "Enabled": true,
-    "Static": false,
-    "Layer": 0,
-    "Components": [{
-        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
-        "Properties": {
-            "parent": { "$TypeId": 9, "Id": "009b26d329d649299ab387df8e41a220", "Name": "Entity" }
-        }
-    }, {
-        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
-        "Properties": {
-            "position": {
-                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
-                "Properties": {
-                    "x": -200,
-                    "y": -24.2
-                }
-            }
-        }
-    }, {
-        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
-    }, {
-        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
-    }, {
-        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
-        "Properties": {
-            "sprite": { "$TypeId": 10, "Guid": "6549d97ade7324a05be183f3f12c81fa", "FileId": 21300000, "Type": 3 }
-        }
-    }]
-},
-{
-    "$TypeId": 5,
-    "Id": "352f843224d649548bd9385380318108",
-    "Name": "City_Building_Medium_State_1",
-    "Enabled": true,
-    "Static": false,
-    "Layer": 0,
-    "Components": [{
-        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
-        "Properties": {
-            "parent": { "$TypeId": 9, "Id": "009b26d329d649299ab387df8e41a220", "Name": "Entity" }
-        }
-    }, {
-        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
-        "Properties": {
-            "position": {
-                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
-                "Properties": {
-                    "x": -177.8467,
-                    "y": -20.66
-                }
-            }
-        }
-    }, {
-        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
-    }, {
-        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
-    }, {
-        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
-        "Properties": {
-            "sprite": { "$TypeId": 10, "Guid": "aad9a2186213a604d8df82fb531ee7fc", "FileId": 21300000, "Type": 3 }
-        }
-    }]
-},
-{
-    "$TypeId": 5,
-    "Id": "491b622e1c2344699b899c4a8adabab9",
-    "Name": "City_Building_Small_2_State_1",
-    "Enabled": true,
-    "Static": false,
-    "Layer": 0,
-    "Components": [{
-        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
-        "Properties": {
-            "parent": { "$TypeId": 9, "Id": "009b26d329d649299ab387df8e41a220", "Name": "Entity" }
-        }
-    }, {
-        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
-        "Properties": {
-            "position": {
-                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
-                "Properties": {
-                    "x": -129.6066,
-                    "y": -20.85
-                }
-            }
-        }
-    }, {
-        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
-    }, {
-        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
-    }, {
-        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
-        "Properties": {
-            "sprite": { "$TypeId": 10, "Guid": "053739d9a9a280a4b9214a655e1baf27", "FileId": 21300000, "Type": 3 }
-        }
-    }]
-},
-{
-    "$TypeId": 5,
-    "Id": "5aa1758694324673ae0acfff4750ee07",
-    "Name": "City_Building_Tall_State_1",
-    "Enabled": true,
-    "Static": false,
-    "Layer": 0,
-    "Components": [{
-        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
-        "Properties": {
-            "parent": { "$TypeId": 9, "Id": "009b26d329d649299ab387df8e41a220", "Name": "Entity" }
-        }
-    }, {
-        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
-        "Properties": {
-            "position": {
-                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
-                "Properties": {
-                    "x": 0.6,
-                    "y": -21.22384
-                }
-            }
-        }
-    }, {
-        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
-    }, {
-        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
-    }, {
-        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
-        "Properties": {
-            "sprite": { "$TypeId": 10, "Guid": "66ff6ae40149e43438f090273af67336", "FileId": 21300000, "Type": 3 }
-        }
-    }]
-},
-{
-    "$TypeId": 5,
-    "Id": "b6c4f59d94c0410fbf149622fa1a925d",
-    "Name": "City_Car_1",
-    "Enabled": true,
-    "Static": false,
-    "Layer": 0,
-    "Components": [{
-        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
-        "Properties": {
-            "parent": { "$TypeId": 9, "Id": "009b26d329d649299ab387df8e41a220", "Name": "Entity" }
-        }
-    }, {
-        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
-        "Properties": {
-            "position": {
-                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
-                "Properties": {
-                    "x": 98.76459,
-                    "y": -22.64988
-                }
-            }
-        }
-    }, {
-        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
-    }, {
-        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
-    }, {
-        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
-        "Properties": {
-            "sprite": { "$TypeId": 10, "Guid": "8e2ae4b6926cd104586425cc7bd151a0", "FileId": 21300000, "Type": 3 }
-        }
-    }, {
-        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
-        "Properties": {
-            "order": 5
-        }
-    }]
-},
-{
-    "$TypeId": 5,
-    "Id": "98d54c25d928486d8d47c6c483b63e12",
-    "Name": "City_Helicopter_Body_1",
-    "Enabled": true,
-    "Static": false,
-    "Layer": 0,
-    "Components": [{
-        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
     }, {
         "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
+    }, {
+        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
+    }, {
+        "Type": { "Id": "95eba163dce5bfff5420a5a8c2845523", "Name": "Sprite2DSequence" },
+        "Properties": {
+            "sprites": {
+                "Type": { "Id": "cf54a635a25248ab87f2563bb840ed5b", "Name": "SpriteEntity" },
+                "Items": [
+                    { "$TypeId": 10, "Guid": "af99a49dd692fb3499735a79bccabd02", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "4328f608f7ec4d54883a39a176b2a122", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "836ebcef6da3414468c40e2c48e846d1", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "a929acb8693998f418310a7d76966cd8", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "3355b7e381e629b4f804886f6cb44d1e", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "823e0729273d25847bae00cddea12817", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "402a8969a9ccc2a4eafe0f96f451a784", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "ff4b63563df157047ac79b6ff3c6c694", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "c852a9f504ad92348a401575fd57a796", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "2945e08595a4a9a4db0074af502908d1", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "d51495b976ac07747be3b47b2f2316f7", "FileId": 21300000, "Type": 3 }
+                ]
+            },
+            "frameRate": 12
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "49b0af16434f4697940a0147a649d422",
+    "Name": "Helicopter",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": 233
+                }
+            }
+        }
     }, {
         "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
     }, {
@@ -618,25 +214,22 @@
             "sprite": { "$TypeId": 10, "Guid": "27c525850f28a88458c34b27ac9e3b2f", "FileId": 21300000, "Type": 3 }
         }
     }, {
-        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
-        "Properties": {
-            "order": 15
-        }
-    }, {
         "Type": { "Id": "ea57462b0c8f4ef9965e5a6af56b6135", "Name": "Movement" },
         "Properties": {
-            "speed": -5
+            "speed": -15
         }
+    }, {
+        "Type": { "Id": "3a14623874744fe4aca7630383a85dae", "Name": "Helicopter" }
     }, {
         "Type": { "Id": "a015bc52c7befa4d7484891d74d2b574", "Name": "RectHitBox2D" },
         "Properties": {
             "box": {
                 "Type": { "Id": "f216da154c4054842adb590807e977ba", "Name": "Rect" },
                 "Properties": {
-                    "x": -26.94,
-                    "y": -18.93,
+                    "x": -26.36,
+                    "y": -17.6,
                     "width": 50,
-                    "height": 50
+                    "height": 40
                 }
             }
         }
@@ -644,15 +237,15 @@
 },
 {
     "$TypeId": 5,
-    "Id": "9f5ff710c88746919cc27824a262f676",
-    "Name": "Helicopter_Blades_1",
+    "Id": "000570843a6f4ca18906957e75859247",
+    "Name": "HelicopterBlades",
     "Enabled": true,
     "Static": false,
     "Layer": 0,
     "Components": [{
         "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
         "Properties": {
-            "parent": { "$TypeId": 9, "Id": "98d54c25d928486d8d47c6c483b63e12", "Name": "City_Helicopter_Body_1" }
+            "parent": { "$TypeId": 9, "Id": "49b0af16434f4697940a0147a649d422", "Name": "Helicopter" }
         }
     }, {
         "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
@@ -660,8 +253,8 @@
             "position": {
                 "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
                 "Properties": {
-                    "x": -2.1,
-                    "y": 7.2
+                    "x": -1.5,
+                    "y": 8
                 }
             }
         }
@@ -670,14 +263,10 @@
     }, {
         "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
     }, {
-        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Type": { "Id": "d2cfd18aa4facc33b1da7ae05205691b", "Name": "Sprite2DSequencePlayer" },
         "Properties": {
-            "sprite": { "$TypeId": 10, "Guid": "7fbc538bb57d8ce4eb793e29ccececf9", "FileId": 21300000, "Type": 3 }
-        }
-    }, {
-        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
-        "Properties": {
-            "order": 16
+            "sequence": { "$TypeId": 9, "Id": "000570843a6f4ca18906957e75859247", "Name": "HelicopterBlades" },
+            "speed": 1
         }
     }, {
         "Type": { "Id": "95eba163dce5bfff5420a5a8c2845523", "Name": "Sprite2DSequence" },
@@ -688,15 +277,12 @@
                     { "$TypeId": 10, "Guid": "7fbc538bb57d8ce4eb793e29ccececf9", "FileId": 21300000, "Type": 3 },
                     { "$TypeId": 10, "Guid": "f40e9c8109869d9419c77772a75c7232", "FileId": 21300000, "Type": 3 }
                 ]
-            },
-            "frameRate": 15
+            }
         }
     }, {
-        "Type": { "Id": "d2cfd18aa4facc33b1da7ae05205691b", "Name": "Sprite2DSequencePlayer" },
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
         "Properties": {
-            "sequence": { "$TypeId": 9, "Id": "9f5ff710c88746919cc27824a262f676", "Name": "Helicopter_Blades_1" },
-            "speed": 1,
-            "time": 1
+            "sprite": { "$TypeId": 10, "Guid": "7fbc538bb57d8ce4eb793e29ccececf9", "FileId": 21300000, "Type": 3 }
         }
     }]
 }]

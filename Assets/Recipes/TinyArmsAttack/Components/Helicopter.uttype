@@ -1,0 +1,12 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "3a14623874744fe4aca7630383a85dae",
+    "Name": "Hellicopter",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "DefaultValue": {
+        "Type": { "Id": "3a14623874744fe4aca7630383a85dae", "Name": "Hellicopter" }
+    }
+}]

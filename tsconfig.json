@@ -24,11 +24,11 @@
         "Library/PackageCache/com.unity.tiny@0.14.1-preview/Runtime/Modules/UTiny.RendererGL/**/*.ts",
         "Library/PackageCache/com.unity.tiny@0.14.1-preview/Runtime/Modules/UTiny.Sprite2D/**/*.ts",
         "Library/PackageCache/com.unity.tiny@0.14.1-preview/Runtime/Modules/UTiny.EditorExtensions/**/*.ts",
-        "Library/PackageCache/com.unity.tiny@0.14.1-preview/Runtime/Modules/UTiny.Physics2D/**/*.ts"
+        "Library/PackageCache/com.unity.tiny@0.14.1-preview/Runtime/Modules/UTiny.HitBox2D/**/*.ts"
     ],
     "exclude": [],
     "files": [
         "TinyExport/TinyArmsAttack/html5/development/artifacts/scripts/bind-generated.d.ts",
-        "Tiny/Dist/runtimedll/RuntimeFull.d.ts"
+        "Tiny/Dist/runtimedll/RuntimeStripped.d.ts"
     ]
 }

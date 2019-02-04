@@ -13,7 +13,7 @@
         "DefaultTextureSettings": {
             "$TypeId": 2,
             "Embedded": true,
-            "FormatType": 2,
+            "FormatType": 0,
             "JpgCompressionQuality": 75,
             "WebPCompressionQuality": 60
         },

@@ -6,6 +6,15 @@
     "Unlisted": false,
     "Visibility": 0,
     "TypeCode": "Component",
+    "Fields": [{
+        "Id": "4bf60e682c9d428c91b2febe6d360da6",
+        "Name": "dinosaurState",
+        "FieldType": { "Id": "2e638f6e13634e9fa7f541b0b4f11c61", "Name": "DinosaurStates" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
     "DefaultValue": {
         "Type": { "Id": "895fc39ddd4f4861bb3e703726dd1055", "Name": "Dinosaur" }
     }

@@ -14,8 +14,19 @@
         "Visibility": 0,
         "EditorOnly": false,
         "Versioned": true
+    }, {
+        "Id": "5777dfeb6e9c42eb8c3f49389a126fc4",
+        "Name": "isMoving",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
     }],
     "DefaultValue": {
-        "Type": { "Id": "ea57462b0c8f4ef9965e5a6af56b6135", "Name": "Movement" }
+        "Type": { "Id": "ea57462b0c8f4ef9965e5a6af56b6135", "Name": "Movement" },
+        "Properties": {
+            "isMoving": true
+        }
     }
 }]
