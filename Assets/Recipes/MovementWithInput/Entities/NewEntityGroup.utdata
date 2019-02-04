@@ -128,6 +128,9 @@
             "order": 14
         }
     }, {
-        "Type": { "Id": "793eeeef0f60427ca55a6009b6db831a", "Name": "Car" }
+        "Type": { "Id": "793eeeef0f60427ca55a6009b6db831a", "Name": "Car" },
+        "Properties": {
+            "speed": 5
+        }
     }]
 }]

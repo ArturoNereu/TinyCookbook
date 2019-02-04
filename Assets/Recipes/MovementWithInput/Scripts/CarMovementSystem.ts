@@ -25,7 +25,7 @@ namespace game {
 
                 localPosition.position = position;
                 car.direction = direction;
-            });
+3            });
         }
     }
 }

@@ -2,13 +2,13 @@
     "compilerOptions": {
         "experimentalDecorators": true,
         "skipLibCheck": true,
-        "outFile": "C:/Users/HDgam/Documents/EYODF/TinyCookbok/TinyExport/MovementWithInput/html5/development/artifacts/scripts/tsc-emit.js",
+        "outFile": "C:/Users/HDgam/Documents/EYODF/TinyCookbok/TinyExport/TinyArmsAttack/html5/development/artifacts/scripts/tsc-emit.js",
         "sourceMap": true,
         "target": "ES5"
     },
     "compileOnSave": true,
     "include": [
-        "Assets/Recipes/MovementWithInput/**/*.ts",
+        "Assets/Recipes/TinyArmsAttack/**/*.ts",
         "Library/PackageCache/com.unity.tiny@0.14.1-preview/Runtime/Modules/UTiny.Core2D/**/*.ts",
         "Library/PackageCache/com.unity.tiny@0.14.1-preview/Runtime/Modules/UTiny.Math/**/*.ts",
         "Library/PackageCache/com.unity.tiny@0.14.1-preview/Runtime/Modules/UTiny.Core/**/*.ts",
@@ -23,11 +23,12 @@
         "Library/PackageCache/com.unity.tiny@0.14.1-preview/Runtime/Modules/UTiny.RendererGLWebGL/**/*.ts",
         "Library/PackageCache/com.unity.tiny@0.14.1-preview/Runtime/Modules/UTiny.RendererGL/**/*.ts",
         "Library/PackageCache/com.unity.tiny@0.14.1-preview/Runtime/Modules/UTiny.Sprite2D/**/*.ts",
-        "Library/PackageCache/com.unity.tiny@0.14.1-preview/Runtime/Modules/UTiny.EditorExtensions/**/*.ts"
+        "Library/PackageCache/com.unity.tiny@0.14.1-preview/Runtime/Modules/UTiny.EditorExtensions/**/*.ts",
+        "Library/PackageCache/com.unity.tiny@0.14.1-preview/Runtime/Modules/UTiny.Physics2D/**/*.ts"
     ],
     "exclude": [],
     "files": [
-        "TinyExport/MovementWithInput/html5/development/artifacts/scripts/bind-generated.d.ts",
-        "Tiny/Dist/runtimedll/RuntimeStripped.d.ts"
+        "TinyExport/TinyArmsAttack/html5/development/artifacts/scripts/bind-generated.d.ts",
+        "Tiny/Dist/runtimedll/RuntimeFull.d.ts"
     ]
 }

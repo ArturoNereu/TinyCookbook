@@ -1,0 +1,12 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "895fc39ddd4f4861bb3e703726dd1055",
+    "Name": "Dinosaur",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "DefaultValue": {
+        "Type": { "Id": "895fc39ddd4f4861bb3e703726dd1055", "Name": "Dinosaur" }
+    }
+}]
