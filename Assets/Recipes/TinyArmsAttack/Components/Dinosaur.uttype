@@ -14,8 +14,27 @@
         "Visibility": 0,
         "EditorOnly": false,
         "Versioned": true
+    }, {
+        "Id": "f5aa146c99314316bf5925ff2efe7dc2",
+        "Name": "attackTime",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "ee9c41aac8c540c29ac476064ac47199",
+        "Name": "timeSinceAttack",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
     }],
     "DefaultValue": {
-        "Type": { "Id": "895fc39ddd4f4861bb3e703726dd1055", "Name": "Dinosaur" }
+        "Type": { "Id": "895fc39ddd4f4861bb3e703726dd1055", "Name": "Dinosaur" },
+        "Properties": {
+            "attackTime": 1
+        }
     }
 }]
