@@ -25,20 +25,21 @@ namespace game {
                 if (dinosaur.dinosaurState == DinosaurStates.attacking)
                 {
                     dinosaur.timeSinceAttack += this.scheduler.deltaTime();
+
+                    if (dinosaur.timeSinceAttack >= dinosaur.attackTime) {
+                        movement.isMoving = true;
+
+                        dinosaur.dinosaurState = DinosaurStates.walking;
+
+                        sprite2dSequencePlayer.sequence = this.world.getEntityByName("DinosaurWalking");
+                        sprite2dSequencePlayer.time = 0;
+                        sprite2dSequencePlayer.loop = ut.Core2D.LoopMode.Loop;
+
+                        dinosaur.timeSinceAttack = 0;
+                    }
                 }
 
-                if (dinosaur.timeSinceAttack >= dinosaur.attackTime)
-                {
-                    movement.isMoving = true;
 
-                    dinosaur.dinosaurState = DinosaurStates.walking;
-
-                    sprite2dSequencePlayer.sequence = this.world.getEntityByName("DinosaurWalking");
-                    sprite2dSequencePlayer.time = 0;
-                    sprite2dSequencePlayer.loop = ut.Core2D.LoopMode.Loop;
-
-                    dinosaur.timeSinceAttack = 0;
-                }
             });
         }
     }

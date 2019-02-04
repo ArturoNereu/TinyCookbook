@@ -7,8 +7,8 @@
     "Entities": [
         { "$TypeId": 9, "Id": "e9d343790f314db784c4d9dbdb6e29d7", "Name": "Camera" },
         { "$TypeId": 9, "Id": "ecbb992f82004a15a931333e27d173fc", "Name": "Dinosaur" },
-        { "$TypeId": 9, "Id": "31552f02d0444150882006f754e3d05e", "Name": "DinosaurWalking" },
         { "$TypeId": 9, "Id": "f2ad832119c14cc6b5cf728b423bcfe8", "Name": "DinosaurAttacking" },
+        { "$TypeId": 9, "Id": "31552f02d0444150882006f754e3d05e", "Name": "DinosaurWalking" },
         { "$TypeId": 9, "Id": "49b0af16434f4697940a0147a649d422", "Name": "Helicopter" },
         { "$TypeId": 9, "Id": "000570843a6f4ca18906957e75859247", "Name": "HelicopterBlades" }
     ]
@@ -50,7 +50,7 @@
             "position": {
                 "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
                 "Properties": {
-                    "x": 17.3,
+                    "x": -220,
                     "y": 0
                 }
             }
@@ -104,23 +104,47 @@
 },
 {
     "$TypeId": 5,
+    "Id": "f2ad832119c14cc6b5cf728b423bcfe8",
+    "Name": "DinosaurAttacking",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "95eba163dce5bfff5420a5a8c2845523", "Name": "Sprite2DSequence" },
+        "Properties": {
+            "sprites": {
+                "Type": { "Id": "cf54a635a25248ab87f2563bb840ed5b", "Name": "SpriteEntity" },
+                "Items": [
+                    { "$TypeId": 10, "Guid": "af99a49dd692fb3499735a79bccabd02", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "4328f608f7ec4d54883a39a176b2a122", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "836ebcef6da3414468c40e2c48e846d1", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "a929acb8693998f418310a7d76966cd8", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "3355b7e381e629b4f804886f6cb44d1e", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "823e0729273d25847bae00cddea12817", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "402a8969a9ccc2a4eafe0f96f451a784", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "ff4b63563df157047ac79b6ff3c6c694", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "c852a9f504ad92348a401575fd57a796", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "2945e08595a4a9a4db0074af502908d1", "FileId": 21300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "d51495b976ac07747be3b47b2f2316f7", "FileId": 21300000, "Type": 3 }
+                ]
+            },
+            "frameRate": 12
+        }
+    }, {
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
+        "Properties": {
+            "parent": { "$TypeId": 9, "Id": "ecbb992f82004a15a931333e27d173fc", "Name": "Dinosaur" }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
     "Id": "31552f02d0444150882006f754e3d05e",
     "Name": "DinosaurWalking",
     "Enabled": true,
     "Static": false,
     "Layer": 0,
     "Components": [{
-        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
-        "Properties": {
-            "parent": { "$TypeId": 9, "Id": "ecbb992f82004a15a931333e27d173fc", "Name": "Dinosaur" }
-        }
-    }, {
-        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" }
-    }, {
-        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
-    }, {
-        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
-    }, {
         "Type": { "Id": "95eba163dce5bfff5420a5a8c2845523", "Name": "Sprite2DSequence" },
         "Properties": {
             "sprites": {
@@ -142,46 +166,10 @@
             },
             "frameRate": 12
         }
-    }]
-},
-{
-    "$TypeId": 5,
-    "Id": "f2ad832119c14cc6b5cf728b423bcfe8",
-    "Name": "DinosaurAttacking",
-    "Enabled": true,
-    "Static": false,
-    "Layer": 0,
-    "Components": [{
+    }, {
         "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
         "Properties": {
             "parent": { "$TypeId": 9, "Id": "ecbb992f82004a15a931333e27d173fc", "Name": "Dinosaur" }
-        }
-    }, {
-        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" }
-    }, {
-        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" }
-    }, {
-        "Type": { "Id": "f11fe490eefc969bbc3fde5eab5ccd1e", "Name": "TransformLocalScale" }
-    }, {
-        "Type": { "Id": "95eba163dce5bfff5420a5a8c2845523", "Name": "Sprite2DSequence" },
-        "Properties": {
-            "sprites": {
-                "Type": { "Id": "cf54a635a25248ab87f2563bb840ed5b", "Name": "SpriteEntity" },
-                "Items": [
-                    { "$TypeId": 10, "Guid": "af99a49dd692fb3499735a79bccabd02", "FileId": 21300000, "Type": 3 },
-                    { "$TypeId": 10, "Guid": "4328f608f7ec4d54883a39a176b2a122", "FileId": 21300000, "Type": 3 },
-                    { "$TypeId": 10, "Guid": "836ebcef6da3414468c40e2c48e846d1", "FileId": 21300000, "Type": 3 },
-                    { "$TypeId": 10, "Guid": "a929acb8693998f418310a7d76966cd8", "FileId": 21300000, "Type": 3 },
-                    { "$TypeId": 10, "Guid": "3355b7e381e629b4f804886f6cb44d1e", "FileId": 21300000, "Type": 3 },
-                    { "$TypeId": 10, "Guid": "823e0729273d25847bae00cddea12817", "FileId": 21300000, "Type": 3 },
-                    { "$TypeId": 10, "Guid": "402a8969a9ccc2a4eafe0f96f451a784", "FileId": 21300000, "Type": 3 },
-                    { "$TypeId": 10, "Guid": "ff4b63563df157047ac79b6ff3c6c694", "FileId": 21300000, "Type": 3 },
-                    { "$TypeId": 10, "Guid": "c852a9f504ad92348a401575fd57a796", "FileId": 21300000, "Type": 3 },
-                    { "$TypeId": 10, "Guid": "2945e08595a4a9a4db0074af502908d1", "FileId": 21300000, "Type": 3 },
-                    { "$TypeId": 10, "Guid": "d51495b976ac07747be3b47b2f2316f7", "FileId": 21300000, "Type": 3 }
-                ]
-            },
-            "frameRate": 12
         }
     }]
 },
