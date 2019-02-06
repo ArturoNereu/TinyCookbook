@@ -1,7 +1,7 @@
 # Tiny Cookbok
 A cookbook like series of resources for learning to use Unity's Project Tiny
 
-![tinycookbook](https://user-images.githubusercontent.com/263776/52253533-0b54ed80-28ce-11e9-88ee-7e16d82f5de3.png)
+![tinycookbook](https://user-images.githubusercontent.com/263776/52322817-85f23b80-29a8-11e9-859e-b04460736d7e.png)
 
 ## Mini Recipes
 #### Version Control
