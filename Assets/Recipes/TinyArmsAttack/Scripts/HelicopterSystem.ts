@@ -16,23 +16,26 @@ namespace game {
                 let dinosaurEntity = this.world.getEntityByName("Dinosaur");
                 let dinosaur = this.world.getComponentData(dinosaurEntity, game.Dinosaur);
 
-                let markToBeDestroyed = false;
-
                 if (dinosaur.dinosaurState == DinosaurStates.attacking)
                 {
                     movement.isMoving = false;
-                    console.log("Died Helicopter");
-                    //sprite2dSequencePlayer.sequence = this.world.getEntityByName("HelicopterDestroyed");
 
                     let explosion = ut.EntityGroup.instantiate(this.world, "game.Explosion")[0];
 
-                    this.world.usingComponentData(explosion, [ut.Core2D.TransformLocalPosition], (explosionPos) => {
-                        explosionPos.position = transformLocalPositon.position;
-                    });
+                    //Destroy the hellicopter inmediatly
+                    let destroyAfterDelay = new game.DestroyedAfterSeconds();
+                    destroyAfterDelay.ttl = 0;
+                    this.world.addComponentData(entity, destroyAfterDelay);
+
+                    //Destroy the explosion after x seconds
+                    destroyAfterDelay = new game.DestroyedAfterSeconds();
+                    destroyAfterDelay.ttl = 0.5;
+                    this.world.addComponentData(explosion, destroyAfterDelay);
 
                     //ut.Core2D.TransformService.destroyTree(this.world, entity);
                 }
             });
         }
+
     }
 }

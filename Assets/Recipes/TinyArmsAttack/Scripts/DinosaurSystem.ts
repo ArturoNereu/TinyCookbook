@@ -18,7 +18,6 @@ namespace game {
 
                     sprite2dSequencePlayer.sequence = this.world.getEntityByName("DinosaurAttacking");
                     sprite2dSequencePlayer.time = 0;
-                    sprite2dSequencePlayer.loop = ut.Core2D.LoopMode.Once;
                     
                 }
 
@@ -33,13 +32,10 @@ namespace game {
 
                         sprite2dSequencePlayer.sequence = this.world.getEntityByName("DinosaurWalking");
                         sprite2dSequencePlayer.time = 0;
-                        sprite2dSequencePlayer.loop = ut.Core2D.LoopMode.Loop;
 
                         dinosaur.timeSinceAttack = 0;
                     }
                 }
-
-
             });
         }
     }

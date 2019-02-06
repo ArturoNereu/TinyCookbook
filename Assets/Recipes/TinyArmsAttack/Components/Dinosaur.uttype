@@ -27,7 +27,7 @@
         "Name": "timeSinceAttack",
         "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
         "Array": false,
-        "Visibility": 0,
+        "Visibility": 1,
         "EditorOnly": false,
         "Versioned": true
     }],
