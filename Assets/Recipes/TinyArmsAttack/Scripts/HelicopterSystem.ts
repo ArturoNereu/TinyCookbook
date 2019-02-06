@@ -21,6 +21,9 @@ namespace game {
                     movement.isMoving = false;
 
                     let explosion = ut.EntityGroup.instantiate(this.world, "game.Explosion")[0];
+                    let expPos = new ut.Core2D.TransformLocalPosition();
+                    expPos = transformLocalPositon;
+                    this.world.setComponentData(explosion, expPos);
 
                     //Destroy the hellicopter inmediatly
                     let destroyAfterDelay = new game.DestroyedAfterSeconds();
@@ -36,6 +39,5 @@ namespace game {
                 }
             });
         }
-
     }
 }

@@ -2,7 +2,7 @@
     "compilerOptions": {
         "experimentalDecorators": true,
         "skipLibCheck": true,
-        "outFile": "/Users/nereu/Documents/EYODF/TinyCookbok/TinyExport/TinyArmsAttack/html5/development/artifacts/scripts/tsc-emit.js",
+        "outFile": "/Users/nereu/Documents/EYODF/TinyCookbok/TinyExport/TinyArmsAttack/html5/release/artifacts/scripts/tsc-emit.js",
         "sourceMap": true,
         "target": "ES5"
     },
@@ -28,7 +28,7 @@
     ],
     "exclude": [],
     "files": [
-        "TinyExport/TinyArmsAttack/html5/development/artifacts/scripts/bind-generated.d.ts",
-        "Tiny/Dist/runtimedll/RuntimeStripped.d.ts"
+        "TinyExport/TinyArmsAttack/html5/release/artifacts/scripts/bind-generated.d.ts",
+        "Tiny/Dist/runtimedll/RuntimeFull.d.ts"
     ]
 }
