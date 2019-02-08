@@ -13,7 +13,7 @@
         "DefaultTextureSettings": {
             "$TypeId": 2,
             "Embedded": true,
-            "FormatType": 2,
+            "FormatType": 0,
             "JpgCompressionQuality": 75,
             "WebPCompressionQuality": 60
         },
@@ -57,7 +57,8 @@
         { "Id": "2af0cd3b47a732bf738688ceab312689", "Name": "UTiny.Core" },
         { "Id": "404877ed746affa8a6081ad8161dd8de", "Name": "UTiny.EditorExtensions" },
         { "Id": "a1b50987659c653138795a8f4079fc10", "Name": "UTiny.Math" },
-        { "Id": "ce3f1bd7050540b70d450a606e226ea2", "Name": "UTiny.Shared" }
+        { "Id": "ce3f1bd7050540b70d450a606e226ea2", "Name": "UTiny.Shared" },
+        { "Id": "cd1ae683363949ea92da584c67967815", "Name": "Main" }
     ],
     "StartupEntityGroup": { "Id": "10cf844cf48743e08d280578fc8976ec", "Name": "NewEntityGroup" }
 },

@@ -79,5 +79,8 @@
         }
     }, {
         "Type": { "Id": "38283a6cef9faa790b5c9936163d59e3", "Name": "Physics2DConfig" }
+    }, {
+        "Type": { "Id": "cdbe32251f64fe02b9238ac74fb5dca6", "Name": "PlayableAdInfo" },
+        "Properties": {}
     }]
 }]

@@ -12,7 +12,7 @@ namespace game {
 
                 if(destroyAfterSeconds.time >= destroyAfterSeconds.ttl)
                 {
-                    //TODO: Remove the tree destroy
+                    //TODO: Remove the tree destroy as is slow
                     ut.Core2D.TransformService.destroyTree(this.world, entity, true);
                 }
             }); 

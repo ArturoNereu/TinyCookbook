@@ -13,10 +13,18 @@ namespace game {
                 let carDirectionX = car.direction.x;
 
                 // TODO: Avoid asignation every frame
-                if (carDirectionX < 0)
-                    localScale.scale.x = -0.16;
-                else
-                    localScale.scale.x = 0.16
+
+                if(carDirectionX < 0)
+                {
+                    localScale.scale = new Vector3(1, 1, 1);
+                }
+                else if(carDirectionX > 0)
+                {
+                    localScale.scale = new Vector3(-1, 1, 1);
+                }
+
+               
+                console.log(localScale.scale.x);
 
             });    
         }
