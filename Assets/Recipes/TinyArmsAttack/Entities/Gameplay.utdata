@@ -1,7 +1,7 @@
 ﻿[{
     "$TypeId": 4,
     "Id": "520ff58c8a154c0c96c89d73d0ae8213",
-    "Name": "MainGroup",
+    "Name": "Gameplay",
     "ExportFlags": 0,
     "SerializedVersion": 0,
     "Entities": [
@@ -117,16 +117,7 @@
             "sprite": { "$TypeId": 10, "Guid": "42ec7e225b16472499718fb4b75a32d6", "FileId": 21300000, "Type": 3 }
         }
     }, {
-        "Type": { "Id": "895fc39ddd4f4861bb3e703726dd1055", "Name": "Dinosaur" },
-        "Properties": {
-            "dinosaurState": {
-                "$TypeId": 8,
-                "Type": { "Id": "2e638f6e13634e9fa7f541b0b4f11c61", "Name": "DinosaurStates" },
-                "Id": "8db9305155004c658f08a7678939236d",
-                "Name": "walking",
-                "Value": 0
-            }
-        }
+        "Type": { "Id": "895fc39ddd4f4861bb3e703726dd1055", "Name": "Dinosaur" }
     }, {
         "Type": { "Id": "ea57462b0c8f4ef9965e5a6af56b6135", "Name": "Movement" },
         "Properties": {
