@@ -1,7 +1,7 @@
 
 namespace game {
 
-    /** New System */
+    @ut.executeAfter(ut.Shared.InputFence)
     export class DinosaurSystem extends ut.ComponentSystem {
         
         OnUpdate(): void

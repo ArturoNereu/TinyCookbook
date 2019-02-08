@@ -10,9 +10,6 @@ namespace game {
 
                 //TODO: Cache the reference
 
-                //if (hitBoxOverlapResults.overlaps.length > 0)
-                //{
-
                 let dinosaurEntity = this.world.getEntityByName("Dinosaur");
                 let dinosaur = this.world.getComponentData(dinosaurEntity, game.Dinosaur);
 
@@ -34,8 +31,6 @@ namespace game {
                     destroyAfterDelay = new game.DestroyedAfterSeconds();
                     destroyAfterDelay.ttl = 0.5;
                     this.world.addComponentData(explosion, destroyAfterDelay);
-
-                    //ut.Core2D.TransformService.destroyTree(this.world, entity);
                 }
             });
         }
