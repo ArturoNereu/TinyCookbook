@@ -7,7 +7,6 @@ A cookbook like series of resources for learning to use Unity's Project Tiny
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/263776/52509429-16f22e00-2bc6-11e9-8bcc-cbde93274146.gif>
-</img>
 </p>
 
 ## Mini Recipes
