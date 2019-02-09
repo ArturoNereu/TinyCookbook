@@ -35,7 +35,7 @@
         { "$TypeId": 9, "Id": "423003b3ba164e60a0ce641d70ad35c3", "Name": "City_Floor" },
         { "$TypeId": 9, "Id": "03fd9e7dd3004e86b607159ce1f29461", "Name": "City_Floor" },
         { "$TypeId": 9, "Id": "0ab3a6d706ba4a64b832a23a660c166a", "Name": "City_Floor" },
-        { "$TypeId": 9, "Id": "4cc4d2a1ee2744f194835f0f43b55082", "Name": "Gem_Egg_Plain" },
+        { "$TypeId": 9, "Id": "4cc4d2a1ee2744f194835f0f43b55082", "Name": "Egg" },
         { "$TypeId": 9, "Id": "30b858c007294a9b8f51dcbf36862a36", "Name": "Shadow_Big" }
     ]
 },
@@ -294,7 +294,7 @@
             "speed": -30
         }
     }, {
-        "Type": { "Id": "3a14623874744fe4aca7630383a85dae", "Name": "Hellicopter" }
+        "Type": { "Id": "3a14623874744fe4aca7630383a85dae", "Name": "Helicopter" }
     }, {
         "Type": { "Id": "a015bc52c7befa4d7484891d74d2b574", "Name": "RectHitBox2D" },
         "Properties": {
@@ -1257,8 +1257,8 @@
 {
     "$TypeId": 5,
     "Id": "4cc4d2a1ee2744f194835f0f43b55082",
-    "Name": "Gem_Egg_Plain",
-    "Enabled": false,
+    "Name": "Egg",
+    "Enabled": true,
     "Static": false,
     "Layer": 0,
     "Components": [{
@@ -1298,6 +1298,21 @@
         "Properties": {
             "layer": 881099001
         }
+    }, {
+        "Type": { "Id": "a015bc52c7befa4d7484891d74d2b574", "Name": "RectHitBox2D" },
+        "Properties": {
+            "box": {
+                "Type": { "Id": "f216da154c4054842adb590807e977ba", "Name": "Rect" },
+                "Properties": {
+                    "x": -10,
+                    "y": -10,
+                    "width": 20,
+                    "height": 20
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "0475784705114b1080fedbd9236eccff", "Name": "Egg" }
     }]
 },
 {
