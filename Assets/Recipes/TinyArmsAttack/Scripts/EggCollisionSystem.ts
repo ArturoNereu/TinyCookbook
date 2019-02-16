@@ -1,9 +1,8 @@
 
-namespace game {
-
-    /** New System */
-    export class EggCollisionSystem extends ut.ComponentSystem {
-        
+namespace game 
+{
+    export class EggCollisionSystem extends ut.ComponentSystem 
+    {    
         OnUpdate():void 
         {
             this.world.forEach([ut.Entity, ut.HitBox2D.HitBoxOverlapResults, ut.Core2D.TransformLocalPosition, game.Egg], (entity, hitBoxOverlapResults, transformLocalPosition, egg) =>
@@ -14,8 +13,6 @@ namespace game {
 
                     if(this.world.exists(otherEntity) && this.world.hasComponent(otherEntity, game.Helicopter))
                     {
-                        //this.world.addComponent(entity, game.DestroyedAfterSeconds);
-
                         game.GameService.restart(this.world);
                     }
                 }

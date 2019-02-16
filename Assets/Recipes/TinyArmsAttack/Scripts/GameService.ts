@@ -1,7 +1,6 @@
 
-namespace game {
-
-    /** New System */
+namespace game 
+{
     export class GameService
     {
         static restart(world: ut.World)

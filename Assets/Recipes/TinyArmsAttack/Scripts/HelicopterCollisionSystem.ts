@@ -1,8 +1,7 @@
 
-namespace game {
-
-    /** New System */
-    export class HelicopterSystem extends ut.ComponentSystem {
+namespace game 
+{
+    export class HelicopterCollisionSystem extends ut.ComponentSystem {
         
         OnUpdate(): void
         {
@@ -22,7 +21,7 @@ namespace game {
                     expPos = transformLocalPositon;
                     this.world.setComponentData(explosion, expPos);
 
-                    //Destroy the hellicopter inmediatly
+                    //Destroy the hellicopter immediately
                     let destroyAfterDelay = new game.DestroyedAfterSeconds();
                     destroyAfterDelay.ttl = 0;
                     this.world.addComponentData(entity, destroyAfterDelay);

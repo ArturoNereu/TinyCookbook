@@ -1,18 +1,19 @@
 
-namespace game {
-
-    /** New System */
-    export class DestroyAfterTimeSystem extends ut.ComponentSystem {
-        
-        OnUpdate():void {
+namespace game 
+{
+    export class DestroyAfterTimeSystem extends ut.ComponentSystem 
+    {
+        OnUpdate():void 
+        {
+            let dt = this.scheduler.deltaTime();
 
             this.world.forEach([ut.Entity, game.DestroyedAfterSeconds], (entity, destroyAfterSeconds) => 
             {
-                destroyAfterSeconds.time += this.scheduler.deltaTime();
+                destroyAfterSeconds.time += dt;
 
                 if(destroyAfterSeconds.time >= destroyAfterSeconds.ttl)
                 {
-                    //TODO: Remove the tree destroy as is slow
+                    // This function call is slow, be mindful when using it
                     ut.Core2D.TransformService.destroyTree(this.world, entity, true);
                 }
             }); 
