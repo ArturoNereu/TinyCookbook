@@ -135,10 +135,10 @@
             "box": {
                 "Type": { "Id": "f216da154c4054842adb590807e977ba", "Name": "Rect" },
                 "Properties": {
-                    "x": -44.41,
-                    "y": -24.27,
-                    "width": 100,
-                    "height": 50
+                    "x": 18.2,
+                    "y": -7.6,
+                    "width": 25,
+                    "height": 25
                 }
             }
         }
@@ -294,7 +294,7 @@
             "speed": -30
         }
     }, {
-        "Type": { "Id": "3a14623874744fe4aca7630383a85dae", "Name": "Helicopter" }
+        "Type": { "Id": "3a14623874744fe4aca7630383a85dae", "Name": "Hellicopter" }
     }, {
         "Type": { "Id": "a015bc52c7befa4d7484891d74d2b574", "Name": "RectHitBox2D" },
         "Properties": {

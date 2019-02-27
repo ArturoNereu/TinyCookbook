@@ -2,7 +2,7 @@
     "compilerOptions": {
         "experimentalDecorators": true,
         "skipLibCheck": true,
-        "outFile": "/Users/nereu/Documents/EYODF/TinyCookbok/TinyExport/TinyArmsAttack/html5/development/artifacts/scripts/tsc-emit.js",
+        "outFile": "C:/Users/HDgam/Documents/EYODF/TinyCookbok/TinyExport/TinyArmsAttack/html5/development/artifacts/scripts/tsc-emit.js",
         "sourceMap": true,
         "target": "ES5"
     },
