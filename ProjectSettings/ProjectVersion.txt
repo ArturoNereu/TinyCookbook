@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 m_EditorVersion: 2019.1.0b6
 m_EditorVersionWithRevision: 2019.1.0b6 (e3cf6cb42b7c)
+=======
+m_EditorVersion: 2018.3.4f1
+>>>>>>> parent of 14b7d96... Restored Helicopter
