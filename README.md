@@ -1,6 +1,8 @@
 # Tiny Cookbok
 A cookbook like series of resources for learning to use Unity's Project Tiny
 
+##PLEASE NOTE C# IS COMING TO TINY, SO WHEN C# LANDS, I WILL BE UPDATING AND ADDING MORE STUFF TO THIS REPOSITORY.
+
 <p align="center">
 <img src="https://user-images.githubusercontent.com/263776/52322817-85f23b80-29a8-11e9-859e-b04460736d7e.png">
 </p>
