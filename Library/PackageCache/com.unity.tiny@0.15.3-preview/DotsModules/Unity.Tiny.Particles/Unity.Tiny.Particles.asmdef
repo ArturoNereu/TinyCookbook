@@ -1,0 +1,22 @@
+{
+    "name": "Unity.Tiny.Particles",
+    "references": [
+        "Unity.Entities",
+        "Unity.Entities.CPlusPlus",
+        "Unity.Mathematics",
+        "Unity.Tiny.Core",
+        "Unity.Tiny.Core2D",
+        "Unity.Tiny.Core2DTypes",
+        "Unity.Tiny.Interpolation",
+        "Unity.Tiny.Sprite2D"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}

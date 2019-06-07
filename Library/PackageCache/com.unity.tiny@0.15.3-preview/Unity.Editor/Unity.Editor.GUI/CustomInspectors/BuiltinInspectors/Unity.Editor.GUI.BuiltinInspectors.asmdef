@@ -1,0 +1,28 @@
+{
+    "name": "Unity.Editor.GUI.BuiltinInspectors",
+    "references": [
+        "Unity.Authoring",
+        "Unity.Editor",
+        "Unity.Editor.Hybrid",
+        "Unity.Entities",
+        "Unity.InternalAPIEditorBridge.002",
+        "Unity.Mathematics",
+        "Unity.Tiny.Core",
+        "Unity.Tiny.Core2D",
+        "Unity.Tiny.Core2DTypes",
+        "Unity.Tiny.Scenes",
+        "Unity.Tiny.Text",
+        "Unity.Tiny.UILayout",
+        "Unity.Authoring.Core"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": []
+}

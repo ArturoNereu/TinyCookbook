@@ -1,0 +1,8 @@
+﻿using Unity.Entities;
+
+public class {{SystemName}} : ComponentSystem
+{
+    protected override void OnUpdate()
+    {
+    }
+}

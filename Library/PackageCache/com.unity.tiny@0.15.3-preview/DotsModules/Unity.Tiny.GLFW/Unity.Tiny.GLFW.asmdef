@@ -1,0 +1,15 @@
+{
+    "name": "Unity.Tiny.GLFW",
+    "references": [
+      "Unity.Entities",
+      "Unity.Mathematics",
+      "Unity.Tiny.Core",
+      "Unity.Tiny.Core2D",
+      "Unity.Entities.CPlusPlus",
+      "Unity.Tiny.Debugging"
+    ],
+    "optionalUnityReferences": [],
+    "excludePlatforms": [ "WebGL" ],
+    "allowUnsafeCode": true,
+    "cpp": [ "cpp~"]
+}

@@ -1,0 +1,142 @@
+.unity-ecs-component
+{
+    border-bottom-width: 1px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 5px;
+}
+
+.unity-ecs-component--no-field
+{
+    padding-left: 16px;
+    margin-bottom: 0;
+    -unity-text-align: middle-left;
+}
+
+.unity-ecs-component--with-field
+{
+}
+
+.unity-ecs-component--label
+{
+    font-size: 12px;
+    height:20px;
+    -unity-font-style: bold;
+    padding-left: 3px;
+    padding-right: 0px;
+    margin-bottom: 0px;
+
+}
+
+.unity-ecs-component--toggle
+{
+    padding-left: 15px;
+}
+
+.unity-ecs-component--toggle Toggle
+{
+    padding-bottom: 4px;
+}
+
+.unity-ecs-struct > .unity-base-field
+{
+    margin-bottom: 4px;
+}
+
+
+.unity-ecs-add-component-button
+{
+    margin-top: 20px;
+    align-self: center;
+    min-width: 250px;
+    max-width: 500px;
+    height: 24px;
+}
+
+.unity-ecs-add-buffer-item
+{
+    width:80px;
+    margin-left: auto;
+}
+
+.unity-ecs-component-menu {
+    width: 15px;
+    height: 14px;
+    align-self: center;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    margin-top: 1px;
+    margin-top: 0px;
+    -unity-slice-left: 0;
+    -unity-slice-right: 0;
+    -unity-slice-top: 0;
+    -unity-slice-bottom: 0;
+}
+
+.unity-ecs-component--no-field .unity-ecs-component-menu
+{
+    align-self: flex-end;
+}
+
+
+.unity-ecs-component-type-missing__button
+{
+    width:150px;
+    align-self: center;
+}
+
+// TO MIGRATE
+
+.unity-ecs-components__container
+{
+	padding-bottom:15px;
+}
+
+.tiny-type-not-found
+{
+	color : #FF0000;
+}
+
+
+.tiny-module-button
+{
+	align-self: center;
+	min-width: 250px;
+	max-width: 500px;
+	height: 24px;
+}
+
+.tiny-component-content
+{
+}
+
+.tiny-entity-header
+{
+	border-color: #2b2c2d;
+	border-bottom-width:4px;
+}
+
+.tiny-overriden-value Label
+{
+    -unity-font-style: bold;
+}
+
+.tiny-default-value Label
+{
+	-unity-font-style: normal;
+}
+
+.tiny-struct-label
+{
+}
+
+.tiny-list-item
+{
+	margin-top: 1px;
+	margin-bottom: 1px;
+	background-color: #424242;
+	border-color: #2b2c2d;
+	border-bottom-width:2px;
+}

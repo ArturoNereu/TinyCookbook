@@ -1,0 +1,1 @@
+..\..\il2cpp-deps\artifacts\Stevedore\roslyn-csc-win64\csc.exe "/target:library" "/platform:anycpu" "/noconfig" "/nostdlib" "/nologo" "/unsafe" "/shared" "/out:../build/Dots/mscorlib.dll" "/RuntimeMetadataVersion:v4.0.30319" "/debug-" "/optimize+" "/define:CSC" "Math.cs" "mscorlib.cs"

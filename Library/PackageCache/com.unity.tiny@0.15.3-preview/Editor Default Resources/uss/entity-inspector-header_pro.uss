@@ -1,0 +1,11 @@
+.unity-ecs-inspector--entity-header
+{
+    border-color: #222222;
+    background-color: #404040;
+}
+
+
+.unity-ecs-inspector--entity-header-icon
+{
+    background-image:resource("Packages/com.unity.tiny/Editor Default Resources/icons/d_entity.png");
+}

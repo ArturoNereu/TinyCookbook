@@ -1,0 +1,26 @@
+{
+  "name": "Unity.Tiny.RendererCanvas",
+  "references": [
+    "Unity.Entities",
+    "Unity.Entities.CPlusPlus",
+    "Unity.Mathematics",
+    "Unity.Tiny.Math",
+    "Unity.Tiny.Core",
+    "Unity.Tiny.Core2D",
+    "Unity.Tiny.Core2DTypes",
+    "Unity.Tiny.Image2D",
+    "Unity.Tiny.Sprite2D",
+    "Unity.Tiny.Renderer",
+    "Unity.Tiny.Image2DIOHTML",
+    "Unity.Tiny.HTML",
+    "Unity.Tiny.Debugging",
+    "Unity.Tiny.Text",
+    "Unity.Tiny.TextHTML"
+  ],
+  "optionalUnityReferences": [],
+  "includePlatforms": [
+    "WebGL"
+  ],
+  "allowUnsafeCode": true,
+  "cpp": [ "cpp~" ]
+}

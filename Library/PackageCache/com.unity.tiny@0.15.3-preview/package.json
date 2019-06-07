@@ -1,0 +1,62 @@
+{
+  "name": "com.unity.tiny",
+  "displayName": "Project Tiny",
+  "version": "0.15.3-preview",
+  "unity": "2019.2",
+  "unityRelease": "0b3",
+  "description": "Project Tiny enables you to create lightweight Web-based games using the Unity Editor.",
+  "keywords": [
+    "tiny",
+    "instant",
+    "playables",
+    "html5",
+    "canvas"
+  ],
+  "dependencies": {
+    "com.unity.searcher": "4.0.0-preview",
+    "com.unity.entities": "0.0.12-preview.33",
+    "com.unity.ext.nunit": "1.0.0",
+    "com.unity.properties": "0.5.0-preview",
+    "com.unity.test-framework": "1.0.13",
+    "com.unity.test-framework.performance": "1.2.0-preview",
+    "nuget.mono-cecil": "0.1.6-preview",
+    "com.unity.textmeshpro": "2.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Unity-Technologies/dots.git",
+    "revision": "94f9a1962bbbb78e42a5b4615295dde519c174cc"
+  },
+  "samples": [
+    {
+      "displayName": "BrowserInterop",
+      "description": "A sample project to demonstrate how C# code can interact with JS and back.",
+      "path": "Samples~/BrowserInterop"
+    },
+    {
+      "displayName": "Drag and Drop",
+      "description": "A puzzle game aims to show how to use inputs and make a drag and drop functionality.",
+      "path": "Samples~/DragAndDrop"
+    },
+    {
+      "displayName": "HelloWorld",
+      "description": "A simple project illustrates how to make sprite rotating on screen over time",
+      "path": "Samples~/HelloWorld"
+    },
+    {
+      "displayName": "Joystick",
+      "description": "A sample project shows how to create a virtual UI joystick and use it to control character movements.",
+      "path": "Samples~/Joystick"
+    },
+    {
+      "displayName": "Spawn and Destroy",
+      "description": "A sample project shows how to load, initialize and unload scenes.",
+      "path": "Samples~/SpawnAndDestroy"
+    },
+    {
+      "displayName": "Timer Button",
+      "description": "A sample project shows how to setup a UILayout, do actions on the press of a button and handle a countdown timer.",
+      "path": "Samples~/TimerButton"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Unity.Tiny.Image2DIOHTML",
+  "references": [
+    "Unity.Entities",
+    "Unity.Entities.CPlusPlus",
+    "Unity.Mathematics",
+    "Unity.Tiny.Core",
+    "Unity.Tiny.Core2D",
+    "Unity.Tiny.Image2D"
+  ],
+  "optionalUnityReferences": [],
+  "includePlatforms": [
+    "WebGL"
+  ],
+  "allowUnsafeCode": true,
+  "cpp": [ "cpp~" ]
+}

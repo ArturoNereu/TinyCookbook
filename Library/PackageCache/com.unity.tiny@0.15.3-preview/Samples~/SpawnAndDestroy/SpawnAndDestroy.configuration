@@ -1,0 +1,131 @@
+{
+    "FileType": "Scene",
+    "Guid": "46b433b264c69cbd39f04ad2e5d12be8",
+    "SerializedVersion": 1,
+    "AssetReferences": [],
+    "Entities": [{
+        "Components": [{
+            "$type": "Unity.Entities.EntityGuid, Unity.Entities",
+            "a": 6335018445612795137,
+            "b": 10260564924127493909
+        }, {
+            "$type": "Unity.Tiny.Core2D.DisplayInfo, Unity.Tiny.Core2D",
+            "width": 1280,
+            "height": 720,
+            "autoSizeToFrame": true,
+            "orientation": 0,
+            "renderMode": 0
+        }, {
+            "$type": "Unity.Tiny.Scenes.Scenes, Unity.Tiny.Scenes",
+            "Elements": [{
+                "SceneReference": {
+                    "SceneGuid": "bc1e5f83a4144eb1a4fe89e17ddd05fe"
+                }
+            }, {
+                "SceneReference": {
+                    "SceneGuid": "d33d9e1ec53647638e2ced19e739c4ff"
+                }
+            }, {
+                "SceneReference": {
+                    "SceneGuid": "51887903eab8424e9f3f5d8905bb032b"
+                }
+            }, {
+                "SceneReference": {
+                    "SceneGuid": "03929e6e36c2458bafa21f1c20cafc79"
+                }
+            }, {
+                "SceneReference": {
+                    "SceneGuid": "e5066edd185e4705aa2dbae0796d4a27"
+                }
+            }, {
+                "SceneReference": {
+                    "SceneGuid": "59d7286c4cf74357b2c7c30c19620ac7"
+                }
+            }, {
+                "SceneReference": {
+                    "SceneGuid": "d6346fd7989947d3871ca431d0a1e020"
+                }
+            }, {
+                "SceneReference": {
+                    "SceneGuid": "7cb809e9b11344e2a2f6021fb4a1ee18"
+                }
+            }, {
+                "SceneReference": {
+                    "SceneGuid": "f8705d1badf048e5a7e1533fa5288cd5"
+                }
+            }, {
+                "SceneReference": {
+                    "SceneGuid": "0ff8464a424e402f81d4a2a1334d9ac5"
+                }
+            }]
+        }, {
+            "$type": "Unity.Tiny.Scenes.StartupScenes, Unity.Tiny.Scenes",
+            "Elements": [{
+                "SceneReference": {
+                    "SceneGuid": "f8705d1badf048e5a7e1533fa5288cd5"
+                }
+            }]
+        }, {
+            "$type": "Unity.Authoring.Core.ComponentOrder, Unity.Authoring.Core",
+            "Elements": [{
+                "StableTypeHash": 7960064150805274675
+            }, {
+                "StableTypeHash": 12662904853204722592
+            }, {
+                "StableTypeHash": 13503913488219737475
+            }, {
+                "StableTypeHash": 15423444761783295555
+            }, {
+                "StableTypeHash": 7454656512470500210
+            }, {
+                "StableTypeHash": 4834617717663829331
+            }, {
+                "StableTypeHash": 11690233796320381305
+            }, {
+                "StableTypeHash": 5528516508086712239
+            }, {
+                "StableTypeHash": 3069129106143212049
+            }]
+        }, {
+            "$type": "SpawnAndDestroy.AllyShips, SpawnAndDestroy",
+            "Elements": [{
+                "Ship": {
+                    "SceneGuid": "bc1e5f83a4144eb1a4fe89e17ddd05fe"
+                }
+            }, {
+                "Ship": {
+                    "SceneGuid": "d33d9e1ec53647638e2ced19e739c4ff"
+                }
+            }, {
+                "Ship": {
+                    "SceneGuid": "e5066edd185e4705aa2dbae0796d4a27"
+                }
+            }, {
+                "Ship": {
+                    "SceneGuid": "59d7286c4cf74357b2c7c30c19620ac7"
+                }
+            }]
+        }, {
+            "$type": "SpawnAndDestroy.EnemyShips, SpawnAndDestroy",
+            "Elements": [{
+                "Ship": {
+                    "SceneGuid": "51887903eab8424e9f3f5d8905bb032b"
+                }
+            }, {
+                "Ship": {
+                    "SceneGuid": "03929e6e36c2458bafa21f1c20cafc79"
+                }
+            }, {
+                "Ship": {
+                    "SceneGuid": "7cb809e9b11344e2a2f6021fb4a1ee18"
+                }
+            }, {
+                "Ship": {
+                    "SceneGuid": "d6346fd7989947d3871ca431d0a1e020"
+                }
+            }]
+        }, {
+            "$type": "Unity.Authoring.Core.ConfigurationTag, Unity.Authoring.Core"
+        }]
+    }]
+}

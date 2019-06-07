@@ -1,0 +1,7 @@
+[*]
+# Mono code has trailing whitespace in many places, so don't trim it.
+trim_trailing_whitespace = false
+
+# Mono code uses four space tabs - match that style
+indent_size = 4
+indent_style = tab

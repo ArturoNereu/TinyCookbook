@@ -1,0 +1,22 @@
+{
+    "name": "Unity.Tiny.EntryPoint",
+    "references": [
+        "Unity.Authoring",
+        "Unity.Authoring.Core",
+        "Unity.Collections",
+        "Unity.Entities",
+        "Unity.Tiny.Core",
+        "Unity.Tiny.Debugging",
+        "Unity.Tiny.Scenes"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "UNITY_DOTS_ENTRYPOINT"
+    ],
+    "versionDefines": []
+}

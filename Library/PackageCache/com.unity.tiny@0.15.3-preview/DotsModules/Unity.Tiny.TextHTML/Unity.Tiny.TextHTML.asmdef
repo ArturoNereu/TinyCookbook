@@ -1,0 +1,28 @@
+{
+    "name": "Unity.Tiny.TextHTML",
+    "references": [
+        "Unity.Authoring.Core",
+        "Unity.Mathematics",
+        "Unity.Entities.CPlusPlus",
+        "Unity.Entities",
+        "Unity.Tiny.Core",
+        "Unity.Tiny.Core2D",
+        "Unity.Tiny.Core2DTypes",
+        "Unity.Tiny.Image2D",
+        "Unity.Tiny.UILayout",
+        "Unity.Tiny.Text",
+        "Unity.Tiny.Image2DIOHTML",
+        "Unity.Tiny.HTML",
+        "Unity.Tiny.Debugging"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "WebGL"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

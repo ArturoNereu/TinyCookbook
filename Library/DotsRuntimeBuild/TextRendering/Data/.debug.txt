@@ -1,0 +1,4 @@
+06d0a78b7523e833ed43a2db99db271e = "Assets"
+0e0864cee53443b9a2fc4f180f357e2a = "Assets/Recipes/TextRendering/Scenes/MainScene.scene"
+e7849c7aac5de23a38c0c005d14f984f = "Assets/TextMesh Pro/Fonts/PixellariExtended.asset"
+46b433b264c69cbd39f04ad2e5d12be8 = "Configuration"

@@ -1,0 +1,29 @@
+{
+    "name": "Unity.Tiny.UILayout.Editor",
+    "references": [
+        "Unity.Entities",
+        "Unity.Tiny.UILayout",
+        "Unity.Tiny.Core2D",
+        "Unity.Tiny.Core2D.Editor",
+        "Unity.Mathematics",
+        "Unity.Tiny.Core2DTypes",
+        "Unity.Tiny.Core2DTypes.Editor",
+        "Unity.Tiny.Sprite2D",
+        "Unity.Tiny.Sprite2D.Editor",
+        "Unity.Editor",
+        "Unity.ugui",
+        "Unity.Authoring",
+        "Unity.InternalAPIEditorBridge.002",
+        "Unity.Editor.Hybrid"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": []
+}

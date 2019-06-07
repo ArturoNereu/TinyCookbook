@@ -1,0 +1,23 @@
+{
+    "name": "Unity.Tiny.Scenes",
+    "references": [
+        "Unity.Authoring",
+        "Unity.Authoring.Core",
+        "Unity.Burst",
+        "Unity.Collections",
+        "Unity.Entities",
+        "Unity.Entities.CPlusPlus",
+        "Unity.Mathematics",
+        "Unity.Tiny.Codec",
+        "Unity.Tiny.Core",
+        "Unity.Tiny.Debugging",
+        "Unity.Tiny.IO"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": []
+}

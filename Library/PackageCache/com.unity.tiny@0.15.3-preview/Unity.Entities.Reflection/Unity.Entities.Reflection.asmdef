@@ -1,0 +1,17 @@
+{
+    "name": "Unity.Entities.Reflection",
+    "references": [
+        "Unity.InternalAPIEditorBridge.002",
+        "Unity.Entities.Properties"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": []
+}

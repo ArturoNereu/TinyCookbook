@@ -1,0 +1,14 @@
+{
+    "name": "Unity.Tiny.Interpolation",
+    "references": [
+        "Unity.Entities",
+        "Unity.Entities.CPlusPlus",
+        "Unity.Mathematics",
+        "Unity.Tiny.Core",
+        "Unity.Tiny.Core2DTypes"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+	"allowUnsafeCode": true
+}

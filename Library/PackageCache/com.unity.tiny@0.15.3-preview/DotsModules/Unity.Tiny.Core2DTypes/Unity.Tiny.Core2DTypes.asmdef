@@ -1,0 +1,18 @@
+{
+    "name": "Unity.Tiny.Core2DTypes",
+    "references": [
+      "Unity.Entities",
+      "Unity.Entities.CPlusPlus",
+      "Unity.Tiny.Core",
+      "Unity.Mathematics",
+      "Unity.Authoring.Core"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

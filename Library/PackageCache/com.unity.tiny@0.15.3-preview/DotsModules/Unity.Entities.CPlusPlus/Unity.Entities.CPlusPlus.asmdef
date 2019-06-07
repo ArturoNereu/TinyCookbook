@@ -1,0 +1,10 @@
+{
+    "name": "Unity.Entities.CPlusPlus",
+    "references": [
+        "Unity.Entities"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+	"allowUnsafeCode": true
+}

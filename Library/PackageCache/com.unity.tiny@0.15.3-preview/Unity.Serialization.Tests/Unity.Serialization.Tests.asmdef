@@ -1,0 +1,21 @@
+{
+    "name": "Unity.Serialization.Tests",
+    "references": [
+        "Unity.Serialization",
+        "Unity.PerformanceTesting",
+        "Unity.Collections"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": []
+}
