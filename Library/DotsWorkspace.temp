@@ -1,0 +1,355 @@
+{
+    "SerializedVersion": 2,
+    "ProjectAssetGuid": "cb5873d4547e34b019ce0ba2ee428b39",
+    "Scenes": [{
+        "SceneGuid": {
+            "Guid": "9ab787abb71c45fda9a44ac84b780c9d"
+        },
+        "SceneInstanceId": {
+            "InstanceId": 37
+        }
+    }],
+    "Entities": [{
+        "Components": [{
+            "$type": "Unity.Tiny.Core2D.Parent, Unity.Tiny.Core2D"
+        }, {
+            "$type": "Unity.Authoring.Core.SiblingIndex, Unity.Authoring.Core"
+        }, {
+            "$type": "Unity.Entities.EntityGuid, Unity.Entities",
+            "a": 13363074631291325589,
+            "b": 10813549148531174005
+        }, {
+            "$type": "Unity.Tiny.Core2D.Camera2D, Unity.Tiny.Core2D",
+            "halfVerticalSize": 5.5,
+            "rect": {
+                "width": 1,
+                "height": 1
+            },
+            "backgroundColor": {
+                "a": 1
+            },
+            "clearFlags": 1,
+            "cullingMode": 0
+        }, {
+            "$type": "Unity.Tiny.Core2D.Translation, Unity.Tiny.Core2D",
+            "Value": {
+                "z": -2.67
+            }
+        }, {
+            "$type": "Unity.Tiny.Core.EntityName, Unity.Tiny.Core",
+            "Elements": [{
+                "c": "C"
+            }, {
+                "c": "a"
+            }, {
+                "c": "m"
+            }, {
+                "c": "e"
+            }, {
+                "c": "r"
+            }, {
+                "c": "a"
+            }]
+        }, {
+            "$type": "Unity.Authoring.Core.ComponentOrder, Unity.Authoring.Core",
+            "Elements": [{
+                "StableTypeHash": 7960064150805274675
+            }, {
+                "StableTypeHash": 793987765392955020
+            }, {
+                "StableTypeHash": 12662904853204722592
+            }, {
+                "StableTypeHash": 742575471234645341
+            }, {
+                "StableTypeHash": 266869500686333426
+            }, {
+                "StableTypeHash": 874803706151837934
+            }]
+        }, {
+            "$type": "Unity.Tiny.Scenes.SceneGuid, Unity.Tiny.Scenes",
+            "Guid": "9ab787abb71c45fda9a44ac84b780c9d"
+        }, {
+            "$type": "Unity.Tiny.Scenes.SceneInstanceId, Unity.Tiny.Scenes",
+            "InstanceId": 37
+        }]
+    }, {
+        "Components": [{
+            "$type": "Unity.Authoring.Core.AssetReference, Unity.Authoring.Core",
+            "Guid": "54a71840937aa17488958e4fec39aadc",
+            "FileId": 2800000,
+            "Type": 3
+        }, {
+            "$type": "Unity.Tiny.Core2D.Image2DLoadFromFile, Unity.Tiny.Image2D"
+        }, {
+            "$type": "Unity.Tiny.Core2D.Image2D, Unity.Tiny.Image2D",
+            "imagePixelSize": {
+                "x": 1024,
+                "y": 1024
+            },
+            "hasAlpha": true,
+            "status": 0
+        }, {
+            "$type": "Unity.Entities.EntityGuid, Unity.Entities",
+            "a": 17391532466007255369,
+            "b": 17063243778227914659
+        }, {
+            "$type": "Unity.Authoring.Core.ComponentOrder, Unity.Authoring.Core",
+            "Elements": [{
+                "StableTypeHash": 7960064150805274675
+            }, {
+                "StableTypeHash": 9220594566207582347
+            }, {
+                "StableTypeHash": 14707027362875060486
+            }, {
+                "StableTypeHash": 12662904853204722592
+            }, {
+                "StableTypeHash": 18416684045041807316
+            }]
+        }, {
+            "$type": "Unity.Tiny.Core2D.Image2DLoadFromFileImageFile, Unity.Tiny.Image2D",
+            "Elements": [{
+                "s": "D"
+            }, {
+                "s": "a"
+            }, {
+                "s": "t"
+            }, {
+                "s": "a"
+            }, {
+                "s": "/"
+            }, {
+                "s": "f"
+            }, {
+                "s": "1"
+            }, {
+                "s": "5"
+            }, {
+                "s": "b"
+            }, {
+                "s": "2"
+            }, {
+                "s": "2"
+            }, {
+                "s": "a"
+            }, {
+                "s": "2"
+            }, {
+                "s": "3"
+            }, {
+                "s": "0"
+            }, {
+                "s": "0"
+            }, {
+                "s": "9"
+            }, {
+                "s": "2"
+            }, {
+                "s": "9"
+            }, {
+                "s": "4"
+            }, {
+                "s": "9"
+            }, {
+                "s": "e"
+            }, {
+                "s": "c"
+            }, {
+                "s": "c"
+            }, {
+                "s": "c"
+            }, {
+                "s": "d"
+            }, {
+                "s": "1"
+            }, {
+                "s": "c"
+            }, {
+                "s": "f"
+            }, {
+                "s": "b"
+            }, {
+                "s": "5"
+            }, {
+                "s": "2"
+            }, {
+                "s": "b"
+            }, {
+                "s": "4"
+            }, {
+                "s": "7"
+            }, {
+                "s": "a"
+            }, {
+                "s": "3"
+            }]
+        }]
+    }, {
+        "Components": [{
+            "$type": "Unity.Tiny.Scenes.ActiveScene, Unity.Tiny.Scenes",
+            "Scene": {
+                "SceneGuid": {
+                    "Guid": "9ab787abb71c45fda9a44ac84b780c9d"
+                },
+                "SceneInstanceId": {
+                    "InstanceId": 37
+                }
+            }
+        }, {
+            "$type": "Unity.Entities.EntityGuid, Unity.Entities",
+            "a": 11629293644212424034,
+            "b": 10147735208253189095
+        }, {
+            "$type": "Unity.Tiny.Core2D.DisplayInfo, Unity.Tiny.Core2D",
+            "width": 1280,
+            "height": 720,
+            "autoSizeToFrame": true,
+            "orientation": 0,
+            "renderMode": 0
+        }, {
+            "$type": "Unity.Tiny.Scenes.Scenes, Unity.Tiny.Scenes",
+            "Elements": [{
+                "SceneReference": {
+                    "SceneGuid": "7c375991dee54238a4b7c2c74ade302c"
+                }
+            }, {
+                "SceneReference": {
+                    "SceneGuid": "9ab787abb71c45fda9a44ac84b780c9d"
+                }
+            }]
+        }, {
+            "$type": "Unity.Tiny.Scenes.StartupScenes, Unity.Tiny.Scenes",
+            "Elements": [{
+                "SceneReference": {
+                    "SceneGuid": "7c375991dee54238a4b7c2c74ade302c"
+                }
+            }, {
+                "SceneReference": {
+                    "SceneGuid": "9ab787abb71c45fda9a44ac84b780c9d"
+                }
+            }]
+        }, {
+            "$type": "Unity.Tiny.Scenes.WorkspaceScenes, Unity.Tiny.Scenes",
+            "Elements": [{
+                "Scene": {
+                    "SceneGuid": {
+                        "Guid": "9ab787abb71c45fda9a44ac84b780c9d"
+                    },
+                    "SceneInstanceId": {
+                        "InstanceId": 37
+                    }
+                },
+                "ChangeVersion": 2
+            }]
+        }, {
+            "$type": "Unity.Authoring.Core.ComponentOrder, Unity.Authoring.Core",
+            "Elements": [{
+                "StableTypeHash": 7960064150805274675
+            }, {
+                "StableTypeHash": 12662904853204722592
+            }]
+        }, {
+            "$type": "Unity.Authoring.Core.ConfigurationTag, Unity.Authoring.Core"
+        }]
+    }, {
+        "Components": [{
+            "$type": "Unity.Tiny.Core2D.Sprite2D, Unity.Tiny.Sprite2D",
+            "image": "f15b22a230092949ecccd1cfb52b47a3",
+            "imageRegion": {
+                "width": 1,
+                "height": 1
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pixelsToWorldUnits": 0.01
+        }, {
+            "$type": "Unity.Authoring.Core.AssetReference, Unity.Authoring.Core",
+            "Guid": "54a71840937aa17488958e4fec39aadc",
+            "FileId": 21300000,
+            "Type": 3
+        }, {
+            "$type": "Unity.Entities.EntityGuid, Unity.Entities",
+            "a": 13870171921164377187,
+            "b": 10311170137419231438
+        }, {
+            "$type": "Unity.Authoring.Core.ComponentOrder, Unity.Authoring.Core",
+            "Elements": [{
+                "StableTypeHash": 7960064150805274675
+            }, {
+                "StableTypeHash": 14532146675218703721
+            }, {
+                "StableTypeHash": 12662904853204722592
+            }]
+        }]
+    }, {
+        "Components": [{
+            "$type": "Unity.Tiny.Core2D.Parent, Unity.Tiny.Core2D"
+        }, {
+            "$type": "Unity.Tiny.Core2D.Sprite2DRenderer, Unity.Tiny.Sprite2D",
+            "sprite": "c07cbfdffe999c638f18a29beb7d30ce",
+            "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+            },
+            "blending": 0
+        }, {
+            "$type": "Unity.Authoring.Core.SiblingIndex, Unity.Authoring.Core",
+            "Index": 1
+        }, {
+            "$type": "Rotate, SpriteRotation",
+            "speed": 0.5
+        }, {
+            "$type": "Unity.Entities.EntityGuid, Unity.Entities",
+            "a": 6183771144155908069,
+            "b": 13629831534766977325
+        }, {
+            "$type": "Unity.Tiny.Core2D.Rotation, Unity.Tiny.Core2D",
+            "Value": {
+                "value": {
+                    "w": 1
+                }
+            }
+        }, {
+            "$type": "Unity.Tiny.Core.EntityName, Unity.Tiny.Core",
+            "Elements": [{
+                "c": "P"
+            }, {
+                "c": "l"
+            }, {
+                "c": "a"
+            }, {
+                "c": "n"
+            }, {
+                "c": "e"
+            }, {
+                "c": "t"
+            }]
+        }, {
+            "$type": "Unity.Authoring.Core.ComponentOrder, Unity.Authoring.Core",
+            "Elements": [{
+                "StableTypeHash": 7960064150805274675
+            }, {
+                "StableTypeHash": 793987765392955020
+            }, {
+                "StableTypeHash": 12932679046359085526
+            }, {
+                "StableTypeHash": 12662904853204722592
+            }, {
+                "StableTypeHash": 9104342357061045742
+            }, {
+                "StableTypeHash": 874803706151837934
+            }, {
+                "StableTypeHash": 18167363217417164782
+            }]
+        }, {
+            "$type": "Unity.Tiny.Scenes.SceneGuid, Unity.Tiny.Scenes",
+            "Guid": "9ab787abb71c45fda9a44ac84b780c9d"
+        }, {
+            "$type": "Unity.Tiny.Scenes.SceneInstanceId, Unity.Tiny.Scenes",
+            "InstanceId": 37
+        }]
+    }]
+}

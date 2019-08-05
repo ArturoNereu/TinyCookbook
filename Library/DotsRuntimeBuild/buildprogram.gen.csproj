@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F3D95F66-53FA-A49B-D3CA-DC825058887D}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>buildprogram</RootNamespace>
+    <AssemblyName>buildprogram</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <LangVersion>7.2</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\PackageCache\com.unity.tiny@0.16.1-preview\DotsPlayer\bee~\BuildProgramSources\AsmDefBasedDotsRuntimeCSharpProgram.cs">
+      <Link>AsmDefBasedDotsRuntimeCSharpProgram.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.tiny@0.16.1-preview\DotsPlayer\bee~\BuildProgramSources\AsmDefDescription.cs">
+      <Link>AsmDefDescription.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.tiny@0.16.1-preview\DotsPlayer\bee~\BuildProgramSources\BindGem.cs">
+      <Link>BindGem.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.tiny@0.16.1-preview\DotsPlayer\bee~\BuildProgramSources\BuildProgram.bee.cs">
+      <Link>BuildProgram.bee.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.tiny@0.16.1-preview\DotsPlayer\bee~\BuildProgramSources\BuildProgramConfigFile.cs">
+      <Link>BuildProgramConfigFile.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.tiny@0.16.1-preview\DotsPlayer\bee~\BuildProgramSources\Cache.cs">
+      <Link>Cache.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.tiny@0.16.1-preview\DotsPlayer\bee~\BuildProgramSources\DotsBuildTargets.cs">
+      <Link>DotsBuildTargets.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.tiny@0.16.1-preview\DotsPlayer\bee~\BuildProgramSources\DotsConfigs.cs">
+      <Link>DotsConfigs.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.tiny@0.16.1-preview\DotsPlayer\bee~\BuildProgramSources\DotsLinuxTarget.cs">
+      <Link>DotsLinuxTarget.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.tiny@0.16.1-preview\DotsPlayer\bee~\BuildProgramSources\DotsMacOSTarget.cs">
+      <Link>DotsMacOSTarget.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.tiny@0.16.1-preview\DotsPlayer\bee~\BuildProgramSources\DotsRuntimeCSharpProgram.cs">
+      <Link>DotsRuntimeCSharpProgram.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.tiny@0.16.1-preview\DotsPlayer\bee~\BuildProgramSources\DotsRuntimeCSharpProgramCustomizer.cs">
+      <Link>DotsRuntimeCSharpProgramCustomizer.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.tiny@0.16.1-preview\DotsPlayer\bee~\BuildProgramSources\DotsWebTarget.cs">
+      <Link>DotsWebTarget.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.tiny@0.16.1-preview\DotsPlayer\bee~\BuildProgramSources\DotsWindowsTarget.cs">
+      <Link>DotsWindowsTarget.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.tiny@0.16.1-preview\DotsPlayer\bee~\BuildProgramSources\EditorToolsBuildProgram.cs">
+      <Link>EditorToolsBuildProgram.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.tiny@0.16.1-preview\DotsPlayer\bee~\BuildProgramSources\Il2Cpp.bee.cs">
+      <Link>Il2Cpp.bee.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.tiny@0.16.1-preview\DotsPlayer\bee~\BuildProgramSources\Il2CppCustomLocation.bee.cs">
+      <Link>Il2CppCustomLocation.bee.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.tiny@0.16.1-preview\DotsPlayer\bee~\BuildProgramSources\NPathExtensions.bee.cs">
+      <Link>NPathExtensions.bee.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.tiny@0.16.1-preview\DotsPlayer\bee~\BuildProgramSources\StevedoreUnityCecil.cs">
+      <Link>StevedoreUnityCecil.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.tiny@0.16.1-preview\DotsPlayer\bee~\BuildProgramSources\TinyEmscripten.cs">
+      <Link>TinyEmscripten.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.tiny@0.16.1-preview\DotsPlayer\bee~\BuildProgramSources\TypeRegistrationTool.cs">
+      <Link>TypeRegistrationTool.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.tiny@0.16.1-preview\DotsPlayer\bee~\BuildProgramSources\UnsafeUtility.cs">
+      <Link>UnsafeUtility.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.burst@1.1.2\Runtime\bee~\Burst.bee.cs">
+      <Link>com.unity.burst@1.1.2\Runtime\bee~\Burst.bee.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.tiny@0.16.1-preview\DotsModules\Unity.Tiny.AudioNative\bee~\CustomizerForTinyAudioNative.bee.cs">
+      <Link>com.unity.tiny@0.16.1-preview\DotsModules\Unity.Tiny.AudioNative\bee~\CustomizerForTinyAudioNative.bee.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.tiny@0.16.1-preview\DotsModules\Unity.Tiny.GLFW\bee~\CSharpProgramForTinyGLFW.cs">
+      <Link>com.unity.tiny@0.16.1-preview\DotsModules\Unity.Tiny.GLFW\bee~\CSharpProgramForTinyGLFW.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.tiny@0.16.1-preview\DotsModules\Unity.Tiny.GLFW\bee~\ExternalGLFW.bee.cs">
+      <Link>com.unity.tiny@0.16.1-preview\DotsModules\Unity.Tiny.GLFW\bee~\ExternalGLFW.bee.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.tiny@0.16.1-preview\DotsModules\Unity.Tiny.HTML\bee~\CustomizerForTinyHtml.bee.cs">
+      <Link>com.unity.tiny@0.16.1-preview\DotsModules\Unity.Tiny.HTML\bee~\CustomizerForTinyHtml.bee.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.tiny@0.16.1-preview\DotsModules\Unity.Tiny.Image2DIOSTB\bee~\CSharpProgramForTinyImage2DIOSTB.cs">
+      <Link>com.unity.tiny@0.16.1-preview\DotsModules\Unity.Tiny.Image2DIOSTB\bee~\CSharpProgramForTinyImage2DIOSTB.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.tiny@0.16.1-preview\DotsModules\Unity.Tiny.RendererGLNative\bee~\CSharpProgramForTinyRendererGLNative.cs">
+      <Link>com.unity.tiny@0.16.1-preview\DotsModules\Unity.Tiny.RendererGLNative\bee~\CSharpProgramForTinyRendererGLNative.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.tiny@0.16.1-preview\DotsPlayer\LowLevelSupport~\Unity.ZeroJobs\bee~\CustomizerForZeroJobs.bee.cs">
+      <Link>com.unity.tiny@0.16.1-preview\DotsPlayer\LowLevelSupport~\Unity.ZeroJobs\bee~\CustomizerForZeroJobs.bee.cs</Link>
+    </Compile>
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>artifacts\buildprogram.exe\Release</OutputPath>
+    <DefineConstants></DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <NoWarn></NoWarn>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="bee">
+      <HintPath>..\PackageCache\com.unity.tiny@0.16.1-preview\DotsPlayer\bee~\bee.exe</HintPath>
+    </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>

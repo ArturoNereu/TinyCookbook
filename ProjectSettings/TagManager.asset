@@ -13,8 +13,8 @@ TagManager:
   - UI
   - 
   - 
-  - Grid
-  - Cutscene
+  - 
+  - 
   - 
   - 
   - 
@@ -40,13 +40,4 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: Background
-    uniqueID: 720422835
-    locked: 0
-  - name: Player
-    uniqueID: 881099001
-    locked: 0
-  - name: Foreground
-    uniqueID: 1074868603
     locked: 0
