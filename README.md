@@ -5,6 +5,10 @@ A cookbook like series of resources for learning to use Unity's Project Tiny
 <img src="https://user-images.githubusercontent.com/263776/52322817-85f23b80-29a8-11e9-859e-b04460736d7e.png">
 </p>
 
+## Recipes
+
+* [Rotate a Sprite](https://github.com/ArturoNereu/TinyCookbook/wiki/Rotating-Sprite)
+
 ## Mini Recipes
 
 <p align="center">
