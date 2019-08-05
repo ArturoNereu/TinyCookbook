@@ -1,11 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpriteAnimation", "SpriteAnimation.csproj", "{1085631F-D593-12A0-8283-03FCA8830589}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RotatingEntity", "RotatingEntity.csproj", "{773EC4D8-CB21-B01A-B865-FC486CD54659}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextRendering", "TextRendering.csproj", "{101E4CC0-A184-D28E-611F-19FF00324434}"
+# Visual Studio for Mac
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpriteRotation", "SpriteRotation.csproj", "{BAB79361-8BD9-741B-7765-55C95A1A317A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,18 +9,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1085631F-D593-12A0-8283-03FCA8830589}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1085631F-D593-12A0-8283-03FCA8830589}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1085631F-D593-12A0-8283-03FCA8830589}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1085631F-D593-12A0-8283-03FCA8830589}.Release|Any CPU.Build.0 = Release|Any CPU
-		{773EC4D8-CB21-B01A-B865-FC486CD54659}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{773EC4D8-CB21-B01A-B865-FC486CD54659}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{773EC4D8-CB21-B01A-B865-FC486CD54659}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{773EC4D8-CB21-B01A-B865-FC486CD54659}.Release|Any CPU.Build.0 = Release|Any CPU
-		{101E4CC0-A184-D28E-611F-19FF00324434}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{101E4CC0-A184-D28E-611F-19FF00324434}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{101E4CC0-A184-D28E-611F-19FF00324434}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{101E4CC0-A184-D28E-611F-19FF00324434}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAB79361-8BD9-741B-7765-55C95A1A317A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAB79361-8BD9-741B-7765-55C95A1A317A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAB79361-8BD9-741B-7765-55C95A1A317A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAB79361-8BD9-741B-7765-55C95A1A317A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

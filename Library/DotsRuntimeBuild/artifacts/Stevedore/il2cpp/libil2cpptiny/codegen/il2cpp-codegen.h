@@ -755,3 +755,11 @@ struct StackTraceSentry
 private:
     const RuntimeMethod* m_method;
 };
+
+inline const RuntimeMethod* GetVirtualMethodInfo(RuntimeObject* pThis, Il2CppMethodSlot slot)
+{
+    if (!pThis)
+        tiny::vm::Exception::Raise(NULL);
+
+    return (const RuntimeMethod*)pThis->klass->GetVTable()[slot];
+}

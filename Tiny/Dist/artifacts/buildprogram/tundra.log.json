@@ -1,9 +1,0 @@
-{"msg":"init","dagFile":"artifacts/buildprogram/tundra_buildprogram.dag","targets":[]}
-{"msg":"newNode","annotation":"Download and unpack artifacts/Stevedore/7za-mac-x64/.StevedoreVersion","index":1}
-{"msg":"newNode","annotation":"WriteResponseFile artifacts/rsp/2201356903816615512.rsp","index":3}
-{"msg":"newNode","annotation":"CSProject build.gen.csproj","index":6}
-{"msg":"newNode","annotation":"VisualStudioSolution build.gen.sln","index":5}
-{"msg":"newNode","annotation":"Download and unpack artifacts/Stevedore/roslyn-csc-mac/.StevedoreVersion","index":2}
-{"msg":"newNode","annotation":"Csc artifacts/buildprogram/buildprogram.exe","index":4}
-{"msg":"newNode","annotation":"build","index":7}
-{"msg":"newNode","annotation":"all_tundra_nodes","index":0}

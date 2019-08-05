@@ -1,4 +1,0 @@
-06d0a78b7523e833ed43a2db99db271e = "Assets"
-30c01db26f494e0f85a9c4bd57ff77f9 = "Assets/Recipes/RotatingEntity/Scenes/MainScene.scene"
-0b3c0acac5dcf6170b24f9ab2b9ecfc7 = "Assets/Textures/Gems/Gem_Blue_Highlighted.png"
-46b433b264c69cbd39f04ad2e5d12be8 = "Configuration"

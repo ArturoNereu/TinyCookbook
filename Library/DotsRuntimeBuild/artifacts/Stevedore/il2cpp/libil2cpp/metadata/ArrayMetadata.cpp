@@ -153,6 +153,7 @@ namespace metadata
 
     static void CollectImplicitArrayInterfacesFromElementClass(Il2CppClass* elementClass, ::std::vector<Il2CppClass*>& interfaces)
     {
+#if !IL2CPP_TINY
         while (elementClass != NULL)
         {
             interfaces.push_back(elementClass);
@@ -186,6 +187,7 @@ namespace metadata
             if (elementClass != NULL && (elementClass->valuetype || elementClass == il2cpp_defaults.value_type_class || elementClass == il2cpp_defaults.enum_class))
                 break;
         }
+#endif
     }
 
     static void CollectImplicitArrayInterfaces(Il2CppClass* arrayClass, ::std::vector<Il2CppClass*>& interfaces)

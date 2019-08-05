@@ -3503,6 +3503,8 @@ compute_frame_info (MonoInternalThread *thread, DebuggerTlsData *tls)
 		for (int frame_index = tls->il2cpp_context->frameCount - 1; frame_index >= 0; --frame_index)
 		{
 			Il2CppSequencePoint* seq_point = tls->il2cpp_context->executionContexts[frame_index]->currentSequencePoint;
+			if (seq_point == NULL)
+				continue;
 			StackFrame* frame = g_new0(StackFrame, 1);
 			MonoMethod *sp_method = il2cpp_get_seq_point_method(seq_point);
 			frame->method = sp_method;

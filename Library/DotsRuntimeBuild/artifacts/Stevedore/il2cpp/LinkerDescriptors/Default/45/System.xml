@@ -2,8 +2,6 @@
 	<!-- Don't reference anything other than System in this file -->
 	<!-- Only reference types exclusively needed for net45 -->
 	<assembly fullname="System">
-		<type fullname="Mono.Mbedtls.MbedtlsProvider" preserve="all"/>
-		<type fullname="Mono.AppleTls.AppleTlsProvider" preserve="all"/>
 		<type fullname="System.IOAsyncResult" preserve="fields"/>
 		<type fullname="System.IOSelectorJob" preserve="fields"/>
 		<type fullname="System.Net.Configuration.NetSectionGroup" preserve="fields">

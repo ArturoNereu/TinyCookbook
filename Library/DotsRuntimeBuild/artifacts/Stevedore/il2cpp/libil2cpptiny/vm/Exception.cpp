@@ -24,7 +24,7 @@ namespace vm
     void Exception::Raise(Il2CppException* exception)
     {
         il2cpp::utils::Logging::Write("A managed exception was thrown. The Tiny runtime does not support managed exceptions.");
-        if (exception->message != NULL)
+        if (exception != NULL && exception->message != NULL)
         {
             std::string message = "The exception message is: ";
             message += il2cpp::utils::StringUtils::Utf16ToUtf8(exception->message->chars, exception->message->length);

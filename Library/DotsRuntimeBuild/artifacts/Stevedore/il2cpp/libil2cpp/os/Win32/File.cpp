@@ -487,16 +487,37 @@ namespace os
 
     int32_t File::Write(FileHandle* handle, const char* buffer, int count, int *error)
     {
-        int32_t result;
         int32_t written;
 
-        result = WriteFile((HANDLE)handle, buffer, count, (LPDWORD)&written, NULL);
+        BOOL success = WriteFile((HANDLE)handle, buffer, count, (LPDWORD)&written, NULL);
 
-        /*if (!result)
+        if (!success)
         {
-            *error = GetLastError ();
-            return -1;
-        }*/
+            DWORD originalError = GetLastError();
+            if (originalError == ERROR_INVALID_PARAMETER)
+            {
+                // Maybe this is an async file write, so try with those parameters.
+                OVERLAPPED overlapped = {0};
+                success = WriteFile((HANDLE)handle, buffer, count, NULL, &overlapped);
+                if (success != 0 || GetLastError() == ERROR_IO_PENDING)
+                {
+                    success = TRUE;
+                    // The async write succeeded. Now get the number of bytes written.
+                    if (GetOverlappedResultEx((HANDLE)handle, &overlapped, (LPDWORD)&written, INFINITE, FALSE) == 0)
+                    {
+                        // Oops, we could not get the number of bytes writen, so return an error.
+                        *error = GetLastError();
+                        return -1;
+                    }
+                }
+            }
+
+            if (!success)
+            {
+                *error = originalError;
+                return -1;
+            }
+        }
 #if IL2CPP_ENABLE_PROFILER
         IL2CPP_VM_PROFILE_FILEIO(IL2CPP_PROFILE_FILEIO_WRITE, count);
 #endif

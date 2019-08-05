@@ -10,7 +10,8 @@
         1,
         2,
         3,
-        4
+        4,
+        5
       ],
       "OverwriteOutputs": true,
       "FrontendResponseFiles": [],
@@ -19,12 +20,12 @@
       "DebugActionIndex": 0
     },
     {
-      "Annotation": "Download and unpack artifacts/buildprogrambuildprogram/Stevedore/7za-win-x64/.StevedoreVersion (+1 other)",
-      "Action": "\"C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\DotsPlayer\\bee~\\bee.exe\" steve internal-unpack public 7za-win-x64/16.04-1.1.4_0d1e6ad367de3bb0c1a396856903c63e080a1e8fee52897cb5f5dee063832831.zip \"artifacts/buildprogrambuildprogram/Stevedore/7za-win-x64\"",
+      "Annotation": "Download and unpack artifacts/buildprogrambuildprogram/Stevedore/7za-mac-x64/.StevedoreVersion (+1 other)",
+      "Action": "'mono' --debug '/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsPlayer/bee~/bee.exe' steve internal-unpack public 7za-mac-x64/16.04-1.1.4_d7d625b52bf0c3e1b4948da5cd015e7ae2047e1bd18dc7a7ef367f950d43990e.zip \"artifacts/buildprogrambuildprogram/Stevedore/7za-mac-x64\"",
       "Inputs": [],
       "Outputs": [
-        "artifacts/buildprogrambuildprogram/Stevedore/7za-win-x64/.StevedoreVersion",
-        "artifacts/buildprogrambuildprogram/Stevedore/7za-win-x64"
+        "artifacts/buildprogrambuildprogram/Stevedore/7za-mac-x64/.StevedoreVersion",
+        "artifacts/buildprogrambuildprogram/Stevedore/7za-mac-x64"
       ],
       "PassIndex": 0,
       "Deps": [],
@@ -37,14 +38,14 @@
       "DebugActionIndex": 1
     },
     {
-      "Annotation": "Download and unpack artifacts/buildprogrambuildprogram/Stevedore/roslyn-csc-win64/.StevedoreVersion (+1 other)",
-      "Action": "\"C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\DotsPlayer\\bee~\\bee.exe\" steve internal-unpack public roslyn-csc-win64/6c0e221e95df_ae56073e3848e11859fa7ba9219c356153b8c416f44f335d2a8972fef099e0f1.7z \"artifacts/buildprogrambuildprogram/Stevedore/roslyn-csc-win64\"",
+      "Annotation": "Download and unpack artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v46/.StevedoreVersion (+1 other)",
+      "Action": "'mono' --debug '/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsPlayer/bee~/bee.exe' steve internal-unpack public referenceassemblies_v46/1_3750434ae503231abc3db765a9a8972337bdb0392b992cb22f879fe42f62c746.7z \"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v46\"",
       "Inputs": [
-        "artifacts/buildprogrambuildprogram/Stevedore/7za-win-x64/7za.exe"
+        "artifacts/buildprogrambuildprogram/Stevedore/7za-mac-x64/7za"
       ],
       "Outputs": [
-        "artifacts/buildprogrambuildprogram/Stevedore/roslyn-csc-win64/.StevedoreVersion",
-        "artifacts/buildprogrambuildprogram/Stevedore/roslyn-csc-win64"
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v46/.StevedoreVersion",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v46"
       ],
       "PassIndex": 0,
       "Deps": [
@@ -58,42 +59,70 @@
       "Env": [
         {
           "Key": "BEE_INTERNAL_STEVEDORE_7ZA",
-          "Value": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\DotsRuntimeBuild\\artifacts\\buildprogrambuildprogram\\Stevedore\\7za-win-x64\\7za.exe"
+          "Value": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/DotsRuntimeBuild/artifacts/buildprogrambuildprogram/Stevedore/7za-mac-x64/7za"
         }
       ],
       "DebugActionIndex": 2
     },
     {
-      "Annotation": "Csc artifacts/buildprogram/buildprogram_buildprogram.exe (+2 others)",
-      "Action": "\"artifacts\\buildprogrambuildprogram\\Stevedore\\roslyn-csc-win64\\csc.exe\" /nostdlib /noconfig -out:artifacts/buildprogram/buildprogram_buildprogram.exe /refout:\"artifacts\\Bee.CSharpSupport\\referenceassemblies\\buildprogram_buildprogram.exe\\1088064819024506472.dll\" -warnaserror -r:\"C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.6/mscorlib.dll\" -r:\"C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.6/System.dll\" -r:\"C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.6/System.Core.dll\" -r:\"C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.6/System.Xml.dll\" -r:\"C:/Users/HDgam/Downloads/TinyCookbook/Library/PackageCache/com.unity.tiny@0.15.3-preview/DotsPlayer/bee~/bee.exe\" \"C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\DotsPlayer\\bee~\\BuildProgramBuildProgramSources\\BuildProgramBuildProgram.cs\" -langversion:7.2 -fullpaths /optimize+ /debug:full /nologo /deterministic",
+      "Annotation": "Download and unpack artifacts/buildprogrambuildprogram/Stevedore/roslyn-csc-mac/.StevedoreVersion (+1 other)",
+      "Action": "'mono' --debug '/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsPlayer/bee~/bee.exe' steve internal-unpack public roslyn-csc-mac/6c0e221e95df_7101670cd0a4eee0627ccea84b4976117127409c3fb065f79d6ac7bbf8631774.7z \"artifacts/buildprogrambuildprogram/Stevedore/roslyn-csc-mac\"",
       "Inputs": [
-        "C:/Users/HDgam/Downloads/TinyCookbook/Library/PackageCache/com.unity.tiny@0.15.3-preview/DotsPlayer/bee~/BuildProgramBuildProgramSources/BuildProgramBuildProgram.cs",
-        "C:/Users/HDgam/Downloads/TinyCookbook/Library/PackageCache/com.unity.tiny@0.15.3-preview/DotsPlayer/bee~/bee.exe",
-        "C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.6/mscorlib.dll",
-        "C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.6/System.dll",
-        "C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.6/System.Core.dll",
-        "C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.6/System.Xml.dll",
-        "artifacts/buildprogrambuildprogram/Stevedore/roslyn-csc-win64/csc.exe"
+        "artifacts/buildprogrambuildprogram/Stevedore/7za-mac-x64/7za"
+      ],
+      "Outputs": [
+        "artifacts/buildprogrambuildprogram/Stevedore/roslyn-csc-mac/.StevedoreVersion",
+        "artifacts/buildprogrambuildprogram/Stevedore/roslyn-csc-mac"
+      ],
+      "PassIndex": 0,
+      "Deps": [
+        1
+      ],
+      "OverwriteOutputs": true,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowUnwrittenOutputFiles": true,
+      "AllowedOutputSubstrings": [],
+      "Env": [
+        {
+          "Key": "BEE_INTERNAL_STEVEDORE_7ZA",
+          "Value": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/DotsRuntimeBuild/artifacts/buildprogrambuildprogram/Stevedore/7za-mac-x64/7za"
+        }
+      ],
+      "DebugActionIndex": 3
+    },
+    {
+      "Annotation": "Csc artifacts/buildprogram/buildprogram_buildprogram.exe (+2 others)",
+      "Action": "\"artifacts/buildprogrambuildprogram/Stevedore/roslyn-csc-mac/csc\" /nostdlib /noconfig /shared -out:artifacts/buildprogram/buildprogram_buildprogram.exe /refout:\"artifacts/buildprogram_buildprogram.exe/Release/ref/buildprogram_buildprogram.exe/1088064819024506472.dll\" -warnaserror -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v46/mscorlib.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v46/System.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v46/System.Core.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v46/System.Xml.dll\" -r:\"/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsPlayer/bee~/bee.exe\" \"/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsPlayer/bee~/BuildProgramBuildProgramSources/BuildProgramBuildProgram.cs\" -langversion:7.2 -fullpaths /optimize+ /debug:portable /nologo /deterministic",
+      "Inputs": [
+        "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsPlayer/bee~/BuildProgramBuildProgramSources/BuildProgramBuildProgram.cs",
+        "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsPlayer/bee~/bee.exe",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v46/mscorlib.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v46/System.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v46/System.Core.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v46/System.Xml.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/roslyn-csc-mac/csc"
       ],
       "Outputs": [
         "artifacts/buildprogram/buildprogram_buildprogram.exe",
         "artifacts/buildprogram/buildprogram_buildprogram.pdb",
-        "artifacts/Bee.CSharpSupport/referenceassemblies/buildprogram_buildprogram.exe/1088064819024506472.dll"
+        "artifacts/buildprogram_buildprogram.exe/Release/ref/buildprogram_buildprogram.exe/1088064819024506472.dll"
       ],
       "PassIndex": 0,
       "Deps": [
         2,
-        4
+        3,
+        5
       ],
       "OverwriteOutputs": true,
       "FrontendResponseFiles": [],
       "AllowUnexpectedOutput": true,
       "AllowedOutputSubstrings": [],
-      "DebugActionIndex": 3
+      "DebugActionIndex": 4
     },
     {
       "Annotation": "CSProject buildprogram-build.gen.csproj",
-      "WriteTextFilePayload": "﻿<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<Project ToolsVersion=\"14.0\" DefaultTargets=\"Build\" xmlns=\"http://schemas.microsoft.com/developer/msbuild/2003\">\r\n  <Import Project=\"$(MSBuildExtensionsPath)\\$(MSBuildToolsVersion)\\Microsoft.Common.props\" Condition=\"Exists('$(MSBuildExtensionsPath)\\$(MSBuildToolsVersion)\\Microsoft.Common.props')\" />\r\n  <PropertyGroup>\r\n    <Configuration Condition=\" '$(Configuration)' == '' \">Debug</Configuration>\r\n    <Platform Condition=\" '$(Platform)' == '' \">AnyCPU</Platform>\r\n    <ProjectGuid>{623D0F98-FC77-B9AB-94A4-67C8A03FB2D9}</ProjectGuid>\r\n    <OutputType>Exe</OutputType>\r\n    <RootNamespace>buildprogram_buildprogram</RootNamespace>\r\n    <AssemblyName>buildprogram_buildprogram</AssemblyName>\r\n    <FileAlignment>512</FileAlignment>\r\n    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>\r\n    <LangVersion>7.2</LangVersion>\r\n  </PropertyGroup>\r\n  <ItemGroup>\r\n    <Compile Include=\"..\\PackageCache\\com.unity.tiny@0.15.3-preview\\DotsPlayer\\bee~\\BuildProgramBuildProgramSources\\BuildProgramBuildProgram.cs\">\r\n      <Link>BuildProgramBuildProgram.cs</Link>\r\n    </Compile>\r\n  </ItemGroup>\r\n  <PropertyGroup Condition=\" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' \">\r\n    <PlatformTarget>AnyCPU</PlatformTarget>\r\n    <DebugSymbols>true</DebugSymbols>\r\n    <DebugType>pdbonly</DebugType>\r\n    <Optimize>true</Optimize>\r\n    <OutputPath>artifacts\\Bee.CSharpSupport\\buildprogram_buildprogram\\Release</OutputPath>\r\n    <DefineConstants></DefineConstants>\r\n    <ErrorReport>prompt</ErrorReport>\r\n    <WarningLevel>4</WarningLevel>\r\n    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>\r\n    <NoWarn></NoWarn>\r\n    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>\r\n    <Prefer32Bit>false</Prefer32Bit>\r\n    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>\r\n  </PropertyGroup>\r\n  <ItemGroup Condition=\" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' \">\r\n    <Reference Include=\"System\" />\r\n    <Reference Include=\"System.Core\" />\r\n    <Reference Include=\"bee\">\r\n      <HintPath>..\\PackageCache\\com.unity.tiny@0.15.3-preview\\DotsPlayer\\bee~\\bee.exe</HintPath>\r\n    </Reference>\r\n  </ItemGroup>\r\n  <Import Project=\"$(MSBuildToolsPath)\\Microsoft.CSharp.targets\" />\r\n  <Target Name=\"GenerateTargetFrameworkMonikerAttribute\" />\r\n</Project>",
+      "WriteTextFilePayload": "﻿<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Project ToolsVersion=\"14.0\" DefaultTargets=\"Build\" xmlns=\"http://schemas.microsoft.com/developer/msbuild/2003\">\n  <Import Project=\"$(MSBuildExtensionsPath)\\$(MSBuildToolsVersion)\\Microsoft.Common.props\" Condition=\"Exists('$(MSBuildExtensionsPath)\\$(MSBuildToolsVersion)\\Microsoft.Common.props')\" />\n  <PropertyGroup>\n    <Configuration Condition=\" '$(Configuration)' == '' \">Debug</Configuration>\n    <Platform Condition=\" '$(Platform)' == '' \">AnyCPU</Platform>\n    <ProjectGuid>{623D0F98-FC77-B9AB-94A4-67C8A03FB2D9}</ProjectGuid>\n    <OutputType>Exe</OutputType>\n    <RootNamespace>buildprogram_buildprogram</RootNamespace>\n    <AssemblyName>buildprogram_buildprogram</AssemblyName>\n    <FileAlignment>512</FileAlignment>\n    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>\n    <LangVersion>7.2</LangVersion>\n  </PropertyGroup>\n  <ItemGroup>\n    <Compile Include=\"..\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsPlayer\\bee~\\BuildProgramBuildProgramSources\\BuildProgramBuildProgram.cs\">\n      <Link>BuildProgramBuildProgram.cs</Link>\n    </Compile>\n  </ItemGroup>\n  <PropertyGroup Condition=\" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' \">\n    <PlatformTarget>AnyCPU</PlatformTarget>\n    <DebugSymbols>true</DebugSymbols>\n    <DebugType>pdbonly</DebugType>\n    <Optimize>true</Optimize>\n    <OutputPath>artifacts\\buildprogram_buildprogram.exe\\Release</OutputPath>\n    <DefineConstants></DefineConstants>\n    <ErrorReport>prompt</ErrorReport>\n    <WarningLevel>4</WarningLevel>\n    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>\n    <NoWarn></NoWarn>\n    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>\n    <Prefer32Bit>false</Prefer32Bit>\n    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>\n  </PropertyGroup>\n  <ItemGroup Condition=\" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' \">\n    <Reference Include=\"System\" />\n    <Reference Include=\"System.Core\" />\n    <Reference Include=\"bee\">\n      <HintPath>..\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsPlayer\\bee~\\bee.exe</HintPath>\n    </Reference>\n  </ItemGroup>\n  <Import Project=\"$(MSBuildToolsPath)\\Microsoft.CSharp.targets\" />\n  <Target Name=\"GenerateTargetFrameworkMonikerAttribute\" />\n</Project>",
       "Inputs": [],
       "Outputs": [
         "buildprogram-build.gen.csproj"
@@ -102,7 +131,7 @@
       "Deps": [],
       "OverwriteOutputs": true,
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 4
+      "DebugActionIndex": 5
     }
   ],
   "FileSignatures": [
@@ -110,32 +139,22 @@
       "File": "bee.config"
     },
     {
-      "File": "../PackageCache/com.unity.tiny@0.15.3-preview/DotsPlayer/bee~/bee.exe"
+      "File": "../PackageCache/com.unity.tiny@0.16.1-preview/DotsPlayer/bee~/bee.exe"
     }
   ],
   "GlobSignatures": [
     {
-      "Path": "../PackageCache/com.unity.tiny@0.15.3-preview/DotsPlayer/bee~",
-      "Filter": "*.dll"
-    },
-    {
-      "Path": "../PackageCache/com.unity.tiny@0.15.3-preview/DotsPlayer/bee~",
-      "Filter": "Bee.Toolchain.*.dll"
-    },
-    {
-      "Path": "../PackageCache/com.unity.tiny@0.15.3-preview/DotsPlayer/bee~/BuildProgramBuildProgramSources",
-      "Filter": "*.cs"
-    },
-    {
-      "Path": "../PackageCache/com.unity.tiny@0.15.3-preview/DotsPlayer/bee~/BuildProgramBuildProgramSources"
-    },
-    {
-      "Path": "../PackageCache/com.unity.tiny@0.15.3-preview/DotsPlayer/bee~",
+      "Path": "../PackageCache/com.unity.tiny@0.16.1-preview/DotsPlayer/bee~",
       "Filter": "Bee.*.dll"
     },
     {
-      "Path": "../../../../../../Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.6",
+      "Path": "../PackageCache/com.unity.tiny@0.16.1-preview/DotsPlayer/bee~",
       "Filter": "*.dll"
+    },
+    {
+      "Path": "../PackageCache/com.unity.tiny@0.16.1-preview/DotsPlayer/bee~/BuildProgramBuildProgramSources",
+      "Filter": "*.cs",
+      "Recurse": 1
     }
   ],
   "ContentDigestExtensions": [
@@ -150,7 +169,23 @@
   "ScanCacheFileNameTmp": "artifacts/buildprogrambuildprogram/tundra.scancache.tmp",
   "DigestCacheFileName": "artifacts/buildprogrambuildprogram/tundra.digestcache",
   "DigestCacheFileNameTmp": "artifacts/buildprogrambuildprogram/tundra.digestcache.tmp",
-  "SharedResources": [],
+  "SharedResources": [
+    {
+      "Annotation": "RoslynCompilerServer",
+      "CreateAction": null,
+      "DestroyAction": " -shutdown"
+    },
+    {
+      "Annotation": "RoslynCompilerServer",
+      "CreateAction": null,
+      "DestroyAction": " -shutdown"
+    },
+    {
+      "Annotation": "RoslynCompilerServer",
+      "CreateAction": null,
+      "DestroyAction": " -shutdown"
+    }
+  ],
   "Passes": [
     "0"
   ],

@@ -13,7 +13,7 @@
     <LangVersion>7.2</LangVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="..\PackageCache\com.unity.tiny@0.15.3-preview\DotsPlayer\bee~\BuildProgramBuildProgramSources\BuildProgramBuildProgram.cs">
+    <Compile Include="..\PackageCache\com.unity.tiny@0.16.1-preview\DotsPlayer\bee~\BuildProgramBuildProgramSources\BuildProgramBuildProgram.cs">
       <Link>BuildProgramBuildProgram.cs</Link>
     </Compile>
   </ItemGroup>
@@ -22,7 +22,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>artifacts\Bee.CSharpSupport\buildprogram_buildprogram\Release</OutputPath>
+    <OutputPath>artifacts\buildprogram_buildprogram.exe\Release</OutputPath>
     <DefineConstants></DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -36,7 +36,7 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="bee">
-      <HintPath>..\PackageCache\com.unity.tiny@0.15.3-preview\DotsPlayer\bee~\bee.exe</HintPath>
+      <HintPath>..\PackageCache\com.unity.tiny@0.16.1-preview\DotsPlayer\bee~\bee.exe</HintPath>
     </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

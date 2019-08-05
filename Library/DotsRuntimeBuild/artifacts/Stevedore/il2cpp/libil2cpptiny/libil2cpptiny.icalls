@@ -86,6 +86,10 @@ System.Runtime.InteropServices.GCHandle::GetTargetHandle(System.Object,System.In
 System.Environment::GetStackTrace_internal() mscorlib::System::Environment::GetStackTrace_internal
 System.Environment::FailFast_internal(System.String) mscorlib::System::Environment::FailFast_internal
 
+// System.Enum
+>icalls/mscorlib/System/Enum.h
+System.Enum::TinyEnumEquals(System.Object,System.Object) mscorlib::System::Enum::TinyEnumEquals
+
 //
 ////
 //// Mono.Globalization.Unicode.Normalization

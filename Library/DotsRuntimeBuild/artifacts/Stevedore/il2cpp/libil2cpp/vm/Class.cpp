@@ -677,6 +677,20 @@ namespace vm
         return false;
     }
 
+    bool Class::IsAssignableFrom(Il2CppReflectionType * type, Il2CppReflectionType * c)
+    {
+        Il2CppClass *klass;
+        Il2CppClass *klassc;
+
+        klass = FromIl2CppType(type->type);
+        klassc = FromIl2CppType(c->type);
+
+        if (type->type->byref && !c->type->byref)
+            return false;
+
+        return IsAssignableFrom(klass, klassc);
+    }
+
     bool Class::IsGeneric(const Il2CppClass *klass)
     {
         return klass->is_generic;

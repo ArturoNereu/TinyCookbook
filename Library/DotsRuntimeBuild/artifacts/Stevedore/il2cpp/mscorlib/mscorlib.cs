@@ -1211,10 +1211,14 @@ namespace System
     {
         public override bool Equals(object other)
         {
+#if IL2CPP_MONO_DEBUGGER
+            return TinyEnumEquals(this, other);
+#else
             // This method should never be called. IL2CPP will remap the virtual call
             // to a proper method defined in the runtime code.
             Environment.FailFast("System.Enum::Equals should never be called. IL2CPP should remap this to a call in the runtime code.");
             return false;
+#endif
         }
 
         public override int GetHashCode()
@@ -1222,6 +1226,11 @@ namespace System
             Environment.FailFast("Enum::GetHashCode should not be called. The GetHashCode for the underlying type should be called instead.");
             return 0;
         }
+
+#if IL2CPP_MONO_DEBUGGER
+        [Runtime.CompilerServices.MethodImpl(Runtime.CompilerServices.MethodImplOptions.InternalCall)]
+        extern private static bool TinyEnumEquals(object left, object right);
+#endif
     }
 
     public struct Boolean
@@ -2134,7 +2143,6 @@ namespace System
     }
 
 #if IL2CPP_MONO_DEBUGGER
-
     internal class RuntimeType
     {
         object type;

@@ -1,1 +1,0 @@
-C:\Users\HDgam\Downloads\TinyCookbook\Library\PackageCache\com.unity.tiny@0.15.3-preview\DotsPlayer\bee~\bee.exe --no-colors get-editor-tools textrendering-windows-dotnet-debug

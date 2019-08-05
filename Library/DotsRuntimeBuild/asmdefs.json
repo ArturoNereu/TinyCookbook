@@ -1,577 +1,541 @@
 {
     "asmdefs": [{
-        "AsmdefName": "RotatingEntity",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Assets\\Recipes\\RotatingEntity\\RotatingEntity.asmdef",
+        "AsmdefName": "SpriteRotation",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Assets/Recipes/SpriteRotation/SpriteRotation.asmdef",
         "PackageSource": "NoPackage"
-    }, {
-        "AsmdefName": "SpriteAnimation",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Assets\\Recipes\\SpriteAnimation\\SpriteAnimation.asmdef",
-        "PackageSource": "NoPackage"
-    }, {
-        "AsmdefName": "TextRendering",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Assets\\Recipes\\TextRendering\\TextRendering.asmdef",
-        "PackageSource": "NoPackage"
-    }, {
-        "AsmdefName": "Unity.2D.Sprite.Editor",
-        "FullPath": "C:\\Users\\HDgam\\playground\\2019.2.0b4\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.2d.sprite\\Editor\\Unity.2D.Sprite.Editor.asmdef",
-        "PackageSource": "BuiltIn"
-    }, {
-        "AsmdefName": "Unity.2D.Sprite.Package.EditorTests",
-        "FullPath": "C:\\Users\\HDgam\\playground\\2019.2.0b4\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.2d.sprite\\Tests\\Editor\\Unity.2D.Sprite.Package.EditorTests.asmdef",
-        "PackageSource": "BuiltIn"
-    }, {
-        "AsmdefName": "Unity.2D.Tilemap.Editor",
-        "FullPath": "C:\\Users\\HDgam\\playground\\2019.2.0b4\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.2d.tilemap\\Editor\\Unity.2D.Tilemap.Editor.asmdef",
-        "PackageSource": "BuiltIn"
-    }, {
-        "AsmdefName": "Unity.2D.Tilemap.EditorTests",
-        "FullPath": "C:\\Users\\HDgam\\playground\\2019.2.0b4\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.2d.tilemap\\Tests\\Editor\\Unity.2D.Tilemap.EditorTests.asmdef",
-        "PackageSource": "BuiltIn"
-    }, {
-        "AsmdefName": "Unity.Analytics.DataPrivacy",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.analytics@3.3.2\\DataPrivacy\\Unity.Analytics.DataPrivacy.asmdef",
-        "PackageSource": "Registry"
-    }, {
-        "AsmdefName": "Unity.Analytics.StandardEvents.EditorTests",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.analytics@3.3.2\\Tests\\Editor\\Unity.Analytics.StandardEvents\\Unity.Analytics.StandardEvents.EditorTests.asmdef",
-        "PackageSource": "Registry"
-    }, {
-        "AsmdefName": "Unity.Analytics.DataPrivacy.Tests",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.analytics@3.3.2\\Tests\\Runtime\\DataPrivacy\\Unity.Analytics.DataPrivacy.Tests.asmdef",
-        "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Burst.Editor",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.burst@1.0.4\\Editor\\Unity.Burst.Editor.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.burst@1.1.2/Editor/Unity.Burst.Editor.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Burst",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.burst@1.0.4\\Runtime\\Unity.Burst.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.burst@1.1.2/Runtime/Unity.Burst.asmdef",
         "PackageSource": "Registry"
     }, {
-        "AsmdefName": "Unity.Burst.Tests.EditMode",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.burst@1.0.4\\Tests\\Tests.asmdef",
+        "AsmdefName": "Unity.Burst.Tests.UnitTests",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.burst@1.1.2/Tests/Tests.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.CollabProxy.Editor",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.collab-proxy@1.2.16\\Editor\\Unity.CollabProxy.Editor.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Unity.CollabProxy.Editor.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.CollabProxy.EditorTests",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.collab-proxy@1.2.16\\Tests\\Editor\\Unity.CollabProxy.EditorTests.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.collab-proxy@1.2.16/Tests/Editor/Unity.CollabProxy.EditorTests.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Collections.Tests",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.collections@0.0.9-preview.20\\Unity.Collections.Tests\\Unity.Collections.Tests.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.collections@0.0.9-preview.20/Unity.Collections.Tests/Unity.Collections.Tests.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Collections",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.collections@0.0.9-preview.20\\Unity.Collections\\Unity.Collections.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.collections@0.0.9-preview.20/Unity.Collections/Unity.Collections.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Burst.Tests",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.entities@0.0.12-preview.33\\Unity.Burst.Tests\\Unity.Burst.Tests.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.entities@0.0.12-preview.33/Unity.Burst.Tests/Unity.Burst.Tests.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Entities.AutoCreation.Tests",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.entities@0.0.12-preview.33\\Unity.Entities.AutoCreation.Tests\\Unity.Entities.AutoCreation.Tests.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.entities@0.0.12-preview.33/Unity.Entities.AutoCreation.Tests/Unity.Entities.AutoCreation.Tests.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Entities.BuildUtils",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.entities@0.0.12-preview.33\\Unity.Entities.BuildUtils\\Unity.Entities.BuildUtils.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.entities@0.0.12-preview.33/Unity.Entities.BuildUtils/Unity.Entities.BuildUtils.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Entities.Editor.Tests",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.entities@0.0.12-preview.33\\Unity.Entities.Editor.Tests\\Unity.Entities.Editor.Tests.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.entities@0.0.12-preview.33/Unity.Entities.Editor.Tests/Unity.Entities.Editor.Tests.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Entities.Editor",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.entities@0.0.12-preview.33\\Unity.Entities.Editor\\Unity.Entities.Editor.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.entities@0.0.12-preview.33/Unity.Entities.Editor/Unity.Entities.Editor.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Entities.Hybrid.Tests",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.entities@0.0.12-preview.33\\Unity.Entities.Hybrid.Tests\\Unity.Entities.Hybrid.Tests.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.entities@0.0.12-preview.33/Unity.Entities.Hybrid.Tests/Unity.Entities.Hybrid.Tests.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Entities.Hybrid",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.entities@0.0.12-preview.33\\Unity.Entities.Hybrid\\Unity.Entities.Hybrid.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.entities@0.0.12-preview.33/Unity.Entities.Hybrid/Unity.Entities.Hybrid.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Entities.PerformanceTests",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.entities@0.0.12-preview.33\\Unity.Entities.PerformanceTests\\Unity.Entities.PerformanceTests.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.entities@0.0.12-preview.33/Unity.Entities.PerformanceTests/Unity.Entities.PerformanceTests.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Entities.Properties.PerformanceTests",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.entities@0.0.12-preview.33\\Unity.Entities.Properties.PerformanceTests\\Unity.Entities.Properties.PerformanceTests.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.entities@0.0.12-preview.33/Unity.Entities.Properties.PerformanceTests/Unity.Entities.Properties.PerformanceTests.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Entities.Properties.Tests",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.entities@0.0.12-preview.33\\Unity.Entities.Properties.Tests\\Unity.Entities.Properties.Tests.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.entities@0.0.12-preview.33/Unity.Entities.Properties.Tests/Unity.Entities.Properties.Tests.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Entities.Properties",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.entities@0.0.12-preview.33\\Unity.Entities.Properties\\Unity.Entities.Properties.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.entities@0.0.12-preview.33/Unity.Entities.Properties/Unity.Entities.Properties.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Entities.StaticTypeRegistry",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.entities@0.0.12-preview.33\\Unity.Entities.StaticTypeRegistry\\Unity.Entities.StaticTypeRegistry.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.entities@0.0.12-preview.33/Unity.Entities.StaticTypeRegistry/Unity.Entities.StaticTypeRegistry.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Entities.Tests",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.entities@0.0.12-preview.33\\Unity.Entities.Tests\\Unity.Entities.Tests.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.entities@0.0.12-preview.33/Unity.Entities.Tests/Unity.Entities.Tests.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Entities",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.entities@0.0.12-preview.33\\Unity.Entities\\Unity.Entities.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.entities@0.0.12-preview.33/Unity.Entities/Unity.Entities.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Mathematics.Extensions.Hybrid",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.entities@0.0.12-preview.33\\Unity.Mathematics.Extensions.Hybrid\\Unity.Mathematics.Extensions.Hybrid.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.entities@0.0.12-preview.33/Unity.Mathematics.Extensions.Hybrid/Unity.Mathematics.Extensions.Hybrid.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Mathematics.Extensions",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.entities@0.0.12-preview.33\\Unity.Mathematics.Extensions\\Unity.Mathematics.Extensions.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.entities@0.0.12-preview.33/Unity.Mathematics.Extensions/Unity.Mathematics.Extensions.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Scenes.Editor",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.entities@0.0.12-preview.33\\Unity.Scenes.Editor\\Unity.Scenes.Editor.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.entities@0.0.12-preview.33/Unity.Scenes.Editor/Unity.Scenes.Editor.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Scenes.Tests",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.entities@0.0.12-preview.33\\Unity.Scenes.Hybrid.Tests\\Unity.Scenes.Hybrid.Tests.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.entities@0.0.12-preview.33/Unity.Scenes.Hybrid.Tests/Unity.Scenes.Hybrid.Tests.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Scenes.Hybrid",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.entities@0.0.12-preview.33\\Unity.Scenes.Hybrid\\Unity.Scenes.Hybrid.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.entities@0.0.12-preview.33/Unity.Scenes.Hybrid/Unity.Scenes.Hybrid.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Entities.TestComponents",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.entities@0.0.12-preview.33\\Unity.TestComponents\\Unity.TestComponents.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.entities@0.0.12-preview.33/Unity.TestComponents/Unity.TestComponents.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Transforms.Editor",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.entities@0.0.12-preview.33\\Unity.Transforms.Editor\\Unity.Transforms.Editor.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.entities@0.0.12-preview.33/Unity.Transforms.Editor/Unity.Transforms.Editor.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Transforms.Hybrid",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.entities@0.0.12-preview.33\\Unity.Transforms.Hybrid\\Unity.Transforms.Hybrid.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.entities@0.0.12-preview.33/Unity.Transforms.Hybrid/Unity.Transforms.Hybrid.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Transforms.Tests",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.entities@0.0.12-preview.33\\Unity.Transforms.Tests\\Unity.Transforms.Tests.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.entities@0.0.12-preview.33/Unity.Transforms.Tests/Unity.Transforms.Tests.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Transforms",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.entities@0.0.12-preview.33\\Unity.Transforms\\Unity.Transforms.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.entities@0.0.12-preview.33/Unity.Transforms/Unity.Transforms.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Rider.Editor",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.ide.rider@1.0.4\\Editor\\com.unity.ide.rider.asmdef",
-        "PackageSource": "Registry"
-    }, {
-        "AsmdefName": "Unity.VisualStudio.Editor",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.ide.visualstudio@1.0.5\\Editor\\com.unity.ide.visualstudio.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.ide.rider@1.0.8/Rider/Editor/com.unity.ide.rider.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.VSCode.Editor",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.ide.vscode@1.0.4\\Editor\\Unity.com.unity.vscode.Editor.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.ide.vscode@1.0.7/Editor/Unity.com.unity.vscode.Editor.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Jobs.Editor",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.jobs@0.0.7-preview.13\\Editor\\Unity.Jobs.Editor.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.jobs@0.0.7-preview.13/Editor/Unity.Jobs.Editor.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Jobs.Tests",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.jobs@0.0.7-preview.13\\Unity.Jobs.Tests\\Unity.Jobs.Tests.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.jobs@0.0.7-preview.13/Unity.Jobs.Tests/Unity.Jobs.Tests.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Jobs",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.jobs@0.0.7-preview.13\\Unity.Jobs\\Unity.Jobs.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.jobs@0.0.7-preview.13/Unity.Jobs/Unity.Jobs.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Mathematics.Tests",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.mathematics@1.0.1\\Tests\\Unity.Mathematics.Tests.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.mathematics@1.1.0/Tests/Unity.Mathematics.Tests.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Mathematics.Editor",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.mathematics@1.0.1\\Unity.Mathematics.Editor\\Unity.Mathematics.Editor.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.mathematics@1.1.0/Unity.Mathematics.Editor/Unity.Mathematics.Editor.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Mathematics",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.mathematics@1.0.1\\Unity.Mathematics\\Unity.Mathematics.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.mathematics@1.1.0/Unity.Mathematics/Unity.Mathematics.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Properties.PerformanceTests",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.properties@0.5.0-preview\\Tests\\Unity.Properties.PerformanceTests\\Unity.Properties.PerformanceTests.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.properties@0.5.0-preview/Tests/Unity.Properties.PerformanceTests/Unity.Properties.PerformanceTests.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Properties.Reflection.Tests",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.properties@0.5.0-preview\\Tests\\Unity.Properties.Reflection.Tests\\Unity.Properties.Reflection.Tests.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.properties@0.5.0-preview/Tests/Unity.Properties.Reflection.Tests/Unity.Properties.Reflection.Tests.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Properties.Tests",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.properties@0.5.0-preview\\Tests\\Unity.Properties.Tests\\Unity.Properties.Tests.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.properties@0.5.0-preview/Tests/Unity.Properties.Tests/Unity.Properties.Tests.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Properties.Reflection",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.properties@0.5.0-preview\\Unity.Properties.Reflection\\Unity.Properties.Reflection.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.properties@0.5.0-preview/Unity.Properties.Reflection/Unity.Properties.Reflection.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Properties",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.properties@0.5.0-preview\\Unity.Properties\\Unity.Properties.asmdef",
-        "PackageSource": "Registry"
-    }, {
-        "AsmdefName": "Unity.IAP.Purchasing.EditorTests",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.purchasing@2.0.6\\Tests\\Editor\\Unity.IAP.purchasing.EditorTests.asmdef",
-        "PackageSource": "Registry"
-    }, {
-        "AsmdefName": "Unity.IAP.Purchasing.RunTimeTests",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.purchasing@2.0.6\\Tests\\Runtime\\Unity.IAP.purchasing.RunTimeTests.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.properties@0.5.0-preview/Unity.Properties/Unity.Properties.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Searcher.Editor",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.searcher@4.0.0-preview\\Editor\\Unity.Searcher.Editor.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.searcher@4.0.0-preview/Editor/Unity.Searcher.Editor.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Searcher.EditorTests",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.searcher@4.0.0-preview\\Tests\\Editor\\Unity.Searcher.EditorTests.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.searcher@4.0.0-preview/Tests/Editor/Unity.Searcher.EditorTests.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.PerformanceTesting.Editor",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.test-framework.performance@1.2.0-preview\\Editor\\Unity.PerformanceTesting.Editor.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.test-framework.performance@1.2.3-preview/Editor/Unity.PerformanceTesting.Editor.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.PerformanceTesting",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.test-framework.performance@1.2.0-preview\\Runtime\\Unity.PerformanceTesting.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.test-framework.performance@1.2.3-preview/Runtime/Unity.PerformanceTesting.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "UnityEditor.TestRunner",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.test-framework@1.0.13\\UnityEditor.TestRunner\\UnityEditor.TestRunner.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.test-framework@1.0.13/UnityEditor.TestRunner/UnityEditor.TestRunner.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "UnityEngine.TestRunner",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.test-framework@1.0.13\\UnityEngine.TestRunner\\UnityEngine.TestRunner.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.test-framework@1.0.13/UnityEngine.TestRunner/UnityEngine.TestRunner.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.TextMeshPro.Editor",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.textmeshpro@2.0.1\\Scripts\\Editor\\Unity.TextMeshPro.Editor.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.textmeshpro@2.0.1/Scripts/Editor/Unity.TextMeshPro.Editor.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.TextMeshPro",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.textmeshpro@2.0.1\\Scripts\\Runtime\\Unity.TextMeshPro.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.textmeshpro@2.0.1/Scripts/Runtime/Unity.TextMeshPro.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.TextMeshPro.Editor.Tests",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.textmeshpro@2.0.1\\Tests\\Editor\\Unity.TextMeshPro.Editor.Tests.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.textmeshpro@2.0.1/Tests/Editor/Unity.TextMeshPro.Editor.Tests.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.TextMeshPro.Tests",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.textmeshpro@2.0.1\\Tests\\Runtime\\Unity.TextMeshPro.Tests.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.textmeshpro@2.0.1/Tests/Runtime/Unity.TextMeshPro.Tests.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Timeline.Editor",
-        "FullPath": "C:\\Users\\HDgam\\playground\\2019.2.0b4\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.timeline\\Editor\\Unity.Timeline.Editor.asmdef",
+        "FullPath": "/Applications/Unity/Hub/Editor/2019.2.0f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.timeline/Editor/Unity.Timeline.Editor.asmdef",
         "PackageSource": "BuiltIn"
     }, {
         "AsmdefName": "Unity.Timeline",
-        "FullPath": "C:\\Users\\HDgam\\playground\\2019.2.0b4\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.timeline\\Runtime\\Unity.Timeline.asmdef",
+        "FullPath": "/Applications/Unity/Hub/Editor/2019.2.0f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.timeline/Runtime/Unity.Timeline.asmdef",
         "PackageSource": "BuiltIn"
     }, {
         "AsmdefName": "Unity.Timeline.Package.EditorTests",
-        "FullPath": "C:\\Users\\HDgam\\playground\\2019.2.0b4\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.timeline\\Tests\\Editor\\Unity.Timeline.Package.EditorTests.asmdef",
+        "FullPath": "/Applications/Unity/Hub/Editor/2019.2.0f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.timeline/Tests/Editor/Unity.Timeline.Package.EditorTests.asmdef",
         "PackageSource": "BuiltIn"
     }, {
         "AsmdefName": "Unity.Timeline.Package.Tests",
-        "FullPath": "C:\\Users\\HDgam\\playground\\2019.2.0b4\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.timeline\\Tests\\PlayMode\\Unity.Timeline.Package.Tests.asmdef",
+        "FullPath": "/Applications/Unity/Hub/Editor/2019.2.0f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.timeline/Tests/PlayMode/Unity.Timeline.Package.Tests.asmdef",
         "PackageSource": "BuiltIn"
     }, {
         "AsmdefName": "Unity.Entities.CPlusPlus",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\DotsModules\\Unity.Entities.CPlusPlus\\Unity.Entities.CPlusPlus.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Entities.CPlusPlus/Unity.Entities.CPlusPlus.asmdef",
+        "PackageSource": "Registry"
+    }, {
+        "AsmdefName": "Unity.Tiny.Audio.Editor",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.Audio.Editor/Unity.Tiny.Audio.Editor.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Tiny.Audio",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\DotsModules\\Unity.Tiny.Audio\\Unity.Tiny.Audio.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.Audio/Unity.Tiny.Audio.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Tiny.AudioHTML",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\DotsModules\\Unity.Tiny.AudioHTML\\Unity.Tiny.AudioHTML.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.AudioHTML/Unity.Tiny.AudioHTML.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Tiny.AudioNative",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\DotsModules\\Unity.Tiny.AudioNative\\Unity.Tiny.AudioNative.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.AudioNative/Unity.Tiny.AudioNative.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Tiny.Codec",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\DotsModules\\Unity.Tiny.Codec\\Unity.Tiny.Codec.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.Codec/Unity.Tiny.Codec.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Tiny.Core",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\DotsModules\\Unity.Tiny.Core\\Unity.Tiny.Core.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.Core/Unity.Tiny.Core.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Tiny.Core2D.Editor",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\DotsModules\\Unity.Tiny.Core2D.Editor\\Unity.Tiny.Core2D.Editor.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.Core2D.Editor/Unity.Tiny.Core2D.Editor.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Tiny.Core2D",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\DotsModules\\Unity.Tiny.Core2D\\Unity.Tiny.Core2D.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.Core2D/Unity.Tiny.Core2D.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Tiny.Core2DTypes.Editor",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\DotsModules\\Unity.Tiny.Core2DTypes.Editor\\Unity.Tiny.Core2DTypes.Editor.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.Core2DTypes.Editor/Unity.Tiny.Core2DTypes.Editor.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Tiny.Core2DTypes",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\DotsModules\\Unity.Tiny.Core2DTypes\\Unity.Tiny.Core2DTypes.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.Core2DTypes/Unity.Tiny.Core2DTypes.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Tiny.Debugging",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\DotsModules\\Unity.Tiny.Debugging\\Unity.Tiny.Debugging.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.Debugging/Unity.Tiny.Debugging.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Tiny.EntryPoint",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\DotsModules\\Unity.Tiny.EntryPoint\\Unity.Tiny.EntryPoint.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.EntryPoint/Unity.Tiny.EntryPoint.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Tiny.GLFW",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\DotsModules\\Unity.Tiny.GLFW\\Unity.Tiny.GLFW.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.GLFW/Unity.Tiny.GLFW.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Tiny.HitBox2D.Editor",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\DotsModules\\Unity.Tiny.HitBox2D.Editor\\Editor\\Unity.Tiny.HitBox2D.Editor.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.HitBox2D.Editor/Editor/Unity.Tiny.HitBox2D.Editor.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Tiny.HitBox2D.MonoBehaviour",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\DotsModules\\Unity.Tiny.HitBox2D.Editor\\MonoBehaviour\\Unity.Tiny.HitBox2D.MonoBehaviour.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.HitBox2D.Editor/MonoBehaviour/Unity.Tiny.HitBox2D.MonoBehaviour.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Tiny.HitBox2D",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\DotsModules\\Unity.Tiny.HitBox2D\\Unity.Tiny.HitBox2D.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.HitBox2D/Unity.Tiny.HitBox2D.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Tiny.HTML",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\DotsModules\\Unity.Tiny.HTML\\HTML.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.HTML/HTML.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Tiny.Image2D",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\DotsModules\\Unity.Tiny.Image2D\\Unity.Tiny.Image2D.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.Image2D/Unity.Tiny.Image2D.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Tiny.Image2DIOHTML",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\DotsModules\\Unity.Tiny.Image2DIOHTML\\Unity.Tiny.Image2DIOHTML.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.Image2DIOHTML/Unity.Tiny.Image2DIOHTML.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Tiny.Image2DIOSTB",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\DotsModules\\Unity.Tiny.Image2DIOSTB\\Unity.Tiny.Image2DIOSTB.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.Image2DIOSTB/Unity.Tiny.Image2DIOSTB.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Tiny.Input",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\DotsModules\\Unity.Tiny.Input\\Unity.Tiny.Input.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.Input/Unity.Tiny.Input.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Tiny.InputGLFW",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\DotsModules\\Unity.Tiny.InputGLFW\\Unity.Tiny.InputGLFW.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.InputGLFW/Unity.Tiny.InputGLFW.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Tiny.InputHTML",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\DotsModules\\Unity.Tiny.InputHTML\\Unity.Tiny.InputHTML.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.InputHTML/Unity.Tiny.InputHTML.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Tiny.Interpolation",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\DotsModules\\Unity.Tiny.Interpolation\\Unity.Tiny.Interpolation.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.Interpolation/Unity.Tiny.Interpolation.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Tiny.IO",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\DotsModules\\Unity.Tiny.IO\\Unity.Tiny.IO.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.IO/Unity.Tiny.IO.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Tiny.Math",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\DotsModules\\Unity.Tiny.Math\\Unity.Tiny.Math.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.Math/Unity.Tiny.Math.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Tiny.Particles",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\DotsModules\\Unity.Tiny.Particles\\Unity.Tiny.Particles.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.Particles/Unity.Tiny.Particles.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Tiny.PointQuery",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\DotsModules\\Unity.Tiny.PointQuery\\Unity.Tiny.PointQuery.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.PointQuery/Unity.Tiny.PointQuery.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Tiny.Renderer",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\DotsModules\\Unity.Tiny.Renderer\\Unity.Tiny.Renderer.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.Renderer/Unity.Tiny.Renderer.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Tiny.RendererCanvas",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\DotsModules\\Unity.Tiny.RendererCanvas\\Unity.Tiny.RendererCanvas.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.RendererCanvas/Unity.Tiny.RendererCanvas.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Tiny.RendererGL",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\DotsModules\\Unity.Tiny.RendererGL\\Unity.Tiny.RendererGL.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.RendererGL/Unity.Tiny.RendererGL.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Tiny.RendererGLES2",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\DotsModules\\Unity.Tiny.RendererGLES2\\Unity.Tiny.RendererGLES2.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.RendererGLES2/Unity.Tiny.RendererGLES2.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Tiny.RendererGLNative",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\DotsModules\\Unity.Tiny.RendererGLNative\\Unity.Tiny.RendererGLNative.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.RendererGLNative/Unity.Tiny.RendererGLNative.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Tiny.Scenes",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\DotsModules\\Unity.Tiny.Scenes\\Unity.Tiny.Scenes.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.Scenes/Unity.Tiny.Scenes.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Tiny.Shape2D",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\DotsModules\\Unity.Tiny.Shape2D\\Unity.Tiny.Shape2D.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.Shape2D/Unity.Tiny.Shape2D.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Tiny.Sprite2D.Editor",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\DotsModules\\Unity.Tiny.Sprite2D.Editor\\Unity.Tiny.Sprite2D.Editor.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.Sprite2D.Editor/Unity.Tiny.Sprite2D.Editor.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Tiny.Sprite2D",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\DotsModules\\Unity.Tiny.Sprite2D\\Unity.Tiny.Sprite2D.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.Sprite2D/Unity.Tiny.Sprite2D.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Tiny.Text.Editor",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\DotsModules\\Unity.Tiny.Text.Editor\\Unity.Tiny.Text.Editor.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.Text.Editor/Unity.Tiny.Text.Editor.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Tiny.Text",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\DotsModules\\Unity.Tiny.Text\\Unity.Tiny.Text.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.Text/Unity.Tiny.Text.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Tiny.TextHTML",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\DotsModules\\Unity.Tiny.TextHTML\\Unity.Tiny.TextHTML.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.TextHTML/Unity.Tiny.TextHTML.asmdef",
+        "PackageSource": "Registry"
+    }, {
+        "AsmdefName": "Unity.Tiny.TextNative",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.TextNative/Unity.Tiny.TextNative.asmdef",
+        "PackageSource": "Registry"
+    }, {
+        "AsmdefName": "Unity.Tiny.Thread.Native",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.Thread.Native/Unity.Tiny.Thread.Native.asmdef",
+        "PackageSource": "Registry"
+    }, {
+        "AsmdefName": "Unity.Tiny.Tilemap2D",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.Tilemap2D/Unity.Tiny.Tilemap2D.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Tiny.Tweens",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\DotsModules\\Unity.Tiny.Tweens\\Unity.Tiny.Tweens.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.Tweens/Unity.Tiny.Tweens.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Tiny.UIControls",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\DotsModules\\Unity.Tiny.UIControls\\Unity.Tiny.UIControls.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.UIControls/Unity.Tiny.UIControls.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Tiny.UILayout.Editor",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\DotsModules\\Unity.Tiny.UILayout.Editor\\Unity.Tiny.UILayout.Editor.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.UILayout.Editor/Unity.Tiny.UILayout.Editor.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Tiny.UILayout",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\DotsModules\\Unity.Tiny.UILayout\\Unity.Tiny.UILayout.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.UILayout/Unity.Tiny.UILayout.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Tiny.Utils",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\DotsModules\\Unity.Tiny.Utils\\Unity.Tiny.Demos.Common.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.Utils/Unity.Tiny.Demos.Common.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Tiny.Video",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\DotsModules\\Unity.Tiny.Video\\Unity.Tiny.Video.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.Video/Unity.Tiny.Video.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Tiny.VideoHTML",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\DotsModules\\Unity.Tiny.VideoHTML\\Unity.Tiny.VideoHTML.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.VideoHTML/Unity.Tiny.VideoHTML.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Tiny.VideoNative",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\DotsModules\\Unity.Tiny.VideoNative\\Unity.Tiny.VideoNative.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.VideoNative/Unity.Tiny.VideoNative.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Tiny.Watchers",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\DotsModules\\Unity.Tiny.Watchers\\Unity.Tiny.Watchers.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.Watchers/Unity.Tiny.Watchers.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "TinyTestFramework",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\DotsPlayer\\TinyTestFramework\\TinyTestFramework.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsPlayer/TinyTestFramework/TinyTestFramework.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.ZeroPlayer.TypeRegGen",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\DotsPlayer\\TypeRegGen\\Unity.ZeroPlayer.TypeRegGen.asmdef",
-        "PackageSource": "Registry"
-    }, {
-        "AsmdefName": "Unity.ZeroJobs",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\DotsPlayer\\ZeroJobs\\Unity.ZeroJobs.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsPlayer/TypeRegGen/Unity.ZeroPlayer.TypeRegGen.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Editor.Tests",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\Tests\\Editor\\Unity.Editor.Tests.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/Tests/Editor/Unity.Editor.Tests.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Authoring.Core",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\Unity.Authoring.Core\\Unity.Authoring.Core.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/Unity.Authoring.Core/Unity.Authoring.Core.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Authoring.Tests",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\Unity.Authoring.Tests\\Unity.Authoring.Tests.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/Unity.Authoring.Tests/Unity.Authoring.Tests.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Authoring",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\Unity.Authoring\\Unity.Authoring.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/Unity.Authoring/Unity.Authoring.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Editor.Hybrid",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\Unity.Editor.Hybrid\\Unity.Editor.Hybrid.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/Unity.Editor.Hybrid/Unity.Editor.Hybrid.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Editor",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\Unity.Editor\\Unity.Editor.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/Unity.Editor/Unity.Editor.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Editor.GUI.BuiltinInspectors",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\Unity.Editor\\Unity.Editor.GUI\\CustomInspectors\\BuiltinInspectors\\Unity.Editor.GUI.BuiltinInspectors.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/Unity.Editor/Unity.Editor.GUI/CustomInspectors/BuiltinInspectors/Unity.Editor.GUI.BuiltinInspectors.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Entities.Reflection.Tests",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\Unity.Entities.Reflection.Tests\\Unity.Entities.Reflection.Tests.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/Unity.Entities.Reflection.Tests/Unity.Entities.Reflection.Tests.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Entities.Reflection",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\Unity.Entities.Reflection\\Unity.Entities.Reflection.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/Unity.Entities.Reflection/Unity.Entities.Reflection.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.InternalAPIEditorBridge.002",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\Unity.InternalAPIEditorBridge.002\\Unity.InternalAPIEditorBridge.002.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/Unity.InternalAPIEditorBridge.002/Unity.InternalAPIEditorBridge.002.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.InternalAPIEngineBridge.002",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\Unity.InternalAPIEngineBridge.002\\Unity.InternalAPIEngineBridge.002.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/Unity.InternalAPIEngineBridge.002/Unity.InternalAPIEngineBridge.002.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Serialization.PerformanceTests",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\Unity.Serialization.PerformanceTests\\Unity.Serialization.PerformanceTests.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/Unity.Serialization.PerformanceTests/Unity.Serialization.PerformanceTests.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Serialization.Properties",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\Unity.Serialization.Properties\\Unity.Serialization.Properties.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/Unity.Serialization.Properties/Unity.Serialization.Properties.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Serialization.Tests",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\Unity.Serialization.Tests\\Unity.Serialization.Tests.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/Unity.Serialization.Tests/Unity.Serialization.Tests.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Serialization",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\Unity.Serialization\\Unity.Serialization.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/Unity.Serialization/Unity.Serialization.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Tiny.Codec.Editor",
-        "FullPath": "C:\\Users\\HDgam\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.15.3-preview\\Unity.Tiny.Codec.Editor\\Unity.Tiny.Codec.Editor.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.tiny@0.16.1-preview/Unity.Tiny.Codec.Editor/Unity.Tiny.Codec.Editor.asmdef",
         "PackageSource": "Registry"
     }, {
-        "AsmdefName": "Unity.ugui.Editor",
-        "FullPath": "C:\\Users\\HDgam\\playground\\2019.2.0b4\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.ugui\\Editor\\Unity.ugui.Editor.asmdef",
+        "AsmdefName": "UnityEditor.UI",
+        "FullPath": "/Applications/Unity/Hub/Editor/2019.2.0f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Editor/UnityEditor.UI.asmdef",
         "PackageSource": "BuiltIn"
     }, {
-        "AsmdefName": "Unity.ugui",
-        "FullPath": "C:\\Users\\HDgam\\playground\\2019.2.0b4\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.ugui\\Runtime\\Unity.ugui.asmdef",
+        "AsmdefName": "UnityEngine.UI",
+        "FullPath": "/Applications/Unity/Hub/Editor/2019.2.0f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UnityEngine.UI.asmdef",
         "PackageSource": "BuiltIn"
     }, {
-        "AsmdefName": "Unity.ugui.EditorTests",
-        "FullPath": "C:\\Users\\HDgam\\playground\\2019.2.0b4\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.ugui\\Tests\\Editor\\Unity.ugui.EditorTests.asmdef",
+        "AsmdefName": "UnityEditor.UI.EditorTests",
+        "FullPath": "/Applications/Unity/Hub/Editor/2019.2.0f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Tests/Editor/UnityEditor.UI.EditorTests.asmdef",
         "PackageSource": "BuiltIn"
     }, {
-        "AsmdefName": "Unity.ugui.Tests",
-        "FullPath": "C:\\Users\\HDgam\\playground\\2019.2.0b4\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.ugui\\Tests\\Runtime\\Unity.ugui.Tests.asmdef",
+        "AsmdefName": "UnityEngine.UI.Tests",
+        "FullPath": "/Applications/Unity/Hub/Editor/2019.2.0f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Tests/Runtime/UnityEngine.UI.Tests.asmdef",
         "PackageSource": "BuiltIn"
     }],
-    "UnityProjectPath": "C:/Users/HDgam/Downloads/TinyCookbook",
-    "ProjectName": "TinyCookbook"
+    "UnityProjectPath": "/Users/nereu/Documents/EYODF/TinyCookbok",
+    "ProjectName": "TinyCookbok"
 }
