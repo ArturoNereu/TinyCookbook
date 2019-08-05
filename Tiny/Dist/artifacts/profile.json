@@ -1,0 +1,17 @@
+{
+"instructions_readme": "1) Open Chrome, 2) go to chrome://tracing, 3) click Load, 4) navigate to this file.",
+"traceEvents":[
+{ "cat":"", "pid":1, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"tundra" } }
+,{ "pid":1, "tid":0, "ts":1565036565444579, "dur":1788, "ph":"X", "name": "Tundra", "args": { "durationMS":2, "detail":"InitData" }}
+,{ "pid":1, "tid":0, "ts":1565036565446447, "dur":6, "ph":"X", "name": "Tundra", "args": { "durationMS":0, "detail":"RemoveStaleOutputs" }}
+,{ "pid":1, "tid":0, "ts":1565036565446453, "dur":17, "ph":"X", "name": "Tundra", "args": { "durationMS":0, "detail":"PrepareNodes" }}
+,{ "pid":1, "tid":0, "ts":1565036565446472, "dur":92, "ph":"X", "name": "Tundra", "args": { "durationMS":0, "detail":"BuildQueueInit" }}
+,{ "pid":1, "tid":0, "ts":1565036565446711, "dur":110, "ph":"X", "name": "Tundra", "args": { "durationMS":0, "detail":"BuildQueueDestroy" }}
+,{ "pid":1, "tid":0, "ts":1565036565446821, "dur":393, "ph":"X", "name": "Tundra", "args": { "durationMS":0, "detail":"SaveState" }}
+,{ "pid":1, "tid":6, "ts":1565036565446568, "dur":60, "ph":"X", "name": "Tundra", "args": { "durationMS":0, "detail":"CheckInputSignature" }}
+,{ "pid":1, "tid":6, "ts":1565036565446633, "dur":23, "ph":"X", "name": "Tundra", "args": { "durationMS":0, "detail":"CheckInputSignature" }}
+,{ "pid":1, "tid":7, "ts":1565036565446635, "dur":42, "ph":"X", "name": "Tundra", "args": { "durationMS":0, "detail":"CheckInputSignature" }}
+,{ "pid":1, "tid":7, "ts":1565036565446700, "dur":1, "ph":"X", "name": "Tundra", "args": { "durationMS":0, "detail":"CheckInputSignature" }}
+
+]
+}

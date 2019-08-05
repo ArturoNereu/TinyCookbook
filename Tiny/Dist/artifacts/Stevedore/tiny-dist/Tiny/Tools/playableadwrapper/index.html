@@ -1,0 +1,95 @@
+<style>
+    .unity_ads_bootstrap_button {
+        display: inline-block;
+        padding: 10px 32px;
+        font-size: 16px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color: #fff;
+        background-color: #0084ff;
+        border: none;
+        min-width: 128px;
+    }
+    .unity_ads_bootstrap_button:active {
+        background-color: #05bbd3;
+        transform: translateY(2px);
+    }
+    .unity_ads_bootstrap_highlight {
+        color: #0084ff;
+    }
+    .unity_ads_bootstrap_block {
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+    .unity_ads_bootstrap_download-block {
+        margin-top: 64px;
+        font-size: 0.75em;
+    }
+
+    .unity_ads_bootstrap_container {
+        font-size: 1.5em;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items:center;
+        color: white;
+        background-color: #0c292f;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+    }
+    .unity_ads_bootstrap_qrcode {
+        max-width: 20vh;
+        height: auto;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+    .unity_ads_bootstrap_close {
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin: 1em;
+    }
+</style>
+<div id="unity_ads_bootstrap_container" class="unity_ads_bootstrap_container">
+    <div style="text-align:center;">
+        <h1>
+            Use the <span class="unity_ads_bootstrap_highlight">Unity Ads Creative Tester App</span>
+            <br />
+            to run this playable on your device
+        </h1>
+        Scan the following QR Code:
+        <br />
+        <img class="unity_ads_bootstrap_qrcode" id="unity_ads_bootstrap_qrcode" src="{bootstrap_qrcode_src}" />
+        <br />
+        Or type in the URL:
+        <br />
+        <a class="unity_ads_bootstrap_highlight" id="unity_ads_bootstrap_url" href="{bootstrap_url}">{bootstrap_url}</a>
+        <br />
+        <div class="unity_ads_bootstrap_download-block">
+            Download the Unity Creative Tester App:
+            <br />
+            <div class="unity_ads_bootstrap_block">
+                <a class="unity_ads_bootstrap_button" href="https://storage.googleapis.com/unity-ads-aui-prod-deployments/external-app/app.plist">iOS</a>
+                <a class="unity_ads_bootstrap_button" href="https://storage.googleapis.com/unity-ads-aui-prod-deployments/external-app/ExternalTestApp.apk">Android</a>
+            </div>
+        </div>
+    </div>
+    <button class="unity_ads_bootstrap_button unity_ads_bootstrap_close" onclick="closePlayableAdBootstrap()">Close</button>
+</div>
+<script>
+    function closePlayableAdBootstrap() {
+        var container = document.getElementById('unity_ads_bootstrap_container');
+        container.remove();
+        ut._HTML.main();
+    }
+
+    if (typeof window.mraid !== 'undefined') {
+        closePlayableAdBootstrap();
+    }
+</script>
