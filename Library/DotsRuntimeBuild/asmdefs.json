@@ -5,15 +5,15 @@
         "PackageSource": "NoPackage"
     }, {
         "AsmdefName": "Unity.Burst.Editor",
-        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.burst@1.1.2/Editor/Unity.Burst.Editor.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.burst@1.1.0-preview.2/Editor/Unity.Burst.Editor.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Burst",
-        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.burst@1.1.2/Runtime/Unity.Burst.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.burst@1.1.0-preview.2/Runtime/Unity.Burst.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Burst.Tests.UnitTests",
-        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.burst@1.1.2/Tests/Tests.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.burst@1.1.0-preview.2/Tests/Tests.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.CollabProxy.Editor",
@@ -149,15 +149,15 @@
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Mathematics.Tests",
-        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.mathematics@1.1.0/Tests/Unity.Mathematics.Tests.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.mathematics@1.0.1/Tests/Unity.Mathematics.Tests.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Mathematics.Editor",
-        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.mathematics@1.1.0/Unity.Mathematics.Editor/Unity.Mathematics.Editor.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.mathematics@1.0.1/Unity.Mathematics.Editor/Unity.Mathematics.Editor.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Mathematics",
-        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.mathematics@1.1.0/Unity.Mathematics/Unity.Mathematics.asmdef",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.mathematics@1.0.1/Unity.Mathematics/Unity.Mathematics.asmdef",
         "PackageSource": "Registry"
     }, {
         "AsmdefName": "Unity.Properties.PerformanceTests",

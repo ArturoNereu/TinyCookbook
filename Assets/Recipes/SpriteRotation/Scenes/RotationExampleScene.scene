@@ -18,11 +18,11 @@
             },
             "blending": 0
         }, {
-            "$type": "Unity.Authoring.Core.SiblingIndex, Unity.Authoring.Core",
-            "Index": 1
-        }, {
             "$type": "Rotate, SpriteRotation",
             "speed": 0.5
+        }, {
+            "$type": "Unity.Authoring.Core.SiblingIndex, Unity.Authoring.Core",
+            "Index": 1
         }, {
             "$type": "Unity.Entities.EntityGuid, Unity.Entities",
             "a": 6183771144155908069,

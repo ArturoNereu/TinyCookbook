@@ -79,8 +79,8 @@
     <Compile Include="..\PackageCache\com.unity.tiny@0.16.1-preview\DotsPlayer\bee~\BuildProgramSources\UnsafeUtility.cs">
       <Link>UnsafeUtility.cs</Link>
     </Compile>
-    <Compile Include="..\PackageCache\com.unity.burst@1.1.2\Runtime\bee~\Burst.bee.cs">
-      <Link>com.unity.burst@1.1.2\Runtime\bee~\Burst.bee.cs</Link>
+    <Compile Include="..\PackageCache\com.unity.burst@1.1.0-preview.2\Runtime\bee~\Burst.bee.cs">
+      <Link>com.unity.burst@1.1.0-preview.2\Runtime\bee~\Burst.bee.cs</Link>
     </Compile>
     <Compile Include="..\PackageCache\com.unity.tiny@0.16.1-preview\DotsModules\Unity.Tiny.AudioNative\bee~\CustomizerForTinyAudioNative.bee.cs">
       <Link>com.unity.tiny@0.16.1-preview\DotsModules\Unity.Tiny.AudioNative\bee~\CustomizerForTinyAudioNative.bee.cs</Link>
