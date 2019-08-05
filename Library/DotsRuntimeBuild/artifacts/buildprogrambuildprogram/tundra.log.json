@@ -1,5 +1,1 @@
 {"msg":"init","dagFile":"artifacts/buildprogram/buildprogram_buildprogram.dag","targets":[]}
-{"msg":"nodeOutputsMissing","annotation":"Download and unpack artifacts/buildprogrambuildprogram/Stevedore/7za-mac-x64/.StevedoreVersion (+1 other)","index":1,"files":["artifacts/buildprogrambuildprogram/Stevedore/7za-mac-x64/.StevedoreVersion"]}
-{"msg":"nodeOutputsMissing","annotation":"Download and unpack artifacts/buildprogrambuildprogram/Stevedore/roslyn-csc-mac/.StevedoreVersion (+1 other)","index":3,"files":["artifacts/buildprogrambuildprogram/Stevedore/roslyn-csc-mac/.StevedoreVersion"]}
-{"msg":"nodeOutputsMissing","annotation":"Download and unpack artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v46/.StevedoreVersion (+1 other)","index":2,"files":["artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v46/.StevedoreVersion"]}
-{"msg":"nodeOutputsMissing","annotation":"Csc artifacts/buildprogram/buildprogram_buildprogram.exe (+2 others)","index":4,"files":["artifacts/buildprogram_buildprogram.exe/Release/ref/buildprogram_buildprogram.exe/1088064819024506472.dll"]}
