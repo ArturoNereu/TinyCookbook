@@ -1,9 +1,0 @@
-<UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" id="EntityInspectorHeader">
-    <ui:VisualElement >
-        <ui:VisualElement class="unity-ecs-inspector--entity-header">
-            <ui:VisualElement class="unity-ecs-inspector--entity-header-icon"/>
-            <ui:Toggle name="EntityEnabledFlag" class="unity-ecs-inspector--entity-header-toggle"/>
-            <ui:TextField class="unity-ecs-inspector--entity-header-name" name="EntityName"/>
-        </ui:VisualElement>
-    </ui:VisualElement>
-</UXML>

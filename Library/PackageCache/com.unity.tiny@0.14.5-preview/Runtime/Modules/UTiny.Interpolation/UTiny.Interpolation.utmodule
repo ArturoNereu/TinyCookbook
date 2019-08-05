@@ -1,0 +1,15 @@
+﻿[{
+    "$TypeId": 2,
+    "Id": "fb3737c9a63f1f11bd510d36b765b8ee",
+    "Name": "UTiny.Interpolation",
+    "SerializedVersion": 1,
+    "ExportFlags": 1,
+    "Namespace": "ut.Interpolation",
+    "Options": 1,
+    "Dependencies": [
+        { "Id": "a1b50987659c653138795a8f4079fc10", "Name": "UTiny.Math" },
+        { "Id": "494f9eba840c1f117459611e605884b0", "Name": "UTiny.Core2DTypes" },
+        { "Id": "2af0cd3b47a732bf738688ceab312689", "Name": "UTiny.Core" },
+        { "Id": "ce3f1bd7050540b70d450a606e226ea2", "Name": "UTiny.Shared" }
+    ]
+}]

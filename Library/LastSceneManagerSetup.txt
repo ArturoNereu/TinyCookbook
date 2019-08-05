@@ -1,5 +1,5 @@
 sceneSetups:
 - path: Assets/EditorCache/DotsScratchpad-DoNotEdit.unity
-  isLoaded: 1
-  isActive: 1
+  isLoaded: 0
+  isActive: 0
   isSubScene: 0

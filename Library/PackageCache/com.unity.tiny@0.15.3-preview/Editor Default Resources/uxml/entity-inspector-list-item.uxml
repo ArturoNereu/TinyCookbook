@@ -1,4 +1,0 @@
-<UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" id="EntityInspectorListItem">
-    <ui:VisualElement name="Content" class="unity-ecs-inspector--list-item-content"/>
-    <ui:Button name="RemoveButton" class="unity-ecs-inspector--remove-button"/>
-</UXML>

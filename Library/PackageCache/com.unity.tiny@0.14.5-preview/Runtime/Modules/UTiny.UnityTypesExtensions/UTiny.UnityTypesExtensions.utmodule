@@ -1,0 +1,15 @@
+﻿[{
+    "$TypeId": 2,
+    "Id": "ca702d06498caa58a8babcfb0c9760ef",
+    "Name": "UTiny.UnityTypesExtensions",
+    "SerializedVersion": 1,
+    "ExportFlags": 4,
+    "Namespace": "ut.TinyEditorExtensions",
+    "Options": 1,
+    "Dependencies": [
+        { "Id": "30097418841f56d73400bf82ee859ac9", "Name": "UTiny.Core2D" },
+        { "Id": "494f9eba840c1f117459611e605884b0", "Name": "UTiny.Core2DTypes" },
+        { "Id": "fb3737c9a63f1f11bd510d36b765b8ee", "Name": "UTiny.Interpolation" },
+        { "Id": "a1b50987659c653138795a8f4079fc10", "Name": "UTiny.Math" }
+    ]
+}]

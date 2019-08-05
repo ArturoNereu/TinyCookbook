@@ -1,0 +1,17 @@
+﻿[{
+    "$TypeId": 2,
+    "Id": "77778da25aeb380ab7e46deb6d495cdc",
+    "Name": "UTiny.Tweens",
+    "SerializedVersion": 1,
+    "ExportFlags": 1,
+    "Namespace": "ut.Tweens",
+    "MetadataFileGUID": "e8653ca1a2f70304bbad991aa526e52e",
+    "Options": 1,
+    "Dependencies": [
+        { "Id": "494f9eba840c1f117459611e605884b0", "Name": "UTiny.Core2DTypes" },
+        { "Id": "2af0cd3b47a732bf738688ceab312689", "Name": "UTiny.Core" },
+        { "Id": "a1b50987659c653138795a8f4079fc10", "Name": "UTiny.Math" },
+        { "Id": "ce3f1bd7050540b70d450a606e226ea2", "Name": "UTiny.Shared" },
+        { "Id": "30097418841f56d73400bf82ee859ac9", "Name": "UTiny.Core2D" }
+    ]
+}]
