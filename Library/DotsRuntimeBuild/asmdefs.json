@@ -4,6 +4,10 @@
         "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Assets/Recipes/SpriteRotation/SpriteRotation.asmdef",
         "PackageSource": "NoPackage"
     }, {
+        "AsmdefName": "TinyArmsAttack",
+        "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Assets/Recipes/TinyArmsAttack/TinyArmsAttack.asmdef",
+        "PackageSource": "NoPackage"
+    }, {
         "AsmdefName": "Unity.Burst.Editor",
         "FullPath": "/Users/nereu/Documents/EYODF/TinyCookbok/Library/PackageCache/com.unity.burst@1.1.0-preview.2/Editor/Unity.Burst.Editor.asmdef",
         "PackageSource": "Registry"
