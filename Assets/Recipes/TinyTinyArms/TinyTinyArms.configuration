@@ -1,0 +1,36 @@
+{
+    "FileType": "Scene",
+    "Guid": "46b433b264c69cbd39f04ad2e5d12be8",
+    "SerializedVersion": 1,
+    "AssetReferences": [],
+    "Entities": [{
+        "Components": [{
+            "$type": "Unity.Entities.EntityGuid, Unity.Entities",
+            "a": 10105344682067640513,
+            "b": 13457429225200612927
+        }, {
+            "$type": "Unity.Tiny.Core2D.DisplayInfo, Unity.Tiny.Core2D",
+            "width": 1280,
+            "height": 720,
+            "autoSizeToFrame": true,
+            "orientation": 0,
+            "renderMode": 0
+        }, {
+            "$type": "Unity.Tiny.Scenes.Scenes, Unity.Tiny.Scenes",
+            "Elements": [{
+                "SceneReference": {
+                    "SceneGuid": "4197b0f082064c5daf69c7264046d2f9"
+                }
+            }]
+        }, {
+            "$type": "Unity.Tiny.Scenes.StartupScenes, Unity.Tiny.Scenes",
+            "Elements": [{
+                "SceneReference": {
+                    "SceneGuid": "4197b0f082064c5daf69c7264046d2f9"
+                }
+            }]
+        }, {
+            "$type": "Unity.Authoring.Core.ConfigurationTag, Unity.Authoring.Core"
+        }]
+    }]
+}

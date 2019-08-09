@@ -1,0 +1,5 @@
+{
+	"displayName":"Spawn and Destroy",
+	"description": "A sample project shows how to load, initialize and unload scenes.",
+	"createSeparatePackage": false
+}

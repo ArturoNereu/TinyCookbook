@@ -1,0 +1,27 @@
+{
+  "name": "Unity.Tiny.TextNative",
+  "references": [
+    "Unity.Mathematics",
+    "Unity.Entities.CPlusPlus",
+    "Unity.Entities",
+    "Unity.Tiny.Core",
+    "Unity.Tiny.Core2D",
+    "Unity.Tiny.Core2DTypes",
+    "Unity.Tiny.Image2D",
+    "Unity.Tiny.Image2DIOSTB",
+    "Unity.Tiny.UILayout",
+    "Unity.Tiny.Text",
+    "Unity.Authoring.Core",
+    "Unity.Tiny.Thread.Native",
+    "Unity.Tiny.Debugging"
+  ],
+  "optionalUnityReferences": [],
+  "includePlatforms": [],
+  "excludePlatforms": [ "WebGL" ],
+  "allowUnsafeCode": true,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "cpp": [ "cpp~" ]
+}

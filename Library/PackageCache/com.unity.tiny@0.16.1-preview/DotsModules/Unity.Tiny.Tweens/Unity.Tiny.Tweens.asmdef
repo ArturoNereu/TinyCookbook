@@ -1,0 +1,20 @@
+{
+    "name": "Unity.Tiny.Tweens",
+    "references": [
+        "Unity.Entities",
+        "Unity.Entities.CPlusPlus",
+        "Unity.Mathematics",
+        "Unity.Tiny.Core",
+        "Unity.Tiny.Core2D",
+        "Unity.Tiny.Core2DTypes",
+        "Unity.Tiny.Debugging"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

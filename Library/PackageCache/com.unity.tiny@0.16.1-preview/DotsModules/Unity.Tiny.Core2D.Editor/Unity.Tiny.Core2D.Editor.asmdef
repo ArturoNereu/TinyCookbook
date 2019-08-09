@@ -1,0 +1,23 @@
+{
+    "name": "Unity.Tiny.Core2D.Editor",
+    "references": [
+        "Unity.Entities",
+        "Unity.Mathematics",
+        "Unity.Tiny.Core2D",
+        "Unity.Tiny.Core2DTypes",
+        "Unity.Tiny.Core2DTypes.Editor",
+        "Unity.Editor",
+        "Unity.Authoring",
+        "Unity.Collections"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": []
+}

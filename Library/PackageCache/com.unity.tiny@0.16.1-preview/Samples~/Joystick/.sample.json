@@ -1,0 +1,5 @@
+{
+	"displayName":"Joystick",
+	"description": "A sample project shows how to create a virtual UI joystick and use it to control character movements.",
+	"createSeparatePackage": false
+}

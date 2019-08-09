@@ -1,0 +1,13 @@
+{
+    "name": "Unity.Tiny.Core",
+    "references": [
+        "Unity.Authoring.Core",
+        "Unity.Collections",
+        "Unity.Entities",
+        "Unity.Entities.CPlusPlus"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true
+}

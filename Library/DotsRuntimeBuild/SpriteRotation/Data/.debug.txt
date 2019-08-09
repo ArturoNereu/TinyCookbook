@@ -1,0 +1,4 @@
+06d0a78b7523e833ed43a2db99db271e = "Assets"
+a2dab47136a047b9a4398b54a56a0b42 = "Assets/Recipes/SpriteRotation/Scenes/MainScene.scene"
+f15b22a230092949ecccd1cfb52b47a3 = "Assets/Textures/Planet.png"
+46b433b264c69cbd39f04ad2e5d12be8 = "Configuration"

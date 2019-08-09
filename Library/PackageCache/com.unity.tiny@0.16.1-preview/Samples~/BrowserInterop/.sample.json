@@ -1,0 +1,5 @@
+{
+	"displayName":"BrowserInterop",
+	"description": "A sample project to demonstrate how C# code can interact with JS and back.",
+	"createSeparatePackage": false
+}

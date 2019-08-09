@@ -1,0 +1,1 @@
+C:\Users\arturo\Downloads\TinyCookbook\Library\PackageCache\com.unity.tiny@0.16.1-preview\DotsPlayer\bee~\bee.exe --no-colors get-editor-tools spriterotation-windows-dotnet-develop

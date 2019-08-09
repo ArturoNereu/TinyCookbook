@@ -1,0 +1,16 @@
+<UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" id="EntityHierarchy">
+    <ui:VisualElement name="AuthoringContext">
+        <ui:VisualElement name="Header">
+            <uie:Toolbar>
+                <uie:ToolbarMenu name="CreateButton" text="Create" class="unity-ecs-hierarchy--create-button"/>
+                <uie:ToolbarSpacer/>
+                <uie:ToolbarSearchField name="SearchField" class="unity-ecs-hierarchy--search-field"/>
+            </uie:Toolbar>
+        </ui:VisualElement>
+        <ui:VisualElement name="Content"/>
+    </ui:VisualElement>
+    <ui:VisualElement name="FlexibleSpace" class="unity-ecs-hierarchy-flexible-space"/>
+    <ui:VisualElement name="Footer" class="unity-ecs-hierarchy-footer"/>
+    <ui:VisualElement name="NonAuthoringContext">
+    </ui:VisualElement>
+</UXML>

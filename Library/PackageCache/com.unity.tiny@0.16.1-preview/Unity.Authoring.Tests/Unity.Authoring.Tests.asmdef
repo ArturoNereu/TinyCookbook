@@ -1,0 +1,26 @@
+{
+    "name": "Unity.Authoring.Tests",
+    "references": [
+        "Unity.Authoring",
+        "Unity.Entities",
+        "Unity.Mathematics",
+        "Unity.Tiny.Core",
+        "Unity.Tiny.Core2D",
+        "Unity.Tiny.Core2DTypes",
+        "Unity.Tiny.Image2D",
+        "Unity.Tiny.Sprite2D"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": []
+}

@@ -1,0 +1,5 @@
+{
+	"displayName":"Timer Button",
+	"description": "A sample project shows how to setup a UILayout, do actions on the press of a button and handle a countdown timer.",
+	"createSeparatePackage": false
+}

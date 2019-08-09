@@ -1,0 +1,21 @@
+{
+    "name": "Unity.Tiny.Tilemap2D",
+    "references": [
+        "Unity.Entities",
+        "Unity.Entities.CPlusPlus",
+        "Unity.Tiny.Core",
+        "Unity.Tiny.Core2D",
+        "Unity.Tiny.Core2DTypes",
+        "Unity.Tiny.Image2D",
+        "Unity.Tiny.Sprite2D",
+        "Unity.Mathematics"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

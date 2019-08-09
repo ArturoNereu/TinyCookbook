@@ -1,0 +1,18 @@
+{
+    "name": "Unity.Tiny.Image2D",
+    "references": [
+        "Unity.Authoring.Core",
+        "Unity.Entities",
+        "Unity.Entities.CPlusPlus",
+        "Unity.Mathematics",
+        "Unity.Tiny.Core"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

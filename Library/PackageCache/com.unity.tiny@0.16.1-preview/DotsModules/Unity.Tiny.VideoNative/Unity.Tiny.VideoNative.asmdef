@@ -1,0 +1,21 @@
+{
+  "name": "Unity.Tiny.VideoNative",
+  "references": [
+    "Unity.Entities",
+    "Unity.Entities.CPlusPlus",
+    "Unity.Tiny.GLFW",
+    "Unity.Tiny.UILayout",
+    "Unity.Tiny.Core",
+    "Unity.Tiny.Core2D",
+    "Unity.Mathematics",
+    "Unity.Tiny.Video"
+  ],
+  "optionalUnityReferences": [],
+  "includePlatforms": [],
+  "excludePlatforms": ["WebGL"],
+  "allowUnsafeCode": true,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": []
+}

@@ -1,0 +1,669 @@
+{
+  "Nodes": [
+    {
+      "Annotation": "all_tundra_nodes",
+      "Action": "",
+      "Inputs": [],
+      "Outputs": [],
+      "PassIndex": 0,
+      "Deps": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "OverwriteOutputs": true,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [],
+      "DebugActionIndex": 0
+    },
+    {
+      "Annotation": "Download and unpack artifacts/Stevedore/7za-win-x64/.StevedoreVersion (+1 other)",
+      "Action": "\"C:\\Users\\arturo\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsPlayer\\bee~\\bee.exe\" steve internal-unpack public 7za-win-x64/16.04-1.1.4_0d1e6ad367de3bb0c1a396856903c63e080a1e8fee52897cb5f5dee063832831.zip \"artifacts/Stevedore/7za-win-x64\"",
+      "Inputs": [],
+      "Outputs": [
+        "artifacts/Stevedore/7za-win-x64/.StevedoreVersion",
+        "artifacts/Stevedore/7za-win-x64"
+      ],
+      "PassIndex": 0,
+      "Deps": [],
+      "OverwriteOutputs": true,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowUnwrittenOutputFiles": true,
+      "AllowedOutputSubstrings": [],
+      "Env": [],
+      "DebugActionIndex": 1
+    },
+    {
+      "Annotation": "Download and unpack artifacts/Stevedore/referenceassemblies_v471/.StevedoreVersion (+1 other)",
+      "Action": "\"C:\\Users\\arturo\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsPlayer\\bee~\\bee.exe\" steve internal-unpack public referenceassemblies_v471/1_a0c33a9a16a4ad77c158aac7cd7e47daed3e68b180c65e14474f44c9501c4fae.7z \"artifacts/Stevedore/referenceassemblies_v471\"",
+      "Inputs": [
+        "artifacts/Stevedore/7za-win-x64/7za.exe"
+      ],
+      "Outputs": [
+        "artifacts/Stevedore/referenceassemblies_v471/.StevedoreVersion",
+        "artifacts/Stevedore/referenceassemblies_v471"
+      ],
+      "PassIndex": 0,
+      "Deps": [
+        1
+      ],
+      "OverwriteOutputs": true,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowUnwrittenOutputFiles": true,
+      "AllowedOutputSubstrings": [],
+      "Env": [
+        {
+          "Key": "BEE_INTERNAL_STEVEDORE_7ZA",
+          "Value": "C:\\Users\\arturo\\Downloads\\TinyCookbook\\Library\\DotsRuntimeBuild\\artifacts\\Stevedore\\7za-win-x64\\7za.exe"
+        }
+      ],
+      "DebugActionIndex": 2
+    },
+    {
+      "Annotation": "Download and unpack artifacts/Stevedore/roslyn-csc-win64/.StevedoreVersion (+1 other)",
+      "Action": "\"C:\\Users\\arturo\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsPlayer\\bee~\\bee.exe\" steve internal-unpack public roslyn-csc-win64/9d34608e19dfe308a46d51aeaa3670746272bff9_7bcbee41a6c94681ce50890758f3a052e09c165fde67e6069d83537ba5697d61.7z \"artifacts/Stevedore/roslyn-csc-win64\"",
+      "Inputs": [
+        "artifacts/Stevedore/7za-win-x64/7za.exe"
+      ],
+      "Outputs": [
+        "artifacts/Stevedore/roslyn-csc-win64/.StevedoreVersion",
+        "artifacts/Stevedore/roslyn-csc-win64"
+      ],
+      "PassIndex": 0,
+      "Deps": [
+        1
+      ],
+      "OverwriteOutputs": true,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowUnwrittenOutputFiles": true,
+      "AllowedOutputSubstrings": [],
+      "Env": [
+        {
+          "Key": "BEE_INTERNAL_STEVEDORE_7ZA",
+          "Value": "C:\\Users\\arturo\\Downloads\\TinyCookbook\\Library\\DotsRuntimeBuild\\artifacts\\Stevedore\\7za-win-x64\\7za.exe"
+        }
+      ],
+      "DebugActionIndex": 3
+    },
+    {
+      "Annotation": "WriteResponseFile artifacts/rsp/16678227308262555357.rsp",
+      "WriteTextFilePayload": "-out:artifacts/buildprogram/buildprogram.exe /refout:\"artifacts\\buildprogram.exe\\Release\\ref\\buildprogram.exe\\6679393424876907701.dll\" -warnaserror -r:\"artifacts/Stevedore/referenceassemblies_v471/System.Xml.Linq.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/mscorlib.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/System.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/System.Core.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/System.Xml.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/Microsoft.Win32.Primitives.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/netstandard.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.AppContext.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Collections.Concurrent.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Collections.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Collections.NonGeneric.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Collections.Specialized.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.ComponentModel.Annotations.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.ComponentModel.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.ComponentModel.EventBasedAsync.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.ComponentModel.Primitives.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.ComponentModel.TypeConverter.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Console.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Data.Common.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.Contracts.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.Debug.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.FileVersionInfo.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.Process.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.StackTrace.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.TextWriterTraceListener.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.Tools.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.TraceSource.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Drawing.Primitives.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Dynamic.Runtime.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Globalization.Calendars.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Globalization.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Globalization.Extensions.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.Compression.ZipFile.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.FileSystem.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.FileSystem.DriveInfo.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.FileSystem.Primitives.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.FileSystem.Watcher.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.IsolatedStorage.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.MemoryMappedFiles.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.Pipes.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.UnmanagedMemoryStream.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Linq.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Linq.Expressions.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Linq.Parallel.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Linq.Queryable.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.Http.Rtc.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.NameResolution.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.NetworkInformation.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.Ping.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.Primitives.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.Requests.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.Security.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.Sockets.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.WebHeaderCollection.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.WebSockets.Client.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.WebSockets.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.ObjectModel.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Reflection.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Reflection.Emit.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Reflection.Emit.ILGeneration.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Reflection.Emit.Lightweight.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Reflection.Extensions.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Reflection.Primitives.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Resources.Reader.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Resources.ResourceManager.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Resources.Writer.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.CompilerServices.VisualC.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.Extensions.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.Handles.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.InteropServices.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.InteropServices.RuntimeInformation.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.InteropServices.WindowsRuntime.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.Numerics.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.Serialization.Formatters.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.Serialization.Json.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.Serialization.Primitives.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.Serialization.Xml.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.Claims.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.Cryptography.Algorithms.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.Cryptography.Csp.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.Cryptography.Encoding.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.Cryptography.Primitives.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.Cryptography.X509Certificates.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.Principal.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.SecureString.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.ServiceModel.Duplex.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.ServiceModel.Http.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.ServiceModel.NetTcp.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.ServiceModel.Primitives.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.ServiceModel.Security.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Text.Encoding.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Text.Encoding.Extensions.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Text.RegularExpressions.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Threading.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Threading.Overlapped.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Threading.Tasks.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Threading.Tasks.Parallel.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Threading.Thread.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Threading.ThreadPool.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Threading.Timer.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.ValueTuple.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Xml.ReaderWriter.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Xml.XDocument.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Xml.XmlDocument.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Xml.XmlSerializer.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Xml.XPath.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Xml.XPath.XDocument.dll\" -r:\"C:/Users/arturo/Downloads/TinyCookbook/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsPlayer/bee~/bee.exe\" \"C:\\Users\\arturo\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsPlayer\\bee~\\BuildProgramSources\\AsmDefBasedDotsRuntimeCSharpProgram.cs\" \"C:\\Users\\arturo\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsPlayer\\bee~\\BuildProgramSources\\AsmDefDescription.cs\" \"C:\\Users\\arturo\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsPlayer\\bee~\\BuildProgramSources\\BindGem.cs\" \"C:\\Users\\arturo\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsPlayer\\bee~\\BuildProgramSources\\BuildProgram.bee.cs\" \"C:\\Users\\arturo\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsPlayer\\bee~\\BuildProgramSources\\BuildProgramConfigFile.cs\" \"C:\\Users\\arturo\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsPlayer\\bee~\\BuildProgramSources\\Cache.cs\" \"C:\\Users\\arturo\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsPlayer\\bee~\\BuildProgramSources\\DotsBuildTargets.cs\" \"C:\\Users\\arturo\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsPlayer\\bee~\\BuildProgramSources\\DotsConfigs.cs\" \"C:\\Users\\arturo\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsPlayer\\bee~\\BuildProgramSources\\DotsLinuxTarget.cs\" \"C:\\Users\\arturo\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsPlayer\\bee~\\BuildProgramSources\\DotsMacOSTarget.cs\" \"C:\\Users\\arturo\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsPlayer\\bee~\\BuildProgramSources\\DotsRuntimeCSharpProgram.cs\" \"C:\\Users\\arturo\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsPlayer\\bee~\\BuildProgramSources\\DotsRuntimeCSharpProgramCustomizer.cs\" \"C:\\Users\\arturo\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsPlayer\\bee~\\BuildProgramSources\\DotsWebTarget.cs\" \"C:\\Users\\arturo\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsPlayer\\bee~\\BuildProgramSources\\DotsWindowsTarget.cs\" \"C:\\Users\\arturo\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsPlayer\\bee~\\BuildProgramSources\\EditorToolsBuildProgram.cs\" \"C:\\Users\\arturo\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsPlayer\\bee~\\BuildProgramSources\\Il2Cpp.bee.cs\" \"C:\\Users\\arturo\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsPlayer\\bee~\\BuildProgramSources\\Il2CppCustomLocation.bee.cs\" \"C:\\Users\\arturo\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsPlayer\\bee~\\BuildProgramSources\\NPathExtensions.bee.cs\" \"C:\\Users\\arturo\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsPlayer\\bee~\\BuildProgramSources\\StevedoreUnityCecil.cs\" \"C:\\Users\\arturo\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsPlayer\\bee~\\BuildProgramSources\\TinyEmscripten.cs\" \"C:\\Users\\arturo\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsPlayer\\bee~\\BuildProgramSources\\TypeRegistrationTool.cs\" \"C:\\Users\\arturo\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsPlayer\\bee~\\BuildProgramSources\\UnsafeUtility.cs\" \"C:\\Users\\arturo\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.burst@1.1.2\\Runtime\\bee~\\Burst.bee.cs\" \"C:\\Users\\arturo\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsModules\\Unity.Tiny.AudioNative\\bee~\\CustomizerForTinyAudioNative.bee.cs\" \"C:\\Users\\arturo\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsModules\\Unity.Tiny.GLFW\\bee~\\CSharpProgramForTinyGLFW.cs\" \"C:\\Users\\arturo\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsModules\\Unity.Tiny.GLFW\\bee~\\ExternalGLFW.bee.cs\" \"C:\\Users\\arturo\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsModules\\Unity.Tiny.HTML\\bee~\\CustomizerForTinyHtml.bee.cs\" \"C:\\Users\\arturo\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsModules\\Unity.Tiny.Image2DIOSTB\\bee~\\CSharpProgramForTinyImage2DIOSTB.cs\" \"C:\\Users\\arturo\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsModules\\Unity.Tiny.RendererGLNative\\bee~\\CSharpProgramForTinyRendererGLNative.cs\" \"C:\\Users\\arturo\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsPlayer\\LowLevelSupport~\\Unity.ZeroJobs\\bee~\\CustomizerForZeroJobs.bee.cs\" -langversion:7.2 -fullpaths /optimize+ /debug:full /nologo /deterministic",
+      "Inputs": [],
+      "Outputs": [
+        "artifacts/rsp/16678227308262555357.rsp"
+      ],
+      "PassIndex": 0,
+      "Deps": [],
+      "OverwriteOutputs": true,
+      "AllowUnwrittenOutputFiles": true,
+      "DebugActionIndex": 4
+    },
+    {
+      "Annotation": "Csc artifacts/buildprogram/buildprogram.exe (+2 others)",
+      "Action": "\"artifacts\\Stevedore\\roslyn-csc-win64\\csc.exe\" /nostdlib /noconfig /shared @\"artifacts\\rsp\\16678227308262555357.rsp\"",
+      "Inputs": [
+        "C:/Users/arturo/Downloads/TinyCookbook/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsPlayer/bee~/BuildProgramSources/AsmDefBasedDotsRuntimeCSharpProgram.cs",
+        "C:/Users/arturo/Downloads/TinyCookbook/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsPlayer/bee~/BuildProgramSources/AsmDefDescription.cs",
+        "C:/Users/arturo/Downloads/TinyCookbook/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsPlayer/bee~/BuildProgramSources/BindGem.cs",
+        "C:/Users/arturo/Downloads/TinyCookbook/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsPlayer/bee~/BuildProgramSources/BuildProgram.bee.cs",
+        "C:/Users/arturo/Downloads/TinyCookbook/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsPlayer/bee~/BuildProgramSources/BuildProgramConfigFile.cs",
+        "C:/Users/arturo/Downloads/TinyCookbook/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsPlayer/bee~/BuildProgramSources/Cache.cs",
+        "C:/Users/arturo/Downloads/TinyCookbook/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsPlayer/bee~/BuildProgramSources/DotsBuildTargets.cs",
+        "C:/Users/arturo/Downloads/TinyCookbook/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsPlayer/bee~/BuildProgramSources/DotsConfigs.cs",
+        "C:/Users/arturo/Downloads/TinyCookbook/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsPlayer/bee~/BuildProgramSources/DotsLinuxTarget.cs",
+        "C:/Users/arturo/Downloads/TinyCookbook/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsPlayer/bee~/BuildProgramSources/DotsMacOSTarget.cs",
+        "C:/Users/arturo/Downloads/TinyCookbook/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsPlayer/bee~/BuildProgramSources/DotsRuntimeCSharpProgram.cs",
+        "C:/Users/arturo/Downloads/TinyCookbook/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsPlayer/bee~/BuildProgramSources/DotsRuntimeCSharpProgramCustomizer.cs",
+        "C:/Users/arturo/Downloads/TinyCookbook/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsPlayer/bee~/BuildProgramSources/DotsWebTarget.cs",
+        "C:/Users/arturo/Downloads/TinyCookbook/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsPlayer/bee~/BuildProgramSources/DotsWindowsTarget.cs",
+        "C:/Users/arturo/Downloads/TinyCookbook/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsPlayer/bee~/BuildProgramSources/EditorToolsBuildProgram.cs",
+        "C:/Users/arturo/Downloads/TinyCookbook/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsPlayer/bee~/BuildProgramSources/Il2Cpp.bee.cs",
+        "C:/Users/arturo/Downloads/TinyCookbook/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsPlayer/bee~/BuildProgramSources/Il2CppCustomLocation.bee.cs",
+        "C:/Users/arturo/Downloads/TinyCookbook/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsPlayer/bee~/BuildProgramSources/NPathExtensions.bee.cs",
+        "C:/Users/arturo/Downloads/TinyCookbook/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsPlayer/bee~/BuildProgramSources/StevedoreUnityCecil.cs",
+        "C:/Users/arturo/Downloads/TinyCookbook/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsPlayer/bee~/BuildProgramSources/TinyEmscripten.cs",
+        "C:/Users/arturo/Downloads/TinyCookbook/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsPlayer/bee~/BuildProgramSources/TypeRegistrationTool.cs",
+        "C:/Users/arturo/Downloads/TinyCookbook/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsPlayer/bee~/BuildProgramSources/UnsafeUtility.cs",
+        "C:/Users/arturo/Downloads/TinyCookbook/Library/PackageCache/com.unity.burst@1.1.2/Runtime/bee~/Burst.bee.cs",
+        "C:/Users/arturo/Downloads/TinyCookbook/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.AudioNative/bee~/CustomizerForTinyAudioNative.bee.cs",
+        "C:/Users/arturo/Downloads/TinyCookbook/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.GLFW/bee~/CSharpProgramForTinyGLFW.cs",
+        "C:/Users/arturo/Downloads/TinyCookbook/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.GLFW/bee~/ExternalGLFW.bee.cs",
+        "C:/Users/arturo/Downloads/TinyCookbook/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.HTML/bee~/CustomizerForTinyHtml.bee.cs",
+        "C:/Users/arturo/Downloads/TinyCookbook/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.Image2DIOSTB/bee~/CSharpProgramForTinyImage2DIOSTB.cs",
+        "C:/Users/arturo/Downloads/TinyCookbook/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.RendererGLNative/bee~/CSharpProgramForTinyRendererGLNative.cs",
+        "C:/Users/arturo/Downloads/TinyCookbook/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsPlayer/LowLevelSupport~/Unity.ZeroJobs/bee~/CustomizerForZeroJobs.bee.cs",
+        "C:/Users/arturo/Downloads/TinyCookbook/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsPlayer/bee~/bee.exe",
+        "artifacts/Stevedore/referenceassemblies_v471/System.Xml.Linq.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/mscorlib.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/System.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/System.Core.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/System.Xml.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/Microsoft.Win32.Primitives.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/netstandard.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.AppContext.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Collections.Concurrent.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Collections.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Collections.NonGeneric.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Collections.Specialized.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.ComponentModel.Annotations.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.ComponentModel.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.ComponentModel.EventBasedAsync.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.ComponentModel.Primitives.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.ComponentModel.TypeConverter.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Console.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Data.Common.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.Contracts.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.Debug.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.FileVersionInfo.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.Process.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.StackTrace.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.TextWriterTraceListener.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.Tools.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.TraceSource.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Drawing.Primitives.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Dynamic.Runtime.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Globalization.Calendars.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Globalization.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Globalization.Extensions.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.Compression.ZipFile.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.FileSystem.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.FileSystem.DriveInfo.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.FileSystem.Primitives.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.FileSystem.Watcher.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.IsolatedStorage.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.MemoryMappedFiles.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.Pipes.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.UnmanagedMemoryStream.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Linq.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Linq.Expressions.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Linq.Parallel.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Linq.Queryable.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.Http.Rtc.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.NameResolution.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.NetworkInformation.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.Ping.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.Primitives.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.Requests.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.Security.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.Sockets.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.WebHeaderCollection.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.WebSockets.Client.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.WebSockets.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.ObjectModel.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Reflection.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Reflection.Emit.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Reflection.Emit.ILGeneration.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Reflection.Emit.Lightweight.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Reflection.Extensions.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Reflection.Primitives.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Resources.Reader.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Resources.ResourceManager.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Resources.Writer.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.CompilerServices.VisualC.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.Extensions.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.Handles.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.InteropServices.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.InteropServices.WindowsRuntime.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.Numerics.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.Serialization.Formatters.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.Serialization.Json.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.Serialization.Primitives.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.Serialization.Xml.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.Claims.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.Cryptography.Algorithms.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.Cryptography.Csp.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.Cryptography.Encoding.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.Cryptography.Primitives.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.Cryptography.X509Certificates.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.Principal.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.SecureString.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.ServiceModel.Duplex.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.ServiceModel.Http.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.ServiceModel.NetTcp.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.ServiceModel.Primitives.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.ServiceModel.Security.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Text.Encoding.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Text.Encoding.Extensions.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Text.RegularExpressions.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Threading.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Threading.Overlapped.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Threading.Tasks.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Threading.Tasks.Parallel.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Threading.Thread.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Threading.ThreadPool.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Threading.Timer.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.ValueTuple.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Xml.ReaderWriter.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Xml.XDocument.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Xml.XmlDocument.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Xml.XmlSerializer.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Xml.XPath.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Xml.XPath.XDocument.dll",
+        "artifacts/Stevedore/roslyn-csc-win64/csc.exe",
+        "artifacts/rsp/16678227308262555357.rsp"
+      ],
+      "Outputs": [
+        "artifacts/buildprogram/buildprogram.exe",
+        "artifacts/buildprogram/buildprogram.pdb",
+        "artifacts/buildprogram.exe/Release/ref/buildprogram.exe/6679393424876907701.dll"
+      ],
+      "PassIndex": 0,
+      "Deps": [
+        2,
+        3,
+        4,
+        6
+      ],
+      "OverwriteOutputs": true,
+      "FrontendResponseFiles": [
+        "artifacts/rsp/16678227308262555357.rsp"
+      ],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [],
+      "DebugActionIndex": 5
+    },
+    {
+      "Annotation": "CopyTool artifacts/buildprogram/bee.exe",
+      "Action": "copy \"C:\\Users\\arturo\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsPlayer\\bee~\\bee.exe\" \"artifacts\\buildprogram\\bee.exe\" && copy /b \"artifacts\\buildprogram\\bee.exe\" +,, \"artifacts\\buildprogram\\bee.exe\" ",
+      "Inputs": [
+        "C:/Users/arturo/Downloads/TinyCookbook/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsPlayer/bee~/bee.exe"
+      ],
+      "Outputs": [
+        "artifacts/buildprogram/bee.exe"
+      ],
+      "PassIndex": 0,
+      "Deps": [],
+      "OverwriteOutputs": true,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [
+        ".*"
+      ],
+      "DebugActionIndex": 6
+    },
+    {
+      "Annotation": "WriteResponseFile artifacts/rsp/1008532451738831585.rsp",
+      "WriteTextFilePayload": "-out:artifacts/buildprogrambuildprogram.exe/Release/buildprogrambuildprogram.exe /refout:\"artifacts\\buildprogrambuildprogram.exe\\Release\\ref\\buildprogrambuildprogram.exe\\11011424901207506681.dll\" -warnaserror -r:\"artifacts/Stevedore/referenceassemblies_v471/mscorlib.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/System.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/System.Core.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/System.Xml.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/Microsoft.Win32.Primitives.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/netstandard.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.AppContext.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Collections.Concurrent.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Collections.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Collections.NonGeneric.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Collections.Specialized.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.ComponentModel.Annotations.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.ComponentModel.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.ComponentModel.EventBasedAsync.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.ComponentModel.Primitives.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.ComponentModel.TypeConverter.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Console.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Data.Common.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.Contracts.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.Debug.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.FileVersionInfo.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.Process.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.StackTrace.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.TextWriterTraceListener.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.Tools.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.TraceSource.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Drawing.Primitives.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Dynamic.Runtime.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Globalization.Calendars.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Globalization.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Globalization.Extensions.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.Compression.ZipFile.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.FileSystem.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.FileSystem.DriveInfo.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.FileSystem.Primitives.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.FileSystem.Watcher.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.IsolatedStorage.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.MemoryMappedFiles.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.Pipes.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.UnmanagedMemoryStream.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Linq.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Linq.Expressions.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Linq.Parallel.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Linq.Queryable.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.Http.Rtc.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.NameResolution.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.NetworkInformation.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.Ping.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.Primitives.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.Requests.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.Security.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.Sockets.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.WebHeaderCollection.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.WebSockets.Client.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.WebSockets.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.ObjectModel.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Reflection.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Reflection.Emit.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Reflection.Emit.ILGeneration.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Reflection.Emit.Lightweight.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Reflection.Extensions.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Reflection.Primitives.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Resources.Reader.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Resources.ResourceManager.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Resources.Writer.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.CompilerServices.VisualC.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.Extensions.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.Handles.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.InteropServices.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.InteropServices.RuntimeInformation.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.InteropServices.WindowsRuntime.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.Numerics.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.Serialization.Formatters.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.Serialization.Json.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.Serialization.Primitives.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.Serialization.Xml.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.Claims.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.Cryptography.Algorithms.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.Cryptography.Csp.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.Cryptography.Encoding.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.Cryptography.Primitives.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.Cryptography.X509Certificates.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.Principal.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.SecureString.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.ServiceModel.Duplex.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.ServiceModel.Http.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.ServiceModel.NetTcp.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.ServiceModel.Primitives.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.ServiceModel.Security.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Text.Encoding.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Text.Encoding.Extensions.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Text.RegularExpressions.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Threading.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Threading.Overlapped.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Threading.Tasks.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Threading.Tasks.Parallel.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Threading.Thread.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Threading.ThreadPool.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Threading.Timer.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.ValueTuple.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Xml.ReaderWriter.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Xml.XDocument.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Xml.XmlDocument.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Xml.XmlSerializer.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Xml.XPath.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Xml.XPath.XDocument.dll\" -r:\"C:/Users/arturo/Downloads/TinyCookbook/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsPlayer/bee~/bee.exe\" \"C:\\Users\\arturo\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsPlayer\\bee~\\BuildProgramBuildProgramSources\\BuildProgramBuildProgram.cs\" -langversion:7.2 -fullpaths /optimize+ /debug:full /nologo /deterministic",
+      "Inputs": [],
+      "Outputs": [
+        "artifacts/rsp/1008532451738831585.rsp"
+      ],
+      "PassIndex": 0,
+      "Deps": [],
+      "OverwriteOutputs": true,
+      "AllowUnwrittenOutputFiles": true,
+      "DebugActionIndex": 7
+    },
+    {
+      "Annotation": "Csc artifacts/buildprogrambuildprogram.exe/Release/buildprogrambuildprogram.exe (+2 others)",
+      "Action": "\"artifacts\\Stevedore\\roslyn-csc-win64\\csc.exe\" /nostdlib /noconfig /shared @\"artifacts\\rsp\\1008532451738831585.rsp\"",
+      "Inputs": [
+        "C:/Users/arturo/Downloads/TinyCookbook/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsPlayer/bee~/BuildProgramBuildProgramSources/BuildProgramBuildProgram.cs",
+        "C:/Users/arturo/Downloads/TinyCookbook/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsPlayer/bee~/bee.exe",
+        "artifacts/Stevedore/referenceassemblies_v471/mscorlib.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/System.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/System.Core.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/System.Xml.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/Microsoft.Win32.Primitives.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/netstandard.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.AppContext.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Collections.Concurrent.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Collections.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Collections.NonGeneric.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Collections.Specialized.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.ComponentModel.Annotations.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.ComponentModel.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.ComponentModel.EventBasedAsync.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.ComponentModel.Primitives.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.ComponentModel.TypeConverter.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Console.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Data.Common.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.Contracts.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.Debug.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.FileVersionInfo.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.Process.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.StackTrace.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.TextWriterTraceListener.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.Tools.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.TraceSource.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Drawing.Primitives.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Dynamic.Runtime.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Globalization.Calendars.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Globalization.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Globalization.Extensions.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.Compression.ZipFile.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.FileSystem.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.FileSystem.DriveInfo.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.FileSystem.Primitives.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.FileSystem.Watcher.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.IsolatedStorage.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.MemoryMappedFiles.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.Pipes.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.UnmanagedMemoryStream.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Linq.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Linq.Expressions.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Linq.Parallel.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Linq.Queryable.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.Http.Rtc.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.NameResolution.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.NetworkInformation.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.Ping.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.Primitives.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.Requests.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.Security.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.Sockets.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.WebHeaderCollection.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.WebSockets.Client.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.WebSockets.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.ObjectModel.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Reflection.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Reflection.Emit.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Reflection.Emit.ILGeneration.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Reflection.Emit.Lightweight.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Reflection.Extensions.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Reflection.Primitives.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Resources.Reader.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Resources.ResourceManager.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Resources.Writer.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.CompilerServices.VisualC.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.Extensions.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.Handles.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.InteropServices.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.InteropServices.WindowsRuntime.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.Numerics.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.Serialization.Formatters.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.Serialization.Json.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.Serialization.Primitives.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.Serialization.Xml.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.Claims.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.Cryptography.Algorithms.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.Cryptography.Csp.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.Cryptography.Encoding.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.Cryptography.Primitives.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.Cryptography.X509Certificates.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.Principal.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.SecureString.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.ServiceModel.Duplex.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.ServiceModel.Http.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.ServiceModel.NetTcp.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.ServiceModel.Primitives.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.ServiceModel.Security.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Text.Encoding.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Text.Encoding.Extensions.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Text.RegularExpressions.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Threading.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Threading.Overlapped.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Threading.Tasks.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Threading.Tasks.Parallel.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Threading.Thread.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Threading.ThreadPool.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Threading.Timer.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.ValueTuple.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Xml.ReaderWriter.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Xml.XDocument.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Xml.XmlDocument.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Xml.XmlSerializer.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Xml.XPath.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Xml.XPath.XDocument.dll",
+        "artifacts/Stevedore/roslyn-csc-win64/csc.exe",
+        "artifacts/rsp/1008532451738831585.rsp"
+      ],
+      "Outputs": [
+        "artifacts/buildprogrambuildprogram.exe/Release/buildprogrambuildprogram.exe",
+        "artifacts/buildprogrambuildprogram.exe/Release/buildprogrambuildprogram.pdb",
+        "artifacts/buildprogrambuildprogram.exe/Release/ref/buildprogrambuildprogram.exe/11011424901207506681.dll"
+      ],
+      "PassIndex": 0,
+      "Deps": [
+        2,
+        3,
+        7,
+        9
+      ],
+      "OverwriteOutputs": true,
+      "FrontendResponseFiles": [
+        "artifacts/rsp/1008532451738831585.rsp"
+      ],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [],
+      "DebugActionIndex": 8
+    },
+    {
+      "Annotation": "CopyTool artifacts/buildprogrambuildprogram.exe/Release/bee.exe",
+      "Action": "copy \"C:\\Users\\arturo\\Downloads\\TinyCookbook\\Library\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsPlayer\\bee~\\bee.exe\" \"artifacts\\buildprogrambuildprogram.exe\\Release\\bee.exe\" && copy /b \"artifacts\\buildprogrambuildprogram.exe\\Release\\bee.exe\" +,, \"artifacts\\buildprogrambuildprogram.exe\\Release\\bee.exe\" ",
+      "Inputs": [
+        "C:/Users/arturo/Downloads/TinyCookbook/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsPlayer/bee~/bee.exe"
+      ],
+      "Outputs": [
+        "artifacts/buildprogrambuildprogram.exe/Release/bee.exe"
+      ],
+      "PassIndex": 0,
+      "Deps": [],
+      "OverwriteOutputs": true,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [
+        ".*"
+      ],
+      "DebugActionIndex": 9
+    },
+    {
+      "Annotation": "VisualStudioSolution build.gen.sln",
+      "WriteTextFilePayload": "\r\nMicrosoft Visual Studio Solution File, Format Version 12.00\r\n# Visual Studio 14\r\nVisualStudioVersion = 14.0.24720.0\r\nMinimumVisualStudioVersion = 10.0.40219.1\r\nProject(\"{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}\") = \"buildprogram\", \"buildprogram.gen.csproj\", \"{EEB65150-EDCE-7F9E-4DBD-5839B537A0FD}\"\r\nEndProject\r\nProject(\"{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}\") = \"buildprogrambuildprogram\", \"..\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsPlayer\\bee~\\BuildProgramBuildProgramSources\\buildprogrambuildprogram.gen.csproj\", \"{7DDDB11E-002C-D94B-ED3A-007759ADBDAC}\"\r\nEndProject\r\nGlobal\r\n\tGlobalSection(SolutionConfigurationPlatforms) = preSolution\r\n\t\tOnly|Default = Only|Default\r\n\tEndGlobalSection\r\n\tGlobalSection(ProjectConfigurationPlatforms) = postSolution\r\n\t\t{EEB65150-EDCE-7F9E-4DBD-5839B537A0FD}.Only|Default.ActiveCfg = Release|Any CPU\r\n\t\t{EEB65150-EDCE-7F9E-4DBD-5839B537A0FD}.Only|Default.Build.0 = Release|Any CPU\r\n\t\t{7DDDB11E-002C-D94B-ED3A-007759ADBDAC}.Only|Default.ActiveCfg = Release|Any CPU\r\n\t\t{7DDDB11E-002C-D94B-ED3A-007759ADBDAC}.Only|Default.Build.0 = Release|Any CPU\r\n\tEndGlobalSection\r\n\tGlobalSection(SolutionProperties) = preSolution\r\n\t\tHideSolutionNode = FALSE\r\n\tEndGlobalSection\r\n\tGlobalSection(NestedProjects) = preSolution\r\n\tEndGlobalSection\r\nEndGlobal\r\n",
+      "Inputs": [],
+      "Outputs": [
+        "build.gen.sln"
+      ],
+      "PassIndex": 0,
+      "Deps": [
+        11,
+        12
+      ],
+      "OverwriteOutputs": true,
+      "AllowUnwrittenOutputFiles": true,
+      "DebugActionIndex": 10
+    },
+    {
+      "Annotation": "CSProject C:/Users/arturo/Downloads/TinyCookbook/Library/DotsRuntimeBuild/buildprogram.gen.csproj",
+      "WriteTextFilePayload": "﻿<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<Project ToolsVersion=\"14.0\" DefaultTargets=\"Build\" xmlns=\"http://schemas.microsoft.com/developer/msbuild/2003\">\r\n  <Import Project=\"$(MSBuildExtensionsPath)\\$(MSBuildToolsVersion)\\Microsoft.Common.props\" Condition=\"Exists('$(MSBuildExtensionsPath)\\$(MSBuildToolsVersion)\\Microsoft.Common.props')\" />\r\n  <PropertyGroup>\r\n    <Configuration Condition=\" '$(Configuration)' == '' \">Debug</Configuration>\r\n    <Platform Condition=\" '$(Platform)' == '' \">AnyCPU</Platform>\r\n    <ProjectGuid>{EEB65150-EDCE-7F9E-4DBD-5839B537A0FD}</ProjectGuid>\r\n    <OutputType>Exe</OutputType>\r\n    <RootNamespace>buildprogram</RootNamespace>\r\n    <AssemblyName>buildprogram</AssemblyName>\r\n    <FileAlignment>512</FileAlignment>\r\n    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>\r\n    <LangVersion>7.2</LangVersion>\r\n  </PropertyGroup>\r\n  <ItemGroup>\r\n    <Compile Include=\"..\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsPlayer\\bee~\\BuildProgramSources\\AsmDefBasedDotsRuntimeCSharpProgram.cs\">\r\n      <Link>AsmDefBasedDotsRuntimeCSharpProgram.cs</Link>\r\n    </Compile>\r\n    <Compile Include=\"..\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsPlayer\\bee~\\BuildProgramSources\\AsmDefDescription.cs\">\r\n      <Link>AsmDefDescription.cs</Link>\r\n    </Compile>\r\n    <Compile Include=\"..\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsPlayer\\bee~\\BuildProgramSources\\BindGem.cs\">\r\n      <Link>BindGem.cs</Link>\r\n    </Compile>\r\n    <Compile Include=\"..\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsPlayer\\bee~\\BuildProgramSources\\BuildProgram.bee.cs\">\r\n      <Link>BuildProgram.bee.cs</Link>\r\n    </Compile>\r\n    <Compile Include=\"..\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsPlayer\\bee~\\BuildProgramSources\\BuildProgramConfigFile.cs\">\r\n      <Link>BuildProgramConfigFile.cs</Link>\r\n    </Compile>\r\n    <Compile Include=\"..\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsPlayer\\bee~\\BuildProgramSources\\Cache.cs\">\r\n      <Link>Cache.cs</Link>\r\n    </Compile>\r\n    <Compile Include=\"..\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsPlayer\\bee~\\BuildProgramSources\\DotsBuildTargets.cs\">\r\n      <Link>DotsBuildTargets.cs</Link>\r\n    </Compile>\r\n    <Compile Include=\"..\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsPlayer\\bee~\\BuildProgramSources\\DotsConfigs.cs\">\r\n      <Link>DotsConfigs.cs</Link>\r\n    </Compile>\r\n    <Compile Include=\"..\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsPlayer\\bee~\\BuildProgramSources\\DotsLinuxTarget.cs\">\r\n      <Link>DotsLinuxTarget.cs</Link>\r\n    </Compile>\r\n    <Compile Include=\"..\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsPlayer\\bee~\\BuildProgramSources\\DotsMacOSTarget.cs\">\r\n      <Link>DotsMacOSTarget.cs</Link>\r\n    </Compile>\r\n    <Compile Include=\"..\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsPlayer\\bee~\\BuildProgramSources\\DotsRuntimeCSharpProgram.cs\">\r\n      <Link>DotsRuntimeCSharpProgram.cs</Link>\r\n    </Compile>\r\n    <Compile Include=\"..\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsPlayer\\bee~\\BuildProgramSources\\DotsRuntimeCSharpProgramCustomizer.cs\">\r\n      <Link>DotsRuntimeCSharpProgramCustomizer.cs</Link>\r\n    </Compile>\r\n    <Compile Include=\"..\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsPlayer\\bee~\\BuildProgramSources\\DotsWebTarget.cs\">\r\n      <Link>DotsWebTarget.cs</Link>\r\n    </Compile>\r\n    <Compile Include=\"..\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsPlayer\\bee~\\BuildProgramSources\\DotsWindowsTarget.cs\">\r\n      <Link>DotsWindowsTarget.cs</Link>\r\n    </Compile>\r\n    <Compile Include=\"..\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsPlayer\\bee~\\BuildProgramSources\\EditorToolsBuildProgram.cs\">\r\n      <Link>EditorToolsBuildProgram.cs</Link>\r\n    </Compile>\r\n    <Compile Include=\"..\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsPlayer\\bee~\\BuildProgramSources\\Il2Cpp.bee.cs\">\r\n      <Link>Il2Cpp.bee.cs</Link>\r\n    </Compile>\r\n    <Compile Include=\"..\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsPlayer\\bee~\\BuildProgramSources\\Il2CppCustomLocation.bee.cs\">\r\n      <Link>Il2CppCustomLocation.bee.cs</Link>\r\n    </Compile>\r\n    <Compile Include=\"..\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsPlayer\\bee~\\BuildProgramSources\\NPathExtensions.bee.cs\">\r\n      <Link>NPathExtensions.bee.cs</Link>\r\n    </Compile>\r\n    <Compile Include=\"..\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsPlayer\\bee~\\BuildProgramSources\\StevedoreUnityCecil.cs\">\r\n      <Link>StevedoreUnityCecil.cs</Link>\r\n    </Compile>\r\n    <Compile Include=\"..\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsPlayer\\bee~\\BuildProgramSources\\TinyEmscripten.cs\">\r\n      <Link>TinyEmscripten.cs</Link>\r\n    </Compile>\r\n    <Compile Include=\"..\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsPlayer\\bee~\\BuildProgramSources\\TypeRegistrationTool.cs\">\r\n      <Link>TypeRegistrationTool.cs</Link>\r\n    </Compile>\r\n    <Compile Include=\"..\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsPlayer\\bee~\\BuildProgramSources\\UnsafeUtility.cs\">\r\n      <Link>UnsafeUtility.cs</Link>\r\n    </Compile>\r\n    <Compile Include=\"..\\PackageCache\\com.unity.burst@1.1.2\\Runtime\\bee~\\Burst.bee.cs\">\r\n      <Link>com.unity.burst@1.1.2\\Runtime\\bee~\\Burst.bee.cs</Link>\r\n    </Compile>\r\n    <Compile Include=\"..\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsModules\\Unity.Tiny.AudioNative\\bee~\\CustomizerForTinyAudioNative.bee.cs\">\r\n      <Link>com.unity.tiny@0.16.1-preview\\DotsModules\\Unity.Tiny.AudioNative\\bee~\\CustomizerForTinyAudioNative.bee.cs</Link>\r\n    </Compile>\r\n    <Compile Include=\"..\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsModules\\Unity.Tiny.GLFW\\bee~\\CSharpProgramForTinyGLFW.cs\">\r\n      <Link>com.unity.tiny@0.16.1-preview\\DotsModules\\Unity.Tiny.GLFW\\bee~\\CSharpProgramForTinyGLFW.cs</Link>\r\n    </Compile>\r\n    <Compile Include=\"..\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsModules\\Unity.Tiny.GLFW\\bee~\\ExternalGLFW.bee.cs\">\r\n      <Link>com.unity.tiny@0.16.1-preview\\DotsModules\\Unity.Tiny.GLFW\\bee~\\ExternalGLFW.bee.cs</Link>\r\n    </Compile>\r\n    <Compile Include=\"..\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsModules\\Unity.Tiny.HTML\\bee~\\CustomizerForTinyHtml.bee.cs\">\r\n      <Link>com.unity.tiny@0.16.1-preview\\DotsModules\\Unity.Tiny.HTML\\bee~\\CustomizerForTinyHtml.bee.cs</Link>\r\n    </Compile>\r\n    <Compile Include=\"..\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsModules\\Unity.Tiny.Image2DIOSTB\\bee~\\CSharpProgramForTinyImage2DIOSTB.cs\">\r\n      <Link>com.unity.tiny@0.16.1-preview\\DotsModules\\Unity.Tiny.Image2DIOSTB\\bee~\\CSharpProgramForTinyImage2DIOSTB.cs</Link>\r\n    </Compile>\r\n    <Compile Include=\"..\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsModules\\Unity.Tiny.RendererGLNative\\bee~\\CSharpProgramForTinyRendererGLNative.cs\">\r\n      <Link>com.unity.tiny@0.16.1-preview\\DotsModules\\Unity.Tiny.RendererGLNative\\bee~\\CSharpProgramForTinyRendererGLNative.cs</Link>\r\n    </Compile>\r\n    <Compile Include=\"..\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsPlayer\\LowLevelSupport~\\Unity.ZeroJobs\\bee~\\CustomizerForZeroJobs.bee.cs\">\r\n      <Link>com.unity.tiny@0.16.1-preview\\DotsPlayer\\LowLevelSupport~\\Unity.ZeroJobs\\bee~\\CustomizerForZeroJobs.bee.cs</Link>\r\n    </Compile>\r\n  </ItemGroup>\r\n  <PropertyGroup Condition=\" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' \">\r\n    <PlatformTarget>AnyCPU</PlatformTarget>\r\n    <DebugSymbols>true</DebugSymbols>\r\n    <DebugType>pdbonly</DebugType>\r\n    <Optimize>true</Optimize>\r\n    <OutputPath>artifacts\\buildprogram.exe\\Release</OutputPath>\r\n    <DefineConstants></DefineConstants>\r\n    <ErrorReport>prompt</ErrorReport>\r\n    <WarningLevel>4</WarningLevel>\r\n    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>\r\n    <NoWarn></NoWarn>\r\n    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>\r\n    <Prefer32Bit>false</Prefer32Bit>\r\n    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>\r\n  </PropertyGroup>\r\n  <ItemGroup Condition=\" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' \">\r\n    <Reference Include=\"System.Xml.Linq\" />\r\n    <Reference Include=\"System\" />\r\n    <Reference Include=\"System.Core\" />\r\n    <Reference Include=\"bee\">\r\n      <HintPath>..\\PackageCache\\com.unity.tiny@0.16.1-preview\\DotsPlayer\\bee~\\bee.exe</HintPath>\r\n    </Reference>\r\n  </ItemGroup>\r\n  <Import Project=\"$(MSBuildToolsPath)\\Microsoft.CSharp.targets\" />\r\n  <Target Name=\"GenerateTargetFrameworkMonikerAttribute\" />\r\n</Project>",
+      "Inputs": [],
+      "Outputs": [
+        "C:/Users/arturo/Downloads/TinyCookbook/Library/DotsRuntimeBuild/buildprogram.gen.csproj"
+      ],
+      "PassIndex": 0,
+      "Deps": [],
+      "OverwriteOutputs": true,
+      "AllowUnwrittenOutputFiles": true,
+      "DebugActionIndex": 11
+    },
+    {
+      "Annotation": "CSProject C:/Users/arturo/Downloads/TinyCookbook/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsPlayer/bee~/BuildProgramBuildProgramSources/buildprogrambuildprogram.gen.csproj",
+      "WriteTextFilePayload": "﻿<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<Project ToolsVersion=\"14.0\" DefaultTargets=\"Build\" xmlns=\"http://schemas.microsoft.com/developer/msbuild/2003\">\r\n  <Import Project=\"$(MSBuildExtensionsPath)\\$(MSBuildToolsVersion)\\Microsoft.Common.props\" Condition=\"Exists('$(MSBuildExtensionsPath)\\$(MSBuildToolsVersion)\\Microsoft.Common.props')\" />\r\n  <PropertyGroup>\r\n    <Configuration Condition=\" '$(Configuration)' == '' \">Debug</Configuration>\r\n    <Platform Condition=\" '$(Platform)' == '' \">AnyCPU</Platform>\r\n    <ProjectGuid>{7DDDB11E-002C-D94B-ED3A-007759ADBDAC}</ProjectGuid>\r\n    <OutputType>Exe</OutputType>\r\n    <RootNamespace>buildprogrambuildprogram</RootNamespace>\r\n    <AssemblyName>buildprogrambuildprogram</AssemblyName>\r\n    <FileAlignment>512</FileAlignment>\r\n    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>\r\n    <LangVersion>7.2</LangVersion>\r\n  </PropertyGroup>\r\n  <ItemGroup>\r\n    <Compile Include=\"BuildProgramBuildProgram.cs\" />\r\n  </ItemGroup>\r\n  <PropertyGroup Condition=\" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' \">\r\n    <PlatformTarget>AnyCPU</PlatformTarget>\r\n    <DebugSymbols>true</DebugSymbols>\r\n    <DebugType>pdbonly</DebugType>\r\n    <Optimize>true</Optimize>\r\n    <OutputPath>..\\..\\..\\..\\..\\DotsRuntimeBuild\\artifacts\\buildprogrambuildprogram.exe\\Release</OutputPath>\r\n    <DefineConstants></DefineConstants>\r\n    <ErrorReport>prompt</ErrorReport>\r\n    <WarningLevel>4</WarningLevel>\r\n    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>\r\n    <NoWarn></NoWarn>\r\n    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>\r\n    <Prefer32Bit>false</Prefer32Bit>\r\n    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>\r\n  </PropertyGroup>\r\n  <ItemGroup Condition=\" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' \">\r\n    <Reference Include=\"System\" />\r\n    <Reference Include=\"System.Core\" />\r\n    <Reference Include=\"bee\">\r\n      <HintPath>..\\bee.exe</HintPath>\r\n    </Reference>\r\n  </ItemGroup>\r\n  <Import Project=\"$(MSBuildToolsPath)\\Microsoft.CSharp.targets\" />\r\n  <Target Name=\"GenerateTargetFrameworkMonikerAttribute\" />\r\n</Project>",
+      "Inputs": [],
+      "Outputs": [
+        "C:/Users/arturo/Downloads/TinyCookbook/Library/PackageCache/com.unity.tiny@0.16.1-preview/DotsPlayer/bee~/BuildProgramBuildProgramSources/buildprogrambuildprogram.gen.csproj"
+      ],
+      "PassIndex": 0,
+      "Deps": [],
+      "OverwriteOutputs": true,
+      "AllowUnwrittenOutputFiles": true,
+      "DebugActionIndex": 12
+    }
+  ],
+  "FileSignatures": [
+    {
+      "File": "artifacts/buildprogrambuildprogram/Stevedore/7za-win-x64/7za.exe"
+    },
+    {
+      "File": "../PackageCache/com.unity.tiny@0.16.1-preview/DotsPlayer/bee~/BuildProgramBuildProgramSources/BuildProgramBuildProgram.cs"
+    },
+    {
+      "File": "../PackageCache/com.unity.tiny@0.16.1-preview/DotsPlayer/bee~/bee.exe"
+    },
+    {
+      "File": "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v46/mscorlib.dll"
+    },
+    {
+      "File": "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v46/System.dll"
+    },
+    {
+      "File": "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v46/System.Core.dll"
+    },
+    {
+      "File": "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v46/System.Xml.dll"
+    },
+    {
+      "File": "artifacts/buildprogrambuildprogram/Stevedore/roslyn-csc-win64/csc.exe"
+    },
+    {
+      "File": "bee.config"
+    },
+    {
+      "File": "asmdefs.json"
+    },
+    {
+      "File": "../PackageCache/com.unity.tiny@0.16.1-preview/DotsPlayer/bee~/manifest.stevedore"
+    }
+  ],
+  "GlobSignatures": [
+    {
+      "Path": "../PackageCache/com.unity.tiny@0.16.1-preview/DotsPlayer/bee~"
+    },
+    {
+      "Path": "../PackageCache/com.unity.tiny@0.16.1-preview/DotsPlayer/bee~/BuildProgramBuildProgramSources"
+    },
+    {
+      "Path": "../PackageCache/com.unity.burst@1.1.2/Runtime/bee~",
+      "Filter": "*.cs"
+    },
+    {
+      "Path": "../PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.AudioNative/bee~",
+      "Filter": "*.cs"
+    },
+    {
+      "Path": "../PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.GLFW/bee~",
+      "Filter": "*.cs"
+    },
+    {
+      "Path": "../PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.HTML/bee~",
+      "Filter": "*.cs"
+    },
+    {
+      "Path": "../PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.Image2DIOSTB/bee~",
+      "Filter": "*.cs"
+    },
+    {
+      "Path": "../PackageCache/com.unity.tiny@0.16.1-preview/DotsModules/Unity.Tiny.RendererGLNative/bee~",
+      "Filter": "*.cs"
+    },
+    {
+      "Path": "../PackageCache/com.unity.tiny@0.16.1-preview/DotsPlayer/LowLevelSupport~/Unity.ZeroJobs/bee~",
+      "Filter": "*.cs"
+    },
+    {
+      "Path": "../PackageCache/com.unity.tiny@0.16.1-preview/DotsPlayer/bee~/BuildProgramSources",
+      "Filter": "*.cs",
+      "Recurse": 1
+    },
+    {
+      "Path": "../PackageCache/com.unity.tiny@0.16.1-preview/DotsPlayer/bee~",
+      "Filter": "Bee.*.dll"
+    },
+    {
+      "Path": "../PackageCache/com.unity.tiny@0.16.1-preview/DotsPlayer/bee~",
+      "Filter": "Bee.Toolchain.*.dll"
+    },
+    {
+      "Path": "../PackageCache/com.unity.tiny@0.16.1-preview/DotsPlayer/bee~/BuildProgramBuildProgramSources",
+      "Filter": "*.cs",
+      "Recurse": 1
+    }
+  ],
+  "ContentDigestExtensions": [
+    ".rsp",
+    ".dll",
+    ".exe",
+    ".json",
+    ".config"
+  ],
+  "StructuredLogFileName": "artifacts/buildprogram/tundra.log.json",
+  "StateFileName": "artifacts/buildprogram/TundraBuildState.state",
+  "StateFileNameTmp": "artifacts/buildprogram/TundraBuildState.state.tmp",
+  "ScanCacheFileName": "artifacts/buildprogram/tundra.scancache",
+  "ScanCacheFileNameTmp": "artifacts/buildprogram/tundra.scancache.tmp",
+  "DigestCacheFileName": "artifacts/buildprogram/tundra.digestcache",
+  "DigestCacheFileNameTmp": "artifacts/buildprogram/tundra.digestcache.tmp",
+  "SharedResources": [
+    {
+      "Annotation": "RoslynCompilerServer",
+      "CreateAction": null,
+      "DestroyAction": " -shutdown"
+    },
+    {
+      "Annotation": "RoslynCompilerServer",
+      "CreateAction": null,
+      "DestroyAction": " -shutdown"
+    },
+    {
+      "Annotation": "RoslynCompilerServer",
+      "CreateAction": null,
+      "DestroyAction": " -shutdown"
+    }
+  ],
+  "Passes": [
+    "0"
+  ],
+  "Scanners": [],
+  "Setup": {
+    "DefaultBuildTuple": {
+      "VariantIndex": 0,
+      "ConfigIndex": 0,
+      "SubVariantIndex": 0
+    },
+    "SubVariants": [
+      "default"
+    ],
+    "Configs": [
+      "default"
+    ],
+    "Variants": [
+      "default"
+    ],
+    "BuildTuples": [
+      {
+        "VariantIndex": 0,
+        "DefaultNodes": [
+          0
+        ],
+        "NamedNodes": {
+          "all_tundra_nodes": 0
+        },
+        "ConfigIndex": 0,
+        "SubVariantIndex": 0,
+        "AlwaysNodes": []
+      }
+    ]
+  },
+  "Identifier": "artifacts/buildprogram/tundra_buildprogram.dag.json",
+  "BuildTitle": "",
+  "RelativePathToRoot": "../.."
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Unity.Authoring.Core",
+    "references": [
+        "Unity.Entities"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": []
+}

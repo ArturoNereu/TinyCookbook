@@ -1,0 +1,20 @@
+{
+    "name": "Unity.Authoring",
+    "references": [
+        "Unity.Authoring.Core",
+        "Unity.Burst",
+        "Unity.Collections",
+        "Unity.Entities",
+        "Unity.Jobs",
+        "Unity.Tiny.Codec",
+        "Unity.Tiny.Core"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": []
+}

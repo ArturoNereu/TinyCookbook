@@ -1,0 +1,14 @@
+{
+  "name": "Unity.Tiny.Thread.Native",
+  "references": [
+    "Unity.Entities",
+    "Unity.Entities.CPlusPlus",
+    "Unity.Tiny.Debugging"
+  ],
+  "optionalUnityReferences": [],
+  "excludePlatforms": [
+    "WebGL"
+  ],
+  "allowUnsafeCode": true,
+  "cpp": [ "cpp~" ]
+}

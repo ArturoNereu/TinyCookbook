@@ -1,0 +1,16 @@
+{
+    "name": "Unity.Tiny.HitBox2D.MonoBehaviour",
+    "references": [
+        "Unity.Tiny.HitBox2D"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_EDITOR"
+    ],
+    "versionDefines": []
+}

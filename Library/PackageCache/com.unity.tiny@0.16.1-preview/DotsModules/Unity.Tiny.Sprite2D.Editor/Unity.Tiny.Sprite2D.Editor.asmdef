@@ -1,0 +1,24 @@
+{
+    "name": "Unity.Tiny.Sprite2D.Editor",
+    "references": [
+        "Unity.Tiny.Core2D",
+        "Unity.Tiny.Core2D.Editor",
+        "Unity.Tiny.Sprite2D",
+        "Unity.Tiny.UILayout",
+        "Unity.Entities",
+        "Unity.Tiny.Core2DTypes",
+        "Unity.Tiny.Core2DTypes.Editor",
+        "Unity.Mathematics",
+        "Unity.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": []
+}
