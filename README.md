@@ -9,6 +9,7 @@ A cookbook like series of resources for learning to use Unity's Project Tiny
 
 * [Learn about ECS](https://raw.githubusercontent.com/ArturoNereu/ECS_101/master/ECS_Infographic/ECS_Infographic_EN.jpg)
 * [Rotate a Sprite](https://github.com/ArturoNereu/TinyCookbook/wiki/Rotating-Sprite)
+* [Animate a Sprite Sequence](https://github.com/ArturoNereu/TinyCookbook/wiki/Sprite-Animation)
 
 ## Mini Recipes
 
