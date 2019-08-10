@@ -1,5 +1,11 @@
 # Tiny Cookbok
-A cookbook like series of resources for learning to use Unity's Project Tiny
+A cookbook like series of resources for learning to use Unity's Project Tiny. 
+
+Using: 
+- Unity 2019.2.0f1.
+- Project Tiny: preview 0.16.1
+- Entities: 0.0.12
+- Burst: 1.1.2
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/263776/52322817-85f23b80-29a8-11e9-859e-b04460736d7e.png">
