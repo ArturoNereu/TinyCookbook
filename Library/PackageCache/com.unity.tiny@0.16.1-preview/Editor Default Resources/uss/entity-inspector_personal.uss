@@ -1,9 +1,0 @@
-.unity-ecs-component
-{
-    border-color: #848484;
-}
-
-.unity-ecs-component-menu
-{
-    background-image:resource("_Popup");
-}

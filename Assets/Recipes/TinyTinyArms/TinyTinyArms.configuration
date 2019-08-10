@@ -30,6 +30,13 @@
                 }
             }]
         }, {
+            "$type": "Unity.Authoring.Core.ComponentOrder, Unity.Authoring.Core",
+            "Elements": [{
+                "StableTypeHash": 7960064150805274675
+            }, {
+                "StableTypeHash": 12662904853204722592
+            }]
+        }, {
             "$type": "Unity.Authoring.Core.ConfigurationTag, Unity.Authoring.Core"
         }]
     }]

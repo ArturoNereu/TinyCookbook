@@ -1,9 +1,0 @@
-.mode-button__item
-{
-    -unity-background-image-tint-color:#AAAAAA;
-}
-
-.mode-button-active
-{
-    -unity-background-image-tint-color:#FFFFFF;
-}
