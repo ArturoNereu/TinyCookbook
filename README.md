@@ -1,3 +1,5 @@
+# OUTDATED: As you know, Unity made some exciting changes to Project Tiny, but that also mean that this repository is no longer relevant. Will keep it here for reference but for latest on Tiny, please visit [Project Tiny Landing Page](https://unity.com/solutions/instant-games)
+
 # Tiny Cookbok
 A cookbook like series of resources for learning to use Unity's Project Tiny. 
 
